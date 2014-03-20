@@ -3,7 +3,7 @@ description:      The official blog of the Africa-Arabia Regional Operations Cen
 logo:             SANCG_logoTransparent-cropped.png
 disqus_shortname: 
 # Assign a default image for your site's header and footer
-default_bg:       default-bg.jpg
+default_bg:       default-bg.png
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
