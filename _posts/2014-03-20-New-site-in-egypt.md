@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Marhab Egypt !
+title: Marhaba Egypt !
 description: Egyptian Network for High-Energy Physics deploys site into AAROC
 headline: Egyptian Network for High-Energy Physics deploys site into AAROC
 modified: 2014-03-20
@@ -12,7 +12,7 @@ image:
 mathjax:
 ---
 
-# New site !
+# New site in Cairo !
 
 After KENET, DIT and CNRST, we've got a new site on the ROC, hailing all the way from Egypt. This will be a Tier-3 initially for the [CMS](http://cms.cern.ch) experiment at [CERN](http://cern.ch). The site is supported by the [Academy of Scientific Research and Technology](http://http://www.asrt.sci.eg/) which is running a programme to cover all participation to the [LHC](http://home.web.cern.ch/topics/large-hadron-collider) (Large Hadron Collider - aka *Higgs Machine*).
 
