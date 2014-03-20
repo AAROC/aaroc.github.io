@@ -2,7 +2,7 @@
 layout: post
 title: 'Marhab Egypt !' 
 description: 'Egyptian Network for High-Energy Physics deploys site into AAROC'
-headline: ''Egyptian Network for High-Energy Physics deploys site into AAROC'
+headline: 'Egyptian Network for High-Energy Physics deploys site into AAROC'
 modified: 2014-03-20
 category: new-sites
 tags: [welcome, Egypt, new, sites, deployment]
