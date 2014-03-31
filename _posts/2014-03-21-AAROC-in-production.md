@@ -43,7 +43,6 @@ An agreement was reached to implement the same MoU with EGI.eu, signed again bet
 
 > We would like to announce that AfricaArabia is now fully operational and that we have finished its integration procedure. All necessary
 operational teams and tools are established in our Operations Centre and we are ready for production.
-
 > This Operations Centre is visible in all operational tools as AfricaArabia and is responsible for all ex NGI_ZA and EUMed sites, as well as new sites in the region from Damascus to Dakar to Cape Town.
 > We have still some work to do in migrating old services to new middleware, as well as registering the regional VO's, but this will happen in the near future.
 > EGI supported VO's currently active in the region include: 
@@ -51,11 +50,8 @@ operational teams and tools are established in our Operations Centre and we are 
 >  - ALICE
 >  - CMS
 >  - enmr.eu
-
 > We welcome requests to support existing VO's on our sites and would be keen to have regional VO's (eumed, sagrid.ac.za, etc) supported on EGI and peer infrastructure sites.
-
 > The code for the various operations projects of this OC is at [https://github.com/AAROC](https://github.com/AAROC)
-
 > Thanks especially to CHAIN-REDS project and EGI.eu partners for the support in getting us here.
 
 # Integration and usage of central tools.
