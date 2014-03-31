@@ -54,9 +54,23 @@ operational teams and tools are established in our Operations Centre and we are 
 > The code for the various operations projects of this OC is at [https://github.com/AAROC](https://github.com/AAROC)
 > Thanks especially to CHAIN-REDS project and EGI.eu partners for the support in getting us here.
 
-# Integration and usage of central tools.
+# Current status and benefits
 
+Essentially, to expedite the integration, the region needs a logical context within the EGI central tools. To this end, EGI.eu Operations has created the "AfricaArabia" region in 
+ 
+ - [Operations Database](https://goc.egi.eu/portal/index.php?Page_Type=NGI&id=881)
+ - [Central helpdesk](https://ggus.eu)
+ - Operational VO's (ops, dteam)
+ - [Operations Portal](https://operations-portal.egi.eu/dashboard?ngi=AfricaArabia)
+ - [Accounting Portal](https://accounting.egi.eu)
+ 
+while we have [deployed](https://nagios.c4.csir.co.za/nagios) an NGI-level Nagios instance which exchanges monitoring information with EGI. This means that the two infrastructures can "see" and "understand" each other by exchanging standard sets of information. 
 
+## Improvements in Operations
+
+Although the infrastructure in the region is essentially unchanged, there are several major advantages to be thanks to the completion of this task. 
+
+[visibility]: All of the resources which are registered in the GOCDB are monitored and we have reliable contacts for them. This means that all of the hard work we've done over the years of promoting the development of regional infrastructure 
 
 
 
