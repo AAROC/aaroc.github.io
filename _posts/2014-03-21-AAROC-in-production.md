@@ -72,6 +72,15 @@ Although the infrastructure in the region is essentially unchanged, there are se
 
 [visibility]: All of the resources which are registered in the GOCDB are monitored and we have reliable contacts for them. This means that all of the hard work we've done over the years of promoting the development of regional infrastructure 
 
+[consistency]: All sites which choose to be certified need to respect the same Operating Level Agreement which stipulates the minimum version of middleware and kinds of services offered. 
+
+[reliability]: Sites which have issues will be notified by the regional operators on duty, who will see alarms raised in the operations portal. There are well-documented procedures for dealing with issues. 
+
+# Moving forward
+
+So, we have successfully created a new region for grid sites in Africa and Arabia. This is just the first step in a road to sustainable interoperation and collaboration with peer infrastructures. During this phase, the priorities will be capacity and development - we want to include as many sites, site administrators and services as we can reliably operate, to build an infrastructure that can support several user communities. This has already begun, with the inclusion of ex-EUMedGrid sites in Morocco and Algeria, as well as some ex-Brain Gain Initiative sites in Senegal, Kenya and Nigeria. There are some new sites in Kenya and Tanzania which we'll be adding and certifying during the month of April as well. 
+
+Another goal during the next period will be adding new user-facing services, such as upgrading the VOMS service, adding VO-level management tools like VAPOR and of course the deployment and integration of science gateways. We've got a science-gateway development week planned for week 15, in Catania, where developers and admins will converge to finalise the main science gateways in the region.
 
 
 # Footnotes
