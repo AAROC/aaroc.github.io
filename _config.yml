@@ -14,7 +14,7 @@ animated_fins:	  true
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://aaroc.github.io
-
+#url: http://localhost:4000
 # Owner/author information
 owner:
   name:           Africa-Arabia Regional Operations Centre.
@@ -25,7 +25,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like
   twitter:        thesagrid
   facebook:       SAGrid
-  github:         SouthAfricaDigitalScience
+  github:         AAROC
   stackexchange: 
   linkedin:
   instagram:
@@ -36,7 +36,7 @@ owner:
   google_plus:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: 
+google_analytics: UA-51099001-2
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify: 
@@ -52,15 +52,15 @@ links:
     url: /categories
   - title: Tags
     url: /tags
-#  - title: Who are we ?
-#    url: /sagrid
+  - title: Who are we ?
+    url: /aaroc
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Africa/Johannesburg
 future:      true
 pygments:    true
 markdown:    kramdown
-paginate:    3
+paginate:    4
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
