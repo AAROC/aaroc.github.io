@@ -15,7 +15,7 @@ As I mentioned yesterday in the meeting, our site administrators are all over ex
 
 The philosophy that I would like us to adopt is that 
 
-| "everything is code, so we should apply good coding practice to everything". 
+> ***"everything is code, so we should apply good coding practice to everything".***
 
 While the analogy of "everything = code" is not entirely applicable - and here I want to support Scott's point that peer-to-peer communication and support is always going to be important - we can and should benefit from a "DevOps" paradigm. I mentioned that we could "centralise" operations to make it more sustainable. What I meant by this was having a central place for the configuration. If one considers that a functional site is the convolution of the description and execution of configuration - and to have a functional site, we need to have both, it makes sense to have these in a version-controlled, collaborative environment. 
 
