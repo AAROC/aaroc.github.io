@@ -26,6 +26,7 @@ The goal is that sites which would like to deploy services need only describe th
 We're hopefully always going to be a community where it's acceptable and encouraged to support each other on a personal basis, but what we need to ensure sustainability is coherence. In order to maintain this ROC, we need to support each other to the best of our capacity and experience. Let's contribute to the shared repository and help each other in a more self-consistent way. 
 
 Finally, the last thing I want to do is create more work for those in the team... if what I'm discussing here sounds like just another thing to do, please don't hesitate to delegate this task to myself, Bouchra, or another trusted expert in the ROC. We can escalate requests to EGI and other peers and clean up your contributions. If you feel (as Chris at UJ did) that your code is not fit for public consumption, remember that 
+  
   1. we are team and trust is important
   1. @AAROC has private repos which you can contribute to if you're hesitant of letting your code in to the wild. 
   1. If it's not in a repo, it doesn't exist for all practical purposes, so you're on your own. 
