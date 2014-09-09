@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,100,700);
+@import url(http://fonts.googleapis.com/css?family=Sacramento);
 /*!
  * HMFAYSAL OMEGA v1.0.0
  * Responsive Jekyll Theme
@@ -24,31 +26,31 @@ h5 {
   margin: 0;
 }
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   line-height: 48px;
   margin-bottom: 24px;
 }
 h1 small {
-  font-size: 24px;
+  font-size: 26px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 24px;
   margin-top: 24px;
   margin-bottom: 12px;
 }
 h2 small {
-  font-size: 16px;
+  font-size: 18px;
 }
 h3 {
   font-size: 18px;
   line-height: 24px;
   margin-top: 24px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 h3 small {
-  font-size: 13px;
+  font-size: 18px;
 }
 h4,
 h5,
@@ -88,7 +90,7 @@ a:hover {
 }
 /* - Lead text - */
 .lead {
-  font-size: 18px;
+  font-size: 21px;
   line-height: 2em;
 }
 /* - Blockquote - */
@@ -104,6 +106,13 @@ blockquote:before {
   bottom: 12px;
   left: -24px;
   width: 4px;
+}
+
+.cursive {
+  font-family: 'Sacramento', cursive;
+  color: #17e4d8;
+  font-size: 34px;
+  text-align: center;
 }
 /* - Form elements - */
 select,

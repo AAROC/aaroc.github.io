@@ -60,7 +60,9 @@ Let's review some very simple, painfully obvious facts:
   1. In order to be able to reproduce the analysis or results (and so, reinforce or counter-state research outputs), the data should be cited in the original research using a *persistent reference*
 
 A scientific or scholarly output can be considered of higher quality if it not only produces a result, but publishes in an open way, the *method* and *means* by which that result was obtained. 
-CHAIN-REDS has proposed, as part of its work plan, to demonstrate a combination of services to enable [Data Accessibility, Reliability and Trustworthiness](DART). These services include metadata harvesters and semantic search engines based on metadata vocabularies, data transfer and retrieval systems and the usage of the [handle](http://www.handle.net) system to issue persistent identifiers. Let's see what all this has to do with APHRC's data.
+CHAIN-REDS has proposed, as part of its work plan, to demonstrate a combination of services to enable [Data Accessibility, Reliability and Trustworthiness](https://www.chain-project.eu/services). These services include metadata harvesters and semantic search engines based on metadata vocabularies, data transfer and retrieval systems and the usage of the [handle](http://www.handle.net) system to issue persistent identifiers. Let's see what all this has to do with APHRC's data.
+
+<iframe width="940" height="529" src="https://www.youtube.com/watch?v=_N-ctRAYlHw" frameborder="0"> </iframe>
 
 ## Accessibility
 
