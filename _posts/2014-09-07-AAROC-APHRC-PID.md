@@ -62,8 +62,6 @@ Let's review some very simple, painfully obvious facts:
 A scientific or scholarly output can be considered of higher quality if it not only produces a result, but publishes in an open way, the *method* and *means* by which that result was obtained. 
 CHAIN-REDS has proposed, as part of its work plan, to demonstrate a combination of services to enable [Data Accessibility, Reliability and Trustworthiness](https://www.chain-project.eu/services). These services include metadata harvesters and semantic search engines based on metadata vocabularies, data transfer and retrieval systems and the usage of the [handle](http://www.handle.net) system to issue persistent identifiers. Let's see what all this has to do with APHRC's data.
 
-<iframe width="940" height="529" src="http://www.youtube.com/watch?v=_N-ctRAYlHw" frameborder="0"></iframe>
-
 ## Accessibility
 
 The first point here - Accessibility - has already been taken care of by APHRC. They had recently installed and configured the [microdata portal](http://aphrc.org/catalog/microdata/index.php/catalog/) at their site, which gave full access to the metadata. In order to access the raw data, one needs to sign a usage agreement, but this is done only to ensure that usage of the data occurs under the license agreement, and that users understand the policy. Any researcher can create an account and access the raw data if they so please, so the data is "open" in this sense. 
