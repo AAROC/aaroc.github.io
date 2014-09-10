@@ -172,7 +172,7 @@ This work was funded by the [CHAIN-REDS](http://www.chain-project.eu) project (g
 
 Special thanks goes to the members of APHRC, in particular the IT department and [Statistics and Surveys Unit](http://aphrc.org/our-work/research-programs/statistics-and-surveys-unit/) members : 
 
-<figure><class="third">
+<figure class="third">
    <img src="http://http://aphrc.org/wp-content/uploads/2013/10/Paul-Odero.jpg">
    <img src="http://aphrc.org/wp-content/uploads/2013/10/Faye-Research2.bmp">
    <img src="http://aphrc.org/wp-content/uploads/2013/10/Donatien-Beguy_site.jpg">
