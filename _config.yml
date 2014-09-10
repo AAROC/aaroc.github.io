@@ -1,7 +1,7 @@
 title:            Hello Operator
 description:      The official blog of the Africa-Arabia Regional Operations Centre.
 logo:             SANCG_logoTransparent-cropped.png
-disqus_shortname: 
+disqus_shortname: sagrid
 # Assign a default image for your site's header and footer
 default_bg:       default-bg.png
 search:           true
