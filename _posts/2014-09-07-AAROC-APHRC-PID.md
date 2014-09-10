@@ -176,7 +176,6 @@ Special thanks goes to the members of APHRC, in particular the IT department and
    <img src="http://aphrc.org/wp-content/uploads/2013/10/Paul-Odero.jpg">
    <img src="http://aphrc.org/wp-content/uploads/2013/10/Faye-Research2.bmp">
    <img src="http://aphrc.org/wp-content/uploads/2013/10/Donatien-Beguy_site.jpg">
-   <figcaption>The APHRC team involved in this work</figcaption>
 </figure>
 
 <div class="col-md-4">  
