@@ -198,6 +198,8 @@ Donatien is the head of the Statistics and Surveys Unit. He holds a PhD in Demog
 </div>
 <br>
 
+------------------------------------------
+
 # Footnotes and references
 
 [^citizen]: This is not to say that individuals or citizen groups could not undertake similar activities themselves - we indeed hope that by providing open access to the underlying tools and services to such entities, that good research can be undertaken. 
