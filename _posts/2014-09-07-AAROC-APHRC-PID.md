@@ -116,7 +116,7 @@ While the actual issueing of the data sets was almost trivial, the reasoning and
     for row in df.itertuples():
         dataCollectionName=str(row[2])
         dataCollectionNumber=str(row[1])
-        SUFFIX =dataCollectionName 
+        SUFFIX =dataCollectionName
         URL=REPO_URL+dataCollectionNumber
         URL_TO_OPEN=PIDSERVICE_URL+SUFFIX
         JSONDATA=[{'type':'URL','parsed_data':URL}]
@@ -125,7 +125,7 @@ While the actual issueing of the data sets was almost trivial, the reasoning and
         REQUESTDATA.add_header('Content-Type','application/json')
         REQUESTDATA.add_header('Content-Length',len(JSONDATATOSEND))
         REQUESTDATA.get_method = lambda: 'PUT'
-{% endhiglight %}
+{% endhighlight %}
 
 ***Now, you can cite APHRC's data[^datacitation] ! hdl:/11239/***
 
