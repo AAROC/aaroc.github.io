@@ -186,7 +186,8 @@ Paul is in charge of all IT and web-based systems at the Center including the in
 </div>  
 
 <div class="col-md-4">  
-<p  class="text-italic cursive small"><a href="http://aphrc.org/team/cheikh-mbacke-faye/">Cheikh Mbacke Faye</p><em>APHRC Senior Research Officer</em>
+<p  class="text-italic cursive small"><a href="http://aphrc.org/team/cheikh-mbacke-faye/">Cheikh Mbacke Faye</a></p>
+<em>APHRC Senior Research Officer</em>
 <p class="small">
 Cheikh joined the Center in 2010 as the country manager for the Measurement, Learning and Evaluation (MLE) project in Senegal. He is currently acting as a senior research officer working with the Statistics and Surveys Unit (SSU).</p>  
 </div>
