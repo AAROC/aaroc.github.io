@@ -19,7 +19,7 @@ As part of the [CHAIN-REDS](http://www.chain-project.eu), we have been working w
 
 This is a short success story of working with a leading research institute in Kenya, the African Population and Health Research Centre. As with all stories, it has a couple of characters who play parts, a bit of tension to resolve, a climax and ... a happy ending ! Of course, what you'll read here is a highly simplified account (as with all good stories), and is mostly to draw a line in the process in order to show some progress to the reviewers of the CHAIN-REDS project. 
 
-We think this is a success story not only because of the fact that we finished what we set out to do, but because the slow cogs of intra-African collaboration did turn, and that cumbersome engine actually did some work[^thermo]. All of the actual results aside, this is 
+We think this is a success story not only because of the fact that we finished what we set out to do, but because the slow cogs of intra-African collaboration did turn, and that cumbersome engine actually did some work[^thermo]. All of the actual results aside, consider how what is reported here may affect you, your work, and your collaboration. 
 
 ## What's this all about ? 
 
