@@ -193,7 +193,7 @@ Cheikh joined the Center in 2010 as the country manager for the Measurement, Lea
 </div>
 
 <div class="col-md-4">  
-<p class="text-italic cursive small"><a href="http://aphrc.org/team/donatien-beguy/">Donatien Beguy</p><em>APHRC Head of Statistics and Surveys Unit (SSU)</em>
+<p class="text-italic cursive small"><a href="http://aphrc.org/team/donatien-beguy/">Donatien Beguy</a></p><em>APHRC Head of Statistics and Surveys Unit (SSU)</em>
 <p class="small">
 Donatien is the head of the Statistics and Surveys Unit. He holds a PhD in Demography from University Paris 10 (France), 2007, a Master of Arts degree in Demography from University Paris 1 (France), 2003 and a Bachelor of Science degree in Statistics from the National Higher School of Statistics and Applied Economics (Ivory Coast), 1998.</p>
 </div>
