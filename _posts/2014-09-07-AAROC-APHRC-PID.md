@@ -92,7 +92,14 @@ Apart from including the APHRC data repository in the [CHAIN-REDS Knowledge Base
 > "Why make such a big fuss over this ?"  <br>
 >                    - Everyone reading this.
 
-Well, simply because it's quite hard to get a DOI or other handle from an authoritative source in Africa. A simple glance at [DataCite]'s webpage will show only one issuer in Africa[^doiInSA]. While there are several [Open Access Document Repositories](http://www.chain-project.eu/knowledge-base) are issue authoritative persistent identifiers to their digital objects using the handle system, this is rarely the case for data repositories. The cost of obtaining a prefix from the relevant authority is certainly a prohibiting factor and to a first approximation may account for the lack of such DOI mints in Africa. However, in this case a further complication arose, which - if not the first issue that is confronted, certainly one of the most complex: metadata schemas. 
+Well, simply because it's quite hard to get a DOI or other handle from an authoritative source in Africa. A simple glance at [DataCite](http://www.datacite.org)'s webpage will show only one issuer in Africa[^doiInSA]. 
+
+<iframe width="800" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=200659505624289099927.00049d6a27745db8af4ec&amp;source=embed&amp;t=m&amp;ll=21.943046,10.195313&amp;spn=100.329621,281.25&amp;z=2&amp;output=embed"></iframe><br /><small>DataCite members</small>
+
+> "O Data, African Data, wherefore art thou ?" <br>
+> - Not William Shakespeare 
+
+While there are several [Open Access Document Repositories](http://www.chain-project.eu/knowledge-base) are issue authoritative persistent identifiers to their digital objects using the handle system, this is rarely the case for data repositories. The cost of obtaining a prefix from the relevant authority is certainly a prohibiting factor and to a first approximation may account for the lack of such DOI mints in Africa. However, in this case a further complication arose, which - if not the first issue that is confronted, certainly one of the most complex: metadata schemas. 
 
 To our knowledge[^help], here simply does not yet exist a nice, comprehensive metadata harvester for digital data objects as there does for digital repositories. There are some initiatives, such as DataCite, which go some way to solving this, but automated discoverability remains a problem. So, unable to bring about world peace, we did the closest we could given our limited resources.
 
