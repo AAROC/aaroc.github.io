@@ -180,8 +180,8 @@ Special thanks goes to the members of APHRC, in particular the IT department and
 </figure>
 
 <div class="col-md-4">  
-<p class="text-italic cursive small"><a href="http://aphrc.org/team/paul-odero/">Paul Odero</a> - APHRC IT Manager
-
+<p class="text-italic cursive small"><a href="http://aphrc.org/team/paul-odero/">Paul Odero</a></p> - APHRC IT Manager
+<p class="text-italic small">
 Paul is in charge of all IT and web-based systems at the Center including the intranet and has worked towards the improvement of APHRC’s web systems and implemented open source solutions. He has over 7 years’ experience in Web Systems Development and holds a Bachelor of Science degree in Information Technology from Jomo Kenyatta University of Agriculture and Technology.</p>  
 </div>  
 
