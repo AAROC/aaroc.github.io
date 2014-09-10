@@ -180,7 +180,7 @@ Special thanks goes to the members of APHRC, in particular the IT department and
 </figure>
 
 <div class="col-md-4">  
-<p>[Paul Odero](http://aphrc.org/team/paul-odero/) - APHRC IT Manager
+<p class="text-italic cursive"><a href="http://aphrc.org/team/paul-odero/">Paul Odero</a> - APHRC IT Manager
 
 Paul is in charge of all IT and web-based systems at the Center including the intranet and has worked towards the improvement of APHRC’s web systems and implemented open source solutions. He has over 7 years’ experience in Web Systems Development and holds a Bachelor of Science degree in Information Technology from Jomo Kenyatta University of Agriculture and Technology.</p>  
 </div>  
@@ -197,6 +197,7 @@ Cheikh joined the Center in 2010 as the country manager for the Measurement, Lea
 Donatien is the head of the Statistics and Surveys Unit. He holds a PhD in Demography from University Paris 10 (France), 2007, a Master of Arts degree in Demography from University Paris 1 (France), 2003 and a Bachelor of Science degree in Statistics from the National Higher School of Statistics and Applied Economics (Ivory Coast), 1998.</p>
 </div>
 <br>
+
 # Footnotes and references
 
 [^citizen]: This is not to say that individuals or citizen groups could not undertake similar activities themselves - we indeed hope that by providing open access to the underlying tools and services to such entities, that good research can be undertaken. 
