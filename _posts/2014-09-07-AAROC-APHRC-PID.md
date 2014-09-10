@@ -184,6 +184,4 @@ This work was funded by the [CHAIN-REDS](http://www.chain-project.eu) project (g
 [^DSpace]: Such as the several [DSpace](http://dspace.org) repositories which enable automatic handle assignment currently operating in the region. It's not clear whether the majority of these however have CNRI-assigned prefixes and are thus globally resolvable.
 [^kb]: The CHAIN-REDS Knowledge Base is one of the largest compilations of e-Infrastructure related information including projects, computing centres, data and document repositories, etc.
 [^DDIfig]: See [http://www.ddialliance.org/what](http://www.ddialliance.org/what)
-[^datacitation]: Becker, Bruce (2014): PIDs issued to APHRC microdata portal. figshare. 
-http://dx.doi.org/10.6084/m9.figshare.1165516
-Retrieved 14:59, Sep 09, 2014 (GMT)
+[^datacitation]: Becker, Bruce (2014): PIDs issued to APHRC microdata portal. figshare. http://dx.doi.org/10.6084/m9.figshare.1165516 Retrieved 14:59, Sep 09, 2014 (GMT)
