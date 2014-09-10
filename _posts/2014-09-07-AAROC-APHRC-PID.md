@@ -176,7 +176,27 @@ Special thanks goes to the members of APHRC, in particular the IT department and
    <img src="http://aphrc.org/wp-content/uploads/2013/10/Paul-Odero.jpg">
    <img src="http://aphrc.org/wp-content/uploads/2013/10/Faye-Research2.bmp">
    <img src="http://aphrc.org/wp-content/uploads/2013/10/Donatien-Beguy_site.jpg">
+   <figcaption>The APHRC team involved in this work</figcaption>
 </figure>
+
+<div class="col-md-4">  
+<p class="lead">[Paul Odero](http://aphrc.org/team/paul-odero/) - APHRC IT Manager
+
+Paul is in charge of all IT and web-based systems at the Center including the intranet and has worked towards the improvement of APHRC’s web systems and implemented open source solutions. He has over 7 years’ experience in Web Systems Development and holds a Bachelor of Science degree in Information Technology from Jomo Kenyatta University of Agriculture and Technology.</p>  
+</div>  
+
+<div class="col-md-4">  
+<p class="lead">[Cheikh Mbacke Faye](http://aphrc.org/team/cheikh-mbacke-faye/) APHRC Senior Research Officer
+
+Cheikh joined the Center in 2010 as the country manager for the Measurement, Learning and Evaluation (MLE) project in Senegal. He is currently acting as a senior research officer working with the Statistics and Surveys Unit (SSU).</p>  
+</div>
+
+<div class="col-md-4">  
+<p class="lead">[Donatien Beguy](http://aphrc.org/team/donatien-beguy/) APHRC Head of Statistics and Surveys Unit (SSU)
+
+Donatien is the head of the Statistics and Surveys Unit. He holds a PhD in Demography from University Paris 10 (France), 2007, a Master of Arts degree in Demography from University Paris 1 (France), 2003 and a Bachelor of Science degree in Statistics from the National Higher School of Statistics and Applied Economics (Ivory Coast), 1998.</p>
+</div>
+<br>
 # Footnotes and references
 
 [^citizen]: This is not to say that individuals or citizen groups could not undertake similar activities themselves - we indeed hope that by providing open access to the underlying tools and services to such entities, that good research can be undertaken. 
