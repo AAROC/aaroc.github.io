@@ -168,6 +168,15 @@ You can find him on twitter at [http://www.twitter.com/brusisceddu](@brusisceddu
 
 This work was funded by the [CHAIN-REDS](http://www.chain-project.eu) project (grant agreement 306819). Bruce Becker represented the [Ubuntunet Alliance](http://www.ubuntnet.org) for research and educational networking in Africa, as the official partner of the CHAIN-REDS project. Special acknowledgement to Michelle Willmers at the [OpenUCT Initiative](http://www.openuct.ac.za )
 
+## Special thanks 
+
+Special thanks goes to the members of APHRC, in particular the IT department and [Statistics and Surveys Unit](http://aphrc.org/our-work/research-programs/statistics-and-surveys-unit/) members : 
+
+<figure><class="third">
+   <img src="http://http://aphrc.org/wp-content/uploads/2013/10/Paul-Odero.jpg">
+   <img src="http://aphrc.org/wp-content/uploads/2013/10/Faye-Research2.bmp">
+   <img src="http://aphrc.org/wp-content/uploads/2013/10/Donatien-Beguy_site.jpg">
+</figure>
 # Footnotes and references
 
 [^citizen]: This is not to say that individuals or citizen groups could not undertake similar activities themselves - we indeed hope that by providing open access to the underlying tools and services to such entities, that good research can be undertaken. 
