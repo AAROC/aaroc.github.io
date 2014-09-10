@@ -180,20 +180,20 @@ Special thanks goes to the members of APHRC, in particular the IT department and
 </figure>
 
 <div class="col-md-4">  
-<p class="text-italic cursive small"><a href="http://aphrc.org/team/paul-odero/">Paul Odero</a></p> - APHRC IT Manager
+<p class="text-italic cursive small"><a href="http://aphrc.org/team/paul-odero/">Paul Odero</a></p><em>APHRC IT Manager</em>
 <p class="small">
 Paul is in charge of all IT and web-based systems at the Center including the intranet and has worked towards the improvement of APHRC’s web systems and implemented open source solutions. He has over 7 years’ experience in Web Systems Development and holds a Bachelor of Science degree in Information Technology from Jomo Kenyatta University of Agriculture and Technology.</p>  
 </div>  
 
 <div class="col-md-4">  
-<p>[Cheikh Mbacke Faye](http://aphrc.org/team/cheikh-mbacke-faye/) APHRC Senior Research Officer
-
+<p  class="text-italic cursive small"><a href="http://aphrc.org/team/cheikh-mbacke-faye/">Cheikh Mbacke Faye</p><em>APHRC Senior Research Officer</em>
+<p class="small">
 Cheikh joined the Center in 2010 as the country manager for the Measurement, Learning and Evaluation (MLE) project in Senegal. He is currently acting as a senior research officer working with the Statistics and Surveys Unit (SSU).</p>  
 </div>
 
 <div class="col-md-4">  
-<p>[Donatien Beguy](http://aphrc.org/team/donatien-beguy/) APHRC Head of Statistics and Surveys Unit (SSU)
-
+<p class="text-italic cursive small"><a href="http://aphrc.org/team/donatien-beguy/">Donatien Beguy</p><em>APHRC Head of Statistics and Surveys Unit (SSU)</em>
+<p class="small">
 Donatien is the head of the Statistics and Surveys Unit. He holds a PhD in Demography from University Paris 10 (France), 2007, a Master of Arts degree in Demography from University Paris 1 (France), 2003 and a Bachelor of Science degree in Statistics from the National Higher School of Statistics and Applied Economics (Ivory Coast), 1998.</p>
 </div>
 <br>
