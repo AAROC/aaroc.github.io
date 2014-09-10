@@ -112,7 +112,7 @@ While the actual issueing of the data sets was almost trivial, the reasoning and
      * If not, a PID is requested using the manual name assignment, using the same name of the data set in the APHRC catalogue
   1. Finally, updates the CSV with the newly-issued PID associated with the data set.
 
-~~~ python
+{% highlight python %}
     for row in df.itertuples():
         dataCollectionName=str(row[2])
         dataCollectionNumber=str(row[1])
@@ -125,7 +125,7 @@ While the actual issueing of the data sets was almost trivial, the reasoning and
         REQUESTDATA.add_header('Content-Type','application/json')
         REQUESTDATA.add_header('Content-Length',len(JSONDATATOSEND))
         REQUESTDATA.get_method = lambda: 'PUT'
-~~~
+{% endhiglight %}
 
 ***Now, you can cite APHRC's data[^datacitation] ! hdl:/11239/***
 
