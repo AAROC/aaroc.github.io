@@ -19,7 +19,7 @@ url:              http://aaroc.github.io
 owner:
   name:           Africa-Arabia Regional Operations Centre.
   avatar:         SANCG_logoTransparent-cropped.png
-  email:          brucellino@gmail.com
+  email:          thesagrid@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    "Daily chaos from Africa and Arabia."
   # Social networking links used in footer. Update and remove as you like
@@ -62,6 +62,7 @@ highlighter: pygments
 pygments:    true
 markdown:    kramdown
 paginate:    4
+toc_levels: 1..6
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
