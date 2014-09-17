@@ -12,7 +12,7 @@ comments: true
 
 # TL;DR
 
-As part of the [CHAIN-REDS](http://www.chain-project.eu), we have been working with the [African Population and Health Research Centre](http://aphrc.org) in Nairobi to improve discoverability and usage of their data sets. In particular, we've used a CHAIN-REDS service to issue their data sets [persistent identifiers](http://en.wikipedia.org/wiki/Persistent_identifier), so that researchers using this data can cite it reliably.
+As part of the [CHAIN-REDS](http://www.chain-project.eu) project, we have been working with the [African Population and Health Research Centre](http://aphrc.org) in Nairobi to improve discoverability and usage of their data sets. In particular, we've used a CHAIN-REDS service to issue their data sets [persistent identifiers](http://en.wikipedia.org/wiki/Persistent_identifier), so that researchers using this data can cite it reliably.
 
 
 
