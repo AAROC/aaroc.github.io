@@ -95,6 +95,8 @@ Whenever he's ready or wants a hand or some suggestions, get them or you to drop
 
 # Footnotes
 
+The background image is the Matterhorn, taken from the EMI web page. The gifs were taken from our solemates at [devopsreactions](http://devopsreactions.tumblr.com/)
+
 [^ouch]: Ouch ! But yes, it's true, we like hacking better than writing documentation, we know, it's not a great excuse. Hey, anybody want to volunteer ? Not all at once now...
 [^also]: Also, buddy and dancing legend - [this guy](https://www.facebook.com/sahal.yacoob)
 [^notreally]: We find this an almost derogatory term, "tech support". We really believe that there is place for a third career of science here, which is fundamental to e-Science and collaboration, and we're trying to fund ways to share it. See [http://brucellino.github.io/thesituation/AAROC-Open-Science/](http://brucellino.github.io/thesituation/AAROC-Open-Science/)
