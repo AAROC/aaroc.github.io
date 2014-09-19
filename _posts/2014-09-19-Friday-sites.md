@@ -55,7 +55,7 @@ It would be a shame for the guy setting up the cluster not to have help - he can
 The official documentation for middleware is hosted by the *middleware product teams*. Things get a little confusing, so if you're interested, this is how things work : 
 
   1. the product teams make software. These are things like CREAM, DPM, Globus, etc. The actual packages and components. 
-  1. it goes into one of the distribution repositories. These are EMI and Globus.
+  1. it goes into one of the distribution repositories. These are *e.g.* EMI and Globus 
   1. Infrastructures repackage the repository artifacts (the rpms or debs) according to the SLAs they may have with their sites or technology providers. 
 
 So, you end up with things like [UMD](http://repository.egi.eu), the Lord-of-the-Rings-inspired "Unified Middleware Distribution" which packages some things from [EMI](http://www.eu-emi.eu), some things from [Globus](https://www.globus.org/) and some things from their own. 
