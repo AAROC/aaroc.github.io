@@ -58,7 +58,7 @@ The official documentation for middleware is hosted by the *middleware product t
   1. it goes into one of the distribution repositories. These are *e.g.* EMI and Globus 
   1. Infrastructures repackage the repository artifacts (the rpms or debs) according to the SLAs they may have with their sites or technology providers. 
 
-So, you end up with things like [UMD](http://repository.egi.eu), the Lord-of-the-Rings-inspired "Unified Middleware Distribution" which packages some things from [EMI](http://www.eu-emi.eu), some things from [Globus](https://www.globus.org/) and some things from their own. 
+So, you end up with things like [UMD](http://repository.egi.eu), the Lord-of-the-Rings[^highlander]-inspired "Unified Middleware Distribution" which packages some things from [EMI](http://www.eu-emi.eu), some things from [Globus](https://www.globus.org/) and some things from their own. 
 WLCG is also an infrastructure, so they repackage stuff too and there isn't an easy-to-describe mapping between these[^venn].
 
 What we usually propose to new sites is to deploy a site according to the basic interoperability requirements between AfricaGrid and EGI, and then make tweaks on top of that. 
@@ -101,3 +101,4 @@ The background image is the Matterhorn, taken from the EMI web page. The gifs we
 [^also]: Also, buddy and dancing legend - [this guy](https://www.facebook.com/sahal.yacoob)
 [^notreally]: We find this an almost derogatory term, "tech support". We really believe that there is place for a third career of science here, which is fundamental to e-Science and collaboration, and we're trying to fund ways to share it. See [http://brucellino.github.io/thesituation/AAROC-Open-Science/](http://brucellino.github.io/thesituation/AAROC-Open-Science/)
 [^venn]: Maybe one day soon, someone clever will create the definitive Venn diagram and angels will sing.
+[^highlander]: Or Highlander, if you're so inclined
