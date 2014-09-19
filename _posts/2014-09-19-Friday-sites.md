@@ -79,7 +79,7 @@ I would start at the latter and find the product you're interested in.
 
 ## For example...
 
-Let's say you want to have a new UI. You go to [the UI product page](http://www.eu-emi.eu/products/-/asset_publisher/1gkD/content/emi-ui-2) and look for the **System Administrator guide**. Following this you are almost 100 % guaranteed to be able to deploy a vanilla service. You need to communicate the requirements of the machine to your infrastructure provider (in this case the university), which are in the Service Reference Card, then you need to ensure that the service is properly integrated into the rest of the infrastructure by communcating the site- or service-specific configuration. These are things like the site-bdii endpoint, the VO's enabled at the site, etc.
+Let's say you want to have a new UI. You go to [the UI product page](http://www.eu-emi.eu/products/-/asset_publisher/1gkD/content/emi-ui-2) and look for the **System Administrator guide**. Following this you are almost 100 % guaranteed to be able to deploy a vanilla service. You need to communicate the requirements of the machine to your infrastructure provider (in this case the university), which are in the Service Reference Card, then you need to ensure that the service is properly integrated into the rest of the infrastructure by communcating the site- or service-specific configuration to the ROC (that's us). These are things like the site-bdii endpoint, the VO's enabled at the site, etc.
 
 This last step is usally done by opening a ticket on GGUS to certify the site. This is a purely [operational procedure](https://wiki.egi.eu/wiki/PROC09) and means that the ops VO is enabled and the probes that check it on that VO by [our  nagios](https://nagios.c4.csir.co.za/nagios) all pass. 
 
