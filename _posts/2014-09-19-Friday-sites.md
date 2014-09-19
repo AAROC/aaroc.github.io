@@ -44,7 +44,7 @@ We've made great strides towards providing the code for this "*executable infras
 
 # So, what's a guy to do ? 
 
-Let's take this case in point, at UKZN. What follows is a short summary of the acutal mails which were exchanged with the site contact. Hopefully this can be of use to our site admins and directors the next time a new site comes along and wants to help us build this thing called e-Infrastructure in Africa. 
+Let's take this case in point, at UKZN. What follows is a short summary of the actual mails which were exchanged with the site contact. Hopefully this can be of use to our site admins and directors the next time a new site comes along and wants to help us build this thing called e-Infrastructure in Africa. 
 
 ## Get in touch.
 
