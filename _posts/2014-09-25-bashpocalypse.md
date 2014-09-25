@@ -66,6 +66,7 @@ You are now patched.
 Feel free to contact `csirt-info@sanren.ac.za` for further support.
   
 -----
+
 # References
   
   1. http://seclists.org/oss-sec/2014/q3/649
