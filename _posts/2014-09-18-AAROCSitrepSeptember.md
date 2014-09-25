@@ -111,7 +111,7 @@ So much for the Europeans. How are we doing down here in sunny mama-Africa ? Her
 If you want to take a look at the dashboard and see issues at your sites you need to be registered as a regional operations officer for the ROC in the GOCDB. The figure below shows how to set the view to "monitoring" to see the operational issues at the sites instead of just the ROD-level issues:
 
 <figure>
-<img src="{{ site_url }}/images/operations-portal.webm"></img>
+<img src="{{ site_url }}/images/operations-portal.gif"></img>
 </figure>
 
 | Site  | Workload | Compute  | Data  | Accounting | Infosys | A/R | 
