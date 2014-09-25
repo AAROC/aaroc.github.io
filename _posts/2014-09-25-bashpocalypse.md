@@ -4,7 +4,7 @@ title: Skirting the bashpocalypse
 description: Skirting the bashpocalypse
 headline: The bashpocalypse is upon us !
 category: DevOps
-tags: [AAROC, bashpocalypse, operations, csirt, security, updates]
+tags: [AAROC, bashpocalypse, operations, csirt, security, updates, CVE-2014-6271]
 image: 
   feature: 
 comments: true 
@@ -65,3 +65,8 @@ You are now patched.
 
 Feel free to contact `csirt-info@sanren.ac.za` for further support.
   
+-----
+# References
+  1. http://seclists.org/oss-sec/2014/q3/649
+  1. http://bashpocalypse.com
+  1. https://access.redhat.com/security/cve/CVE-2014-6271
