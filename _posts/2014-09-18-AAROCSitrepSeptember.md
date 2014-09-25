@@ -345,7 +345,7 @@ Site hasn't published records in over a month. Parser and publisher should be ma
 
 `eu.egi.mpi.EnvSanityCheck` is showing a warning : `Publishes an incorrect value for GlueCEPolicyMaxSlotsPerJob (2147483647)`
 
-### TODO List
+### ***TODO List***
 
   * Re-run parser and publisher
   * check CE GRIS or maui config for the incorrect CE policy
@@ -375,7 +375,7 @@ No problems :relaxed:
 
 No problems :relaxed:
 
-### TODO List
+### ***TODO List***
 
   1. Change top-bdiis to `top-bdii.c4.csir.co.za`  
   1. Change default SE to local SE
