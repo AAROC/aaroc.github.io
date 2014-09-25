@@ -67,6 +67,12 @@ Feel free to contact `csirt-info@sanren.ac.za` for further support.
   
 -----
 
+# Updates
+
+  1. 10:00 25/09/2014 : Meraka, KENET, DIT sites patched
+  1. 10:22 25/09/2014 : UCT updating local repo mirrors
+  1. 11:24 25/09/2014 : University of Johannesburg patched
+
 # References
   
   1. http://seclists.org/oss-sec/2014/q3/649
