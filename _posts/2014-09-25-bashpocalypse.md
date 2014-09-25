@@ -54,9 +54,9 @@ We use a simple script to test whether the vulnerability is present on a machine
 In order to use this, simply 
 
   1. Check out Ansible if you don't have it yet 
-    1. `git clone https://github.com/ansible/ansible.git`
-    1.  `cd ansible/ansible`
-    1. `sudo python setup.py install`
+     1. `git clone https://github.com/ansible/ansible.git`
+     1.  `cd ansible/ansible`
+     1. `sudo python setup.py install`
   1. Get our code:  `git clone https://github.com/AAROC/DevOps`
   1. Add or update your inventory in `AAROC/DevOps/Ansible/inventories`
   1. Run the playbook : `ansible-playbook -i <inventory> bashpocalypse_fix.yml`
