@@ -19,9 +19,9 @@ We are in the business of providing relevant computing services to research coll
 
 However, as the activities become more complex, and require the integration of more and more tools, it becomes clear that "Just do it yourself" is not an option, and is what separates infrastructure from resources. 
 
-We will discuss in this contribution, the case of deploying the services necessary to provide a [Shibboleth](http://www.shibboleth.net) identity provider with [ldap](http://www.openldap.org) identity database ldap backend. This is a very common setup which a community adopts in order to participate to an federation of services and identities. By enabling trust between service providers (SP's) and identity providers (IdP's) via common policies in a federation, it becomes much easier to provide access to diverse services to individuals from various communities, at scale. Since trust is at stake, it is very important to deploy and configure these services, as well as enforce consistent policies, at the local level, such that by then simply exchanging metadata, these can be included in the federation.
+We will discuss in this contribution, the case of deploying the services necessary to provide a [Shibboleth](http://www.shibboleth.net) identity provider with [ldap](http://www.openldap.org) identity database backend. This is a very common setup which many communities adopt in order to participate to an federation of services and identities. By enabling trust between service providers (SP's) and identity providers (IdP's) via common policies in a federation, it becomes much easier to provide access to diverse services to individuals from various communities, at scale. Since trust is at stake, it is very important to deploy and configure these services, as well as enforce consistent policies, at the local level, such that by then simply exchanging metadata, these can be included in the federation.
 
-We consider the Catch-All Federation, which has been adopted particularly in the Sub-Saharan and Arabian context, and discuss here the development and design philosophy of an automated, distributed, collaborative tool to enable the execution of the deployment of these identity providers in the region.
+We consider the Catch-All Federation[^Catch-All-Federation], which has been adopted particularly in the Sub-Saharan and Arabian context, and discuss here the development and design philosophy of an automated, distributed, collaborative tool to enable the execution of the deployment of these identity providers in the region.
 
 # Development philosophy
 
@@ -247,6 +247,7 @@ The most obvious and urgent use at the current point in time is to be able to de
 <figcaption>Using the playbooks to deploy services on vanilla sites. <br>Or "How to turn vanilla operating systems into a cup of coffee".</figcaption>
 </figure>
 
+We've got a long, detailed description of  how to get started on the [DevOps wiki](https://github.com/AAROC/DevOps/wiki/IdP-LDAP-playbook).
 
 ## Rolling Updates
 
@@ -318,6 +319,7 @@ We have tagged a pre-release version of Ansible playbooks which can be used to d
 [^project-over]: The ei4Africa project finished on October 31st and was given an "excllent" review rating, with the Executable Infrastructure, which this release forms part of, featuring in this decision quite highly.
 [^IDPPublic]: BRUCE BECKER and MARCO FARGETTA, 2014. IDPPublic: Cleaned release (online). 2014. S.l.: ZENODO. Available from: http://dx.doi.org/10.5281/zenodo.12228.
 [^not-always-idempotent]: It should be mentioned that there is not 100 % idempotency, particularly in the ldap roles, since some of the tasks are transactional. State changes are inevitable when information retrieval is done, for example, and some of the plays will come up as `changed` when running playbooks against perfectly-configured sites.
+[^Catch-All-Federation]: We refer here to the [IDPOpen](https://idpopen.garr.it/) Catch-All Federation of the [Italian National Research Network](http://www.garr.it)
 
 The [collabocats](https://octodex.github.com/collabocats/) image in this post is used courtesy of [@jasoncostello](http://www.github.com/jasoncostello)
 
