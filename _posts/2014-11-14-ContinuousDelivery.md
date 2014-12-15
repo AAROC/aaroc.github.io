@@ -85,16 +85,37 @@ Even though these roles have the relevant knowledge and skills to enable the usa
 
 # Analysis of the Status-Quo
 
+Before addressing the solution to the problem, let us first describe the problem itself. This is best done through considering the typical workflow of a new application request. Since at the time of writing there is only one distributed computing infrastructure, based on the grid paradigm and using grid middleware to integrate HPC sites, we will describe only this category.
 
-## Integration and Delivery of Research Applications
+## The Execution Environment
 
+In general, in order to *execute* applications, an execution environment is required. This may be interpreted at various levels to be
 
+  * a shell, on top of an operating system,
+  * a kernel with a set of system-level libraries which are loaded at runtime.
+  * a compiler and low-level libraries which are used to generate a binary
+  * an API against which calls are made
 
-# Build and Porting
+In SAGrid, and for the rest of this article, we refer to **the environment which which the application is provided when it is scheduled on a worker node**. This implies a set of available
 
-## Workflow
+  * libraries (*e.g.* `libc`, `libgfortran`, `libpython`)
+  * compilers (*e.g.* `g++`, `gfortran`)
+  * system-level commands (*e.g.* filesystem commands - `cp`, `mv`)
+  * shells (*e.g.* `bash` and associated libraries and binaries)
 
-## build targets
+A full description of the execution environment can be found at [^executionEnvironment].
+
+## Workflow of new applications
+
+### Discovery
+
+New users are often discovered during interactions at conferences, workshops, seminars etc. On rare occasions, they "pop-up" from nowhere on the internet, but often the bulk of the information exchange is done over email. Since the VO software manager or site administrator are the only ones who have the authority to deploy applications, these are required to be involved in the initial discussion regarding the needs of the user and the application. This initial step of *Discovery* is making superfluous demands on the site admins and removing control from the user.
+
+### Porting
+
+Porting of applications refers to the analysis of the prerequisites, usage model and resource requirements of the application, and adapting these to what is available on the execution environment of the grid.
+
+# Hypotheses for the next Iteration
 
 
 
@@ -124,3 +145,4 @@ solutions :
 [^robotcerts]:
 [^jungle]: "Jungle Computing: Distributed Supercomputing beyond Clusters, Grids, and Clouds." Seinstra, F. J., Maassen, J., van Nieuwpoort, R. V., *et al.* 2011, in **Grids, Clouds and Virtualization**, p 167
 [^VOsnoteverywhere]: Bearing in mind of course that the concept of Virtual Organisations is not supported everywhere.
+[^executionEnvironment]: damn, need to write another article.
