@@ -113,11 +113,51 @@ New users are often discovered during interactions at conferences, workshops, se
 
 ### Porting
 
-Porting of applications refers to the analysis of the prerequisites, usage model and resource requirements of the application, and adapting these to what is available on the execution environment of the grid.
+Porting of applications refers to the analysis of the prerequisites, usage model and resource requirements of the application, and adapting these to what is available on the execution environment of the grid (see above). This usually implies resolving the dependencies which are actually required by the specific version and configuration of the application, and then providing a script which executes the compilation and installation in VO-specific directories at the remote site. Again this had to be done by the VO software manager.
+
+<figure>
+  <img src="{{ site_url }}/images/EGIAppDB-All.svg">
+  <figcaption>Summary of all scientific applications registered in the EGI application database</figcaption>
+</figure>
+<!----
+Include the total number of applications
+--->
+
+Since there is no general solution to porting applications, but only a general methodology, the procedure has to be done from the start for each discovered application. Considering the number and diversity of scientific applications, this can become a prohibitive bottleneck. Considering *only* the applications registered in the [EGI Application Database](http://appdb.egi.eu) (see figure[^EGIAppDB] above), it is clear that for the infrastructure to indeed be useful as a general-purpose platform for research, access needs to be granted to more than the restricted set of Software Administrators.
+
+Even if we could assign domain-specific contact points, the complexity of the application landscape in domains is such that it remains an overwhelming task to quickly respond to all new requests. The nature of scientific research is often such that applications are updated and created at a rate that scales by that of actual scientific discovery. Since these applications themselves aid scientific discovery, in some cases, this rate can be almost exponential.
+<!--- ok, we're exaggerating a bit? --->
+
+<figure class="half">
+  <img src="{{ site_url }}/images/EGIAppDB-physics.svg">
+  <img src="{{ site_url }}/images/EGIAppDB-bio.svg">
+  <figcaption>Breakdown of number of applications in scientific subdomains for physical (left) and biological (right) sciences, taken from EGI Application Database.</figcaption>
+</figure>
+
+Of course, these are *just the applications which have already been ported*, and the true number is far larger and increasing - not only in number but also in complexity, as hardware and platforms evolve. Furthermore, we are not counting the *dependencies* of these applications, the integration of which can represent some of the largest barriers. We must thus ask ourselves, if we are building an e-Infrastructure for scientific collaboration and research,
+
+> What is it good for ?
+
+A new model of interaction between service providers and consumers needs to be built, having the characteristics of being distributed, automated trust-based and inherently open. The existing roles of Software Administrator, By integrating existing tools, simulating production environments and applying appropriate access policies and functional tests, we can build a transparent system whereby any researcher can propose a new application, have it tested automatically and allow the software administrator to establish a level of trust even with applications which they have not themselves ported.
 
 # Hypotheses for the next Iteration
 
+From a user's perspective, the motivation of the many barriers erected by the design of infrastructure itself need to be re-evaluated. We now proceed to do so, by forming some hypotheses regarding the usage of research applications, and suggest some corresponding routes of action.
 
+  1. **Hypothesis:** *"It always comes down to an application."*
+     - In the final analysis, the new user will request an application or suite of applications which need to be executed.
+     - **Suggested Action:** *"Focus on the application"*. Direct all efforts to the characteristics of the application in question.
+  1. **Hypothesis:** *"No software is an island."*
+     - Everything of use to a user has dependencies, whether they be system-level or supporting software frameworks
+     - **Suggested Action:** *"Make these dependencies explicit from the start"*.
+  1. **Hypothesis:** *"Applications need an environment."*
+     - It is extremely rare for applications to be fully self-sufficient, they need at the very least some form of environment to execute, be it only a shell. Often this is far more, such as specific libraries, environment variables, *etc*.
+     - **Suggested Action:** *"Make this environment explicit from the start"*
+  1. **Hypothesis:** *"There is more than one environment"*
+     - Infrastructure providers cannot be forced to provider a single execution environment and can choose which operating systems. Similarly, users will tend to choose the environment which is right for their applications - whether it be the selection of a particular framework or hardware.
+     - **Suggested Action:** *Simulate the various execution environments so that users can access them while porting their application*
+  1. **Hypothesis:** *Solutions decay*
+  
 
 # Customisation of the platform
 
@@ -146,3 +186,4 @@ solutions :
 [^jungle]: "Jungle Computing: Distributed Supercomputing beyond Clusters, Grids, and Clouds." Seinstra, F. J., Maassen, J., van Nieuwpoort, R. V., *et al.* 2011, in **Grids, Clouds and Virtualization**, p 167
 [^VOsnoteverywhere]: Bearing in mind of course that the concept of Virtual Organisations is not supported everywhere.
 [^executionEnvironment]: damn, need to write another article.
+[^EGIAppDB]: Taken from the EGI Application Database
