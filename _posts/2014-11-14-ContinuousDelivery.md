@@ -157,12 +157,14 @@ From a user's perspective, the motivation of the many barriers erected by the de
      - Infrastructure providers cannot be forced to provider a single execution environment and can choose which operating systems. Similarly, users will tend to choose the environment which is right for their applications - whether it be the selection of a particular framework or hardware.
      - **Suggested Action:** *Simulate the various execution environments so that users can access them while porting their application*
   1. **Hypothesis:** *Solutions decay*
-  
 
+
+
+<!----
 # Customisation of the platform
-
+--->
 <!-- which plugins do we use and why -->
-
+<!----
 
 # Stuff we are doing wrong we could do better
 
@@ -178,6 +180,8 @@ solutions :
 2) move to nfs
 3) clean up mess caused by 1 andhttp://www.abinit.org/ 2
 4)
+
+---->
 
 # Footnotes and References
 
