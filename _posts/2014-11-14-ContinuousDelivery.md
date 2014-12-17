@@ -157,6 +157,28 @@ From a user's perspective, the motivation of the many barriers erected by the de
      - Infrastructure providers cannot be forced to provider a single execution environment and can choose which operating systems. Similarly, users will tend to choose the environment which is right for their applications - whether it be the selection of a particular framework or hardware.
      - **Suggested Action:** *Simulate the various execution environments so that users can access them while porting their application*
   1. **Hypothesis:** *Solutions decay*
+     - The process, including the dead ends that led to that specific endpoint, are part of the solution and should be kept in a version-controlled repository. Merely having instructions available on a wiki or such is not sufficient and can often be misleading. Since we are determining the *process* that leads to a specific executable, the process itself should be *executable*.
+     - **Suggested Actions:**
+       - *Recognise that solutions decay and code for the future*.
+       - *Keep solutions in an* ***executable*** *format, in a* ***version-controlled*** *repository.*
+  1. **Hypothesis:** *Most work in porting applications can be automated*
+     - *Humans need not apply*[^CGPGrey] for certain tasks. They are better suited to application- and service-level integration, since they will be more rigorously repeatable and provide a more robust means for demonstrating the results.
+     - This also has the corollary that when humans *do* perform these tasks, they are actually getting in the way of progress - ***less*** human intervention is sometimes required, not more. This is particularly true for testing and integration tasks, where there is a strong motivation to tweak the process and hide details from the user (and peer technical experts), so as to force the passing of tests.
+     - **Suggested Actions:** Integrate various software, middleware, version control, testing and infrastrucutre services as far as possible via ***Open APIs***.
+   1. **Hypothesis:** *A solution can be implemented*.
+      - Continuous integration as a methodology, as well as the tools suited to the job have been around for a good while. The web has been evolving rapidly to enable teams of developers to collaborate on software projects. With minor changes in methodology, the adoption of relevant tools and the integration of services, existing scripts which may be untrustworthy and bug-prone can be transformed into automated jobs for producing cross-platform executable artifacts.
+      - **Sugested Actions:** *Use the web to communicate; adopt widely-used automation, delivery and testing platforms*.
+
+# Implementing A better deal for researchers
+
+Considering the hypotheses and suggested actions in the previous section, we propose that this represents a 'better deal' for researchers who want to exploit e-Infrastructure. The barrier to entry is not only lowered, but the bottleneck represented by the Software Administrator has been transformed into a far more accessible access point represented by the integration service itself. Proposing a new application to be ported into the grid (or HPC/cloud etc ) infrastructure could become as simple as sending a pull request to a repository which automatically triggers testing on the desired platforms. However, the details of the implementation need to take into account several other issues:
+
+  1. trust
+  2. lifecycle management
+  3. delivery
+
+In the first case how can the researcher *prove* to the resource provider that their proposed application will actually run on the proposed architecture ? Functional tests
+
 
 
 
@@ -191,3 +213,4 @@ solutions :
 [^VOsnoteverywhere]: Bearing in mind of course that the concept of Virtual Organisations is not supported everywhere.
 [^executionEnvironment]: damn, need to write another article.
 [^EGIAppDB]: Taken from the EGI Application Database
+[^CGPGrey]: This phrase is taken from a great video by [CGPGrey](http://www.cgpgrey.com/) - ["Humans need not apply"](http://www.cgpgrey.com/blog/humans-need-not-apply), describing the advent of mass automation and the effects on society.
