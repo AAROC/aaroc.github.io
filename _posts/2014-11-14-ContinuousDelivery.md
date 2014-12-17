@@ -134,7 +134,17 @@ Even if we could assign domain-specific contact points, the complexity of the ap
   <figcaption>Breakdown of number of applications in scientific subdomains for physical (left) and biological (right) sciences, taken from EGI Application Database.</figcaption>
 </figure>
 
-Of course, these are *just the applications which have already been ported*, and the true number is far larger and increasing - not only in number but also in complexity, as hardware and platforms evolve. Furthermore, we are not counting the *dependencies* of these applications, the integration of which can represent some of the largest barriers. We must thus ask ourselves, if we are building an e-Infrastructure for scientific collaboration and research,
+Of course, these are *just the applications which have already been ported*, and the true number is far larger and increasing - not only in number but also in complexity, as hardware and platforms evolve. Furthermore, we are not counting the *dependencies* of these applications, the integration of which can represent some of the largest barriers.
+
+## Delivery
+
+Delivery of applications refers to the remote deployment on target infrastructures. This is analogous to 'installing' applications on a personal or shared computer, however, since direct interactive use of the applications is usually not possible, 'delivery' also includes aspects of 'deployment' - such as the proper configuration of the application into the remote site. This may be the setting of proper environment variables, local compilation with site optimisations, etc. Since the user usually does not have administrator rights at the remote sites, the delivery of applications is the responsibility of a site administrator, or in the case of a Virtual Organisation the VO software administrator.
+
+In the past this deployment has been done with the use of installation scripts, which are submitted via the VO software administrator as grid jobs to a specific site. By default this is a manual exercise, requiring action on behalf of the VO software admin. There was until recently[^VAPOR] no monitoring to check whether the applications which were once successfully deployed continued to be properly installed, and frequently there were mismatches between the tags available at sites and the actual state of the software there. While very succesful in providing a role-based means to deploy applications, and deletgating some power to the VO software admin, this procedure, thanks to it's manual actions suffers from unreliability.
+
+## Is a new model necessary in Africa-Arabia ?
+
+> We must thus ask ourselves, if we are building an e-Infrastructure for scientific collaboration and research which requires massive, unreliably manual intervention...
 
 > What is it good for ?
 
@@ -162,14 +172,41 @@ From a user's perspective, the motivation of the many barriers erected by the de
        - *Recognise that solutions decay and code for the future*.
        - *Keep solutions in an* ***executable*** *format, in a* ***version-controlled*** *repository.*
   1. **Hypothesis:** *Most work in porting applications can be automated*
-     - *Humans need not apply*[^CGPGrey] for certain tasks. They are better suited to application- and service-level integration, since they will be more rigorously repeatable and provide a more robust means for demonstrating the results.
+     - *Humans need not apply*[^CGPGrey] for certain tasks. Robots[^Robots] are better suited to application- and service-level integration, since they will be more rigorously repeatable and provide a more robust means for demonstrating the results.
      - This also has the corollary that when humans *do* perform these tasks, they are actually getting in the way of progress - ***less*** human intervention is sometimes required, not more. This is particularly true for testing and integration tasks, where there is a strong motivation to tweak the process and hide details from the user (and peer technical experts), so as to force the passing of tests.
-     - **Suggested Actions:** Integrate various software, middleware, version control, testing and infrastrucutre services as far as possible via ***Open APIs***.
+     - **Suggested Actions:** Integrate various software, middleware, version control, testing and infrastructure services as far as possible via ***Open APIs***.
    1. **Hypothesis:** *A solution can be implemented*.
       - Continuous integration as a methodology, as well as the tools suited to the job have been around for a good while. The web has been evolving rapidly to enable teams of developers to collaborate on software projects. With minor changes in methodology, the adoption of relevant tools and the integration of services, existing scripts which may be untrustworthy and bug-prone can be transformed into automated jobs for producing cross-platform executable artifacts.
       - **Sugested Actions:** *Use the web to communicate; adopt widely-used automation, delivery and testing platforms*.
 
-# Implementing A better deal for researchers
+# Implementation and workflow
+
+Taking into account the suggested actions, we have implemented a prototype of the solution, which we will describe in detail here. At the core of the system is a [Jenkins-CI](http://jenkins-ci.org) instance, which provides the testing functionality, which is configured with several plugins and extensions, allowing it to read and act on events from source-code repositories and push built artifacts to distribution channels. Currently, we are using [Github](http://github.com) as the main endpoint for source code repositories, and [CVMFS](http://cernvm.cern.ch/portal/filesystem)[^CVMFSTR] for artifact distribution. The integration has been done with a specific core workflow in mind, allowing the lowest barrier to entry possible, and transparent interaction between the actors involved - researcher, robots and resource providers.
+
+## Workflow Description
+
+<figure>
+  <a href="https://zenodo.org/record/13280/files/PortingWorkflow.svg"><img src="{{ site_url }}/images/PortingWorkflow.svg"></a>
+  <figcaption>Porting workflow (as of November 2014). Tasks are represented by vertices on the graph, with differing colors depending on the role of the actor. Black : SAGridOps; Green : User/Developer ; Blue : robot, usually Jenkins.</figcaption>
+</figure>
+
+The full description of this workflow is the subject of a separate article, and we will only go into the most relevant details here. Essentially the steps for the user are[^WIP-workflow]:
+
+  1. Fork the base repository to your personnal github account and create a new branch for your proposed application
+  2. Add your proposed application in the form of a build script, defining the requirements in terms of application dependencies[^YAMLvsDSL].
+  3. Create a new job on the Jenkins instance by sending a pull request to the repository
+  4. Submit patches to the branch - Jenkins will perform the tests defined by the infrastructure provider, and subsequently your functional tests at each commit. Tests are run on targets defined by the user, which are supported by the infrastructure[^SupportedTargets]
+    1. Once build tests are passing, builds are promoted
+    1. Once functional tests are passing, builds are further promoted and human scrutiny is requested
+  1. Once the user is satisfied that their application is functional on the target environments, they can request deployment via a pull request to the master branch of the main repo.
+  2. The PR is discussed using Github, and once merged, the build is further promoted, triggering the creation of a build artifact
+  3. Build artifacts are kept in a CVMFS repo which is mounted by the sites; the final promotion triggers a repository version change, delivering the application to the sites.
+
+## Build Promotion and Incremental Quality Assurance
+
+
+
+# Discussion: a better deal for researchers
 
 Considering the hypotheses and suggested actions in the previous section, we propose that this represents a 'better deal' for researchers who want to exploit e-Infrastructure. The barrier to entry is not only lowered, but the bottleneck represented by the Software Administrator has been transformed into a far more accessible access point represented by the integration service itself. Proposing a new application to be ported into the grid (or HPC/cloud etc ) infrastructure could become as simple as sending a pull request to a repository which automatically triggers testing on the desired platforms. However, the details of the implementation need to take into account several other issues:
 
@@ -177,7 +214,13 @@ Considering the hypotheses and suggested actions in the previous section, we pro
   2. lifecycle management
   3. delivery
 
-In the first case how can the researcher *prove* to the resource provider that their proposed application will actually run on the proposed architecture ? Functional tests
+## Enabling trust through testing
+
+In the first case how can the researcher *prove* to the resource provider that their proposed application will actually run on the proposed architecture ? This will be done by publishing the set of tests which applications need to pass in order to be consider for integration. Essentially, means being able to complile and execute trivial workloads in a simulated execution environment. Since there is more than one execution environment, the user can propose their application for any or all of them, but the tests will be explicitly related to the environment in question. Furthermore,  **functional tests** need to be passed by the application, which need to be published by the user themselves. This means that control of determining whether the application actually works or not is in the hands of the user, not the infrastructure provider. Since the tests are published, and testing is automated, this also provides an explicit means for verification of the validity of the application. While it is true that the user could indeed fake or bias the tests such that they easily pass, there will at least be a means of code review which could identify these situations.
+
+## Sustainability through version control
+
+Application dependencies and their versions are explicitly defined in
 
 
 
@@ -200,7 +243,7 @@ In the first case how can the researcher *prove* to the resource provider that t
 solutions :
 1) split the monolithic repo
 2) move to nfs
-3) clean up mess caused by 1 andhttp://www.abinit.org/ 2
+3) clean up mess caused by 1 and 2
 4)
 
 ---->
@@ -214,3 +257,9 @@ solutions :
 [^executionEnvironment]: damn, need to write another article.
 [^EGIAppDB]: Taken from the EGI Application Database
 [^CGPGrey]: This phrase is taken from a great video by [CGPGrey](http://www.cgpgrey.com/) - ["Humans need not apply"](http://www.cgpgrey.com/blog/humans-need-not-apply), describing the advent of mass automation and the effects on society.
+[^CVMFSTR]: CERNVM Filesystem Technical Report (2.1.5) - http://cernvm.cern.ch/portal/sites/cernvm.cern.ch/files/cvmfstech-2.1-5.pdf
+[^Robots]: Here we refer to *robots* as semi-autonomous software agents which perform predefined tasks. They are not physical manifestations of our future overlords, we leave that for the more daring of us out there.
+[^WIP-workflow]: This is still a work in progress to determine the optimal workflow for users.
+[^YAMLvsDSL]: We are still trying to determine whether using YAML or a domain-specific language would be best. In the end, the most pragmatic approach will be followed. This is currently being done by specifying dependencies by hand in a module file.
+[^SupporteTargets]: These are currently two different operating systems - CentOS 6 and Ubuntu Linux 14.04. These are defined as the build slaves of the Jenkins instance.
+[^VAPOR]: Recently, EGI has made available the [VAPOR](http://operations-portal.egi.eu/vapor) tool, which has filled this information void to a certain extent.
