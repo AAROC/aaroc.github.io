@@ -129,13 +129,17 @@ Since there is no general solution to porting applications, but only a general m
 
 Even if we could assign domain-specific contact points, the complexity of the application landscape in domains is such that it remains an overwhelming task to quickly respond to all new requests. The nature of scientific research is often such that applications are updated and created at a rate that scales by that of actual scientific discovery. Since these applications themselves aid scientific discovery, in some cases, this rate can be almost exponential.
 <!--- ok, we're exaggerating a bit? --->
+
 -----------------
+
 <figure class="half">
   <img src="{{ site_url }}/images/EGIAppDB-physics.svg">
   <img src="{{ site_url }}/images/EGIAppDB-bio.svg">
   <figcaption>Breakdown of number of applications in scientific sub-domains for physical (left) and biological (right) sciences, taken from EGI Application Database. The number of applications in each case is 107 and 59 respectively</figcaption>
 </figure>
+
 -----------------
+
 Of course, these are *just the applications which have already been ported*, and the true number is far larger and increasing - not only in number but also in complexity, as hardware and platforms evolve. Furthermore, we are not counting the *dependencies* of these applications, the integration of which can represent some of the largest barriers.
 
 ## Delivery
@@ -145,9 +149,6 @@ Delivery of applications refers to the remote deployment on target infrastructur
 In the past this deployment has been done with the use of installation scripts, which are submitted via the VO software administrator as grid jobs to a specific site. By default this is a manual exercise, requiring action on behalf of the VO software admin. There was until recently[^VAPOR] no monitoring to check whether the applications which were once successfully deployed continued to be properly installed, and frequently there were mismatches between the tags available at sites and the actual state of the software there. While very succesful in providing a role-based means to deploy applications, and deletgating some power to the VO software admin, this procedure, thanks to it's manual actions suffers from unreliability.
 
 ## Is a new model necessary in Africa-Arabia ?
-
-> We must thus ask ourselves, if we are building an e-Infrastructure for scientific collaboration and research which requires massive, unreliably manual intervention...
-> "What is it good for ?"
 
 A new model of interaction between service providers and consumers needs to be built, having the characteristics of being distributed, automated trust-based and inherently open. The existing roles of Software Administrator, By integrating existing tools, simulating production environments and applying appropriate access policies and functional tests, we can build a transparent system whereby any researcher can propose a new application, have it tested automatically and allow the software administrator to establish a level of trust even with applications which they have not themselves ported.
 
@@ -217,11 +218,14 @@ First a version promoted by Jenkins is pushed to a staging repository which is u
 ## Workflow summary
 
 A diagram of the actors, processes and interactions of this summarised workflow is shown below.
+
 -----------------
+
 <figure>
   <img src="{{ site_url }}/images/Jenkinsworkflowschematic.svg">
   <figcaption>Schematic diagram showing the workflow of proposing, testing, porting and publishing and delivery of applications.</figcaption>
 </figure>
+
 -----------------
 
 # Discussion: a better deal for researchers
@@ -269,6 +273,14 @@ solutions :
 ---->
 
 # Summary and Future work
+
+# Appendix - Configuration of Jenkins CI
+
+## Authentication and Authorisation.
+
+## Plugins used
+
+## Creating new jobs
 
 # Footnotes and References
 
