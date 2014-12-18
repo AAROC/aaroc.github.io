@@ -3,8 +3,8 @@ layout: post
 title: Continuous Delivery
 description: Distributed development, Centralised Delivery
 headline:  Enabling continuous deployment of research applications
-category: Developers
-tags: [AAROC, continuous integration, collaboration, article]
+category: articles
+tags: [AAROC, continuous integration, collaboration, article, developers]
 image:
   feature:
 comments: true
@@ -24,11 +24,12 @@ We will show how the porting of applications can be made more reproducible, and 
 
 The South African National Grid was created in 2008, through the agreement of several national laboratories, universities and research groups which formed a federated distributed computing infrastructure based on the grid computing paradigm. The premises for its creation included of course the success of the WLCG and EGEE projects, however the main interest did not come from the high-energy physics experiments, but from institutional departments providing information and communication services. Close collaboration with the South African National Research Network ([SANREN](http://www.sanren.ac.za)) and other cyberinfrastructure initiatives, resulted has resulted in a fully-functional national grid initiative.
 
+-----------------
 <figure>
   <img src="{{site_url}}/images/sagridmap.png">
   <figcaption>Schematic diagram of the South African National Grid, showing functional sites and site personnel, overlaid on the backbone of thhe national research network.</figcaption>
 </figure>
-
+-----------------
 <!--- Describe the interaction between SAGrid and other scientific communities such as bio and astro -->
 
 Similar activities have been undertaken throughout the Arab world, comprising the countries of North Africa and the Arabian peninsula. Investments co-funded by the European Commission have culminated in mature national grid infrastructures in Morocco and Algeria, whilst the Arabian states regional research network [ASREN](http://www.asren.org) has been supporting the integration of individual resources in other countries across the region. These initiatives in the north and south of Africa shared many technical and operational characteristics with each other, as well as similar initiatives in Europe and other regions. In an effort to harmonise and sustain them, two FP7-funded projects were conceived. The first - [Coordination and Harmonisation of Advanced e-INfrastructures](http://www.chain-project.eu) focused in particular on the interoperability of regional infrastructures, through the creation of ***Regional Operations Centres***. One such was created for the entire region of Africa and Arabia, coordinated by ASREN and the CSIR Meraka Institute. The [Africa-Arabia ROC](http://roc.africa-grid.org) exists through an MoU signed with [EGI.eu](http://egi.eu) to ensure that the resources and services provided in the region are interoperable with their European counterparts and vice-versa.
@@ -63,10 +64,12 @@ These multi-national collaborations are a means to an end and not a goal in thei
 
 Users and communities have, on the contrary, a baffling array of platforms, resources, services and infrastructures on which to conduct their research. Service grid infrastructures, single HPC resources, peer-to-peer networks, public and private cloud services at various levels, desktop grids and even their own individual personal computers all present attractive options for various tasks. This heterogeneity and complexity has in some contexts been coined "jungle computing"[^jungle] and has severe consequences on the delivery and maintenance of applications which run on the various endpoints.
 
+-----------------
 <figure>
   <img src="{{site_url}}/images/junglecomputing.svg">
   <figcaption>Schematic diagram of "jungle computing" depicting several of the many available resources for researchers to execute scientific applications.</figcaption>
 </figure>
+-----------------
 
 In an environment where timeous delivery to *optimised* applications is crucial to scientific discovery, the effort to integrate or deploy these applications on the various platforms can be a serious inhibitor. A further, more severe consideration is that errors or misconfigurations may even result in *different results* given by the same applications on different platforms. Furthermore, access to and efficient usage of these applications by the researchers in questions, on the various platforms, can become prohibitively complex in the absence of some coordinating system. Consider the overhead of  maintaining the description of the various optimisations (compiler flags, linked libraries, etc), not to mention access credentials, etc. The situation quickly becomes unattractive to the user, despite having in principle a very powerful set of resources at their disposal.
 
@@ -109,19 +112,18 @@ A full description of the execution environment can be found at [^executionEnvir
 
 ### Discovery
 
-New users are often discovered during interactions at conferences, workshops, seminars etc. On rare occasions, they "pop-up" from nowhere on the internet, but often the bulk of the information exchange is done over email. Since the VO software manager or site administrator are the only ones who have the authority to deploy applications, these are required to be involved in the initial discussion regarding the needs of the user and the application. This initial step of *Discovery* is making superfluous demands on the site admins and removing control from the user.
+New users are often discovered during interactions at conferences, workshops, seminars etc. On rare occasions, they "pop-up" from nowhere on the internet, but often the bulk of the information exchange is done over email. Since the VO software manager or site administrator are the only ones who have the authority to deploy applications, these are required to be involved in the initial discussion regarding the needs of the user and the application. This initial step of *Discovery* is making superfluous demands on the site administrators and removing control from the user.
 
 ### Porting
 
 Porting of applications refers to the analysis of the prerequisites, usage model and resource requirements of the application, and adapting these to what is available on the execution environment of the grid (see above). This usually implies resolving the dependencies which are actually required by the specific version and configuration of the application, and then providing a script which executes the compilation and installation in VO-specific directories at the remote site. Again this had to be done by the VO software manager.
 
+-----------------
 <figure>
   <img src="{{ site_url }}/images/EGIAppDB-All.svg">
-  <figcaption>Summary of all scientific applications registered in the EGI application database</figcaption>
+  <figcaption>Summary of all 401 scientific applications registered in the EGI application database</figcaption>
 </figure>
-<!----
-Include the total number of applications
---->
+-----------------
 
 Since there is no general solution to porting applications, but only a general methodology, the procedure has to be done from the start for each discovered application. Considering the number and diversity of scientific applications, this can become a prohibitive bottleneck. Considering *only* the applications registered in the [EGI Application Database](http://appdb.egi.eu) (see figure[^EGIAppDB] above), it is clear that for the infrastructure to indeed be useful as a general-purpose platform for research, access needs to be granted to more than the restricted set of Software Administrators.
 
@@ -131,7 +133,7 @@ Even if we could assign domain-specific contact points, the complexity of the ap
 <figure class="half">
   <img src="{{ site_url }}/images/EGIAppDB-physics.svg">
   <img src="{{ site_url }}/images/EGIAppDB-bio.svg">
-  <figcaption>Breakdown of number of applications in scientific subdomains for physical (left) and biological (right) sciences, taken from EGI Application Database.</figcaption>
+  <figcaption>Breakdown of number of applications in scientific sub-domains for physical (left) and biological (right) sciences, taken from EGI Application Database. The number of applications in each case is 107 and 59 respectively</figcaption>
 </figure>
 
 Of course, these are *just the applications which have already been ported*, and the true number is far larger and increasing - not only in number but also in complexity, as hardware and platforms evolve. Furthermore, we are not counting the *dependencies* of these applications, the integration of which can represent some of the largest barriers.
@@ -192,7 +194,7 @@ Taking into account the suggested actions, we have implemented a prototype of th
 
 The full description of this workflow is the subject of a separate article, and we will only go into the most relevant details here. Essentially the steps for the user are[^WIP-workflow]:
 
-  1. Fork the base repository to your personnal github account and create a new branch for your proposed application
+  1. Fork the base repository to your personal github account and create a new branch for your proposed application
   2. Add your proposed application in the form of a build script, defining the requirements in terms of application dependencies[^YAMLvsDSL].
   3. Create a new job on the Jenkins instance by sending a pull request to the repository
   4. Submit patches to the branch - Jenkins will perform the tests defined by the infrastructure provider, and subsequently your functional tests at each commit. Tests are run on targets defined by the user, which are supported by the infrastructure[^SupportedTargets]
@@ -204,6 +206,20 @@ The full description of this workflow is the subject of a separate article, and 
 
 ## Build Promotion and Incremental Quality Assurance
 
+Instead of a binary 'all or nothing' approach to completing projects, we use the Jenkins [promoted build plugin]() to provide metadata on the status and quality of builds. This allows Jenkins to raise the attention of the software administrator when builds reach maturity (ie, they are passing build tests), for example, and not before. Several levels of promotion can be reached, with some promotions occurring automatically, and others only after human scrutiny. Apart from allowing the software administrator to only concentrate on those projects which are ready for deployment, it provides a transparent means of communication on the status and quality of application integration, in an incremental way. If some sites wish to host applications which have only passed build tests, but not functional tests, for example, they can simply mount the repository that these promotions are deployed into.
+
+## Delivery
+
+Finally, we come to the
+
+------
+
+A diagram of the actors, processes and interactions of this summarised workflow is shown below.
+
+<figure>
+  <img src="{{ site_url }}/images/Jenkinsworkflowschematic.svg">
+  <figcaption>Schematic diagram showing the workflow of proposing, testing, porting and publishing and delivery of applications.</figcaption>
+</figure>
 
 
 # Discussion: a better deal for researchers
@@ -223,7 +239,9 @@ In the first case how can the researcher *prove* to the resource provider that t
 Application dependencies and their versions are explicitly defined in
 
 
+# Open and Reproductible Science
 
+<!--- stuff about Zenodo and dois --->
 
 <!----
 # Customisation of the platform
@@ -247,6 +265,8 @@ solutions :
 4)
 
 ---->
+
+# Summary and Future work
 
 # Footnotes and References
 
