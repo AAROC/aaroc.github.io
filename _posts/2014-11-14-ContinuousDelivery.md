@@ -129,13 +129,13 @@ Since there is no general solution to porting applications, but only a general m
 
 Even if we could assign domain-specific contact points, the complexity of the application landscape in domains is such that it remains an overwhelming task to quickly respond to all new requests. The nature of scientific research is often such that applications are updated and created at a rate that scales by that of actual scientific discovery. Since these applications themselves aid scientific discovery, in some cases, this rate can be almost exponential.
 <!--- ok, we're exaggerating a bit? --->
-
+-----------------
 <figure class="half">
   <img src="{{ site_url }}/images/EGIAppDB-physics.svg">
   <img src="{{ site_url }}/images/EGIAppDB-bio.svg">
   <figcaption>Breakdown of number of applications in scientific sub-domains for physical (left) and biological (right) sciences, taken from EGI Application Database. The number of applications in each case is 107 and 59 respectively</figcaption>
 </figure>
-
+-----------------
 Of course, these are *just the applications which have already been ported*, and the true number is far larger and increasing - not only in number but also in complexity, as hardware and platforms evolve. Furthermore, we are not counting the *dependencies* of these applications, the integration of which can represent some of the largest barriers.
 
 ## Delivery
@@ -147,8 +147,7 @@ In the past this deployment has been done with the use of installation scripts, 
 ## Is a new model necessary in Africa-Arabia ?
 
 > We must thus ask ourselves, if we are building an e-Infrastructure for scientific collaboration and research which requires massive, unreliably manual intervention...
-
-> What is it good for ?
+> "What is it good for ?"
 
 A new model of interaction between service providers and consumers needs to be built, having the characteristics of being distributed, automated trust-based and inherently open. The existing roles of Software Administrator, By integrating existing tools, simulating production environments and applying appropriate access policies and functional tests, we can build a transparent system whereby any researcher can propose a new application, have it tested automatically and allow the software administrator to establish a level of trust even with applications which they have not themselves ported.
 
@@ -187,11 +186,12 @@ Taking into account the suggested actions, we have implemented a prototype of th
 
 ## Workflow Description
 
+-----------------
 <figure>
   <a href="https://zenodo.org/record/13280/files/PortingWorkflow.svg"><img src="{{ site_url }}/images/PortingWorkflow.svg"></a>
   <figcaption>Porting workflow (as of November 2014). Tasks are represented by vertices on the graph, with differing colors depending on the role of the actor. Black : SAGridOps; Green : User/Developer ; Blue : robot, usually Jenkins.</figcaption>
 </figure>
-
+-----------------
 The full description of this workflow is the subject of a separate article, and we will only go into the most relevant details here. Essentially the steps for the user are[^WIP-workflow]:
 
   1. Fork the base repository to your personal github account and create a new branch for your proposed application
@@ -210,21 +210,23 @@ Instead of a binary 'all or nothing' approach to completing projects, we use the
 
 ## Delivery
 
-Finally, we come to the
+Finally, we come to the crucial aspect of application delivery. This is done by pushing executable artifacts to a version-controlled CVMFS repository. Sites participating in the federation mount this repository and thus applications are immediately available on the site with no action required on the part of the local site administrator. It should be noted that the trust established by first thoroughly testing and reviewing applications is crucial to this choice. Inclusion of executable artifacts itself is done in two stages.
 
-------
+First a version promoted by Jenkins is pushed to a staging repository which is used for "field testing" applications. This is voluntarily mounted by sites which wish to have the latest versions of applications, but also by a stating environment which is properly integrated into the grid, but is not certified as part of the infrastructure itself. Once the user is happy that the application actually works in the "real world", the Software Administrator merely needs to lock the repository in order to make changes, promote the build further by moving it into the production repository and, after updating the repository version, re-publish the repo[^TwoPhase]. Applications, as well as their dependencies, are thus published for each target site in a version-controlled, read-only filesystem which is easily mounted by the sites, requiring only once-off action on  the part of the site administrators.
+
+## Workflow summary
 
 A diagram of the actors, processes and interactions of this summarised workflow is shown below.
-
+-----------------
 <figure>
   <img src="{{ site_url }}/images/Jenkinsworkflowschematic.svg">
   <figcaption>Schematic diagram showing the workflow of proposing, testing, porting and publishing and delivery of applications.</figcaption>
 </figure>
-
+-----------------
 
 # Discussion: a better deal for researchers
 
-Considering the hypotheses and suggested actions in the previous section, we propose that this represents a 'better deal' for researchers who want to exploit e-Infrastructure. The barrier to entry is not only lowered, but the bottleneck represented by the Software Administrator has been transformed into a far more accessible access point represented by the integration service itself. Proposing a new application to be ported into the grid (or HPC/cloud etc ) infrastructure could become as simple as sending a pull request to a repository which automatically triggers testing on the desired platforms. However, the details of the implementation need to take into account several other issues:
+Considering the hypotheses and suggested actions in the previous section, we propose that this represents a 'better deal' for researchers who want to exploit e-Infrastructure. The barrier to entry is not only lowered, but the bottleneck represented by the Software Administrator has been transformed into a far more accessible access point represented by the integration service itself. Proposing a new application to be ported into the grid (or HPC/cloud etc ) infrastructure becomes as simple as sending a pull request to a repository which automatically triggers testing on the desired platforms. However, the details of the implementation which we would like to highlight are :
 
   1. trust
   2. lifecycle management
@@ -283,3 +285,4 @@ solutions :
 [^YAMLvsDSL]: We are still trying to determine whether using YAML or a domain-specific language would be best. In the end, the most pragmatic approach will be followed. This is currently being done by specifying dependencies by hand in a module file.
 [^SupporteTargets]: These are currently two different operating systems - CentOS 6 and Ubuntu Linux 14.04. These are defined as the build slaves of the Jenkins instance.
 [^VAPOR]: Recently, EGI has made available the [VAPOR](http://operations-portal.egi.eu/vapor) tool, which has filled this information void to a certain extent.
+[^TwoPhase]:This two-phase (lock and copy, publish) is specific to CVMFS due to the nature of the filesystem
