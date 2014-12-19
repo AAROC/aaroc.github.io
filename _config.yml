@@ -52,6 +52,7 @@ links:
     url: /categories
   - title: Tags
     url: /tags
+    icon: tags
   - title: Who are we ?
     url: /AAROC
 
@@ -67,7 +68,7 @@ paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
-excerpt_separator: .
+excerpt_separator: '-'
 kramdown:
   auto_ids: true
   footnote_nr: 1
