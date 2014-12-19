@@ -1,7 +1,7 @@
 title:            Hello Operator
 description:      The official blog of the Africa-Arabia Regional Operations Centre.
 logo:             SANCG_logoTransparent-cropped.png
-disqus_shortname: sagrid
+disqus_shortname: aarocblog
 # Assign a default image for your site's header and footer
 default_bg:       default-bg.png
 search:           true
@@ -26,12 +26,12 @@ owner:
   twitter:        thesagrid
   facebook:       SAGrid
   github:         AAROC
-  stackexchange: 
+  stackexchange:
   linkedin:
   instagram:
   flickr:
   tumblr:
-  
+
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
 
@@ -39,7 +39,7 @@ owner:
 google_analytics: UA-51099001-2
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify: 
+bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -53,21 +53,21 @@ links:
   - title: Tags
     url: /tags
   - title: Who are we ?
-    url: /aaroc
+    url: /AAROC
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Africa/Johannesburg
 future:      true
 highlighter: pygments
-pygments:    true
+#pygments:    true
 markdown:    kramdown
 paginate:    4
 toc_levels: 1..6
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-excerpt_separator: '' 
+permalink:   /:categories/:title/
+excerpt_separator: .
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -76,7 +76,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
@@ -86,3 +86,4 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 gems:
   - jemoji
+#  - dashing
