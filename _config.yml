@@ -1,5 +1,5 @@
 title:            Hello Operator
-description:      The official blog of the Africa-Arabia Regional Operations Centre.
+description:      Hello, Bonjour, Merhaba, Selaam, etc
 logo:             SANCG_logoTransparent-cropped.png
 disqus_shortname: aarocblog
 # Assign a default image for your site's header and footer
@@ -66,7 +66,13 @@ links:
     url: http://roc.africa-grid.org
     external: true
     icon: web
-    
+
+top_links:
+  - title: ROC website
+    url: http://roc.africa-grid.org
+    external: true
+    icon: web
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Africa/Johannesburg
 future:      true
