@@ -12,7 +12,7 @@
   <div class="container">
 <!-- Site links -->
     <div class="row">
-      {% for link in site.top_links %}
+      {% for link in site.data.powered_by %}
         <div class="col-md-1">
           <a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank" color="@link-color"><img src="{{ site_url }}/images/{{ link.image }}" height="50px"></a>
         </div>
@@ -29,10 +29,7 @@
         <a href="http://github.com/{{ site.owner.github }}" data-toggle="tooltip" title="{{ site.owner.name}} on Github" target="_blank">
         <i class="fa fa-github fa-3x"></i></a>
       </div>
-      <div class="col-md-1">
-        <a href="http://github.com/{{ site.owner.slideshare }}" data-toggle="tooltip" title="Presentations" target="_blank">
-        <i class="fa fa-slideshare fa-3x"></i></a>
-      </div>
+      
 <!-- Site logo -->
     <div class="col-md-3"></div>
     <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
@@ -42,23 +39,28 @@
   </div>
 
   </div>
-     <div class="container-fluid">
-       <div class="navbar-header nav-justified" role="navigation">
-          <div class="collapse navbar-collapse" id="main-navbar">
+       <div class="navbar-pills nav-justified" role="navigation">
             <ul class="navbar nav nav-pills nav-justified">
               {% for link in site.links %}
                 <li role="presentation">
                   {% if link.external %}
-                  <a href="{{ link.url }}" role="button" class="navbar-brand">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% endif %}{{ link.title }}</a>
+                  <a href="{{ link.url }}" role="button" class="navbar-brand">{% if link.icon %}<i class="fa fa-{{ link.icon }}  fa-spin"></i>{% endif %}{{ link.title }}</a>
                   {% else %}
                   <a href="{{ site.url }}{{ link.url }}" role="button" class="navbar-brand">{% if link.icon %}<i class="fa fa-{{ link.icon }}"> {{ link.title }} </i>{% else %}{{ link.title }}{% endif %}</a>
                   {% endif %}
                 </li>
               {% endfor %}
-            </ul>
+                <li role="presentation" class="dropdown">
+                  <a class="dropdown-toggle navbar-brand" data-toggle="dropdown" >Sites<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li class="divider"></li>
+                    {% for link in site.data.sites %}
+                      <li><a href="{{ link.url }}" class="navbar-brand">{{ link.name }}</a></li>
+                    {% endfor %}
+                    </ul>
+                  </ul>
           </div>
-        </div>
-      </div>
+
 </header>
 
 
