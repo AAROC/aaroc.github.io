@@ -6,41 +6,32 @@
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
 {% if page.image.feature %}<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.image.feature }})" itemscope itemtype="http://schema.org/Organization">
 {% else %}
-<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
+<header id="masthead" class="blog-background overlay align-center align-middle animated from-top"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
 {% endif %}
-{% if site.description %}
-    <div class="inner">
-        <div class="container">
-            <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
+<div class="inner">
+  <div class="container">
+    <h5 class="blog-description dark heavy small border bordered-bottom bordered-top" style="color: #7DB900" itemprop="list">
+    <table width="100%" style="justify: center" align="center">
+      <tr>
+        <td>
+          <ul class="top-icons">
+            {% for link in site.top_links %}
+              <li><a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" height="50px"></a></li>
+            {% endfor %}
+          </ul>
+</td>
+</table>
+    <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
+      {% if site.logo %}
+        <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />
+      {% endif %}
+      <h1 class="blog-title light" itemprop="name">{{ site.title }}</h1>
+    </a>
+    <h2 class="blog-description heavy bordered bordered-top" itemprop="description">{{ site.description }}</h2>
+  </div>
+</div>
 
-                {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
-
-            <h1 class="blog-title light" itemprop="name">
-                {{ site.title }}
-            </h1>
-                
-            </a>
-            <h2 class="blog-description light bordered bordered-top" itemprop="description">
-                {{ site.description }}
-            </h2>
-        </div>
-    </div>
-    {% else %}
-    <div class="inner">
-        <div class="container">
-            <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
-                
-                    <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />
-
-            <h1 class="blog-title light" itemprop="name">
-                {{ site.title }}
-            </h1>
-                
-            </a>
-        </div>
-    </div>
-    {% endif %}
-    {% if site.animated_fins %}
+{% if site.animated_fins %}
     <div class="decor-wrapper">
         <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
             <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba({{ site.fin_color }}, .1)"></path>
@@ -60,6 +51,11 @@
     </div>
     {% else %}
     <div class="decor-wrapper">
+                <ul class="side-icons">
+                  {% for supporter in site.supporters %}
+                  <li><a href="{{ supporter.url }}" data-toggle="tooltip" title="{{ supporter.name }}" target="_blank"><img src="{{ site_url }}/images/{{ supporter.logo }}" width="100px"></a></li>
+                {% endfor %}
+              </ul>
         <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
             <path d="M0 99.9 L50 49.9 L100 99.9 L0 99.9" fill="rgba(255,255,255, 1)"></path>
 
@@ -71,18 +67,27 @@
 </header>
 
 
-
 <div id="main" class="content" role="main" itemprop="mainContentOfPage">
+<!---
+    <div id="supporters" class="align-left row list-background side-icons">
+                <ul>
+                  {% for supporter in site.supporters %}
+                  <li><a href="{{ supporter.url }}" data-toggle="tooltip" title="{{ supporter.name }}" target="_blank"><img src="{{ site_url }}/images/{{ supporter.logo }}" width="100px"></a></li>
+                {% endfor %}
+              </ul>
+    </div>
+-->
     <div class="container">
+
         <div class="row">
             <div class="page-body" itemprop="description">
             {{ content }}
-            </div>    
+            </div>
         </div>
     </div>
 </div>
     {% include footer.html %}
 
-{% include scripts.html %}  
+{% include scripts.html %}
 </body>
 </html>
