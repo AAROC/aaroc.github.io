@@ -1,5 +1,5 @@
-title:            Hello Operator
-description:      Hello, Bonjour, Merhaba, Selaam, etc
+title:            Africa-Arabia Regional Operations Centre
+description:      Daily Chaos from Africa and Arabia
 logo:             SANCG_logoTransparent-cropped.png
 disqus_shortname: aarocblog
 # Assign a default image for your site's header and footer
@@ -13,8 +13,8 @@ animated_fins:	  true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-#url:              http://aaroc.github.io
-url: http://localhost:4000
+url:              http://aaroc.github.io
+#url: http://localhost:4000
 # Owner/author information
 owner:
   name:           Africa-Arabia Regional Operations Centre.
@@ -26,6 +26,7 @@ owner:
   twitter:        thesagrid
   facebook:       SAGrid
   github:         AAROC
+  slack:          africa-arabia-roc
   stackexchange:
   linkedin:
   instagram:
@@ -70,8 +71,49 @@ links:
 top_links:
   - title: ROC website
     url: http://roc.africa-grid.org
-    external: true
     icon: web
+    image: aaroc-logo.png
+  - title: Conntinuous Integration Platform
+    url: http://ci.sagrid.ac.za:8080
+    icon: jenkins
+    image: jenkinslogo.svg
+  - title: Slack Team
+    url: https://africa-arabia-roc.slack.com
+    icon: slack
+    image: slack-logo-2x.png
+  - title: Science Gateway
+    url: https://sgw.africa-grid.org
+    icon: earth
+    image:
+  - title: Powered by Ansible
+    url: https://github.com/AAROC/DevOps
+    image: image-ansible.png
+
+sites:
+  - name: ZA-UCT-ICTS
+    url: http://hpc.uc.ac.za
+    GOC_entry:
+
+supporters:
+  - name: CHAIN-REDS Project
+    logo: logo-chain-reds.png
+    url: http://www.chain-project.eu
+    type: project
+
+  - name: ASREN
+    logo: asren.jpg
+    url: http://asren.org
+    type: national
+
+  - name: SANREN
+    logo: SANReN_tiny_0.png
+    type: national
+
+  - name: ei4Africa Project
+    logo: ei4arica.png
+    type: project
+
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Africa/Johannesburg
