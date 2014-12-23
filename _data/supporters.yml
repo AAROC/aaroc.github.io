@@ -1,0 +1,18 @@
+supporters:
+  - name: CHAIN-REDS Project
+    logo: logo-chain-reds.png
+    url: http://www.chain-project.eu
+    type: project
+
+  - name: ASREN
+    logo: asren.jpg
+    url: http://asren.org
+    type: national
+
+  - name: SANREN
+    logo: SANReN_tiny_0.png
+    type: national
+
+  - name: ei4Africa Project
+    logo: ei4arica.png
+    type: project

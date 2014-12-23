@@ -1,0 +1,28 @@
+- name: ZA-UCT-ICTS
+  url: http://hpc.uc.ac.za
+  logo: uct.png
+  GOC_entry: 
+- name: ZA-CHPC
+  url: http://www.chpc.ac.za
+  GOC_entry:
+  logo: chpc.png
+
+- name: ZA-UFS
+  url: http://www.hpc.ufs.ac.za
+  GOC_entry:
+  logo: ufs.png
+
+- name: ZA-UJ
+  url: http://grid.uj.ac.za
+  GOC_entry:
+  logo: uj.png
+
+- name: ZA-WITS-CORE
+  url: http://grid.wits.ac.za
+  GOC_entry:
+  logo: wits.png
+
+- name: ZA-MERAKA
+  url: http://www.csir.co.za/meraka
+  GOC_entry:
+  logo: csir.png
