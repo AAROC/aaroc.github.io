@@ -216,7 +216,7 @@ q {
 }
 @include hyphens(none);
 pre {
-  
+
 }@include text-shadow(none);
 /* - Font weight classes - */
 .black {
@@ -641,6 +641,11 @@ html {
   background-size: cover;
   background-attachment: fixed;
 }
+.list-background {
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 @media (max-width: 1024px) {
   .blog-background {
     background-attachment: scroll;
@@ -718,6 +723,46 @@ html {
   -ms-transition: all .2s;
   transition: all .2s;
 }
+
+.side-icons li {
+
+display: block;
+padding: 12px 12px;
+vertical-align: middle;
+horizontal-align: center;
+
+}
+
+.top-icons li {
+
+display: inline-block;
+padding: 12px 12px;
+vertical-align: middle;
+horizontal-align: center;
+
+}
+.top-icons a {
+
+display: block;
+font-size: 16px;
+height: 60px;
+width: 60px;
+line-height: 65px;
+border-radius: 100%;
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition: all .2s;
+-ms-transition: all .2s;
+transition: all .2s;
+}
+
+.top-icons i {
+
+  vertical-align: middle;
+  horizontal
+
+}
+
 .social-icons i {
   vertical-align: middle;
 }
