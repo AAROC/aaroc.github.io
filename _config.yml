@@ -15,8 +15,8 @@ animated_fins:	  true
 #fin_color:        "255,255,255"
 fin_color:        "139, 115, 74"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://aaroc.github.io
-#url: http://localhost:4000
+#url:              http://aaroc.github.io
+url: http://localhost:4000
 # Owner/author information
 owner:
   name:           Africa-Arabia Regional Operations Centre.
@@ -29,11 +29,13 @@ owner:
   facebook:       SAGrid
   github:         AAROC
   slack:          africa-arabia-roc
+  slideshare:     brucellino
   stackexchange:
   linkedin:
   instagram:
   flickr:
   tumblr:
+
 
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
@@ -43,7 +45,7 @@ google_analytics: UA-51099001-2
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
-
+using_wow: true
 # Links to include in footer navigation
 # For external links add external: true
 links:
@@ -59,17 +61,19 @@ links:
   - title: Categories
     url: /categories
     external: false
+    icon: newspaper-o
+
   - title: Tags
     url: /tags
     icon: tags
-  - title: The AAROC Team
+  - title: The Team
     url: /team/
     icon: group
     external: false
-  - title: Collaborators
+  - title: Collaborate
     url: /How-to-contribute
     external: false
-    icon: merge
+    icon: exchange
 
 top_links:
 #  - title: ROC website
