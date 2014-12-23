@@ -3,7 +3,8 @@ description:      Daily Chaos from Africa and Arabia
 logo:             SANCG_logoTransparent-cropped.png
 disqus_shortname: aarocblog
 # Assign a default image for your site's header and footer
-default_bg:       default-bg.png
+#default_bg:       default-bg.png
+default_bg:       operations-portal.gif
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
@@ -11,7 +12,8 @@ readtime:         true
 # Turn on or off the fin animations in the header and footer
 animated_fins:	  true
 # Specify the fin color in RGB value
-fin_color:        "255,255,255"
+#fin_color:        "255,255,255"
+fin_color:        "139, 115, 74"
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://aaroc.github.io
 #url: http://localhost:4000
@@ -21,7 +23,7 @@ owner:
   avatar:         SANCG_logoTransparent-cropped.png
   email:          thesagrid@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    "Daily chaos from Africa and Arabia."
+  description:    "The Africa-Arabia Regional Operations Team"
   # Social networking links used in footer. Update and remove as you like
   twitter:        thesagrid
   facebook:       SAGrid
@@ -49,30 +51,31 @@ links:
     url: /
     external: false
     icon: home
+  - title: Overview
+    url: /AAROC/
+    external: false
+    icon: group
+
   - title: Categories
     url: /categories
     external: false
   - title: Tags
     url: /tags
     icon: tags
-  - title: Who are we ?
-    url: /AAROC/
-    external: false
+  - title: The AAROC Team
+    url: /team/
     icon: group
-  - title: We like to Slack
-    url: https://africa-arabia-roc.slack.com
-    external: true
-    icon: slack
-  - title: ROC website
-    url: http://roc.africa-grid.org
-    external: true
-    icon: web
+    external: false
+  - title: Collaborators
+    url: /How-to-contribute
+    external: false
+    icon: merge
 
 top_links:
-  - title: ROC website
-    url: http://roc.africa-grid.org
-    icon: web
-    image: aaroc-logo.png
+#  - title: ROC website
+#    url: http://roc.africa-grid.org
+#    icon: web
+#    image: aaroc-logo.png
   - title: Conntinuous Integration Platform
     url: http://ci.sagrid.ac.za:8080
     icon: jenkins
@@ -84,15 +87,46 @@ top_links:
   - title: Science Gateway
     url: https://sgw.africa-grid.org
     icon: earth
-    image:
+    image: default-bg-logo.png
   - title: Powered by Ansible
     url: https://github.com/AAROC/DevOps
     image: image-ansible.png
+#  - title: Perun Identity Management
+#    url: https://perun.c4.csir.co.za
+#    image: perun-logo.png
 
 sites:
   - name: ZA-UCT-ICTS
     url: http://hpc.uc.ac.za
+    logo: uct.png
     GOC_entry:
+
+  - name: ZA-CHPC
+    url: http://www.chpc.ac.za
+    GOC_entry:
+    logo: chpc.png
+
+  - name: ZA-UFS
+    url: http://www.hpc.ufs.ac.za
+    GOC_entry:
+    logo: ufs.png
+
+  - name: ZA-UJ
+    url: http://grid.uj.ac.za
+    GOC_entry:
+    logo: uj.png
+
+  - name: ZA-WITS-CORE
+    url: http://grid.wits.ac.za
+    GOC_entry:
+    logo: wits.png
+
+  - name: ZA-MERAKA
+    url: http://www.csir.co.za/meraka
+    GOC_entry:
+    logo: csir.png
+
+  - name:
 
 supporters:
   - name: CHAIN-REDS Project
@@ -127,7 +161,7 @@ paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
-excerpt_separator: '--'
+excerpt_separator: ...
 kramdown:
   auto_ids: true
   footnote_nr: 1
