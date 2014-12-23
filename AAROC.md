@@ -14,7 +14,7 @@ The [Africa-Arabia Regional Operations Centre](http://roc.africa-grid.org) is a 
   * [EUMED](http://www.eumed.eu) project series
   * [EPIKH](http://www.epikh.eu) exchange programme
   * CHAIN and [CHAIN-REDS](http://www.chain-project.eu) project series
- 
+
 It is fully supported by national initiatives in South Africa, Algeria, Morocco, Egypt, Jordan, Kenya and Tanzania. This blog tells the story of maintaining and developing services for scientists in the region, focussing on technical challenges and successes, and discussing the tools of the trade.
 
 # Coordination
@@ -23,4 +23,4 @@ The Regional Operations Centre is coordinated  by the [CSIR Meraka Institute](ht
 
 # Operational Services
 
-Services operated by the ROC fall into the
+Services operated by the ROC fall into the *'Core Services'*, and *'Support Services'*.
