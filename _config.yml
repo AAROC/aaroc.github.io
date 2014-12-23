@@ -58,18 +58,23 @@ links:
     external: false
     icon: group
 
-  - title: Categories
-    url: /categories
+  - title: Operations
+    url: /operations
+    icon: gear
     external: false
-    icon: newspaper-o
-
-  - title: Tags
-    url: /tags
-    icon: tags
+  # - title: Categories
+  #   url: /categories
+  #   external: false
+  #   icon: newspaper-o
+  #
+  # - title: Tags
+  #   url: /tags
+  #   icon: tags
   - title: The Team
     url: /team/
     icon: group
     external: false
+
   - title: Collaborate
     url: /How-to-contribute
     external: false
@@ -80,78 +85,6 @@ top_links:
 #    url: http://roc.africa-grid.org
 #    icon: web
 #    image: aaroc-logo.png
-  - title: Conntinuous Integration Platform
-    url: http://ci.sagrid.ac.za:8080
-    icon: jenkins
-    image: jenkinslogo.svg
-  - title: Slack Team
-    url: https://africa-arabia-roc.slack.com
-    icon: slack
-    image: slack-logo-2x.png
-  - title: Science Gateway
-    url: https://sgw.africa-grid.org
-    icon: earth
-    image: default-bg-logo.png
-  - title: Powered by Ansible
-    url: https://github.com/AAROC/DevOps
-    image: image-ansible.png
-#  - title: Perun Identity Management
-#    url: https://perun.c4.csir.co.za
-#    image: perun-logo.png
-
-sites:
-  - name: ZA-UCT-ICTS
-    url: http://hpc.uc.ac.za
-    logo: uct.png
-    GOC_entry:
-
-  - name: ZA-CHPC
-    url: http://www.chpc.ac.za
-    GOC_entry:
-    logo: chpc.png
-
-  - name: ZA-UFS
-    url: http://www.hpc.ufs.ac.za
-    GOC_entry:
-    logo: ufs.png
-
-  - name: ZA-UJ
-    url: http://grid.uj.ac.za
-    GOC_entry:
-    logo: uj.png
-
-  - name: ZA-WITS-CORE
-    url: http://grid.wits.ac.za
-    GOC_entry:
-    logo: wits.png
-
-  - name: ZA-MERAKA
-    url: http://www.csir.co.za/meraka
-    GOC_entry:
-    logo: csir.png
-
-  - name:
-
-supporters:
-  - name: CHAIN-REDS Project
-    logo: logo-chain-reds.png
-    url: http://www.chain-project.eu
-    type: project
-
-  - name: ASREN
-    logo: asren.jpg
-    url: http://asren.org
-    type: national
-
-  - name: SANREN
-    logo: SANReN_tiny_0.png
-    type: national
-
-  - name: ei4Africa Project
-    logo: ei4arica.png
-    type: project
-
-
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Africa/Johannesburg
