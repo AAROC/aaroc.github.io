@@ -15,8 +15,8 @@ animated_fins:	  true
 #fin_color:        "255,255,255"
 fin_color:        "139, 115, 74"
 # Change url to your domain. Leave localhost server or blank when working locally.
-#url:              http://aaroc.github.io
-url: http://localhost:4000
+url:              http://aaroc.github.io
+#url: http://localhost:4000
 # Owner/author information
 owner:
   name:           Africa-Arabia Regional Operations Centre.

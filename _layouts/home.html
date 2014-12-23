@@ -14,7 +14,7 @@
     <div class="row">
       {% for link in site.top_links %}
         <div class="col-md-1">
-          <a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" height="50px"></a>
+          <a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank" color="@link-color"><img src="{{ site_url }}/images/{{ link.image }}" height="50px"></a>
         </div>
       {% endfor %}
         <div class="col-md-1">

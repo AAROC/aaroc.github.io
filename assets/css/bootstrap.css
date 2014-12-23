@@ -460,7 +460,7 @@ cite {
   color: #428bca;
 }
 .text-primary:hover {
-  color: #3071a9;
+  color: #7DB900;
 }
 .text-warning {
   color: #8a6d3b;
@@ -484,7 +484,7 @@ cite {
   color: #31708f;
 }
 .text-info:hover {
-  color: #245269;
+  color: #7DB900;
 }
 .text-left {
   text-align: left;
@@ -1432,7 +1432,7 @@ th {
 }
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: #f5f5f5;
+  background-color: #7DB900;
 }
 table col[class*="col-"] {
   position: static;
@@ -3106,7 +3106,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand {
