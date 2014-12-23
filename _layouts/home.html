@@ -10,27 +10,60 @@
 {% endif %}
 <div class="inner">
   <div class="container">
-    <h5 class="blog-description dark heavy small border bordered-bottom bordered-top" style="color: #7DB900" itemprop="list">
-    <table width="100%" style="justify: center" align="center">
-      <tr>
-        <td>
+    <table width="100%" style="table-responsive">
+      <tr style="align: right">
+        <td width="30%">
           <ul class="top-icons">
             {% for link in site.top_links %}
               <li><a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" height="50px"></a></li>
             {% endfor %}
           </ul>
-</td>
+        </td>
+        <td width="30%">
+          <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
+              <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" /></a>
+        </td>
+        <td width="30%">
+          <ul class="top-icons">
+          <li>
+              <a href="http://twitter.com/{{ site.owner.twitter }}" data-toggle="tooltip" title="{{ site.owner.name}} on Twitter" target="_blank">
+                  <i class="icon-twitter"></i>
+              </a>
+          </li>
+          <li>
+              <a href="http://facebook.com/{{ site.owner.facebook }}" data-toggle="tooltip" title="{{ site.owner.name}} on Facebook" target="_blank">
+                  <i class="icon-facebook"></i>
+              </a>
+          </li>
+          <li>
+              <a href="http://github.com/{{ site.owner.github }}" data-toggle="tooltip" title="{{ site.owner.name}} on Github" target="_blank">
+                  <i class="icon-github"></i>
+              </a>
+          </li>
+        </td>
+      </tr>
 </table>
-    <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
-      {% if site.logo %}
-        <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />
-      {% endif %}
-      <h1 class="blog-title light" itemprop="name">{{ site.title }}</h1>
+    <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url"><h1 class="blog-title light" itemprop="name">{{ site.title }}</h1>
     </a>
+    <ul class="menu-items regular" style="color=#7DB900">
+    {% for link in site.links %}
+    <li>
+        {% if link.external %}
+            <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{{% endif %}}{{ link.title }}{% endif %}</a>&nbsp;&bull;
+          {% else %}
+            <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"> {{ link.title }} </i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
+        {% endif %}
+    </li>
+    {% endfor %}
+    <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+    {% if site.search %}&nbsp;&bull;<li class="dosearch"><i class="icon-search"></i> Search</li>{% endif %}
+</ul>
+<!--
     <h2 class="blog-description heavy bordered bordered-top" itemprop="description">{{ site.description }}</h2>
+-->
   </div>
 </div>
-
+<!--
 {% if site.animated_fins %}
     <div class="decor-wrapper">
         <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -64,6 +97,7 @@
         </svg>
     </div>
     {% endif %}
+  -->
 </header>
 
 
@@ -78,7 +112,6 @@
     </div>
 -->
     <div class="container">
-
         <div class="row">
             <div class="page-body" itemprop="description">
             {{ content }}
