@@ -3,8 +3,8 @@ description:      Daily Chaos from Africa and Arabia
 logo:             SANCG_logoTransparent-cropped.png
 disqus_shortname: aarocblog
 # Assign a default image for your site's header and footer
-#default_bg:       default-bg.png
-default_bg:       operations-portal.gif
+default_bg:       default-bg.png
+#default_bg:       operations-portal.gif
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
@@ -25,9 +25,10 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    "The Africa-Arabia Regional Operations Team"
   # Social networking links used in footer. Update and remove as you like
-  twitter:        thesagrid
-  facebook:       SAGrid
-  github:         AAROC
+  social:
+    twitter:        thesagrid
+    facebook:       SAGrid
+    github:         AAROC
   slack:          africa-arabia-roc
   slideshare:     brucellino
   stackexchange:
@@ -56,7 +57,7 @@ links:
   - title: Overview
     url: /AAROC/
     external: false
-    icon: group
+    icon: info-circle
 
   - title: Operations
     url: /operations
