@@ -3209,7 +3209,7 @@ tbody.collapse.in {
   font-size: 14px;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: rgba(138, 115, 75, 0.47);
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #ccc;
@@ -3239,14 +3239,16 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #262626;
-  text-decoration: none;
-  background-color: #f5f5f5;
+  color: #7DB900;
+  text-decoration: bold ;
+/*  background-color: #7DB900; */
+  visibility: visible;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
   color: #fff;
+  font-family: 'Lato' Black;
   text-decoration: none;
   background-color: #337ab7;
   outline: 0;
@@ -3646,7 +3648,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  font-family: Lato Thin;
+  font-family: 'Lato Black';
 }
 .nav > li {
   position: relative;
@@ -3660,9 +3662,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  
+
   text-decoration: none;
-  background-color: #8B734A;
+/*  background-color: #8B734A;*/
 }
 .nav > li.disabled > a {
   color: #777;
@@ -3677,7 +3679,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eee;
+  background-color: rgba(138, 115, 75, 0.47);
   border-color: #337ab7;
 }
 .nav .nav-divider {
@@ -3708,7 +3710,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555;
+  color: #8B734A;
   cursor: default;
   background-color: #fff;
   border: 1px solid #ddd;
