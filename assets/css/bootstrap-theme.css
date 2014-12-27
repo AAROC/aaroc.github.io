@@ -55,6 +55,7 @@
 }
 .btn-default:hover,
 .btn-default:focus {
+  color: #7DB900
   background-color: #e0e0e0;
   background-position: 0 -15px;
 }
@@ -80,12 +81,14 @@
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #265a88;
+  /* background-color: #265a88; */
+  background-color: #7DB900;
   background-position: 0 -15px;
 }
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #265a88;
+/*  background-color: #265a88; */
+  background-color: #7DB900;
   border-color: #245580;
 }
 .btn-primary:disabled,
@@ -200,7 +203,8 @@
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  background-color: #e8e8e8;
+  /* background-color: #e8e8e8; */
+  background-color: #A654B5;
   background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
   background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e8e8e8));
@@ -279,7 +283,7 @@
   .navbar .navbar-nav .open .dropdown-menu > .active > a,
   .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #fff;
+    color: #7DB900;
     background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
     background-image:      -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4));

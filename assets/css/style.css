@@ -1,8 +1,8 @@
+/*!
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,100,700);
 @import url(http://fonts.googleapis.com/css?family=Sacramento);
-/*!
  * HMFAYSAL OMEGA v1.0.0
  * Responsive Jekyll Theme
  *
@@ -16,6 +16,8 @@
 /* - Body typography - */
 body {
   -webkit-font-smoothing: antialiased;
+  font-family: Lato;
+  font-size: 100;
 }
 /* - Headers - */
 h1,
@@ -29,6 +31,7 @@ h1 {
   font-size: 38px;
   line-height: 48px;
   margin-bottom: 24px;
+  font-family: Bendable BRK;
 }
 h1 small {
   font-size: 26px;
@@ -82,6 +85,7 @@ a {
 @include transition(color 0.2s);
 a:hover {
   text-decoration: none;
+  color:  #7DB900;
 }
 .more-link {
   line-height: 18px;
@@ -109,7 +113,7 @@ blockquote:before {
 }
 
 .cursive {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Abecedario', cursive;
   color: #17e4d8;
   font-size: 34px;
   text-align: center;
@@ -383,18 +387,20 @@ a {
   color: #807f83;
   border-color: #807f83;
 }
+
 a:hover {
-  color: #67666a;
-  border-color: #67666a;
+  color: #7DB900;
 }
 blockquote:before {
   background: #807f83;
 }
 .post-title {
-  color: #807f83;
+  /*color: #807f83;*/
+  color: #8B734A;
 }
 .post-info {
-  color: #67666a;
+/*  color: #67666a; */
+color: #8B734A;
 }
 .pagination {
   color: #67666a;
@@ -404,14 +410,18 @@ blockquote:before {
   background-color: #cbc9cf;
 }
 .social-icons a {
-  color: #cbc9cf;
-  background-color: rgba(255, 255, 255, 0.35);
+  color: #7DB900;
 }
 .social-icons a:hover {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: #8B734A;
+}
+
+.social-icons i:hover {
+  color: #7DB900;
 }
 .overlay:after {
   background-color: rgba(0, 0, 0, 0.65);
+  color: #7DB900;
 }
 #masthead {
   background-color: #1e1e1f;
@@ -453,9 +463,9 @@ html {
   display: table;
   text-align: center;
   width: 100%;
-  height:30%;
-  padding: 30px 0;
-  margin-bottom: 20px;
+  height:20%;
+  padding: 0px 0;
+  margin-bottom: 0px;
   box-sizing: border-box;
 }
 #masthead.align-left {
@@ -474,6 +484,7 @@ html {
   line-height: 36px;
   text-transform: uppercase;
   margin-bottom: 12px;
+  font-family: "Lato" Heavy Italic;
 }
 .blog-title span {
   display: block;
@@ -483,6 +494,7 @@ html {
   padding-top: 12px;
   margin-top: 12px;
   font-size: 18px;
+  font-family: 'Lato Light';
 }
 #main {
   position: relative;
@@ -509,6 +521,7 @@ html {
   margin-top: 0;
   margin-bottom: 12px;
   padding-bottom: 12px;
+  font-family: Abecedario_punteada;
 }
 /* - Post info - */
 .post-info {
@@ -517,6 +530,8 @@ html {
 /* -- Post Tags -- */
 /* -  Post Body - */
 .post-body {
+  font-family: Lato;
+  font-size: 1.5555555em;
   padding-bottom: 72px;
   margin-bottom: 72px;
 }
@@ -687,6 +702,17 @@ html {
   left: 0;
   z-index: 1;
 }
+.table-overlay {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* z-index: 1; */
+  
+
+}
 /* - Border Classes - */
 .bordered-top,
 .bordered-bottom {
@@ -711,20 +737,23 @@ html {
 /* Social list */
 .social-icons {
   margin: 0;
-  padding: 0 0 48px;
+  padding: 0 0 0px;
   list-style-type: none;
 }
 .social-icons li {
   display: inline-block;
-  padding: 0 12px;
+  padding: 10px 10px 10px;
+  color: #7DB900;
 }
 .social-icons a {
   display: block;
   font-size: 24px;
+  color: #7DB900;
   height: 72px;
   width: 72px;
+  color: #7DB900;
   line-height: 72px;
-  border-radius: 50%;
+  border-radius: 100%;
   -webkit-transition: all .2s;
   -moz-transition: all .2s;
   -o-transition: all .2s;
@@ -732,47 +761,8 @@ html {
   transition: all .2s;
 }
 
-.side-icons li {
-
-display: block;
-padding: 12px 12px;
-vertical-align: middle;
-horizontal-align: center;
-
-}
-
-.top-icons li {
-
-display: inline-block;
-padding: 12px 12px;
-vertical-align: middle;
-horizontal-align: center;
-
-}
-.top-icons a {
-
-display: block;
-font-size: 16px;
-height: 60px;
-width: 60px;
-line-height: 65px;
-border-radius: 100%;
--webkit-transition: all .2s;
--moz-transition: all .2s;
--o-transition: all .2s;
--ms-transition: all .2s;
-transition: all .2s;
-}
-
-.top-icons i {
-
-  vertical-align: middle;
-  horizontal
-
-}
-
 .social-icons i {
-  vertical-align: middle;
+  vertical-align: 50%;
 }
 .social-mini {
   margin: 0;
@@ -810,7 +800,7 @@ body input,
 body textarea,
 body .btn,
 body button {
-  font-family: 'Merriweather', serif;
+  font-family: 'Lato Thin';
 }
 .lighter {
   font-weight: 200 !important;
@@ -820,6 +810,7 @@ body button {
 }
 .lead {
   font-weight: 400;
+  font-size:
 }
 h1,
 h2,
@@ -827,7 +818,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Lato Thin';
 }
 h1.lighter,
 h2.lighter,
@@ -1118,6 +1109,7 @@ a [class*=" icon-"] {
 .dropdown-submenu:hover > a > [class*=" icon-"] {
   background-image: none;
 }
+
 /* keeps Bootstrap styles with and without icons the same */
 .btn [class^="icon-"].icon-large,
 .nav [class^="icon-"].icon-large,
@@ -1139,7 +1131,7 @@ a [class*=" icon-"] {
 .nav-pills [class^="icon-"].icon-large,
 .nav-tabs [class*=" icon-"].icon-large,
 .nav-pills [class*=" icon-"].icon-large {
-  line-height: .9em;
+/*  line-height: .9em;*/
 }
 .btn [class^="icon-"].pull-left.icon-2x,
 .btn [class*=" icon-"].pull-left.icon-2x,

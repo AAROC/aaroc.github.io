@@ -28,10 +28,10 @@
 <link rel="canonical" href="{{ canonical }}">
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
-
+<!--
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
+-->
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -41,6 +41,7 @@
 
 <!-- Latest compiled and minified CSS -->
 <!-- Latest compiled and minified JavaScript -->
+<script src="{{ site_url }}/assets/js/vendor/jquery-1.9.1.min.js"></script>
 <script src="{{ site_url }}/assets/js/bootstrap.js"></script>
 <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/style.css" />

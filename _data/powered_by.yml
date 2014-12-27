@@ -1,4 +1,4 @@
-- title: Conntinuous Integration Platform
+- title: Developers
   url: http://ci.sagrid.ac.za:8080
   icon: jenkins
   image: jenkinslogo.svg
@@ -6,16 +6,16 @@
   url: https://africa-arabia-roc.slack.com
   icon: slack
   image: slack-logo-2x.png
-- title: Science Gateway
-  url: https://sgw.africa-grid.org
-  icon: earth
-  image: default-bg-logo.png
-- title: Powered by Ansible
-  url: https://github.com/AAROC/DevOps
-  image: image-ansible.png
-- title: Powered by Puppet
-  url: https://github.com/AAROC/DevOps
-  image: 234268.png
+#- title: Science Gateway
+#  url: https://sgw.africa-grid.org
+#  icon: earth
+#  image: default-bg-logo.png
+#- title: Powered by Ansible
+#  url: https://github.com/AAROC/DevOps
+#  image: image-ansible.png
+#- title: Powered by Puppet
+#  url: https://github.com/AAROC/DevOps
+#  image: 234268.png
 # - title: Perun Identity Management
 #   url: https://perun.c4.csir.co.za
 #   image: perun-logo.png

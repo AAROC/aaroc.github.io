@@ -6,11 +6,12 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: Lato;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
+  font-family: Lato;
   margin: 0;
 }
 article,
@@ -265,10 +266,14 @@ th {
   }
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
-
+/*
+  font-family: 'Glyphicons Halfling';
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  */
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfontf77b.eot');
+  src: url('../font/fontawesome-webfontf77b.woff') format('woff'), url('../font/fontawesome-webfontf77b.ttf') format('truetype'), url('../fontawesome-webfont.svg') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -900,7 +905,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato Light";
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -2813,7 +2818,7 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
+  color: #1e1e1f;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
@@ -3641,10 +3646,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  font-family: Lato Thin;
 }
 .nav > li {
   position: relative;
   display: block;
+
 }
 .nav > li > a {
   position: relative;
@@ -3653,8 +3660,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
+  
   text-decoration: none;
-  background-color: #eee;
+  background-color: #8B734A;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4165,11 +4173,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  /* color: #777; */
+  color: #A654B5;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #A654B5;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -5699,7 +5708,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato Thin";
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
