@@ -1,33 +1,38 @@
-- title: Developers
+- title: Application Developers
   url: http://ci.sagrid.ac.za:8080
   icon: lock
   image: jenkinslogo.svg
   tooltip: Continuous Integration Platform
+  platform: true
 - title: Infrastructure
-  url: http://goc.egu.eu
+  url: http://goc.egi.eu
   icon: lock
-  image:
+  image: Logo-1.5.png
   tooltip: AAROC in GOCDB
+  platform: true
 - title: Operators
   url: https://operations-portal.egi.eu
   icon: lock
   image: logo_final_short.png
   tooltip: Operations Portal
-- title: Slack Team
-  url: https://africa-arabia-roc.slack.com
-  icon: lock
-  image: slack-logo-2x.png
-  tooltip: Hang out on Slack with the team 
+  platform: true
 #- title: Science Gateway
 #  url: https://sgw.africa-grid.org
 #  icon: earth
 #  image: default-bg-logo.png
-#- title: Powered by Ansible
-#  url: https://github.com/AAROC/DevOps
-#  image: image-ansible.png
-#- title: Powered by Puppet
-#  url: https://github.com/AAROC/DevOps
-#  image: 234268.png
+- title: Ansible
+  url: https://github.com/AAROC/DevOps
+  image: image-ansible.png
+  platform: false
+- title: Puppet
+  url: https://github.com/AAROC/DevOps
+  image: 234268.png
+  platform: false
+- title: EMI middleware
+  url: https://eu-emi.eu
+  image: emi_logo.gif
+  platform: false
+
 # - title: Perun Identity Management
 #   url: https://perun.c4.csir.co.za
 #   image: perun-logo.png
