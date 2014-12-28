@@ -5,6 +5,37 @@
 </head>
 <body class="post-template" itemscope itemtype="http://schema.org/WebPage">
 {% include header.html %}
+<div class="row">
+<!---->
+<!-- ROC links -->
+  <div class="navbar-pills nav-justified" role="navigation">
+    <ul class="navbar-brand nav nav-pills nav-justified">
+{% for link in site.links %}
+      <li role="presentation">
+{% if link.external %}
+        <a href="{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% endif %}{{ link.title }}</li>
+{% else %}
+        <a href="{{ site.url }}{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i> {{ link.title }}{% else %}{{ link.title }}{% endif %}</a>
+{% endif %}
+      </li>
+{% endfor %}
+<!-- Site links -->
+      <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" ><i class="fa fa-flag-o"></i> Sites <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+{% for link in site.data.sites %}
+          <li><a href="{{ link.url }}" class="navbar" role="button">{{ link.name }}</a></li>
+{% endfor %}
+        </ul></li>
+        <li role="presentation" class="dropdown"><a class="dropdown navbar" data-toggle="dropdown" role="button" href="{{site_url}}/supporters"><i class="fa fa-globe"></i> Supported By <span class="caret"></span></a>
+        <ul class="pull-right dropdown-menu">
+{% for project in site.data.supporters %}
+        <li><a href="{{ project.url }}" data-toggle="tooltip" title="{{ project.title }}" target="_blank">{{ project.name }}</a></li>
+{% endfor %}
+  </ul><li>
+      </ul>
+  </div> <!-- navbar -->
+</div> <!-- row -->
+
 <div id="main" class="content" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
     <div class="container">
         <div class="row">

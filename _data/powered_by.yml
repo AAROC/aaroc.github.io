@@ -1,11 +1,23 @@
 - title: Developers
   url: http://ci.sagrid.ac.za:8080
-  icon: jenkins
+  icon: lock
   image: jenkinslogo.svg
+  tooltip: Continuous Integration Platform
+- title: Infrastructure
+  url: http://goc.egu.eu
+  icon: lock
+  image:
+  tooltip: AAROC in GOCDB
+- title: Operators
+  url: https://operations-portal.egi.eu
+  icon: lock
+  image: logo_final_short.png
+  tooltip: Operations Portal
 - title: Slack Team
   url: https://africa-arabia-roc.slack.com
-  icon: slack
+  icon: lock
   image: slack-logo-2x.png
+  tooltip: Hang out on Slack with the team 
 #- title: Science Gateway
 #  url: https://sgw.africa-grid.org
 #  icon: earth

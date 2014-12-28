@@ -54,7 +54,7 @@
     <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" href="{{ site_url }}/services"><i class="fa fa-flag"></i> Services <span class="caret"></span></a>
       <ul class="dropdown-menu" role="menu">
 {% for service in site.data.services %}
-        <li><a href="{{ service.url }}">{{ service.name }}</a></li>
+        <li><a href="{{ service.url }}" class="navbar" data-toggle="tooltip" title="{{ service.title }}">{{ service.name }}</a></li>
 {% endfor %}
       </ul></li>
 <!-- Sites -->
