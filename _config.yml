@@ -54,10 +54,18 @@ links:
     url: /AAROC/
     external: false
     icon: info-circle
-  - title: Themes
-    url: /categories
+  - title: Blog
+    url: /blog/
     external: false
-    icon: newspaper
+    icon: bullhorn
+  - title: Campaigns
+    url: /campaigns
+    external: false
+    icon: fire
+  - title: Projects
+    url: /projects
+    external: false
+    icon: flask
   #
   # - title: Tags
   #   url: /tags
@@ -67,10 +75,10 @@ links:
     icon: group
     external: false
 
-  - title: Collaborate
-    url: /How-to-contribute
-    external: false
-    icon: exchange
+#  - title: Collaborate
+#    url: /How-to-contribute
+#    external: false
+#    icon: exchange
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Africa/Johannesburg
