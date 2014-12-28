@@ -74,6 +74,14 @@
                     </span>
                     </div>
         </div>
+        <div class="row">
+          <div class="col-md-6">
+          <i class="fa fa-arrow-left"></i> Next Entry : <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+        </div>
+        <div class="col-md-6">
+          <i class="fa fa-arrow-right"></i> Previous Entry : <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+        </div>
+      </div>
                     <footer class="post-footer entry-meta">
                         {% if site.share %}{% include share.html %}{% endif %}
                         {% include signoff.html %}
@@ -83,8 +91,6 @@
     </div>
 </div>
 {% include footer.html %}
-
-
 {% include scripts.html %}
 </body>
 </html>
