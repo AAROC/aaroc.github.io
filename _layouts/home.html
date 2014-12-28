@@ -77,13 +77,16 @@
 <!--
   </div> <!-- navbar -->
 
+<div class="container-fluid">
 <div class="inner">
 <div id="main" class="content" role="main" itemprop="mainContentOfPage">
+
         <ul class="navbar-brand nav nav-pills nav-stacked" z-index="1000" title="Us" header="us">
-        {% for link in site.data.powered_by %}
-          <li><a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.tooltip }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" width="30px" />  <i class="fa fa-{{ link.icon }}"></i> {{ link.title }} </a></li>
+        {% for link in site.data.roles %}
+          <li><a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" width="50px" />  <i class="fa fa-{{ link.icon }}"></i> {{ link.name }} </a></li>
         {% endfor %}
         </ul>
+</div>
 </div>
 </div>
 <!--  <div class="navbar-pills nav-justified bordered-top bordered-bottom" role="navigation"> <!-- menu bar -->
