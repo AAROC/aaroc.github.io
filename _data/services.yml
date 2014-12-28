@@ -1,0 +1,27 @@
+- name: Compute Services
+  title: HPC, Grid and Cloud computing services
+  url: '{{ site_url }}/compute'
+
+- name: "Data Services"
+  title: "Data Storage, Discovery, Movement and Management Services"
+  url: "{{ site_url }}/data"
+
+- name: Science Gateway
+  title: AfricaGrid Science Gateway
+  url: https://sgw.africa-grid.org
+  tooltip: Run Scientific Applications on the grid
+
+- name: "Identity Management"
+  title: "Perun Identity Management Service"
+  url: "{{ site_url }}/perun"
+  tooltip: Perun Identity Manangement Service
+
+- name: "Identity Federation"
+  title: "Federated Identity Services"
+  url: "{{ site_url }}/idf"
+  tooltip: Federated identity services
+
+- name: Technical Support
+  title: GGUS
+  url: https://ggus.eu
+  tooltip: Global Support System
