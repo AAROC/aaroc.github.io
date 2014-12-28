@@ -10,78 +10,89 @@
 {% else %}
 <header id="masthead" class="blog-background overlay align-center align-middle animated from-top"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
 {% endif %}
-<div class="inner">
-<div class="row bordered border-bottom">
-<a><h1 class="blog-title light" itemprop="name">{{ site.title }}</h1></a>
-<!-- site logo -->
-</div>
-<div class="row">
-<div class="col-md-12">
-  <ul class="navbar-brand nav nav-pills nav-stacked">
-            <li><a href="http://twitter.com/{{ site.owner.twitter }}" data-toggle="tooltip" title="{{ site.owner.name}} on Twitter" target="_blank"><i class="brand fa fa-twitter fa-2x"></i></a></li>
-            <li><a href="http://facebook.com/{{ site.owner.facebook }}" data-toggle="tooltip" title="{{ site.owner.name}} on Facebook" target="_blank">
-    <i class="fa fa-facebook fa-2x"></i></a></li>
-            <li><a href="http://github.com/{{ site.owner.github }}" data-toggle="tooltip" title="{{ site.owner.name}} on Github" target="_blank">
-    <i class="fa fa-github fa-2x"></i></a></li>
-  </ul>
-    <a class="brand" href="{{ site.url }}" role="banner" itemprop="url"><img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" /></a>
-  </div>
-</div>
-<div class="row">
-<p class="blog-description" itemprop="description">{{ site.description }}</p>
-</div> <!-- row-->
-<!--- Powered by -->
-<div class="row">
-<!---->
-<!-- ROC links -->
-  <div class="navbar-pills nav-justified" role="navigation">
-    <ul class="navbar-brand nav nav-pills nav-justified">
-{% for link in site.links %}
-      <li role="presentation">
-{% if link.external %}
-        <a href="{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% endif %}{{ link.title }}</li>
-{% else %}
-        <a href="{{ site.url }}{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i> {{ link.title }}{% else %}{{ link.title }}{% endif %}</a>
-{% endif %}
-      </li>
-{% endfor %}
-<!-- Site links -->
-      <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" >Sites<span class="caret"></span></a></li>
-        <ul class="dropdown-menu" role="menu">
-{% for link in site.data.sites %}
-          <li><a href="{{ link.url }}" class="navbar">{{ link.name }}</a></li>
-{% endfor %}
-        </ul>
-      </ul>
-  </div> <!-- navbar -->
-</div> <!-- row -->
-</div>
-</header>
-<div id="main" class="content" role="main" itemprop="mainContentOfPage">
-<div class="container">
-<div class="row">
-    <ul class="navbar-brand nav nav-pills nav-stacked">
-{% for link in site.data.powered_by %}
-    <li><a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" height="25px" /></a>{{ link.title }}</li>
-{% endfor %}
-    </ul>
-    <ul class="pull-right navbar-brand nav nav-pills nav-stacked">
-{% for link in site.data.supported_by %}
-    <li><a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" height="25px" /></a>{{ link.title }}</li>
-{% endfor %}
-    </ul>
-</div>
-
-
-<div class="page-body" itemprop="description">
-
-<div class="row">
-            {{ content }}
-            </div>
-        </div>
+  <div class="inner">
+    <div class="container">
+      <div class="row bordered border-bottom">
+        <a><h1 class="blog-title light" itemprop="name">{{ site.title }}</h1></a>
     </div>
+<!-- site logo -->
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="social-icons">
+          <li><a href="http://twitter.com/{{ site.owner.twitter }}" data-toggle="tooltip" title="Twitter" target="_blank"><i class="brand fa fa-twitter fa-2x"></i></a></li>
+          <li><a href="http://facebook.com/{{ site.owner.facebook }}" data-toggle="tooltip" title="Facebook" target="_blank">
+    <i class="fa fa-facebook fa-2x"></i></a></li>
+          <li><a href="http://github.com/{{ site.owner.github }}" data-toggle="tooltip" title="Github" target="_blank">
+    <i class="fa fa-github fa-2x"></i></a></li>
+          <li><a href="http://{{ site.owner.slack }}.com" data-toggle="tooltip" title="Slack Team" target="_blank"><img src="{{ site_url }}/images/slack-logo-2x.png" height="48px"></a></li>
+        </ul>
+      </div> <!-- col -->
+      <div class="col-md-4">
+        <a class="brand" href="{{ site.url }}" role="banner" itemprop="url"><img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" ></a>
+      </div> <!-- col-->
+    </div> <!-- row -->
+    <div class="row">
+      <p class="blog-description" itemprop="description">{{ site.description }}</p>
+    </div> <!-- row-->
+  </div> <!-- container -->
+</div> <!-- inner -->
+</header>
+<!--
+<div class="inner">
+  <div class="container">
+  -->
+<div class="navbar-pills nav-justified bordered-top bordered-bottom" role="navigation"> <!-- ROC links -->
+  <ul class="navbar-brand nav nav-pills nav-justified">
+{% for link in site.links %}
+    <li role="presentation">
+{% if link.external %}
+      <a href="{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% endif %}{{ link.title }}</li>
+{% else %}
+      <a href="{{ site.url }}{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i> {{ link.title }}{% else %}{{ link.title }}{% endif %}</a>
+{% endif %}
+    </li>
+{% endfor %}
+<!-- Services -->
+    <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" href="{{ site_url }}/services"><i class="fa fa-flag"></i> Services <span class="caret"></span></a>
+      <ul class="dropdown-menu" role="menu">
+{% for service in site.data.services %}
+        <li><a href="{{ service.url }}">{{ service.name }}</a></li>
+{% endfor %}
+      </ul></li>
+<!-- Sites -->
+    <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" href="{{ site_url }}/sites"><i class="fa fa-flag-o"></i> Sites <span class="caret"></span></a>
+      <ul class="dropdown-menu" role="menu">
+{% for link in site.data.sites %}
+        <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+{% endfor %}
+      </ul></li>
+      <li role="presentation" class="dropdown"><a class="dropdown navbar" data-toggle="dropdown" role="button" href="{{site_url}}/supporters"><i class="fa fa-globe"></i> Supported By <span class="caret"></span></a>
+      <ul class="pull-right dropdown-menu">
+{% for project in site.data.supporters %}
+        <li><a href="{{ project.url }}" class="navbar" data-toggle="tooltip" title="{{ project.name }}" target="_blank">{{ project.name }}</a></li>
+{% endfor %}
+      </ul></li>
+      </ul>
+      <ul class="navbar-brand nav nav-pills nav-stacked" z-index="1000" title="Us" header="us">
+      {% for link in site.data.powered_by %}
+        <li><a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.tooltip }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" width="30px" />  <i class="fa fa-{{ link.icon }}"></i> {{ link.title }} </a></li>
+      {% endfor %}
+      </ul>
+
+  </div> <!-- navbar -->
 </div>
-    {% include footer.html %}
+<!--  <div class="navbar-pills nav-justified bordered-top bordered-bottom" role="navigation"> <!-- menu bar -->
+<!--</div> -->
+<div class="container">
+  <div id="main" class="content" role="main" itemprop="mainContentOfPage">
+          <div class="page-body" itemprop="description">
+            {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+{% include footer.html %}
+
 
 {% include scripts.html %}
 </body>
