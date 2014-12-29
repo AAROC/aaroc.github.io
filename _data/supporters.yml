@@ -1,17 +1,35 @@
-- name: CHAIN-REDS Project
+- name: CHAIN-REDS
+  title: CHAIN-REDS project - Coordination and Harmonisation of Advanced e-INfrastructures for Research, Education and Data Sharing
   logo: logo-chain-reds.png
   url: http://www.chain-project.eu
   type: project
 
 - name: ASREN
-  logo: asren.jpg
-  url: http://asren.org
-  type: national
+  title: Arab States Research and Education Network
+  logo: ASRENLogo.jpg
+  url: http://asrenorg.net
+  type: NREN
 
 - name: SANREN
+  title: South African National Research Network
   logo: SANReN_tiny_0.png
-  type: national
+  url: http://www.sanren.ac.za
+  type: NREN
+
+- name: Ubuntunet
+  title: UbuntuNet Alliance for Research and Education Networking
+  logo: UbuntuNet_Alliance.png
+  url: http://www.ubuntunet.net
+  type: NREN
 
 - name: ei4Africa Project
-  logo: ei4arica.png
+  title: ei4Africa project -  e-Infrastructure for Africa
+  logo: ei4africa.png
   type: project
+  url: http://www.ei4africa.eu
+
+- name: WACREN
+  title: West and Central African Research and Education Network
+  logo: wacren_logo.png
+  url: http://www.wacren.net
+  type: NREN
