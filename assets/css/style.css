@@ -89,11 +89,13 @@ a:hover {
 }
 .more-link {
   line-height: 18px;
+  font-family: "Lato", Semibold;
+  font-style: italic;
+
   font-size: 18px;
   font-style: italic;
 }
-/* - Lead text - */
-.lead {
+/* - Lead text - */.lead {
   font-size: 21px;
   line-height: 2em;
 }
@@ -102,6 +104,11 @@ blockquote {
   padding-left: 0;
   border: 0;
   position: relative;
+  font-family: "Lato", Semibold;
+  font-style: italic;
+  font-size: 24px;
+  /*text-shadow: 1px 1px 0px rgb(139, 115, 74);*/
+  color: rgb(139, 115, 74);
 }
 blockquote:before {
   content: "";
@@ -533,7 +540,7 @@ html {
 /* -  Post Body - */
 .post-body {
   font-family: Lato;
-  font-size: 1.5555555em;
+  font-size: 1.0 em;
   padding-bottom: 72px;
   margin-bottom: 72px;
 }
@@ -783,7 +790,8 @@ html {
 /* THEME FONTS */
 /* ----------- */
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Lato';
+  font-size: 20px;
 }
 body input,
 body textarea,
@@ -2658,7 +2666,8 @@ figure a img:hover {
 
 @media only screen and (min-width:62.5em) {
     figure.half img {
-        float: left;
+        float: center;
+        vertical-align: middle;
         width: 365px;
         margin-right: 5px;
         margin-left: 5px;
@@ -2675,6 +2684,7 @@ figure a img:hover {
         width: 240px;
         margin-right: 5px;
         margin-left: 5px;
+        vertical-align: middle;
     }
 
     figure.third figcaption {
