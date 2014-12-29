@@ -13,6 +13,14 @@ The tales of Sinbad the sailor tell of a mythical bird, the Roc, encountered alo
 
 > "The mission of the Africa-Arabia Regional Operations Centre is to promote and support collective, coherent and sustainable interoperability of e-Infrastructures within the region and beyond, to peer infrastructures in the rest of the world; and to act as a point of coordination and support to computational resource providers in the region, in order to promote and develop regional scientific and technical collaboration."
 
+<ul class=" nav-justified panel panel-title nav-pills" title="how can we help you?">
+  <div class="panel-title">How can we help you ?</div>
+  <li><a class="navbar" href="{{ site_url }}/research">For Research Communities</a></li>
+  <li><a class="navbar" href="{{ site_url }}/sites">For Resource Providers</a></li>
+  <li><a class="navbar" href="{{ site_url }}/funders">For funding agencies</a></li>
+  <li><a class="navbar" href="{{ site_url }}/developers">For developers</a></li>
+</ul>
+
 ## Supporters
 
 The [Africa-Arabia Regional Operations Centre](http://roc.africa-grid.org) (AAROC) is a technical collaboration of institutes from across Africa and the Arabian states, sponsored by regional NREN Alliances - the [Ubuntunet Alliance](http://www.ubuntunet.net) in Sub-Saharan Africa and the [Arab States Regional Education Network](http://www.asrenorg.net) (ASREN) in North Africa and the Arabian peninsula, as well as [West and Central African Research and Education Network](http://www.wacren.net).
