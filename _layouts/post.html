@@ -5,41 +5,50 @@
 </head>
 <body class="post-template" itemscope itemtype="http://schema.org/WebPage">
 {% include header.html %}
-<div class="row">
+<ul class="navbar nav nav-justified panel panel-default">
+{% for link in site.links %}
+  <li role="presentation">
+{% if link.external %}
+    <a href="{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% endif %}{{ link.title }}</li>
+{% else %}
+    <a href="{{ site.url }}{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i> {{ link.title }}{% else %}{{ link.title }}{% endif %}</a>
+{% endif %}
+  </li>
+{% endfor %}
+<!-- Services -->
+  <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" href="{{ site_url }}/services"><i class="fa fa-flag"></i> Services <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+{% for service in site.data.services %}
+{% if service.external %}
+      <li><a href="{{ service.url }}" class="navbar" data-toggle="tooltip" title="{{ service.title }}">{{ service.name }}</a></li>
+{% else %}
+      <li><a href="{{ site.url }}/{{ service.url }}" class="navbar" data-toggle="tooltip" title="{{ service.title }}">{{ service.name }}</a></li>
+{% endif %}
+{% endfor %}
+    </ul></li>
+<!-- Sites -->
+  <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" href="{{ site_url }}/sites"><i class="fa fa-globe"></i> Sites <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+{% for link in site.data.sites %}
+      <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+{% endfor %}
+    </ul></li>
+    <li role="presentation" class="dropdown"><a class="dropdown navbar" data-toggle="dropdown" role="button" href="{{site_url}}/supporters"><i class="fa fa-star"></i> Supported By <span class="caret"></span></a>
+    <ul class="pull-right dropdown-menu">
+{% for project in site.data.supporters %}
+      <li><a href="{{ project.url }}" class="navbar" data-toggle="tooltip" title="{{ project.name }}" target="_blank">{{ project.name }}</a></li>
+{% endfor %}
+    </ul></li>
+    </ul>
+
 <!---->
 <!-- ROC links -->
-  <div class="navbar-pills nav-justified" role="navigation">
-    <ul class="navbar-brand nav nav-pills nav-justified">
-{% for link in site.links %}
-      <li role="presentation">
-{% if link.external %}
-        <a href="{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% endif %}{{ link.title }}</li>
-{% else %}
-        <a href="{{ site.url }}{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i> {{ link.title }}{% else %}{{ link.title }}{% endif %}</a>
-{% endif %}
-      </li>
-{% endfor %}
-<!-- Site links -->
-      <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" ><i class="fa fa-flag-o"></i> Sites <span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-{% for link in site.data.sites %}
-          <li><a href="{{ link.url }}" class="navbar" role="button">{{ link.name }}</a></li>
-{% endfor %}
-        </ul></li>
-        <li role="presentation" class="dropdown"><a class="dropdown navbar" data-toggle="dropdown" role="button" href="{{site_url}}/supporters"><i class="fa fa-globe"></i> Supported By <span class="caret"></span></a>
-        <ul class="pull-right dropdown-menu">
-{% for project in site.data.supporters %}
-        <li><a href="{{ project.url }}" data-toggle="tooltip" title="{{ project.title }}" target="_blank">{{ project.name }}</a></li>
-{% endfor %}
-  </ul><li>
-      </ul>
-  </div> <!-- navbar -->
-</div> <!-- row -->
 
 <div id="main" class="content" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
     <div class="container">
+      <div class="inner">
         <div class="row">
-            <article class="post col-md-8 col-md-offset-2 hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <article class="post col-md col-md-offset-1 hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             {% assign ert = page.content | strip_html | number_of_words | divided_by:180 %}
             {% assign ertremainder = page.content | strip_html | number_of_words | modulo:180 %}
             {% if ertremainder >= 90 %}
@@ -82,6 +91,7 @@
           <i class="fa fa-arrow-right"></i> Previous Entry : <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
         </div>
       </div>
+
                     <footer class="post-footer entry-meta">
                         {% if site.share %}{% include share.html %}{% endif %}
                         {% include signoff.html %}
@@ -89,6 +99,7 @@
                     </footer>
             </article>
     </div>
+</div>
 </div>
 {% include footer.html %}
 {% include scripts.html %}
