@@ -9,17 +9,17 @@
 
             <ul class="social-icons">
             {% if site.owner.social.twitter %}<li>
-                <a href="http://twitter.com/{{ site.owner.twitter }}" data-toggle="tooltip" title="{{ site.owner.name}} on Twitter" target="_blank">
+                <a href="http://twitter.com/{{ site.owner.social.twitter }}" data-toggle="tooltip" title="{{ site.owner.name}} on Twitter" target="_blank">
                     <i class="fa fa-twitter-square"></i>
                 </a>
             </li>{% endif %}
             {% if site.owner.social.facebook %}<li>
-                <a href="http://facebook.com/{{ site.owner.facebook }}" data-toggle="tooltip" title="{{ site.owner.name}} on Facebook" target="_blank">
+                <a href="http://facebook.com/{{ site.owner.social.facebook }}" data-toggle="tooltip" title="{{ site.owner.name}} on Facebook" target="_blank">
                     <i class="fa fa-facebook-square"></i>
                 </a>
             </li>{% endif %}
             {% if site.owner.social.google_plus %}<li>
-                <a href="{{ site.owner.google_plus }}" data-toggle="tooltip" title="{{ site.owner.name}} on Google+" target="_blank">
+                <a href="{{ site.owner.social.google_plus }}" data-toggle="tooltip" title="{{ site.owner.name}} on Google+" target="_blank">
                     <i class="fa fa-google-plus-square"></i>
                 </a>
             </li>{% endif %}
@@ -39,7 +39,7 @@
                 </a>
             </li>{% endif %}
             {% if site.owner.social.github %}<li>
-                <a href="http://github.com/{{ site.owner.github }}" data-toggle="tooltip" title="{{ site.owner.name}} on Github" target="_blank">
+                <a href="http://github.com/{{ site.owner.social.github }}" data-toggle="tooltip" title="{{ site.owner.name}} on Github" target="_blank">
                     <i class="fa fa-github-square"></i>
                 </a>
             </li>{% endif %}
