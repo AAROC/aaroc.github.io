@@ -12,6 +12,8 @@
   title: AfricaGrid Science Gateway
   url: https://sgw.africa-grid.org
   external: true
+  roc_service: true
+  status: ok
 
 - name: Identity Management
   title: Perun Identity Management Service
@@ -27,3 +29,51 @@
   title: GGUS
   url: https://ggus.eu
   external: true
+
+- name: SAM-NAGIOS
+  url: http://nagios.c4.csir.co.za
+  status: ok
+  roc_service: true
+# status of server
+
+- name: Accounting
+  title: Central Accounting service
+  url: http://accounting.egi.eu/
+  status: ok
+  external: true
+  roc_service: true
+
+- name: Dev cluster
+  title: OpenNebula cluster at ZA-MERAKA used for development
+  url: https://opennebula36.c4.csir.co.za/
+  status: ok
+  external: true
+  roc_service: true
+
+- name: Workload Management Server
+  title: Workload Management Service - metascheduler for the grid
+  middleware: UMD3
+  release_version: 3
+  grid_service: true
+  url: https://nagios.c4.csir.co.za/
+
+- name: Top-BDII
+  title: Top-level information index - tells you who's got what and how much.
+  middleware: UMD
+  release_version: 3
+  grid_service: true
+  url: https://nagios.c4.csir.co.za/
+
+- name: LFC
+  title: Logical File Catalogue - find and manage your data
+  middleware: UMD
+  release_version: 3
+  grid_service: true
+  url: https://nagios.c4.csir.co.za/
+
+- name: UI
+  title: User Interface
+  middleware: UMD
+  release_version: 3
+  grid_service: true
+  url: https://nagios.c4.csir.co.za/

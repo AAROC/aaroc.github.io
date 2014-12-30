@@ -17,12 +17,11 @@
     - name: Fork
       url:  http://github.com/AAROC/DevOps/fork
       icon: code-fork
-    - name: Use
-      url: http://github.com/AAROC/
+    - name: Beta tester ?
+      url: http://github.com/AAROC/DevOps/clone
       icon: gittip
 
 - name: "Continuous Integration and Delivery"
   org: AAROC
   description: "Automated Continuous Integration and Delivery of Research Applications"
   links:
-  
