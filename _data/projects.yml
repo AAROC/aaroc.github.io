@@ -1,0 +1,28 @@
+- name: "Executable Infrastructure"
+  org: AAROC
+  description: "DevOps tools for automatically deploying high-quality, integrated services"
+  links:
+    - name: Repo
+      url: http://github.com/AAROC/DevOps
+      icon: github
+    - name: Issues
+      url: http://github.com/AAROC/DevOps/issues
+      icon: ticket
+    - name: Milestones
+      url: http://github.com/AAROC/DevOps/milestones
+      icon: road
+    - name: Project Plan
+      url: https://waffle.io/aaroc/devops
+      icon: dashboard
+    - name: Fork
+      url:  http://github.com/AAROC/DevOps/fork
+      icon: code-fork
+    - name: Use
+      url: http://github.com/AAROC/
+      icon: gittip
+
+- name: "Continuous Integration and Delivery"
+  org: AAROC
+  description: "Automated Continuous Integration and Delivery of Research Applications"
+  links:
+  
