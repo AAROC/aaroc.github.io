@@ -54,6 +54,9 @@ links:
     url: /AAROC/
     external: false
     icon: info-circle
+  - title: Status
+    url: /SitRep
+    icon: dashboard
   - title: Blog
     url: /blog/
     external: false
@@ -70,10 +73,10 @@ links:
   # - title: Tags
   #   url: /tags
   #   icon: tags
-  - title: The Team
-    url: /team/
-    icon: group
-    external: false
+  #- title: The Team
+  #  url: /team/
+  #  icon: group
+  #  external: false
 
 #  - title: Collaborate
 #    url: /How-to-contribute
