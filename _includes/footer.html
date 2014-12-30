@@ -10,17 +10,17 @@
             <ul class="social-icons">
             {% if site.owner.social.twitter %}<li>
                 <a href="http://twitter.com/{{ site.owner.twitter }}" data-toggle="tooltip" title="{{ site.owner.name}} on Twitter" target="_blank">
-                    <i class="icon-twitter"></i>
+                    <i class="fa fa-twitter-square"></i>
                 </a>
             </li>{% endif %}
             {% if site.owner.social.facebook %}<li>
                 <a href="http://facebook.com/{{ site.owner.facebook }}" data-toggle="tooltip" title="{{ site.owner.name}} on Facebook" target="_blank">
-                    <i class="icon-facebook"></i>
+                    <i class="fa fa-facebook-square"></i>
                 </a>
             </li>{% endif %}
             {% if site.owner.social.google_plus %}<li>
                 <a href="{{ site.owner.google_plus }}" data-toggle="tooltip" title="{{ site.owner.name}} on Google+" target="_blank">
-                    <i class="icon-google-plus"></i>
+                    <i class="fa fa-google-plus-square"></i>
                 </a>
             </li>{% endif %}
             {% if site.owner.social.stackexchange %}<li>
@@ -40,7 +40,7 @@
             </li>{% endif %}
             {% if site.owner.social.github %}<li>
                 <a href="http://github.com/{{ site.owner.github }}" data-toggle="tooltip" title="{{ site.owner.name}} on Github" target="_blank">
-                    <i class="icon-github"></i>
+                    <i class="fa fa-github-square"></i>
                 </a>
             </li>{% endif %}
         </ul>
@@ -51,14 +51,14 @@
             {% for link in site.links %}
             <li>
                 {% if link.external %}
-                    <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{{% endif %}}{{ link.title }}{% endif %}</a>&nbsp;&bull;
+                    <a href="{{ link.url }}">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{{% endif %}}{{ link.title }}{% endif %}</a>&nbsp;&bull;
                   {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"> {{ link.title }} </i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
+                    <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="fa fa-{{ link.icon }}"> {{ link.title }} </i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
                 {% endif %}
             </li>
             {% endfor %}
-            <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
-            {% if site.search %}&nbsp;&bull;<li class="dosearch"><i class="icon-search"></i> Search</li>{% endif %}
+            <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
+            {% if site.search %}&nbsp;&bull;<li class="dosearch"><i class="fa fa-search"></i> Search</li>{% endif %}
         </ul>
         </div>
     </div>
