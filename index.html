@@ -67,7 +67,7 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
 	            <article class="post col-md-8 col-md-offset-2">
 	               <header class="post-header">
 	                    <h2 class="post-title text-center super lighter">
-	                        <a href="{{ site.url }}{{ post.url }}" style="color: #c91b26"><i class="icon-retweet"></i> "{{ post.excerpt | strip_html }}"</a>
+	                        <a href="{{ site.url }}{{ post.url }}" style="color: #c91b26"><i class="icon-retweet"></i> "{{ post.headline | strip_html }}"</a>
 	                    </h2>
 	                    <p class="light small text-center">
 	                        Share this Status
@@ -97,7 +97,7 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
 	                        in <span class="post-tags">{% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>&nbsp;<span class="post-tags">by {{ site.owner.name }}</span>
 	                        <div class="post-body bordered-bottom"></div>
 	                    </div>
-	                </header>    
+	                </header>
 	            </article>
 	        </div>
 	        {% endif %}
@@ -205,16 +205,16 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
 	                </div>
 	            </article>
 	        </div>
-			{% endif %}      
-	{% endfor %}  
+			{% endif %}
+	{% endfor %}
 
-{% if paginator.total_pages != 1 %}         
+{% if paginator.total_pages != 1 %}
   {% if site.paginate_path != 'page:num'%}
     {% assign paginate_url = site.paginate_path | remove:'page:num' %}
       {% if paginator.total_pages < 7 %}
               <div class="page-body col-md-12">
                 <ul class="pagination pagination-centered">
-                  {% if paginator.total_pages >= 10 %} 
+                  {% if paginator.total_pages >= 10 %}
                   {% if paginator.previous_page %}
                       <li>
                         <a href="{{ site.url }}/{{ paginate_url }}">&laquo;&laquo;</a>
@@ -269,7 +269,7 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
                       <a>&raquo;</a>
                     </li>
                   {% endif %}
-                  {% if paginator.total_pages >= 10 %} 
+                  {% if paginator.total_pages >= 10 %}
                   {% if paginator.next_page %}
                     <li>
                       <a href="{{ site.url }}/{{ paginate_url }}page{{paginator.total_pages}}">&raquo;&raquo;</a>
@@ -298,10 +298,10 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
       {% assign page_end = paginator.page | plus: 4 %}
       {% assign page_start = paginator.page %}
       {% endif %}
-       
+
       <div class="page-body col-md-12">
         <ul class="pagination pagination-centered">
-          {% if paginator.total_pages > 5 %} 
+          {% if paginator.total_pages > 5 %}
           {% if paginator.previous_page %}
               <li>
                 <a href="{{ site.url }}/{{ paginate_url }}">&laquo;&laquo;</a>
@@ -360,7 +360,7 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
               <a href="#">&raquo;</a>
             </li>
           {% endif %}
-          {% if paginator.total_pages > 5 %} 
+          {% if paginator.total_pages > 5 %}
           {% if paginator.next_page %}
             <li>
               <a href="{{ site.url }}/{{ paginate_url }}page{{paginator.total_pages}}">&raquo;&raquo;</a>
@@ -373,12 +373,12 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
           {% endif %}
         </ul>
       </div>
-      {% endif %}
+	      {% endif %}
   {% else %}
     {% if paginator.total_pages < 7 %}
             <div class="page-body col-md-12">
               <ul class="pagination pagination-centered">
-                {% if paginator.total_pages >= 10 %} 
+                {% if paginator.total_pages >= 10 %}
                 {% if paginator.previous_page %}
                     <li>
                       <a href="{{ site.url }}/">&laquo;&laquo;</a>
@@ -433,7 +433,7 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
                     <a>&raquo;</a>
                   </li>
                 {% endif %}
-                {% if paginator.total_pages >= 10 %} 
+                {% if paginator.total_pages >= 10 %}
                 {% if paginator.next_page %}
                   <li>
                     <a href="{{ site.url }}/page{{paginator.total_pages}}">&raquo;&raquo;</a>
@@ -462,10 +462,10 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
     {% assign page_end = paginator.page | plus: 4 %}
     {% assign page_start = paginator.page %}
     {% endif %}
-     
+
     <div class="page-body col-md-12">
       <ul class="pagination pagination-centered">
-        {% if paginator.total_pages > 5 %} 
+        {% if paginator.total_pages > 5 %}
         {% if paginator.previous_page %}
             <li>
               <a href="{{ site.url }}/">&laquo;&laquo;</a>
@@ -524,7 +524,7 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
             <a>&raquo;</a>
           </li>
         {% endif %}
-        {% if paginator.total_pages > 5 %} 
+        {% if paginator.total_pages > 5 %}
         {% if paginator.next_page %}
           <li>
             <a href="{{ site.url }}/page{{paginator.total_pages}}">&raquo;&raquo;</a>
@@ -631,7 +631,7 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
 	                        in <span class="post-tags">{% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>&nbsp;<span class="post-tags">by {{ site.owner.name }}</span>
 	                        <div class="post-body bordered-bottom"></div>
 	                    </div>
-	                </header>    
+	                </header>
 	            </article>
 	        </div>
 	        {% endif %}
@@ -739,6 +739,6 @@ tags: [grid, HPC, data, distributed, computing, infrastrucutre, applications, So
 	                </div>
 	            </article>
 	        </div>
-			{% endif %}      
-	{% endfor %}  
+			{% endif %}
+	{% endfor %}
 {% endif %}
