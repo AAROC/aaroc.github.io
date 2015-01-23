@@ -8,7 +8,7 @@ headline: Re-engineering the base dependencies on our Continuous Integration pla
 category: blog
 tags: [AAROC, collaboration, DevOps]
 image:
-  feature: collabocats
+  feature:  collabocats.jpg
 comments: true
 ---
 
