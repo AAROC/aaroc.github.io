@@ -94,7 +94,8 @@ toc_levels: 1..6
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+#permalink:   /:categories/:title/
+permalink: pretty
 excerpt_separator: --
 kramdown:
   auto_ids: true
