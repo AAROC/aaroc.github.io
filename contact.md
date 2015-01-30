@@ -20,7 +20,7 @@ image:
       <div class="panel-body">
         For general enquiries, comment or feedback, please contact the Africa-Arabia Regional Operations Centre Coordination team
         <form action="//formspree.io/brucellino@gmail.com" method="POST">
-          <input type="hidden" name="_next" value="//aaroc.github.io/about">
+          <input type="hidden" name="_next" value="//aaroc.github.io/">
           <input type="text" name="_gotcha" style="display:none" />
           <div class="form-group">
             <label for="exampleInputEmail1">Full Name</label>
@@ -52,6 +52,7 @@ image:
             </label>
           </div>
           <button type="submit" class="btn btn-default">Submit</button>
+          You will be taken back to the front page
         </form>
       </div>
     </div>
