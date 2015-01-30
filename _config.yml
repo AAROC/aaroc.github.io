@@ -69,6 +69,9 @@ links:
     url: /projects
     external: false
     icon: flask
+  - title: Contact
+    url: /contact
+    external: false
   #
   # - title: Tags
   #   url: /tags
