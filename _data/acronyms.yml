@@ -1,0 +1,70 @@
+---
+- name: VOMS
+  description: Virtual Organisation Membership Service
+  url: http://en.wikipedia.org/wiki/VOMS
+- name: GLUE
+  description: Grid Laboratory for a Unified Environment - the standard schema for publishing resources.
+  url: https://redmine.ogf.org/projects/glue-wg
+- name: LHC
+  description: Large Hadron Collider
+  url: http://home.web.cern.ch/topics/large-hadron-collider
+- name: LCG
+  description: LHC Compute Grid
+  url: http://wlcg.web.cern.ch/
+- name: JSR
+  description: Java Specification Request
+  url: https://www.jcp.org/en/jsr/overview
+- name: SAGA
+  description: Simple API to Grid Applications
+  url:
+- name: SAML
+  description: Simple Assertion Markup Language
+  url: http://en.wikipedia.org/wiki/SAML_2.0
+- name: gLite
+  description: Lightweight grid middleware. The middleware stack originally developed by the EGEE project. Now incorporated into EMI
+  url: http://glite.cern.ch
+- name: EGEE
+  description: Enabling Grids for E-sciencE. Series of projects to develop service grids. (finished)
+  url: https://eu-egee-org.web.cern.ch/eu-egee-org/index.html
+- name: EMI
+  description: European Middleware Initiative. Container project to develop a unified middleware stack for grid computing. (Finished 2014)
+  url: http://eu-emi.eu
+- name: UMD
+  description: Unified Middleware Stack. Repackaged grid middleware stack maintained by EGI. Includes dCache, gLite, Globus, ARC and UNICORE
+  url: http://repository.egi.eu
+- name: ARC
+  description: Advanced Resource Connector. A Java implementation of grid middleware, originally developed by NorduGrid
+  url: http://www.nordugrid.org/arc/
+- name: NorduGrid
+  description: Northern European Grid infrastructure
+  url: http://www.nordugrid.org
+- name: Globus (toolkit)
+  descrption: Open source software toolkit used for building grids.
+  url: http://toolkit.globus.org/toolkit/
+- name: IGE
+  description: Initiative for Globus in Europe
+  url: http://www.ige-project.eu/
+- name: EGCF
+  description: European Globus Community Forum
+  url: http://www.ige-project.eu/
+- name: UNICORE
+  description: Uniform Interface to Computing Resources. Grid middleware stack particularly suited to HPC environments
+  url: https://www.unicore.eu/
+- name: OGF
+  description: Open Grid Forum
+  url: https://www.ogf.org/ogf/doku.php
+- name: EGI
+  description: European Grid Inititaive
+  url: http://egi.eu
+- name: ASREN
+  description: Arab States Regional Network
+  url: http://www.asrenorg.net
+- name: UbuntuNet (Alliance)
+  description: Sub-Saharan and East-African Regional Network Alliance
+  url: http://www.ubuntunet.net
+- name: SANREN
+  description: South Afican National Research and Education Network
+  url: http://www.sanren.ac.za
+- name: SAFIRE
+  description: South African Federated Identity for Research and Education
+  url: http://www.safire.ac.za

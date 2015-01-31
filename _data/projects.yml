@@ -1,6 +1,8 @@
 - name: "Executable Infrastructure"
   org: AAROC
   description: "DevOps tools for automatically deploying high-quality, integrated services"
+  state: "current"
+  version: v0.0.4
   links:
     - name: Repo
       url: http://github.com/AAROC/DevOps
@@ -23,5 +25,19 @@
 
 - name: "Continuous Integration and Delivery"
   org: AAROC
+  state: "current"
   description: "Automated Continuous Integration and Delivery of Research Applications"
   links:
+    - name: CI
+      url: http://ci.sagrid.ac.za:8080
+      icon: cog
+
+- name: "Resilient Infrastructure"
+  org:  AAROC
+  description: "What if robots could fix common problems before humans had to worry about them ?"
+  state: todo
+
+- name: "Debian Ansible Role"
+  org: AAROC
+  state: todo
+  description: "DPM is a common storage service used on the grid. Configuration of DPM is by default done with Puppet. While we think this is cool (hey, it's not YAIM, right !), we'd like our sites to not have to rely on a single configuration tool. An Ansible role will be made."

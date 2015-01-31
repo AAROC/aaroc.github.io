@@ -20,7 +20,7 @@ image:
       <div class="panel-body">
         For general enquiries, comment or feedback, please contact the Africa-Arabia Regional Operations Centre Coordination team
         <form action="//formspree.io/brucellino@gmail.com" method="POST">
-          <input type="hidden" name="_next" value="//aaroc.github.io/">
+          <input type="hidden" name="_next" value="//{{ site_url }}/">
           <input type="text" name="_gotcha" style="display:none" />
           <div class="form-group">
             <label for="exampleInputEmail1">Full Name</label>
@@ -49,6 +49,9 @@ image:
             </label>
             <label class="checkbox">
               <input type="checkbox" id="inlineCheckbox3" value="Developer">Interested in collaborating on technical project
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" id="inlineCheckbox3" value="Proposal">Want to propose a project on the grid.
             </label>
           </div>
           <button type="submit" class="btn btn-default">Submit</button>

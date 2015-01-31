@@ -18,24 +18,46 @@ We've built something usable, but will it last ?  Never ones to rest on our laur
 ----
 
 <span class="h1 post-title">"If only..."</span>
-If you would like to propose a project, please feel free !
+If you would like to propose a project, [please feel free]({{site_url}}/contact) !
 
 ----
 
-# Current Projects
-
+#Current Projects
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 <!-- later we will include "completed projects" -->
 {% for project in site.data.projects %}
-
-<p class="h2 blog-title">{{ project.name }}</p>
+{% if project.state == "current" %}
+        <div class="h2 blog-title">{{ project.name }}</p>
 <span class="blog-info">{{ project.description }}</span>
-
+{% if project.links != null %}
 <ul class="col-md-3 nav nav-pills nav-justified">
 {% for link in project.links %}
 <li><a href="{{ link.url}}"><i class="fa fa-{{ link.icon }}"></i> {{ link.name }}</a></li>
 {% endfor %}
 </ul>
+{% endif %}
+{% endif %}
+{% endfor %}
 
 ----
 
+# Proposed projects
+
+<!-- later we will include "completed projects" -->
+{% for project in site.data.projects %}
+{% if project.state == "todo" %}
+<p class="h2 blog-title">{{ project.name }}</p>
+<span class="blog-info">{{ project.description }}</span>
+{% if project.links != null %}
+<ul class="col-md-3 nav nav-pills nav-justified">
+{% for link in project.links %}
+<li><a href="{{ link.url}}"><i class="fa fa-{{ link.icon }}"></i> {{ link.name }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endif %}
 {% endfor %}

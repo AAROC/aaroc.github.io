@@ -2084,7 +2084,8 @@ th {
 .table > tfoot > tr > td {
   padding: 8px;
   line-height: 1.42857143;
-  vertical-align: top;
+  vertical-align: center;
+  text-align: center;
   border-top: 1px solid #ddd;
 }
 .table > thead > tr > th {

@@ -1,0 +1,99 @@
+# YAML metadata of the jobs in the jenkins build system.
+# this can be obtained via the REST interface as well.
+---
+# First, the compilers
+- name: GMP
+  description: GNU Multiprecision library
+  job: gmp-deploy
+  versions: {5.1.3}
+  tags: {"compilers", "cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/gmp-deploy
+
+- name: MPFR
+  description: GNU MPFR is a C library for multiple-precision floating-point computations with correct rounding.
+  job: mpfr-deploy
+  versions: {3.1.2}
+  tags: {"compilers","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/mpfr-deploy
+
+- name: MPC
+  description: Gnu MPC is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result.
+  job: mpc-deploy
+  versions: {1.0.1}
+  tags: {"compilers","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/mpc-deploy
+
+
+- name: GCC
+  description: The GNU Compiler Collection
+  job: gcc-4.8.2
+  versions: {4.8.2}
+  tag: {"compilers","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/gcc-deploy
+
+# Then the libraries
+
+- name: BOOST C++
+  description: Boost provides free peer-reviewed portable C++ source libraries.
+  job: boost-deploy
+  versions: {1.57.0, 1.56.0, 1.55.0}
+  tags: {"libraries","cvmfs"}
+  repo: https://github.com/SouthAfricaDigialScience/boost-deploy
+
+- name: Python
+  description: Python is a programming language that lets you work quickly and integrate systems more effectively.
+  job: python-deploy
+  versions: {2.6.9,3.4.1}
+  tags: {"frameworks"}
+  repo: https://github.com/SouthAfricaDigitalScience/python-deploy
+
+- name: LAPACK
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+- name: CMake
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+
+- name: GSL
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+
+- name: HDF5
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+- name: FFTW3
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+- name: GADGET
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+- name:
+  description:
+  job:
+  versions:
+  tag:
+  repo:
