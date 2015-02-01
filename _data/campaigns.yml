@@ -1,0 +1,58 @@
+# This is the data file for Operations Campaigns. The campaigns themselves are documented on the @AAROC/DevOps wiki
+# Just enough information here to fill out a table on {{site_url}}/campaigns
+---
+- name: APEL Accounting
+  wiki: AccountingCampaign-2014-08
+  leader: Bouchra Rahim (CNRST)
+  start: 11/08/2014
+  end: 20/08/2014
+  state:
+    name: ended
+    label: success
+  priority: 0
+
+
+- name: ARGUS AuthN/Z
+  wiki: ArgusCampaign2014
+  leader: Bruce Becker (CSIR)
+  start: 04/08/2014
+  end: 15/08/2015
+  state: {name: "ended",label: "success"}
+  priority: 0
+
+- name: CVMFS
+  wiki: CVMFS-Campaign-2014
+  leader: Bruce Becker (CSIR)
+  start: 01/08/2014
+  end: 28/02/2015
+  state:
+    name: underway
+    label: warning
+  priority: 1
+
+- name: Core Services Failover
+  wiki: Core-Services-Failover-Campaign-2014
+  leader: Bouchra Rahim (CNRST)
+  start: 15/12/2014
+  end: 23/12/2014
+  state:
+    name: overdue
+    label: danger
+  priority: 2
+
+- name: MPI Accounting
+  wiki: 
+  leader: TBC
+  start: 10/02/2015
+  end: 28/02/2015
+  state:
+    name: proposed
+    label: info
+  priority: 3
+
+- name:
+  wiki:
+  leader:
+  start:
+  end:
+  state:
