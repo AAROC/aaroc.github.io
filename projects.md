@@ -4,7 +4,7 @@ permalink: /projects/
 title: Projects
 tags: [projects]
 image:
-  feature: Austria-Zero_Pic_work-in-progress.jpg
+  feature: constructocat2.jpg
 ---
 
 ----

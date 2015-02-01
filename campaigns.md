@@ -4,7 +4,7 @@ permalink: /campaigns/
 title: Operations Campaigns
 tags: [Campaigns, Operations]
 image:
-  feature: grid-overview.jpg
+  feature: topguntocat.png
 ---
 
 # AfricaArabia ROC Campaigns
