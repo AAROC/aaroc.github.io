@@ -48,43 +48,71 @@
   repo: https://github.com/SouthAfricaDigitalScience/python-deploy
 
 - name: LAPACK
-  description:
-  job:
-  versions:
-  tag:
-  repo:
+  description: Linear Algorithm packages for HPC
+  job: lapack-deploy
+  versions: {3.5.0}
+  tags: {"libraries","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/lapack-deploy
 
 - name: CMake
-  description:
-  job:
-  versions:
-  tag:
-  repo:
+  description: Cross-platform build tools
+  job: cmake-deploy
+  versions: {3.1.0}
+  tags: {"compilers","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/cmake-deploy
 
 
 - name: GSL
-  description:
-  job:
-  versions:
-  tag:
-  repo:
+  description: GNU Science Libraries
+  job: gsl-deploy
+  versions: {1.16,1.15,1.14}
+  tags: {"libraries","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/gsl-deploy
 
 
 - name: HDF5
-  description:
-  job:
-  versions:
-  tag:
-  repo:
+  description: HDF5 is a data model, library, and file format for storing and managing data.
+  job: hdf5-deploy
+  versions: {1.8.14}
+  tags: {"libraries"}
+  repo: https://github.com/SouthAfricaDigitalScience/hdf5-deploy
 
 - name: FFTW3
+  description: FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST).
+  job: fftw3-deploy
+  versions: {3.3.4}
+  tags: {"libraries","cvmfs"}
+  repo: fftw3-deploy
+
+- name: SciPy
   description:
   job:
   versions:
   tag:
   repo:
 
-- name: GADGET
+- name: NumPy
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+- name: MatPlotLib
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+- name: Pandas
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+- name: SymPy
   description:
   job:
   versions:
@@ -96,4 +124,120 @@
   job:
   versions:
   tag:
+  repo:
+- name:
+  description:
+  job:
+  versions:
+  tags:
+  repo:
+
+
+- name: GADGET
+  description:
+  job:
+  versions:
+  tags:
+  repo:
+
+
+- name:
+  description:
+  job:
+  versions:
+  tag:
+  repo:
+
+
+#### proposed/requested
+
+- name: Fluent
+  description:
+  job:
+  versions:
+  tags: {"requested"}
+  repo:
+
+- name: OpenFoam
+  description:
+  job:
+  versions: {2.1.1}
+  tags: {"requested"}
+  repo:
+
+- name: Dlpoly
+  description:
+  job:
+  versions: 4.3
+  tags: {"requested"}
+  repo:
+
+- name: GROMACS
+  description:
+  job:
+  versions: {4.6.1}
+  tags: {"requested"}
+  repo:
+
+- name: Cosmo MC
+  description:
+  job:
+  versions:
+  tags: {"requested"}
+  repo:
+
+- name: Gaussian
+  description:
+  job:
+  versions: {G09}
+  tags: {"reqeusted"}
+  repo:
+
+- name: Quantum Espresso
+  description:
+  job:
+  versions:
+  tags:{"requested"}
+  repo:
+
+- name: WRF
+  description:
+  job:
+  versions: {3.3,3.5}
+  tags: {"requested"}
+  repo:
+
+- name: Ferret
+  description:
+  job:
+  versions:
+  tags: {"requested"}
+  repo:
+
+- name: Amber
+  description:
+  job:
+  versions: {12}
+  tags: {"requested"}
+  repo:
+
+- name: Vasp
+  description:
+  job:
+  versions: {5.2}
+  tags: {"requested"}
+  repo:
+
+- name: Velvet
+  description:
+  job:
+  versions: {1.0.19}
+  tags: {"requested"}
+  repo:
+
+- name: Emboss
+  description:
+  job:
+  versions: {6.2}
+  tags: {"requested"}
   repo:
