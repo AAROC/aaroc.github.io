@@ -197,7 +197,7 @@
   description:
   job:
   versions:
-  tags:{"requested"}
+  tags: {"requested"}
   repo:
 
 - name: WRF
