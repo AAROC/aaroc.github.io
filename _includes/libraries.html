@@ -21,14 +21,18 @@
       <span class="badge badge-info">{{ version }}</span>
       {% endfor %}
       {% endif %}</td>
+      {% if app.job != null %}
       <td style="valign: center"><a href='http://ci.sagrid.ac.za:8080/view/All/job/{{ app.job }}/'><img src='http://ci.sagrid.ac.za:8080/view/All/job/{{ app.job }}/badge/icon'></a>
       </td>
+      {% else %}
+      <td style="valign: center"><span class="badge badge-info">Proposed</span></td>
+      {% endif %}
       <td><a href="{{ app.repo }}"><i class="fa fa-github"></i></a></td>
       <td style="text-align: left"><p style="word wrap word-wrap: break-word;">{{ app.description }}</p> </td>
       {%if app.tags contains "cvmfs"%}
-      <td><i class="social-icons fa fa-check-circle"></i></td>
+      <td><i class="fa fa-check-circle-o" style="color: green"></i></td>
       {% else %}
-      <td><i class="social-icons fa fa-times-circle"></i></td>
+      <td><i class="social-icons fa fa-times-circle-o" style="color: red"></i></td>
       {% endif %}
     </tr>
   {% endif %}
