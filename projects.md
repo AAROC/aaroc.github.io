@@ -23,7 +23,13 @@ If you would like to propose a project, [please feel free]({{site_url}}/contact)
 ----
 
 # Current Projects
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
+ <div class="panel panel-default">
+ <div class="panel-heading" role="tab" id="headingOne">
+ <h4 class="panel-title">
+ <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+<!-- later we will include "completed projects" -->
 {% for project in site.data.projects %}
 {% if project.state == "current" %}
         <div class="h2 blog-title">{{ project.name }}</div>
