@@ -16,7 +16,6 @@ In order to execute applications, they need to be on the remote execution enviro
 
 Our build system performs continuous integration on applications which are supported by the infrastructure, as well as user-proposed applications. Below you can find the overview of the status of these. These are executable in local-only or under the [sagrid.ac.za](https://voms.sagrid.ac.za/voms/sagrid.ac.za).
 
-
 <div role="tabpanel">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
@@ -29,6 +28,7 @@ Our build system performs continuous integration on applications which are suppo
 {% include compilers.html %}
 {% include libraries.html %}
 {% include frameworks.html %}
+
 
 </div>
 </div>
