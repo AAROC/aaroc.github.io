@@ -19,9 +19,8 @@ We are always on the look out for collaborators, so if one of these projects hit
 
 ----
 
-<span class="h1 post-title">"If only..."</span>
-If you would like to propose a project, [please feel free]({{site_url}}/contact) !
 
+<span class="h1 post-title">"If only..."</span> Hey, we don't have a monopoly on good ideas, but we do want to build an infrastructure that can support them. If you have such a good idea and would like to implement it or even just try something out, why not propose a project - [please feel free]({{site_url}}/contact) !
 
 <div role="tabpanel">
 
