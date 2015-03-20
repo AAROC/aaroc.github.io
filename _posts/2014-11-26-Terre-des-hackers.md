@@ -77,7 +77,7 @@ Yes, we, these explorers, do tend to get blinded by the shiny. We forget that *l
 
 > Pour le colonial qui fonde un empire, le sens de la vie est de <em><b>conquérir</b></em>. Le soldat meprise le colon, mais le but de cette conquete n'etait-il pas l'etablissement de ce colon ? […]
 
-We forget that the aeroplane was made for a *reason*, which was to arrive somewhere. The very first ones were built essentially for the pilot, whose driving passion is to the unknown through discovery. But later ones were built for *passengers*, whose goal is simply to *arrive*. Their passion is the relative, or the business, or the exotic fruit, at the end of the journey and for them the aeroplane, although perhaps intriguing, is not of primary importance.
+We forget that the aeroplane was made for a *reason*, which was to arrive somewhere. The very first ones were built essentially for the pilot, whose driving passion is to discover the unknown through discovery. But later ones were built for *passengers*, whose goal is simply to *arrive*. Their passion is the relative, or the business, or the exotic fruit, at the end of the journey and for them the aeroplane, although perhaps intriguing, is not of primary importance.
 
 How was the aeroplane built ? The very first ones had all of the tubes, knobs, dials and guages in plain site (if one will forgive the homonymic pun), because the pilot needed to know every detail of the internal working of the aeroplane. However, later models hid these details both from pilots as well as of course from the passengers, since we came to learn the habits and workings of the machine. We made it less mysterious, and more functional, to respond better to our human, (or in this case, scientific), rather than technical needs.
 
