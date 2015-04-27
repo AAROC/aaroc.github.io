@@ -28,9 +28,9 @@ Horrified, I immediately thought that there had been a break-in. However, after 
 df -h
 Filesystem            Size  Used Avail Use% Mounted on
 /dev/mapper/VolGroup00-LogVol00
-                      5.8G  5.5G     0 100% /
-/dev/hda1              99M   34M   61M  36% /boot
-tmpfs                 3.0G     0  3.0G   0% /dev/shm
+                      xxx G  xxx G     0 100% /
+/dev/hda1              xxx M   xxx M   xxx M  xxx % /boot
+tmpfs                 xxx G     xxx   xxx G    xxx % /dev/shm
 
 {% endhighlight %}
 
