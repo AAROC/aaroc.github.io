@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reward and Recognition (brief)
+title: "Reward and Recognition (brief)"
 description: Brief thoughts about reward and recognition in an Open Science Commons
 headline: Thoughts to the panel discussion at the EGI Technical Forum track on Open Science.
 category: blog
