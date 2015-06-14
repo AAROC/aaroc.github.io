@@ -6,7 +6,7 @@ headline: 'Adding more flavour to the pot'
 category: blog
 tags: [github, contributing, DevOps, Ansible, federation, edugain]
 image:
-  feature: http://opensource.com/sites/default/files/images/life/participation-cc.png
+  feature: images/participation-cc.png
 comments: true
 ---
 
