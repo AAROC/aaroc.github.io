@@ -1,7 +1,7 @@
 - name: ZA-UCT-ICTS
   url: http://hpc.uc.ac.za
   logo: uct.png
-  GOC_entry: 
+  GOC_entry:
 - name: ZA-CHPC
   url: http://www.chpc.ac.za
   GOC_entry:
@@ -13,8 +13,8 @@
   logo: ufs.png
 
 - name: ZA-UJ
-  url: http://grid.uj.ac.za
-  GOC_entry:
+  url: http://physics.uj.ac.za/wiki/cluster
+  GOC_entry: 
   logo: uj.png
 
 - name: ZA-WITS-CORE
