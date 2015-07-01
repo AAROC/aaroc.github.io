@@ -1,28 +1,62 @@
 - name: ZA-UCT-ICTS
+  description: University of Cape Town
+  location: Cape Town
   url: http://hpc.uc.ac.za
-  logo: uct.png
-  GOC_entry:
+  logo: uct.svg
+  GOC_entry: 374
+
 - name: ZA-CHPC
+  description: Centre for High-Performance Computing
+  location: Cape Town
   url: http://www.chpc.ac.za
-  GOC_entry:
-  logo: chpc.png
+  GOC_entry: 286
+  logo: chpc.svg
 
 - name: ZA-UFS
+  location: Bloemfontein
+  description: University of the Free State
   url: http://www.hpc.ufs.ac.za
-  GOC_entry:
-  logo: ufs.png
+  GOC_entry: 287
+  logo: ufs.svg
 
 - name: ZA-UJ
+  description: University of Johannesburg
+  location: Johannesburg
   url: http://physics.uj.ac.za/wiki/cluster
-  GOC_entry: 
-  logo: uj.png
+  GOC_entry: 285
+  logo: uj.svg
 
 - name: ZA-WITS-CORE
-  url: http://grid.wits.ac.za
-  GOC_entry:
-  logo: wits.png
+  description: University of the Witwatersrand
+  location: Johannesburg
+  url: http://www.wits.ac.za/
+  GOC_entry: 689
+  logo: wits.svg
 
 - name: ZA-MERAKA
+  description: CSIR Meraka Institute
+  location: Pretoria
   url: http://www.csir.co.za/meraka
-  GOC_entry:
-  logo: csir.png
+  GOC_entry: 175
+  logo: csir.svg
+
+- name: MA-01-CNRST
+  description: MaGrid production grid site
+  location: Rabat
+  url: http://www.magrid.ma
+  GOC_entry: 922
+  logo: magrid.svg
+
+- name: EG-ZC-T3
+  description: Centre for Fundamental Physics
+  location: Zewail City
+  url: http://www.zewailcity.edu.eg/
+  GOC_entry: 981
+  logo: zc.svg
+
+- name: DZ-ARN-01
+  description: Algerian Reserach Network
+  location: Algiers
+  url: http://www.grid.arn.dz/
+  GOC_entry: 964
+  logo: arn.svg
