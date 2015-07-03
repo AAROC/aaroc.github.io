@@ -8,7 +8,7 @@
 {% endif %}
   </li>
 {% endfor %}
-<!-- Services -->
+<!-- old Services
   <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" href="{{ site_url }}/services"><i class="fa fa-flag"></i> Services <span class="caret"></span></a>
     <ul class="dropdown-menu" role="menu">
 {% for service in site.data.services %}
@@ -19,13 +19,20 @@
 {% endif %}
 {% endfor %}
     </ul></li>
+  -->
+  <!-- services -->
+  <li role="presentation">
+    <a href="{{ site_url }}/sites" role="button" class="navbar"><i class="fa fa-globe"></i>Sites</a>
+  </li>
 <!-- Sites -->
+<!-- old sites
   <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" href="{{ site_url }}/sites"><i class="fa fa-globe"></i> Sites <span class="caret"></span></a>
     <ul class="dropdown-menu" role="menu">
 {% for link in site.data.sites %}
       <li><a href="{{ link.url }}">{{ link.name }}</a></li>
 {% endfor %}
     </ul></li>
+  -->
     <li role="presentation" class="dropdown"><a class="dropdown navbar" data-toggle="dropdown" role="button" href="{{site_url}}/supporters"><i class="fa fa-star"></i> Supported By <span class="caret"></span></a>
     <ul class="pull-right dropdown-menu">
 {% for project in site.data.supporters %}
