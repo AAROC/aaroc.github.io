@@ -53,3 +53,14 @@ I'd like to be able to catalogue and link other interesting articles in this top
 [^Cover]: The cover image is used with permission from [Flikr User antefixus U.E.](https://www.flickr.com/photos/21728045@N08/11200960143/in/photostream/)
 
 <div id="discourse-comments"></div>
+
+<script type="text/javascript">
+  var discourseUrl = "http://discourse.sci-gaia.eu/",
+      discourseEmbedUrl = '{{ site.url}}/{{ page.url }}';
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+      d.src = discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
