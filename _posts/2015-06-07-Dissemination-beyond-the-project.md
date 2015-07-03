@@ -48,10 +48,6 @@ This is a blog which the members of the Regional Operations Centre can contribut
 
 I'd like to be able to catalogue and link other interesting articles in this topic - please [reply with suggestions at the tpoic on the forum](http://discourse.sci-gaia.eu/t/where-are-we-disseminating-our-work/55)
 
-
-# References and Footnotes
-[^Cover]: The cover image is used with permission from [Flikr User antefixus U.E.](https://www.flickr.com/photos/21728045@N08/11200960143/in/photostream/)
-
 <div id="discourse-comments"></div>
 
 <script type="text/javascript">
@@ -64,3 +60,7 @@ I'd like to be able to catalogue and link other interesting articles in this top
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
   })();
 </script>
+
+
+# References and Footnotes
+[^Cover]: The cover image is used with permission from [Flikr User antefixus U.E.](https://www.flickr.com/photos/21728045@N08/11200960143/in/photostream/)
