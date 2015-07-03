@@ -32,6 +32,16 @@
       <div class="col-md-4">
         <a class="brand" href="{{ site.url }}" role="banner" itemprop="url"><img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" ></a>
       </div> <!-- col-->
+
+      <div class="col-md-4">
+        <ul class="social-icons " z-index="1000" title="Us" header="us">
+      {% for link in site.data.roles %}
+        <li><a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" width="50px" class="img-rounded"/> </a></li>
+      {% endfor %}
+      </ul>
+</div>
+
+
     </div> <!-- row -->
     <div class="row">
       <p class="blog-description" itemprop="description">{{ site.description }}</p>
@@ -39,25 +49,12 @@
   </div> <!-- container -->
 </div> <!-- inner -->
 </header>
-{% include navbar.html %}
+{% include scrollingnav.html %}
 <!--
 <div class="navbar nav-justified panel panel-default" role="navigation"> <!-- ROC links -->
 <!--
   </div> <!-- navbar -->
 
-<div class="inner">
-<div class="container-fluid affix affix-top">
-<div id="main" class="content" role="main" itemprop="mainContentOfPage">
-        <ul class="navbar-brand nav nav-pills nav-stacked " z-index="1000" title="Us" header="us">
-        {% for link in site.data.roles %}
-          <li><a href="{{ link.url }}" data-toggle="tooltip" title="{{ link.title }}" target="_blank"><img src="{{ site_url }}/images/{{ link.image }}" width="50px" />  <i class="fa fa-{{ link.icon }}"></i> {{ link.name }} </a></li>
-        {% endfor %}
-        </ul>
-</div>
-</div>
-</div>
-<!--  <div class="navbar-pills nav-justified bordered-top bordered-bottom" role="navigation"> <!-- menu bar -->
-<!--</div> -->
 <div class="container">
   <div   class="inner">
   <div id="main" class="content" role="main" itemprop="mainContentOfPage">

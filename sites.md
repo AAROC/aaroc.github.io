@@ -5,10 +5,10 @@ codrops: false
 gridlayout: true
 title: Sites
 image:
-  feature: default-bg.png
+  feature: blurred_lines.jpeg
 discourse: true
 ---
-<p class="text-center"><h1> Production grid sites</h1></p>
+<h1 class="text-center">Production grid sites</h1>
 
 <ul class="cbp-ig-grid">
 {% for kaka in site.data.sites   %}
