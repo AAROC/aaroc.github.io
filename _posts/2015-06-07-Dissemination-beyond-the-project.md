@@ -51,3 +51,5 @@ I'd like to be able to catalogue and link other interesting articles in this top
 
 # References and Footnotes
 [^Cover]: The cover image is used with permission from [Flikr User antefixus U.E.](https://www.flickr.com/photos/21728045@N08/11200960143/in/photostream/)
+
+<div id="discourse-comments"></div>
