@@ -14,7 +14,7 @@ image:
     <li role="presentation"><a href="#rod" aria-controls="rod" role="tab" data-toggle="tab">Regional Operator on Duty</a></li>
     <li role="presentation"><a href="#csirt" aria-controls="csirt" role="tab" data-toggle="tab">Operational Security</a></li>
     <li role="presentation"><a href="#site" aria-controls="site" role="tab" data-toggle="tab">Site Operations</a></li>
-    <li role="presentation"><a href="#devops" aria-controls="de vops" role="tab" data-toggle="tab">Automation</a></li>
+    <li role="presentation"><a href="#devops" aria-controls="devops" role="tab" data-toggle="tab">Automation</a></li>
   </ul>
 
   <!-- Tab panes -->
