@@ -1,79 +1,99 @@
-- name: Compute Services
-  title: HPC, Grid and Cloud computing services
-  url: compute
+- name: Infrastructure
+  title: ROC Interoperability services
+  url: core
+  icon: sitemap
   external: false
+  service_list:
+    - name: SAM-NAGIOS
+      url: http://nagios.c4.csir.co.za
+      roc_service: true
+      middleware: UMD
+      release_version: 2
+      gris_service: true
+    - name: Top-BDII
+      title: Top-level information index - tells you who's got what and how much.
+      middleware: UMD
+      release_version: 3
+      grid_service: true
+      url: https://nagios.c4.csir.co.za/
+    - name: Accounting
+      title: Central Accounting service
+      url: http://accounting.egi.eu/
+      external: true
+      roc_service: true
 
-- name: Data Services
-  title: Data Storage, Discovery, Movement and Management Services
-  url: data
+- name: Compute &amp; Data
+  title: HPC, Grid and Cloud services
+  url: grid
+  icon: server
   external: false
+  service_list:
+    - name: Compute
+      title: HPC, Grid and Cloud computing services
+      url: compute
+      external: false
+    - name: Data
+      title: Data Storage, Discovery, Movement and Management Services
+      url: data
+      external: false
+    - name: UI
+      title: User Interface
+      middleware: UMD
+      release_version: 3
+      grid_service: true
+      url: https://nagios.c4.csir.co.za/
+    - name: LFC
+      title: Logical File Catalogue - find and manage your data
+      middleware: UMD
+      release_version: 3
+      grid_service: true
+      url: https://nagios.c4.csir.co.za/
+    - name: Workload Management Server
+      title: Workload Management Service - metascheduler for the grid
+      middleware: UMD3
+      release_version: 3
+      grid_service: true
+      url: https://nagios.c4.csir.co.za/
 
-- name: Science Gateway
-  title: AfricaGrid Science Gateway
-  url: https://sgw.africa-grid.org
+- name: Science
+  title: Science Gateways and Services for Open Science
+  url: science
   external: true
   roc_service: true
-  status: ok
+  icon: flask
+  service_list:
 
-- name: Identity Management
-  title: Perun Identity Management Service
-  url: perun
+- name: Identity
+  title: Identity Management and Federation Services
+  url: identity
+  icon: certificate
   external: false
+  service_list:
+  - name: Identity Management
+    title: Perun Identity Management Service
+    url: perun
+    external: false
+  - name: Identity Federation
+    title: Federated Identity Services
+    url: idf
+    external: false
 
-- name: Identity Federation
-  title: Federated Identity Services
-  url: idf
+- name: Support
+  title: Technical Support and Training
+  url: support
   external: false
+  icon: support
+  service_list:
+  - name: Technical Support
+    title: GGUS
+    url: https://ggus.eu
+    external: true
 
-- name: Technical Support
-  title: GGUS
-  url: https://ggus.eu
-  external: true
 
-- name: SAM-NAGIOS
-  url: http://nagios.c4.csir.co.za
+- name: Dev &amp; CI
+  title: Continuous Development, Integration and Delivery
+  url: code-rade/
   status: ok
+  external: false
   roc_service: true
-# status of server
-
-- name: Accounting
-  title: Central Accounting service
-  url: http://accounting.egi.eu/
-  status: ok
-  external: true
-  roc_service: true
-
-- name: Dev cluster
-  title: OpenNebula cluster at ZA-MERAKA used for development
-  url: https://opennebula36.c4.csir.co.za/
-  status: ok
-  external: true
-  roc_service: true
-
-- name: Workload Management Server
-  title: Workload Management Service - metascheduler for the grid
-  middleware: UMD3
-  release_version: 3
-  grid_service: true
-  url: https://nagios.c4.csir.co.za/
-
-- name: Top-BDII
-  title: Top-level information index - tells you who's got what and how much.
-  middleware: UMD
-  release_version: 3
-  grid_service: true
-  url: https://nagios.c4.csir.co.za/
-
-- name: LFC
-  title: Logical File Catalogue - find and manage your data
-  middleware: UMD
-  release_version: 3
-  grid_service: true
-  url: https://nagios.c4.csir.co.za/
-
-- name: UI
-  title: User Interface
-  middleware: UMD
-  release_version: 3
-  grid_service: true
-  url: https://nagios.c4.csir.co.za/
+  icon: wrench

@@ -5,7 +5,7 @@ disqus_shortname: aarocblog
 # Assign a default image for your site's header and footer
 default_bg:       default-bg.png
 #default_bg:       operations-portal.gif
-search:           true
+search:           false
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
@@ -54,8 +54,8 @@ links:
     url: /AAROC/
     external: false
     icon: info-circle
-#  - title: Status
-#    url: /SitRep
+  - title: Status
+    url: /SitRep
     icon: dashboard
   - title: Blog
     url: /blog/

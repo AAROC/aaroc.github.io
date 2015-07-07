@@ -1,13 +1,17 @@
 ---
 layout: page
 permalink: /science/
+link: science
+modified: 07 July 2015
 title: For those about to Science !
+headline: Scientist ? Student ? Researcher ? If you want to run applications, you've come to the right place.
 tags: [research, science, applications, users]
 image:
   feature: labtocat.png
+codrops: false
 ---
 
-Scientist ? Student ? Researcher ? If you want to run applications, you've come to the right place. As infrastructure providers, we're here to make sure there's enough power t get what you want to do done. There are many ways to interact with the infrastructure, such as command-line interfaces, REST API's and web-based services. There is no catch-all "correct" way, and you may need to experiment a bit to find the best method for your project(s).
+As infrastructure providers, we're here to make sure there's enough power t get what you want to do done. There are many ways to interact with the infrastructure, such as command-line interfaces, REST API's and web-based services. There is no catch-all "correct" way, and you may need to experiment a bit to find the best method for your project(s).
 
 Here are a few pointers to get you started.
 

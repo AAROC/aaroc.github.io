@@ -36,23 +36,13 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="{{ site_url }}/assets/css/font-awesome.css">
-
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- Latest compiled and minified CSS -->
 <!-- Latest compiled and minified JavaScript -->
 <script src="{{ site_url }}/assets/js/vendor/jquery-1.9.1.min.js"></script>
 <script src="{{ site_url }}/assets/js/bootstrap.js"></script>
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/style.css" />
-{% if site.search %}<div class="search-wrapper">
-    <div class="search-form">
-        <input type="text" class="search-field" placeholder="Search...">
-        <i class="icon-remove-sign"></i>
-        <ul class="search-results post-list"></ul><!-- /.search-results -->
-    </div><!-- /.search-form -->
-</div><!-- ./search-wrapper -->{% endif %}
-
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/style.css">
 {% if page.mathjax %}
 <!--Load Mathjax-->
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -81,7 +71,15 @@
         });
     </script>{% endif %}
 
-
+<!-- codrops -->
+{% if page.codrops %}
+<link rel="stylesheet" href="{{ site_url }}/assets/css/codrops.css">
+<link rel="stylesheet" type="text/css" href="{{ site_url }}/assets/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="{{ site_url }}/assets/css/component.css" />
+{% endif %}
+{% if page.gridlayout  %}
+<link rel="stylesheet" href="{{ site_url }}/assets/css/gridlayout.css">
+{% endif %}
 <!-- Icons -->
 <!-- 16x16 -->
 <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">

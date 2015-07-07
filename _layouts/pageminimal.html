@@ -4,17 +4,17 @@
 {% include head.html %}
 </head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-{% include header.html %}
-<div id="main" class="content" role="main" itemprop="mainContentOfPage">
-    <div class="container">
-        <div class="row">
-            <div class="page-body col-md-10 col-md-offset-1" itemprop="description">
-                {{ content }}
-            </div>
-        </div>
-    </div>
-</div>
-    {% include footer.html %}
+{% include navbar.html %}
+{% include pageheader.html %}
+{% assign ert = page.content | strip_html | number_of_words | divided_by:180 %}
+{% assign ertremainder = page.content | strip_html | number_of_words | modulo:180 %}
+{% if ertremainder >= 90 %}
+  {% assign readtime = ert | plus:1 %}
+{% else %}
+  {% assign readtime = ert %}
+{% endif %}
+
+{{ content }}
 
 {% include scripts.html %}
 </body>
