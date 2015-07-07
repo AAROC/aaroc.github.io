@@ -53,9 +53,6 @@ links:
     url: /AAROC/
     external: false
     icon: info-circle
-  - title: Status
-    url: /SitRep
-    icon: dashboard
   - title: Blog
     url: /blog/
     external: false
@@ -68,6 +65,9 @@ links:
     url: /projects
     external: false
     icon: flask
+  - title: Operations
+    url: /operations
+    icon: dashboard
   - title: Contact
     url: /contact
     external: false
@@ -91,7 +91,7 @@ future:      true
 highlighter: pygments
 #pygments:    true
 markdown:    kramdown
-paginate:    4
+paginate:    3
 toc_levels: 1..6
 paginate_path: "page:num"
 
