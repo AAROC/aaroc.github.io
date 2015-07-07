@@ -4,40 +4,18 @@
 {% include head.html %}
 </head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-{% if page.image.feature %}
-<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.image.feature }})" itemscope itemtype="http://schema.org/Organization">
-{% else %}
-<header id="masthead" class="blog-background overlay align-center align-middle animated from-top"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
-{% endif %}
-  <div class="inner">
-    <div class="container">
-      <div class="row bordered border-bottom">
-        <a><h1 class="blog-title light" itemprop="name">{{ site.title }}</h1></a>
-    </div>
-<!-- site logo -->
-    <div class="row">
-      <div class="col-md-4">
-        <ul class="social-icons">
-          <li><a href="http://twitter.com/{{ site.owner.social.twitter }}" data-toggle="tooltip" title="Twitter" target="_blank"><i class="brand fa fa-twitter fa-2x"></i></a></li>
-          <li><a href="http://facebook.com/{{ site.owner.social.facebook }}" data-toggle="tooltip" title="Facebook" target="_blank">
-    <i class="fa fa-facebook fa-2x"></i></a></li>
-          <li><a href="http://github.com/{{ site.owner.social.github }}" data-toggle="tooltip" title="Github" target="_blank">
-    <i class="fa fa-github fa-2x"></i></a></li>
-          <li><a href="http://{{ site.owner.social.slack }}.slack.com" data-toggle="tooltip" title="Slack Team" target="_blank"><img src="{{ site_url }}/images/slack-logo-2x.png" height="48px"></a></li>
-        </ul>
-      </div> <!-- col -->
-      <div class="col-md-4">
-        <a class="brand" href="{{ site.url }}" role="banner" itemprop="url"><img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" ></a>
-      </div> <!-- col-->
-    </div> <!-- row -->
-    <div class="row">
-      <p class="blog-description" itemprop="description">{{ site.description }}</p>
-    </div> <!-- row-->
-  </div> <!-- container -->
-</div> <!-- inner -->
-</header>
 {% include navbar.html %}
-                {{ content }}
+{% include pageheader.html %}
+{% assign ert = page.content | strip_html | number_of_words | divided_by:180 %}
+{% assign ertremainder = page.content | strip_html | number_of_words | modulo:180 %}
+{% if ertremainder >= 90 %}
+  {% assign readtime = ert | plus:1 %}
+{% else %}
+  {% assign readtime = ert %}
+{% endif %}
+
+{{ content }}
+
 {% include scripts.html %}
 </body>
 </html>

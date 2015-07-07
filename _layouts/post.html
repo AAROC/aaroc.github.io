@@ -46,19 +46,19 @@
                     </span>
                     </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-          <i class="fa fa-arrow-left"></i> Next Entry : <a href="{{ page.next.url }}">{{ page.next.title }}</a>
-        </div>
-        <div class="col-md-6">
-          <i class="fa fa-arrow-right"></i> Previous Entry : <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-        </div>
-      </div>
-
                     <footer class="post-footer entry-meta">
                         {% if site.share %}{% include share.html %}{% endif %}
                         {% include signoff.html %}
                         {% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+                    <div class="row">
+                      <div class="col-md-6">
+                      <i class="fa fa-arrow-left"></i> Next Entry : <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                    </div>
+                    <div class="col-md-6">
+                      <i class="fa fa-arrow-right"></i> Previous Entry : <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                    </div>
+                  </div>
+    
                     </footer>
             </article>
     </div>
