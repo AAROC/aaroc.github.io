@@ -3,13 +3,12 @@ url: sites
 layout: pageminimal
 codrops: false
 gridlayout: true
-title: Sites
+title: Production Grid Sites
+headline: Find out more about the sites on the grid
 image:
   feature: blurred_lines.jpeg
 discourse: true
 ---
-<h1 class="text-center">Production grid sites</h1>
-
 <ul class="cbp-ig-grid">
 {% for kaka in site.data.sites   %}
 	<li>

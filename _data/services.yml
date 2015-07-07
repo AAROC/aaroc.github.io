@@ -1,7 +1,7 @@
 - name: Infrastructure
   title: ROC Interoperability services
   url: core
-  icon:
+  icon: sitemap
   external: false
   service_list:
     - name: SAM-NAGIOS
@@ -22,10 +22,10 @@
       external: true
       roc_service: true
 
-- name: Compute and Data
+- name: Compute &amp; Data
   title: HPC, Grid and Cloud services
   url: grid
-  icon:
+  icon: server
   external: false
   service_list:
     - name: Compute
@@ -96,3 +96,4 @@
   status: ok
   external: false
   roc_service: true
+  icon: wrench
