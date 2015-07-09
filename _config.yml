@@ -50,28 +50,45 @@ using_wow: true
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Overview
+  - title: Home
+    displaytitle: false
+    url: /
+    sublniks: []
+    icon: home
+  - title: About
+    displaytitle: true
     url: /AAROC/
-    external: false
+    sublinks: []
     icon: info-circle
+  - title: Sites
+    displaytitle: true
+    url: /sites/
+    icon: globe
+    sublinks: []
   - title: Status
+    displaytitle: true
     url: /SitRep
+    sublinks: []
     icon: dashboard
   - title: Blog
+    displaytitle: true
     url: /blog/
-    external: false
+    sublinks: []
     icon: bullhorn
   - title: Campaigns
+    displaytitle: true
     url: /campaigns
-    external: false
+    sublinks: []
     icon: fire
   - title: Projects
+    displaytitle: true
     url: /projects
-    external: false
+    sublinks: []
     icon: flask
   - title: Contact
+    displaytitle: false
     url: /contact
-    external: false
+    icon: paper-plane-o
   #
   # - title: Tags
   #   url: /tags
