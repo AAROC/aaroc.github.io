@@ -7,8 +7,8 @@ category: blog
 tags: [Announcement, perfSONAR, SANREN, network, performance, open infrastructure]
 image:
   feature: spidernet.jpg
-comments: false
-discourse: true
+comments: true
+discourse: false
 ---
 
 # TL;DR - End-to-end performance is hard, SANREN has your back, with perfSONAR.
@@ -19,7 +19,7 @@ Applications in a distributed environment can depend critically on the performan
 
 The South African NREN consists of a backbone connecting the main nodes at Universities across the country, as well as main laboratories and research infrastructure. This represents a game-changing investment in research infrastructure in South Africa, bringing researchers closer together and enabling a wide range of tools and services that were not feasible before.
 
-The 10 GB/s backbone is extended from the nodes to the various institutes which are served by the NREN in a more capilliary fashion. From the pops to the campuses to the LANS and eventually the end-user's device (phone, laptop) or srever in a data centre. This complexity is often overlooked, and the beautiful, impressive simplicity of one number - the core backbone bandwidth - seduces us into thinking that we're suddenly going to shift data at light speed.
+The 10 GB/s backbone is extended from the nodes to the various institutes which are served by the NREN in a more capilliary fashion. From the pops to the campuses to the LANs and eventually the end-user's device (phone, laptop) or srever in a data centre. This complexity is often overlooked, and the beautiful, impressive simplicity of one number - the core backbone bandwidth - seduces us into thinking that we're suddenly going to shift data at light speed.
 
 # Understanding end-to-end performance
 
@@ -37,7 +37,7 @@ While it's fairly easy to do this for the backbone components, the complexity of
 
 The tool for this job has been developed over decades of research in network engineering : [perfSONAR](http://www.perfsonar.net). In their own words -
 
->" perfSONAR is a network measurement toolkit designed to provide federated coverage of paths, and help to establish end-to-end usage expectations.  There are 1000s of perfSONAR instances deployed world wide, many of which are available for open testing of key measures of network performance.  This global infrastructure helps to identify and isolate problems as they happen, making the role of supporting network users easier for engineering teams, and increasing productivity when utilizing network resources.  "
+> "perfSONAR is a network measurement toolkit designed to provide federated coverage of paths, and help to establish end-to-end usage expectations.  There are 1000s of perfSONAR instances deployed world wide, many of which are available for open testing of key measures of network performance.  This global infrastructure helps to identify and isolate problems as they happen, making the role of supporting network users easier for engineering teams, and increasing productivity when utilizing network resources.  "
 
 PerfSONAR provides a set of sensors which collect performance data on network traffic, and there are instances all across the globe, helping to identify and diagnose issues across almost any path that modern research data can travel.  This is an extremely powerful tool.
 
@@ -61,7 +61,7 @@ Of course, tools like perfSONAR only help to identify problems and misconfigurat
 
 If you want to find out more about what perfSONAR take a look at the [perfSONAR website](http://www.perfsonar.net) and links therein. A good resource for analysing end-to-end performance is the [ESNet](http://www.esnet.net) knowledgebase and links therein.
 
-To find out more about how perfSONAR is improving the use and capability of the NREN in South Africa, take a look at [Roderick's slides from TNC 2015](https://tnc15.terena.org/core/presentation/199) - where he goes into depth about the system's use in South Africa. If you're interested how perfSONAR could benefit you locally, don't hesitate to get in touch with Roderick Mooiu (rmooi.at.csir.co.za) or Kevin Draa (kdraai.at.csir.co.za) at SANREN.
+To find out more about how perfSONAR is improving the use and capability of the NREN in South Africa, take a look at [Roderick's slides from TNC 2015](https://tnc15.terena.org/core/presentation/199) - where he goes into depth about the system's use in South Africa. If you're interested how perfSONAR could benefit you locally, don't hesitate to get in touch with Roderick Mooi (rmooi.at.csir.co.za) or Kevin Draai (kdraai.at.csir.co.za) at SANREN.
 
 Lastly, to use the SANREN perfSONAR tools, take a look at http://perfsonar.sanren.ac.za
 
@@ -69,7 +69,6 @@ Make that data flow !
 
 {% if page.discourse %}
 # Discussion
-
-
 <div id="discourse-comments"></div>
+
 {% endif %}
