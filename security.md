@@ -15,7 +15,7 @@ image:
 <h2 class="post-info">
 InfoSec : Everyone's business</h2>
 <p class="text-justify">
-We work in a distributed environment that is highly interconnected and largely automted. Maintining information security across the services is the responsibility of not just the core system administrators, but all the communities which use the infrastructure. While we rely on <a href="https://www.egi.eu/about/policy/groups/EGI_Computer_Security_Incident_Response_Team_EGI_CSIRT.html">the EGI CSIRT</a> to provide analysis and alerts of security threats, as well as a level of security monitoring, however <em> prevention is better than cure</em>.
+We work in a distributed environment that is highly interconnected and largely automted. Maintining information security across the services is the responsibility of not just the core system administrators, but all the communities which use the infrastructure. While we rely on <a href="https://www.egi.eu/about/policy/groups/EGI_Computer_Security_Incident_Response_Team_EGI_CSIRT.html">the EGI CSIRT</a> to provide analysis and alerts of security threats, as well as a level of security monitoring, <em> prevention is better than cure</em>.
 </p>
 <h2 class="post-info">
 Operational Security Services</h2>
@@ -26,7 +26,7 @@ Operational Security Services</h2>
 <li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:SMG">Security Monitoring Group</a></li>
 <li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:IRTF">Incident Response Task Force</a></li>
 </ul>
-<p class="text-center text-warning">Suspect shenanigans ? Don't be hasty <a class="text-danger" href="https://wiki.egi.eu/wiki/EGI_CSIRT:Incident_reporting">Report an Incident</a> and follow procedure.
+<p class="text-center text-danger">Suspect shenanigans ? Don't be hasty <a class="text-danger" href="https://wiki.egi.eu/wiki/EGI_CSIRT:Incident_reporting">Report an Incident</a> and follow procedure.
 </p>
 </div>
 <div class="col-md-6">
@@ -37,7 +37,9 @@ Written on {{ post.date | date_to_string }}, tagged with
 {% for tag in post.tags %}  <em>{{ tag }}</em>
 {% endfor %}
 {% endfor %}
+<br>
 <i class="fa fa-ellipsis-h"></i><a href="{{ site_url }}/categories/#security"> More</a>
+
 </div>
 </div>
 
