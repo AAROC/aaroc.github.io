@@ -22,6 +22,12 @@
       external: true
       roc_service: true
 
+- name: Security
+  title: CSIRT and SecOps
+  url: security
+  icon: key
+  service_list: []
+
 - name: Compute &amp; Data
   title: HPC, Grid and Cloud services
   url: grid
