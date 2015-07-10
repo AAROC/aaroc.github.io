@@ -29,6 +29,7 @@
     <div class="row">
       <header class="post-header">
         <h1 class="post-title text-center hyper lighter bordered-bottom">{{ page.title }}</h1>
+        <p>{{ page.headline }}</p>
         <div class="post-info text-center">
         {% if page.modified %}
         <p class="text-center lighter bordered-bottom">Last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%d %b %Y" }}</time>

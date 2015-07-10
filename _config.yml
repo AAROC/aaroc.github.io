@@ -9,6 +9,11 @@ search:           false
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
+# Turn on or off the fin animations in the header and footer
+animated_fins:	  false
+# Specify the fin color in RGB value
+#fin_color:        "255,255,255"
+fin_color:        "139, 115, 74"
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://www.africa-grid.org
 #url: http://localhost:4000
@@ -45,32 +50,45 @@ using_wow: true
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title:
+  - title: Home
+    displaytitle: false
     url: /
+    sublniks: []
     icon: home
-    external: false
-  - title: Overview
+  - title: About
+    displaytitle: true
     url: /AAROC/
-    external: false
+    sublinks: []
     icon: info-circle
+  - title: Sites
+    displaytitle: true
+    url: /sites/
+    icon: globe
+    sublinks: []
+  - title: Status
+    displaytitle: true
+    url: /SitRep
+    sublinks: []
+    icon: dashboard
   - title: Blog
+    displaytitle: true
     url: /blog/
-    external: false
+    sublinks: []
     icon: bullhorn
   - title: Campaigns
+    displaytitle: true
     url: /campaigns
-    external: false
+    sublinks: []
     icon: fire
   - title: Projects
+    displaytitle: true
     url: /projects
-    external: false
+    sublinks: []
     icon: flask
-  - title: Operations
-    url: /operations
-    icon: dashboard
   - title: Contact
+    displaytitle: false
     url: /contact
-    external: false
+    icon: paper-plane-o
   #
   # - title: Tags
   #   url: /tags
@@ -91,7 +109,7 @@ future:      true
 highlighter: pygments
 #pygments:    true
 markdown:    kramdown
-paginate:    3
+paginate:    4
 toc_levels: 1..6
 paginate_path: "page:num"
 
