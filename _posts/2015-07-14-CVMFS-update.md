@@ -41,16 +41,16 @@ The part of the workflow representing testing and integration shown in [Figure 1
 So, once we have concluded the workflow in [Figure 1](#Figure 1), some orchestration has to happen :
 
   1. On the build node:
-    2. shift new artifacts into the CVMFS server
-    3. unmount the dev repo
-  3. On the CVMFS server:
-    3. Put cvmfs dev repo into transaction
-    4. Run regression tests on the new code - this includes all of the functional tests of all of the existing applications, _as well as_ the new application.
-    5. If all pass, publish the new dev repo
-  6. On the build node:
-    7. mount the dev repo
-    8. run regression tests
-  9. Send a message that the new application has passed all tests
+      1. shift new artifacts into the CVMFS server
+      1. unmount the dev repo
+  1. On the CVMFS server:
+      1. Put cvmfs dev repo into transaction
+      1. Run regression tests on the new code - this includes all of the functional tests of all of the existing applications, _as well as_ the new application.
+      1. If all pass, publish the new dev repo
+  1. On the build node:
+      1. mount the dev repo
+      1. run regression tests
+  1. Send a message that the new application has passed all tests
 
 ***It is  now time for a human to take over and pull the code into the production repo which is mounted on all the sites.***
 
