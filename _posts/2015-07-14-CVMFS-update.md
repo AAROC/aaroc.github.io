@@ -59,8 +59,11 @@ Unless I'm missing something obvious, this is the slightly more detailed workflo
 <img class="img-rounded img-responsive  center-block" src="{{ site_url}}/images/patience-yoda.jpg">
 
 That will come, that will come. In the meantime, go listen to some rad music:
+
 <br>
-<iframe src="https://embed.spotify.com/?uri=spotify:album:5B4PYA7wNN4WdEXdIJu58a" align="middle" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
+<iframe src="https://embed.spotify.com/?uri=spotify:album:5B4PYA7wNN4WdEXdIJu58a" align="middle" width="300" height="380" frameborder="0" allowtransparency="true">Pearl Jam</iframe>
+
 <br>
 
 ... till next time ... :wave: :octocat: <img src="{{ site_url }}/images/jenkinslogo.svg" height="25px" />
