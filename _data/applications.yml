@@ -23,14 +23,19 @@
   tags: {"compilers","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/mpc-deploy
 
-
 - name: GCC
-  description: The GNU Compiler Collection
-  job: gcc-4.8.2
-  versions: {4.8.2}
-  tag: {"compilers","cvmfs"}
-  repo: https://github.com/SouthAfricaDigitalScience/gcc-deploy
+  description: 'The GNU Compiler Collection'
+  job: 'gcc-deploy'
+  versions: {"4.8.2", "4.8.4", "4.9.2", "4.7.2", "5.1.0"}
+  tags: {"compilers","cvmfs"}
+  repo: 'https://github.com/SouthAfricaDigitalScience/gcc-deploy'
 
+- name: CMake
+  description: Cross-platform build tools
+  job: cmake-deploy
+  versions: {3.1.0}
+  tags: {"compilers","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/cmake-deploy
 # Then the libraries
 
 - name: BOOST C++
@@ -53,14 +58,6 @@
   versions: {3.5.0}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/lapack-deploy
-
-- name: CMake
-  description: Cross-platform build tools
-  job: cmake-deploy
-  versions: {3.1.0}
-  tags: {"compilers","cvmfs"}
-  repo: https://github.com/SouthAfricaDigitalScience/cmake-deploy
-
 
 - name: GSL
   description: GNU Science Libraries
