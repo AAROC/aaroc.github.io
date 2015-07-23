@@ -52,7 +52,7 @@ So, once we have concluded the workflow in [Figure 1](#Figure 1), some orchestra
       1. run regression tests
   1. Send a message that the new application has passed all tests
 
-***It is  now time for a human to take over and pull the code into the production repo which is mounted on all the sites.***
+:hurtrealbad:  ***It is  now time for a human to take over and pull the code into the production repo which is mounted on all the sites.*** :hurtrealbad: 
 
 Unless I'm missing something obvious, this is the slightly more detailed workflow.... before you get all excited about publishing containers and all, Yoda has a message for you:
 
