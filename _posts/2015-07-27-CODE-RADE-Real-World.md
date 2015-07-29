@@ -25,7 +25,6 @@ Basically, we want a user or research group to propose an application that they 
 
 Delivering applications should be a simple as pushing a few commits to a repo; executing that application in a workflow should be as simple as writing a script that says not much more than
 
-```
 
         # Add the AAROC deployed apps module
         module add deploy
@@ -33,7 +32,7 @@ Delivering applications should be a simple as pushing a few commits to a repo; e
         module add myApp
         # SCIENCE !
         . . . my_workflow . . .
-```
+
 
 # Step 4 - Profit !
 
