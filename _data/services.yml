@@ -1,3 +1,10 @@
+- name: Applications
+  title: Applications
+  url: applications
+  icon: rocket
+  external: false
+  service_list: []
+
 - name: Infrastructure
   title: ROC Interoperability services
   url: core

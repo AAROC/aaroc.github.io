@@ -16,22 +16,28 @@ In order to execute applications, they need to be on the remote execution enviro
 
 Our build system performs continuous integration on applications which are supported by the infrastructure, as well as user-proposed applications. Below you can find the overview of the status of these. These are executable in local-only or under the [sagrid.ac.za](https://voms.sagrid.ac.za/voms/sagrid.ac.za).
 
+<h2 class="post-info"><i class="fa fa-chevron-circle-right"></i> You can access these applications directly from your laptop, or cluster <a href="{{ site_url }}/cvmfs"> Find out how <i class="fa fa-chevron-circle-left"></i></a> </h2>
+
 <div role="tabpanel">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation"><a href="#compilers" aria-controls="compilers" role="tab" data-toggle="tab">Compilers</a></li>
     <li role="presentation"><a href="#libraries" aria-controls="libraries" role="tab" data-toggle="tab">Libraries</a></li>
     <li role="presentation"><a href="#frameworks" aria-controls="framweworks" role="tab" data-toggle="tab">Frameworks</a></li>
+    <li role="presentation"><a href="#chemistry" aria-controls="chemistry" role="tab" data-toggle="tab">Chemistry</a></li>
     <li role="presentation"><a href="#requested" aria-controls="requested" role="tab" data-toggle="tab">Requested</a></li>
+
   </ul>
 <div class="tab-content">
 
 {% include compilers.html %}
 {% include libraries.html %}
 {% include frameworks.html %}
+{% include chemistry.html %}
 {% include requested.html %}
 
-
+<br>
+<h2 class="post-title">Don't see what you want ? - <a href="https://github.com/SAGridOps/SoftwareInstallation/issues/new?labels=proposed">Propose a new application</a></h2>
 </div>
 </div>
 

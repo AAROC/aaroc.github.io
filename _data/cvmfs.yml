@@ -1,0 +1,8 @@
+- name: DevRepo
+  description: Transition repository for applications which have passed continuous integration, but not validation in a production environment. Only available at sites tagged with devrepo.
+  url: http://apprepo.sagrid.ac.za/cvmfs/devrepo.sagrid.ac.za
+
+- name: AppRepo
+  description: Production application repository, available at all sites
+  url: http://apprepo.sagrid.ac.za/cvmfs/apprepo.sagrid.ac.za
+  
