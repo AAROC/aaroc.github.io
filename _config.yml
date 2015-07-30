@@ -65,11 +65,11 @@ links:
     url: /sites/
     icon: globe
     sublinks: []
-  - title: Status
-    displaytitle: true
-    url: /SitRep
-    sublinks: []
-    icon: dashboard
+#- title: Status
+#    displaytitle: true
+#    url: /SitRep
+#    sublinks: []
+#    icon: dashboard
   - title: Blog
     displaytitle: true
     url: /blog/
