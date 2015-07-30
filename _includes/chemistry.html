@@ -1,0 +1,28 @@
+<!--
+This is a generic template for new appplication categories
+-->
+  <div role="tabpanel" class="tab-pane fade in" id="chemistry">
+    <br><p class="post-info text-justify">
+This is what we've got in the pipeline
+    </p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Versions</th>
+        <th>Repo</i></th>
+        <th style="text-align: left">Description</th>
+        <th>Published</th>
+      </tr>
+    </thead>
+
+  {% for app in site.data.applications %}
+  {% if app.tags contains "chemistry" %}
+{%include apptable.html %}
+
+  {% endif %}
+  {% endfor %}
+  </table>
+  <br>
+  <h2 class="post-title">Don't see what you want ? - <a href="https://github.com/SAGridOps/SoftwareInstallation/issues/new?labels=proposed">Propose a new application</a></h2>
+  </div>
