@@ -10,6 +10,7 @@
   {% else %}
   <td style="valign: center"><span class="badge badge-info">Proposed</span></td>
   {% endif %}
+  <td style="text-align: center"><a href="{{ app.repo}}"><i class="fa fa-github-square"></i></a></td>
   <td style="text-align: left"><p style="word wrap word-wrap: break-word;">{{ app.description }}</p> </td>
   {%if app.tags contains 'cvmfs' %}
   <td><i class="social-icons fa fa-check-circle-o" style="color: green"></i></td>
