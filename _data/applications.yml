@@ -38,6 +38,13 @@
   repo: https://github.com/SouthAfricaDigitalScience/cmake-deploy
 # Then the libraries
 
+- name: ncurses
+  description: The Ncurses library is a free software emulation of curses in System V Release 4.0, and more.
+  job: ncurses-deploy
+  versions: {5.9}
+  tags: {"libraries"}
+  repo: https://github.com/SouthAfricaDigialScience/ncurses-deploy
+
 - name: BOOST C++
   description: Boost provides free peer-reviewed portable C++ source libraries.
   job: boost-deploy
