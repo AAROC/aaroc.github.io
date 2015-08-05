@@ -10,7 +10,7 @@ image:
   attribution: http://thepatternlibrary.com/#science
 comments: true
 mathjax:
-discourse: false
+discourse: true
 ---
 
 
@@ -49,4 +49,4 @@ This is why we are pushing the DevOps model, and encourage anyone in the region 
 
 By abstracting and co-ordinating _roles_ (ie, services configured in a certain way) we can allow sites to easily whip up complex  configurations of services quite easily. But best of all, it's reproducible. We can and do test roles while developing them, and this provides us with good reference examples (this is done in the `dev` branch, if anyone is listening). Once these are known to give the desired end states, they can be forked and used to instantiate specific states, using different variables site by site. This makes it easier to identify and resolve problems - as well as make the return on investment in time spent during a workshop far greater.
 
-So - will you teach the "DevOps" way in your next eduroam, identity federation, `<insert_service_here>` workshop ? 
+So - will you teach the "DevOps" way in your next eduroam, identity federation, `<insert_service_here>` workshop ?
