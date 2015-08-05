@@ -36,6 +36,15 @@
   versions: {3.1.0}
   tags: {"compilers","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/cmake-deploy
+
+- name: LLVM
+  description: "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
+  job: llvm-deploy
+  versions: {3.6.2}
+  tags: {"compilers","dev","requested"}
+  repo: https://github.com/SouthAfricaDigitalScience/llvm-deploy
+
+
 # Then the libraries
 
 - name: ncurses
