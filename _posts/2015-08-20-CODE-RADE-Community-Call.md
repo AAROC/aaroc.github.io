@@ -73,12 +73,12 @@ Modulefiles will be used to allow users submitting jobs or running applications 
 
 These modules differ from those which we create during integration and then use to build applications against each other - they need to take the absolute minimum of parameters and need to be automatically set up by the end user. No variables to set, no special commands etc. A user or a script should simply be able to do something like
 
-```#!/bin/bash
-source grid.sh # this is somewhere predefined on the site
-module add <site> # the tag that most represents your site - now you can add applications
-module add <app> # now you can run app on site with all the various configs
-<app> <parameters>
-```
+    #!/bin/bash
+    source grid.sh # this is somewhere predefined on the site
+    module add <site> # the tag that most represents your site - now you can add applications
+    module add <app> # now you can run app on site with all the various configs
+    <app> <parameters>
+
 
 We might want to keep the modules in a repo, so that we can track issues with them - or the module could be added to the app repo by jenkins itself after jobs complete.
 
