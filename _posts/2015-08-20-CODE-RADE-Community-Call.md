@@ -59,7 +59,7 @@ We have a couple of upcoming opportunities to do this :
 
 ### Where to put our contributions
 
-We should submit works to preprint servers which issue persistent identifiers and create a table on the project website with these links (could also be an iframe from Zenodo e.g.). We could also think about having an Africa-Grid Open Access Document and Data repository as part of DIRISA. This needs the Ansible playbook for Invenio to be finished. See http://discourse.sci-gaia.eu/t/pre-beta-version-of-the-open-access-repository
+We should submit works to preprint servers which issue persistent identifiers and create a table on the project website with these links (could also be an iframe from Zenodo e.g.). We could also think about having an Africa-Grid Open Access Document and Data repository as part of DIRISA. This needs the Ansible playbook for Invenio to be finished. See [this topic on the forum](http://discourse.sci-gaia.eu/t/pre-beta-version-of-the-open-access-repository)
 
 ## This week's topics
 
@@ -73,7 +73,7 @@ Modulefiles will be used to allow users submitting jobs or running applications 
 
 These modules differ from those which we create during integration and then use to build applications against each other - they need to take the absolute minimum of parameters and need to be automatically set up by the end user. No variables to set, no special commands etc. A user or a script should simply be able to do something like
 
-```shell
+```
 #!/bin/bash
 source grid.sh # this is somewhere predefined on the site
 module add <site> # the tag that most represents your site - now you can add applications
@@ -82,7 +82,6 @@ module add <app> # now you can run app on site with all the various configs
 ```
 
 We might want to keep the modules in a repo, so that we can track issues with them - or the module could be added to the app repo by jenkins itself after jobs complete.
-
 
 ### Volunteer sites
 
@@ -94,6 +93,7 @@ Just two points :
 
   1. We've committed the Jenkins config to the repo on github, so it should be reproducible
   1. We are running out of space at UFS, so we need to start thinking about a beefier infrastructure.
+
 
 # Next meeting
 
