@@ -36,9 +36,9 @@ The project needs a public website with better information, guides, dashboard, s
 
 The scripts which build and check the applications are kept each in a separate repository - this means there are several repositories and if builds fail, issues need to be opened, tracked and eventually fixed. Since these issues are tied to a repo, it's easy to track which commit fixed them, but since there are many repos, it's hard to keep track of the overall status of the CODE-RADE project. We need a way to collect issues and present them in a holistic way in order to track the overall progress of  the project.  
 
-There are also cross-cutting issues which may arise, which are
-http://nemerosa.github.io/ontrack/
-http://waffle.io
+There are also cross-cutting issues which may arise, which are only fixable by working on the Jenkins server, or some other central node of the platform.
+
+In order to keep track of the issues, we can used things like [ontrack](http://nemerosa.github.io/ontrack/) or [Waffle.io](http://waffle.io). I particularly like Waffle.
 
 ## (Scholarly) Publishing the project
 
