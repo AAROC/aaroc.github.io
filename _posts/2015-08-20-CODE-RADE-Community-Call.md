@@ -16,7 +16,7 @@ discourse: false
 # Community Calls
 
 The project is gaining steam and we want to have a recurrent
-Our first community call for CODE-RADE just happened in the [AAROC mconf space](http://mconf.sanren.ac.za/webconf/
+Our first community call for CODE-RADE just happened in the [AAROC mconf space](http://mconf.sanren.ac.za/webconf)
 If you want to comment or discuss this call, head over to [the discussion forum](http://discourse.sci-gaia.eu/t/code-rade-community-call-week-35)
 
 
@@ -30,7 +30,7 @@ It seemed that there were some problems with the mconf system - @smasoka and I m
 
 ## Website
 
-The project needs a public website with better information, guides, dashboard, status, information, etc. This is being built under the new [CODE-RADE](https://github.com/AAROC/CODE-RADE) repo, in the <code>gh-pages</code> branch. Definitely still work in progres, but we can work on this. The current pages at http://www.africa-grid.org/applications and http://www.africa-grid.org/cvmfs will stay, and will  be useful to end-users  but http://www.africa-grid.org/CODE-RADE will contain the documentation, links to publications etc.
+The project needs a public website with better information, guides, dashboard, status, information, etc. This is being built under the new [CODE-RADE](https://github.com/AAROC/CODE-RADE) repo, in the <code>gh-pages</code> branch. Definitely still work in progress, but we can work on this. The current pages at [Applications]({{site_url}}/applications)and [CVMFS]({{ site_url }}/cvmfs) will stay, and will  be useful to end-users  but [CODE-RADE]({{site_url}}/CODE-RADE) will contain the documentation, links to publications etc.
 
 ## Project issues and planning
 
@@ -49,9 +49,9 @@ The time has come to work on scholarly output of the project - we need to submit
 We have a couple of upcoming opportunities to do this :
 
   1. OSSCOM in Amman, organised by ASREN - 10-13/09/2015
-  1. pyConZA in Johannesburg, with a Software Carpentry Bootcamp - 2-4/10/2015https://za.pycon.org/
-  1. The e-Research Africa conference in Cape Town - 9-13/11/2015 http://www.eresearch.ac.za
-  1. The Ubunutnet Connect Conference in Maputo - 17-20/11/2015
+  1. [pyConZA](https://za.pycon.org/) in Johannesburg, with a Software Carpentry Bootcamp - 2-4/10/2015
+  1. [The e-Research Africa conference](http://www.eresearch.ac.za) in Cape Town - 9-13/11/2015
+  1. The Ubuntunet Connect Conference in Maputo - 17-20/11/2015
   1. The CHPC Conference in Pretoria 30/11/2015-04/12/2015
 
   We probably can't make OSSCOM, but we should submit presentations to E-Research Africa and the CHPC conference. @smasoka should be presenting at CHPC, whilst both I and @smasoka will present at e-Research Africa. I will present at Ubuntunet.
@@ -95,8 +95,8 @@ Just two points :
   1. We've committed the Jenkins config to the repo on github, so it should be reproducible
   1. We are running out of space at UFS, so we need to start thinking about a beefier infrastructure.
 
-# :calendar: Next meeting
+# Next meeting
 
 The next meeting will be
 
-  31/08/2015 on mconf.
+  :calendar:  31/08/2015 on mconf.
