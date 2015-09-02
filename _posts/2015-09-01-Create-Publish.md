@@ -42,7 +42,7 @@ Now, this is during the _creative_ process, when there are changes under way and
 
 ## The productive phase
 
-When I am ready to say "ok, this product is final" - ie issue a permanent version, I usually assign a specific persistent identifier with a specific release. [Zeonodo](http://zenodo.org) - which is based on [invenio](http://invenio-software.org), which in turn Sci-GaIA's [OAR](https://oar.sci-gaia.eu) is based on) ) does this very nicely by connecting via API to Github, requesting the list of releases of a repository and issueing a [DOI](http://www.doi.org/) from [DataCite](https://www.datacite.org/) for a new release.
+When I am ready to say "ok, this product is final" - ie issue a permanent version, I usually assign a specific persistent identifier with a specific release. [Zenodo](http://zenodo.org) - which is based on [Invenio](http://invenio-software.org), which in turn Sci-GaIA's [OAR](https://oar.sci-gaia.eu) is based on) ) does this very nicely by connecting via API to Github, requesting the list of releases of a repository and issueing a [DOI](http://www.doi.org/) from [DataCite](https://www.datacite.org/) for a new release.
 
 This  is one aspect of the persistence of a product - the other is the persistence of the creators of that product. While there is no unique way to do this, [ORCID](http://orcid.org/) is probably the most widely used and reliable.
 
@@ -50,7 +50,7 @@ This  is one aspect of the persistence of a product - the other is the persisten
 
 This may sound like a lot of work, but actually there are many advantages to simply putting things on the web somewhere :
 
-  1. By putting _products_ (code, articles, etc) into an OAR and issueing them persistent, unique identifiers, you can build a library of what you have published.
+  1. By putting _products_ (code, articles, etc) into an OAR and issuing them persistent, unique identifiers, you can build a library of what you have published.
   1. By _linking_ them to the code and other tools which created them using Github, you can make these products _reproducible_, which is one of the main issues the project is trying to address.
   1. By complying with the OAI standards, your work will be included in the data and article citation indices and therefore will be more discoverable to other researchers.
 
@@ -61,10 +61,10 @@ Finally, one place where Github "breaks down" is when it comes to dealing with l
 --------
 
 
-<h2 class="post-title text-center"><a href="http://www.sci-gaia.eu">Sci-GaIA</a> is working on an integrated Open Science platfom which delivers these services to research communities.</h2>
+<h2 class="post-title text-center"><a href="http://www.sci-gaia.eu">Sci-GaIA</a> is working on an integrated Open Science platform which delivers these services to research communities.</h2>
 
 ------
 
 # Comment, discuss, extend
 
-If you'd like to give some feedback or extend the discussion, please head over to the original [topic])(http://discourse.sci-gaia.eu/t/publishing-vs-creating-in-the-open/) on the discussion forum.
+If you'd like to give some feedback or extend the discussion, please head over to the original [topic](http://discourse.sci-gaia.eu/t/publishing-vs-creating-in-the-open/) on the discussion forum.
