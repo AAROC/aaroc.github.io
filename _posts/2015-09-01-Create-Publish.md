@@ -68,3 +68,16 @@ Finally, one place where Github "breaks down" is when it comes to dealing with l
 # Comment, discuss, extend
 
 If you'd like to give some feedback or extend the discussion, please head over to the original [topic](http://discourse.sci-gaia.eu/t/publishing-vs-creating-in-the-open/) on the discussion forum.
+
+<div id='discourse-comments'></div>
+
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'http://discourse.sci-gaia.eu/',
+                     discourseEmbedUrl: 'http://www.africa-grid.org/blog/2015/09/01/Create-Publish/' };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
