@@ -147,9 +147,7 @@ The next community call is Wednesday 16/09 at midday. Be there or be[^square] :s
 
 In the meantime :
 
-<div id='discourse-comments'></div>
-
-<script type="text/javascript">
+<div id='discourse-comments'></div> <script type="text/javascript">
   DiscourseEmbed = { discourseUrl: 'http://discourse.sci-gaia.eu/',
                      discourseEmbedUrl: 'http://www.africa-grid.org/blog/2015/09/14/CODE-RADE-burn-down/' };
 
