@@ -21,9 +21,10 @@ Here's the thing :
 
 ----
 
-<div style="text-align:center">
-<iframe src="//giphy.com/embed/cEYFeDOOQ0cHqIgIEOA?html5=true" width="100%" height="247" align="center" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/action-escape-nuclear-cEYFeDOOQ0cHqIgIEOA">BAD THINGS HAPPEN !</a></p>
-</div>
+<figure>
+<img src="http://i.giphy.com/cEYFeDOOQ0cHqIgIEOA.gif">
+<figcaption>BAD THINGS HAPPEN !</figcaption>
+</figure>
 
 ----
 
