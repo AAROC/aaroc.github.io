@@ -145,6 +145,19 @@ The next community call is Wednesday 16/09 at midday. Be there or be[^square] :s
 
 -----
 
+In the meantime : <div id='discourse-comments'></div>
+
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'http://discourse.sci-gaia.eu/',
+                     discourseEmbedUrl: 'http://www.africa-grid.org/blog/2015/09/14/CODE-RADE-burn-down/' };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
+
 # References and Footnotes
 
 [^square]: That's a squirrel, in case you're wondering. Emoji haven't caught up to 1950's slang yet. We live in hope.
