@@ -130,7 +130,9 @@ The next community call is Wednesday 16/09 at midday. Be there or be[^square] :s
 
 -----
 
-In the meantime : <div id='discourse-comments'></div>
+In the meantime :
+
+<div id='discourse-comments'></div>
 
 <script type="text/javascript">
   DiscourseEmbed = { discourseUrl: 'http://discourse.sci-gaia.eu/',
