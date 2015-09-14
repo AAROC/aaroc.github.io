@@ -104,13 +104,13 @@ While this solves the size available problem, it does bring up some severe perfo
 
 The [NumPy](http://www.numpy.org/) build scripts in their own  [repo <i class="fa fa-github"></i>](https://github.com/SouthAfricaDigitalScience/numpy-deploy) - currently, we're getting the following error when building NumPy
 
-```python
-'import site' failed; use -v for traceback
-Traceback (most recent call last):
-  File "setup.py", line 16, in <module>
-    from __future__ import division, print_function
-ImportError: No module named __future__
-Build step 'Execute shell' marked build as failure
+```
+    'import site' failed; use -v for traceback
+    Traceback (most recent call last):
+      File "setup.py", line 16, in <module>
+      from __future__ import division, print_function
+    ImportError: No module named __future__
+    Build step 'Execute shell' marked build as failure
 ```
 
 We have no idea what this means, so if you're a python speaker, please take a look at the `build.sh` script and maybe send us a PR that fixes it.
@@ -120,17 +120,17 @@ We have no idea what this means, so if you're a python speaker, please take a lo
 OpenMPI is failing only on the SL6 slaves. From the looks of things, the builds are passing, but functional tests are not. These are giving modulefile errors such as
 
 ```bash
-+ ./check-build.sh
-About to make the modules
-./check-build.sh: line 3: cd: /var/lib/jenkins/workspace/OpenMPI/ARCH/x86_64/GCC_VERSION/5.2.0/OS/sl6/SITE/generic/VERSION/1.8.1/openmpi-1.8.1: No such file or directory
+    + ./check-build.sh
+    About to make the modules
+    ./check-build.sh: line 3: cd: /var/lib/jenkins/workspace/OpenMPI/ARCH/x86_64/GCC_VERSION/5.2.0/OS/sl6/SITE/generic/VERSION/1.8.1/openmpi-1.8.1: No such file or directory
 ```
 
 and further down the `check-build.sh` script :
 
 ```
-ModuleCmd_Load.c(208):ERROR:105: Unable to locate a modulefile for openmpi/1.8.1-gcc-5.2.0
-which: no mpirun in (/usr/local/bin:/bin:/usr/bin)
-Build step Conditional step (single) marked build as failure
+    ModuleCmd_Load.c(208):ERROR:105: Unable to locate a modulefile for openmpi/1.8.1-gcc-5.2.0
+    which: no mpirun in (/usr/local/bin:/bin:/usr/bin)
+    Build step Conditional step (single) marked build as failure
 ```
 
 The NumPy build failures are inhibiting the rest of the python chain including SciPy and others.
