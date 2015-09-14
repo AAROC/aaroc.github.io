@@ -42,7 +42,7 @@ The CODE-RADE platform is how we think we can reliably deliver applications to b
 # Integration flow
 
 <figure>
-<img src="{{ site_url }}/images/home-image1.png" width="100%" href="http://www.go.cd/">
+<img src="{{ site_url }}/images/home-image1.png" width="800px" href="http://www.go.cd/">
 <figcaption>An example of Continuous Integration workflow, by the ThoughtWorks GO CI product team.</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ To this end, we've created a [board](https://waffle.io/AAROC/CODE-RADE) to conta
 
 
 <figure>
-<img href="https://waffle.io/AAROC/CODE-RADE" src="{{ site_url }}/images/code-rade-waffle-screenshot-2015-09-14.png" style="width:100%" >
+<img href="https://waffle.io/AAROC/CODE-RADE" src="{{ site_url }}/images/code-rade-waffle-screenshot-2015-09-14.png"  >
 <figcaption>Full overview of the build flow, from a multi-repo waffle board. </figcaption>
 </figure>
 
