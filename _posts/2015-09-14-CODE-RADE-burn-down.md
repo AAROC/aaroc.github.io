@@ -62,7 +62,7 @@ To this end, we've created a [board](https://waffle.io/AAROC/CODE-RADE) to conta
 
 
 <figure>
-<img href="https://waffle.io/AAROC/CODE-RADE" src="{{ site_url }}/images/code-rade-waffle-screenshot-2015-09-14.png"  >
+<img href="https://waffle.io/AAROC/CODE-RADE" src="{{ site_url }}/images/code-rade-waffle-screenshot-2015-09-14.png" width="800px" >
 <figcaption>Full overview of the build flow, from a multi-repo waffle board. </figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ To this end, we've created a [board](https://waffle.io/AAROC/CODE-RADE) to conta
 One of the greatest (and thus hardest) things about CODE-RADE is the expression of dependencies between applications. Most open source software is not a monolithic structure, but rather delicate - some might say graceful - assembly of various independent components. These components may be in turn variously configured to produce different functional states, each of which can be considered nodes in a DAG[^DAG]. In fact, one of the main corrolaries of CODE-RADE, if we do things right, is to express a more-or-less fully-populated graph of the dependencies of _all_ applications used in scientific research[^notpossible] (or at least the most popular ones).
 
 <figure>
-<img src="{{ site_url }}/images/graph.png" style="width: 100%">
+<img src="{{ site_url }}/images/graph.png" style="width:800px">
 <figcaption>The compiler build chain dependency graph as of writing - yes, it needs work. The full dependency graph is too large to show on one page. See <a href="http://dx.doi.org/10.5281/zenodo.30977">http://dx.doi.org/10.5281/zenodo.30977</a></figcaption>
 </figure>
 
