@@ -141,9 +141,7 @@ So... this weekend's burn down went ok, but not awesomely. We need to focus on t
 
 -----
 
-<h2 class="post-info">
 The next community call is Wednesday 16/09 at midday. Be there or be[^square] :squirrel:
-</h2>
 
 -----
 
