@@ -104,7 +104,14 @@ While this solves the size available problem, it does bring up some severe perfo
 
 The [NumPy](http://www.numpy.org/) build scripts in their own  [repo <i class="fa fa-github"></i>](https://github.com/SouthAfricaDigitalScience/numpy-deploy) - currently, we're getting the following error when building NumPy
 
-
+{% highlight python}
+    'import site' failed; use -v for traceback
+    Traceback (most recent call last):
+      File "setup.py", line 16, in <module>
+      from __future__ import division, print_function
+    ImportError: No module named __future__
+    Build step 'Execute shell' marked build as failure
+{% endhighlight %}
 
 We have no idea what this means, so if you're a python speaker, please take a look at the `build.sh` script and maybe send us a PR that fixes it.
 
