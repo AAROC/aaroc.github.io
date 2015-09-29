@@ -35,8 +35,8 @@ Our build system performs continuous integration on applications which are suppo
 {% include frameworks.html %}
 {% include chemistry.html %}
 {% include requested.html %}
-
 <br>
+<h2 class="post-title">Want to help or follow the development ? Check out our <a href="https://waffle.io/AAROC/CODE-RADE">waffle ironing board</a></h2>
 <h2 class="post-title">Don't see what you want ? - <a href="https://github.com/SAGridOps/SoftwareInstallation/issues/new?labels=proposed">Propose a new application</a></h2>
 </div>
 </div>

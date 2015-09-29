@@ -26,7 +26,7 @@
 - name: GCC
   description: 'The GNU Compiler Collection'
   job: 'gcc-deploy'
-  versions: {"4.8.2", "4.8.4", "4.9.2", "4.7.2", "5.1.0"}
+  versions: {"4.8.2", "4.8.4", "4.9.2"}
   tags: {"compilers","cvmfs"}
   repo: 'https://github.com/SouthAfricaDigitalScience/gcc-deploy'
 
@@ -65,7 +65,7 @@
   description: Python is a programming language that lets you work quickly and integrate systems more effectively.
   job: python-deploy
   versions: {2.6.9,3.4.1}
-  tags: {frameworks}
+  tags: {"frameworks"}
   repo: https://github.com/SouthAfricaDigitalScience/python-deploy
 
 - name: LAPACK
@@ -74,6 +74,13 @@
   versions: {3.5.0}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/lapack-deploy
+
+- name: ATLAS
+  description: Automatically-Tuned Linear Algebra Software
+  job: atlas-deploy
+  versions: {3.10.2}
+  tags: {"libraries","cvmfs"}
+  repo: https://github.com/SouthAfricaDigialScience/atlas-deploy
 
 - name: GSL
   description: GNU Science Libraries
@@ -106,20 +113,21 @@
   tags: {"chemistry","dev"}
   repo: quantum-espresso-deploy
 
+### Python stuff ###
 
 - name: SciPy
-  description:
-  job:
-  versions:
-  tag:
-  repo:
+  description: Scientific Python
+  job: scipy-deploy
+  versions: {0.5.1}
+  tag: {"frameworks","python"}
+  repo: https://github.com/SouthAfricaDigialScience/scipy-deploy
 
 - name: NumPy
-  description:
-  job:
-  versions:
-  tag:
-  repo:
+  description: "Numerical Python"
+  job: numpy-deploy
+  versions: {1.9.1}
+  tag: {"frameworks","python"}
+  repo: https://github.com/SouthAfricaDigialScience/numpy-deploy
 
 - name: MatPlotLib
   description:
@@ -156,6 +164,15 @@
   tags:
   repo:
 
+
+### Astro ####
+
+- name: HEAsoft
+  description: "A Unified Release of the FTOOLS and XANADU Software Packages"
+  job: heasoft-deploy
+  versions: {6.17}
+  tags: {"astronomy","frameworks"}
+  repo: https://github.com/SouthAfricaDigialScience/heasoft-deploy
 
 - name: GADGET
   description:
