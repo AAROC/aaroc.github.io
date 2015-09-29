@@ -28,7 +28,10 @@ Our build system performs continuous integration on applications which are suppo
     <li role="presentation"><a href="#requested" aria-controls="requested" role="tab" data-toggle="tab">Requested</a></li>
 
   </ul>
+
 <div class="tab-content">
+
+
 
 {% include compilers.html %}
 {% include libraries.html %}
@@ -36,8 +39,24 @@ Our build system performs continuous integration on applications which are suppo
 {% include chemistry.html %}
 {% include requested.html %}
 <br>
+<table class="table table-condensed">
+<caption class="text-center">Legend</caption>
+<tr>
+  <td><i class="social-icons fa fa-check-circle-o" style="color: green"></i></td>
+  <td>Published in CVMFS `apprepo` and modulefile available. Used at production sites and your milage wil be good :smile: </td>
+</tr>
+<tr>
+  <td><i class="social-icons fa fa-flask" style="color:orange"></i></td>
+  <td>Published in CVMFS `devrepo` - modulefile not guaranteed to be available, used for integration testing and early adopters. YMMV :smirk:</td>
+</tr>
+<tr>
+  <td><i class="social-icons fa fa-times-circle-o" style="color:red"></i></td>
+  <td>Not published anywhere yet.</td>
+</tr>
+</table>
+
 <h2 class="post-title">Want to help or follow the development ? Check out our <a href="https://waffle.io/AAROC/CODE-RADE">waffle ironing board</a></h2>
-<h2 class="post-title">Don't see what you want ? - <a href="https://github.com/SAGridOps/SoftwareInstallation/issues/new?labels=proposed">Propose a new application</a></h2>
+<h2 class="post-title">Don't see what you want ? - <a href="https://github.com/AAROC/CODE-RADE/issues/new?labels=proposed">Propose a new application</a></h2>
 </div>
 </div>
 
