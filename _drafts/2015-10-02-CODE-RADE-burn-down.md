@@ -6,8 +6,8 @@ headline: "CODE-RADE: Ignition"
 category: blog
 tags: [blog, CODE-RADE, sitrep]
 image:
-  feature: burn.jpg
-  attribution:
+  feature: 1979369093_55ba84a606_o.jpg
+  attribution: Stavros Markopoulos https://www.flickr.com/photos/markop/1979369093/in/faves-91618948@N00/
 comments: false
 mathjax: false
 discourse: true
