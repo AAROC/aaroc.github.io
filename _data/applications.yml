@@ -126,42 +126,42 @@ and machine-independent data formats that support the creation, access, and shar
   description: Scientific Python
   job: scipy-deploy
   versions: {0.5.1}
-  tag: {"frameworks","python"}
+  tags: {"frameworks","python"}
   repo: https://github.com/SouthAfricaDigialScience/scipy-deploy
 
 - name: NumPy
   description: "Numerical Python"
   job: numpy-deploy
   versions: {1.9.1}
-  tag: {"frameworks","python","cvmfs","dev"}
+  tags: {"frameworks","python","cvmfs","dev"}
   repo: https://github.com/SouthAfricaDigialScience/numpy-deploy
 
 - name: MatPlotLib
   description: "Plotting functions for python"
   job: matplotlib-deploy
   versions: {4.8.4,4.9.2}
-  tag: {"libraries","python","dev","cvmfs"}
+  tags: {"libraries","python","dev","cvmfs"}
   repo: https://github.com/SouthAfricaDigialScience/matplotlib-deploy
 
 - name: Pandas
   description: "pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming"
   job: pandas-deploy
   versions: {0.17.0}
-  tag: {"libraries","python","dev"}
+  tags: {"libraries","python","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/pandas-deploy
 
 - name: SymPy
   description: "Symbolic Python"
   job: sympy-deploy
   versions: {0.7.6.1}
-  tag: {"dev","python","frameworks"}
+  tags: {"dev","python","frameworks"}
   repo: https://github.com/SouthAfricaDigitalScience/Sympy-deploy
 
 - name:
   description:
   job:
   versions:
-  tag:
+  tags:
   repo:
 
 - name:
@@ -193,7 +193,7 @@ and machine-independent data formats that support the creation, access, and shar
   description:
   job:
   versions:
-  tag:
+  tags:
   repo:
 
 
