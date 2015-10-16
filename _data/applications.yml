@@ -62,7 +62,7 @@
   repo: https://github.com/SouthAfricaDigialScience/boost-deploy
 
 - name: Python
-  description: Python is a programming language that lets you work quickly and integrate systems more effectively.
+  description: "Python is a programming language that lets you work quickly and integrate systems more effectively."
   job: python-deploy
   versions: {2.6.9,3.4.1}
   tags: {"frameworks"}
@@ -98,9 +98,8 @@
   repo: https://github.com/SouthAfricaDigitalScience/hdf5-deploy
 
 - name: NetCDF
-  description: NetCDF (network Common Data Form) is a set of software libraries
-and machine-independent data formats that support the creation, access, and sharing of array-oriented
-scientific data.
+  description: "NetCDF (network Common Data Form) is a set of software libraries
+and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data."
   job: netcdf-deploy
   tags: {"libraries","dev"}
   versions: {}
