@@ -41,7 +41,7 @@
   description: "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
   job: llvm-deploy
   versions: {3.6.2}
-  tags: {"compilers","dev","requested"}
+  tags: {"compilers","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/llvm-deploy
 
 
