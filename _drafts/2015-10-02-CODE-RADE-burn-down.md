@@ -78,6 +78,16 @@ The NumPy build failures are inhibiting the rest of the python chain including S
 
 ... ideas about how to use Docker ***in testing***
 
+How should we used docker ?
+
+We originally had the idea to use  Docker to _deliver_ apps to users, however this brings up a bunch of security concerns, as well as practical issues, similar to the case of federated cloud sites. It's just too complicated at the moment to consider user applications in HPC to run reliably, cross-site in containers. So, we're sticking to CVMFS for prod.
+
+However, dev is a different story.
+
+jenkins docker
+
+ * enable docker api locally
+
 # Ideas and feedback
 
 ## from @kennedydane
