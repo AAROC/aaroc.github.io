@@ -17,7 +17,7 @@
   repo: https://github.com/SouthAfricaDigitalScience/mpfr-deploy
 
 - name: MPC
-  description: Gnu MPC is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result.
+  description: Gnu MPC is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result
   job: mpc-deploy
   versions: {1.0.1}
   tags: {"compilers","cvmfs"}
@@ -97,6 +97,14 @@
   tags: {"libraries"}
   repo: https://github.com/SouthAfricaDigitalScience/hdf5-deploy
 
+- name: NetCDF
+  description: NetCDF (network Common Data Form) is a set of software libraries
+and machine-independent data formats that support the creation, access, and sharing of array-oriented
+scientific data.
+  job: netcdf-deploy
+  tags: {"libraries","dev"}
+  versions: {}
+
 - name: FFTW3
   description: FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST).
   job: fftw3-deploy
@@ -126,29 +134,29 @@
   description: "Numerical Python"
   job: numpy-deploy
   versions: {1.9.1}
-  tag: {"frameworks","python"}
+  tag: {"frameworks","python","cvmfs","dev"}
   repo: https://github.com/SouthAfricaDigialScience/numpy-deploy
 
 - name: MatPlotLib
-  description:
-  job:
-  versions:
-  tag:
-  repo:
+  description: "Plotting functions for python"
+  job: matplotlib-deploy
+  versions: {4.8.4,4.9.2}
+  tag: {"libraries","python","dev","cvmfs"}
+  repo: https://github.com/SouthAfricaDigialScience/matplotlib-deploy
 
 - name: Pandas
-  description:
-  job:
-  versions:
-  tag:
-  repo:
+  description: "pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming"
+  job: pandas-deploy
+  versions: {0.17.0}
+  tag: {"libraries","python","dev"}
+  repo: https://github.com/SouthAfricaDigitalScience/pandas-deploy
 
 - name: SymPy
-  description:
-  job:
-  versions:
-  tag:
-  repo:
+  description: "Symbolic Python"
+  job: sympy-deploy
+  versions: {0.7.6.1}
+  tag: {"dev","python","frameworks"}
+  repo: https://github.com/SouthAfricaDigitalScience/Sympy-deploy
 
 - name:
   description:
