@@ -140,7 +140,7 @@ and machine-independent data formats that support the creation, access, and shar
   description: "Plotting functions for python"
   job: matplotlib-deploy
   versions: {4.8.4,4.9.2}
-  tags: {"libraries","python","dev","cvmfs"}
+  tags: {"libraries","python","dev"}
   repo: https://github.com/SouthAfricaDigialScience/matplotlib-deploy
 
 - name: Pandas
