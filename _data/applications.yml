@@ -93,8 +93,8 @@
 - name: HDF5
   description: HDF5 is a data model, library, and file format for storing and managing data.
   job: hdf5-deploy
-  versions: {1.8.14}
-  tags: {"libraries"}
+  versions: {1.8.14,1.8.15}
+  tags: {"libraries","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/hdf5-deploy
 
 - name: NetCDF
