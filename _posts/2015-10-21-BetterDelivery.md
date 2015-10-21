@@ -85,7 +85,7 @@ So, perhaps the right thing to do is to do `rsync` for `devrepo` and `tarball` f
 # We're late already !
 
 These have been some thoughts on improving the usability and scalability of project CODE-RADE. It will take a while to implment, and in the meantime, we need to publish the first release - Foundation Release 1.
-This was scheduled for **3 weeks ago** :scream: so it's time to get *something* out there.
+This was scheduled for **3 weeks ago** :scream: so it's time to get *something* out there. There are currently [9 open issues](https://github.com/AAROC/CODE-RADE/milestones/Infrastructure%20foundation%20release%201) for this release and most of them are related to modulefiles. We can fix this, so let's do it.
 
 Peace out.
 
