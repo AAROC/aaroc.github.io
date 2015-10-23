@@ -11,7 +11,7 @@ install: gem install jekyll html-proofer jemoji jekyll-sitemap jekyll-mentions
 #script: ./script/cibuild
 script:
   - jekyll build
-  - htmlproof ./_site
+#  - htmlproof ./_site
 notifications:
   slack:
     rooms:
