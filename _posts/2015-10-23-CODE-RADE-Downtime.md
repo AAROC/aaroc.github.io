@@ -35,7 +35,7 @@ So, what went wrong ?
 
 The first log entry we encountered was :
 
-```java
+```
     WARNING: Failed to scout com.tikal.jenkins.plugins.multijob.MultiJobBuildSelector
 java.lang.InstantiationException: java.lang.NoClassDefFoundError: hudson/plugins/copyartifact/BuildSelector
 ```
@@ -44,13 +44,13 @@ Now, most of our jobs are [matrix jobs](https://wiki.jenkins-ci.org/display/JENK
 
 Then, we started getting these :
 
-```java
+```
     SEVERE: Could not load actions from hudson.plugins.jswidgets.JsProjectActionFactory@6ca0e1b6 for hudson.matrix.MatrixProject@73ac157[hdf5-deploy]
 ```
 
 followed by
 
-```java
+```
     Oct 23, 2015 2:41:58 PM jenkins.InitReactorRunner$1 onTaskFailed
     SEVERE: Failed Loading job hdf5-deploy
     java.lang.NullPointerException
@@ -65,7 +65,7 @@ In particular, the job build triggers are using the [Github](https://wiki.jenkin
 The lowest-lying job in the dependency graph, [`gmp-deploy`](https://github.com/SouthAfricaDigitalScience/gmp-deploy) was also not loaded. This is _only_ triggered by Github events, and not other jobs[^HumanIntervention] and was throwing errors like this :
 
 
-```java
+```
   Oct 23, 2015 2:42:13 PM jenkins.InitReactorRunner$1 onTaskFailed
   SEVERE: Failed Loading job gmp-deploy
   java.lang.NullPointerException
@@ -90,7 +90,7 @@ So, this points in the direction of the "GhprbTrigger" the trigger that says "bu
 
 The `gmp-deploy` job configuration looks like this :
 
-```xml
+```
     <?xml version='1.0' encoding='UTF-8'?>
     <matrix-project plugin="matrix-project@1.4.1">
     <actions/>
