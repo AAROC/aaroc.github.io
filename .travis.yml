@@ -12,3 +12,8 @@ install: gem install jekyll html-proofer
 script:
   - jekyll build
   - htmlproof ./_site
+notifications:
+  slack:
+    rooms:
+      - africa-arabia-roc:RtLMfiuARuPNXMNIXn5RVTkF#code
+    
