@@ -46,7 +46,7 @@ Then, we started getting these :
 
 ```java
     SEVERE: Could not load actions from hudson.plugins.jswidgets.JsProjectActionFactory@6ca0e1b6 for hudson.matrix.MatrixProject@73ac157[hdf5-deploy]
-````
+```
 
 followed by
 
@@ -54,7 +54,7 @@ followed by
     Oct 23, 2015 2:41:58 PM jenkins.InitReactorRunner$1 onTaskFailed
     SEVERE: Failed Loading job hdf5-deploy
     java.lang.NullPointerException
-````
+```
 
 As you can see that is for a specific job `hd5-deploy`, which was using the MatrixProject configuration. It's also using a bunch of Jenkins plugins which are how we configure these jobs to do the things we want them to do.
 
@@ -82,7 +82,7 @@ The lowest-lying job in the dependency graph, [`gmp-deploy`](https://github.com/
   at jenkins.model.Jenkins$17.run(Jenkins.java:2655)
 	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
 
-````
+```
 
 So, this points in the direction of the "GhprbTrigger" the trigger that says "build this job when a pull request is sent to the Github repo". There are some suggestions that these are known bugs, from the [Jenkins JIRA](https://issues.jenkins-ci.org/browse/JENKINS-28417),  but the solution that was suggested did not fix anything.
 
