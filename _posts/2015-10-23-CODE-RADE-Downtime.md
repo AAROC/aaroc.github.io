@@ -192,7 +192,7 @@ The `gmp-deploy` job configuration looks like this :
       <runSequentially>false</runSequentially>
     </executionStrategy>
     </matrix-project>
-````
+```
 
 <h2 style="post-title">If anyone is out there reading this and can spot the error, please help us out !</h2>
 
