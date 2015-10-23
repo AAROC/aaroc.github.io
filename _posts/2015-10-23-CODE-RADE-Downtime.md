@@ -4,7 +4,7 @@ title:  'CODE-RADE Downtime'
 description: 'The road to downtime is paved with good intentions'
 headline: 'We done goofed.'
 category: blog
-tags: [blog, CODE-RADE, sitrep, downtime, goof, doh!]
+tags: [blog, CODE-RADE, sitrep, downtime, goof, doh]
 image:
   feature: 'he__s_dead_jim_by_pepper_fox.jpg'
   attribution: "Image courtesy of Deviant Art http://orig00.deviantart.net/0872/f/2009/167/7/e/he__s_dead_jim_by_pepper_fox.jpg"
@@ -88,7 +88,7 @@ So, this points in the direction of the "GhprbTrigger" the trigger that says "bu
 
 The `gmp-deploy` job configuration looks like this :
 
-```
+
     <?xml version='1.0' encoding='UTF-8'?>
     <matrix-project plugin="matrix-project@1.4.1">
     <actions/>
@@ -190,7 +190,7 @@ The `gmp-deploy` job configuration looks like this :
       <runSequentially>false</runSequentially>
     </executionStrategy>
     </matrix-project>
-```
+
 
 <h2 style="post-title">If anyone is out there reading this and can spot the error, please help us out !</h2>
 
