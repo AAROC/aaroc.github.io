@@ -35,18 +35,17 @@ So, what went wrong ?
 
 The first log entry we encountered was :
 
-```
-    WARNING: Failed to scout com.tikal.jenkins.plugins.multijob.MultiJobBuildSelector
-java.lang.InstantiationException: java.lang.NoClassDefFoundError: hudson/plugins/copyartifact/BuildSelector
-```
+
+    WARNING: Failed to scout com.tikal.jenkins.plugins.multijob.MultiJobBuildSelector java.lang.InstantiationException: java.lang.NoClassDefFoundError: hudson/plugins/copyartifact/BuildSelector
+
 
 Now, most of our jobs are [matrix jobs](https://wiki.jenkins-ci.org/display/JENKINS/Matrix+Project+Plugin) which allow us to test the various configurations of operating system, version number, compiler configuration, _etc_. The above error was the first hint that this was a _plugin_ issue and not an actual Jenkins issue.
 
 Then, we started getting these :
 
-```
+
     SEVERE: Could not load actions from hudson.plugins.jswidgets.JsProjectActionFactory@6ca0e1b6 for hudson.matrix.MatrixProject@73ac157[hdf5-deploy]
-```
+
 
 followed by
 
@@ -65,24 +64,23 @@ In particular, the job build triggers are using the [Github](https://wiki.jenkin
 The lowest-lying job in the dependency graph, [`gmp-deploy`](https://github.com/SouthAfricaDigitalScience/gmp-deploy) was also not loaded. This is _only_ triggered by Github events, and not other jobs[^HumanIntervention] and was throwing errors like this :
 
 
-```
-  Oct 23, 2015 2:42:13 PM jenkins.InitReactorRunner$1 onTaskFailed
-  SEVERE: Failed Loading job gmp-deploy
-  java.lang.NullPointerException
-  at hudson.matrix.MatrixProject.createTransientActions(MatrixProject.java:442)
-  at hudson.model.AbstractProject.updateTransientActions(AbstractProject.java:748)
-  at hudson.matrix.MatrixProject.updateTransientActions(MatrixProject.java:456)
-  at hudson.model.AbstractProject.save(AbstractProject.java:304)
-  at org.jenkinsci.plugins.ghprb.GhprbTrigger.save(GhprbTrigger.java:171)
-  at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:186)
-  at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:52)
-  at hudson.model.AbstractProject.onLoad(AbstractProject.java:326)
-  at hudson.matrix.MatrixProject.onLoad(MatrixProject.java:497)
-  at hudson.model.Items.load(Items.java:322)
-  at jenkins.model.Jenkins$17.run(Jenkins.java:2655)
-	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
 
-```
+    Oct 23, 2015 2:42:13 PM jenkins.InitReactorRunner$1 onTaskFailed
+    SEVERE: Failed Loading job gmp-deploy
+    java.lang.NullPointerException
+    at hudson.matrix.MatrixProject.createTransientActions(MatrixProject.java:442)
+    at hudson.model.AbstractProject.updateTransientActions(AbstractProject.java:748)
+    at hudson.matrix.MatrixProject.updateTransientActions(MatrixProject.java:456)
+    at hudson.model.AbstractProject.save(AbstractProject.java:304)
+    at org.jenkinsci.plugins.ghprb.GhprbTrigger.save(GhprbTrigger.java:171)
+    at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:186)
+    at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:52)
+    at hudson.model.AbstractProject.onLoad(AbstractProject.java:326)
+    at hudson.matrix.MatrixProject.onLoad(MatrixProject.java:497)
+    at hudson.model.Items.load(Items.java:322)
+    at jenkins.model.Jenkins$17.run(Jenkins.java:2655)
+	  at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+
 
 So, this points in the direction of the "GhprbTrigger" the trigger that says "build this job when a pull request is sent to the Github repo". There are some suggestions that these are known bugs, from the [Jenkins JIRA](https://issues.jenkins-ci.org/browse/JENKINS-28417),  but the solution that was suggested did not fix anything.
 
