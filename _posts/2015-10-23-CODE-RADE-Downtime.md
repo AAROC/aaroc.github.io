@@ -6,7 +6,7 @@ headline: 'We done goofed.'
 category: blog
 tags: [blog, CODE-RADE, sitrep, downtime, goof, doh!]
 image:
-  feature: he__s_dead_jim_by_pepper_fox.jpg
+  feature: 'he__s_dead_jim_by_pepper_fox.jpg'
   attribution: "Image courtesy of Deviant Art http://orig00.deviantart.net/0872/f/2009/167/7/e/he__s_dead_jim_by_pepper_fox.jpg"
 comments: false
 mathjax: false
@@ -50,11 +50,11 @@ Then, we started getting these :
 
 followed by
 
-```
+
     Oct 23, 2015 2:41:58 PM jenkins.InitReactorRunner$1 onTaskFailed
     SEVERE: Failed Loading job hdf5-deploy
     java.lang.NullPointerException
-```
+
 
 As you can see that is for a specific job `hd5-deploy`, which was using the MatrixProject configuration. It's also using a bunch of Jenkins plugins which are how we configure these jobs to do the things we want them to do.
 
