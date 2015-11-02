@@ -139,5 +139,5 @@ gems:
   - jekyll-sitemap
   - jekyll-mentions
   - jekyll-paginate
-  - pygments
+#  - pygments
 #  - dashing
