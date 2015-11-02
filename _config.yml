@@ -107,7 +107,6 @@ links:
 timezone:    Africa/Johannesburg
 future:      true
 highlighter: pygments
-pygments:    true
 markdown:  kramdown
 
 paginate:    4
