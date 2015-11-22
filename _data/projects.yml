@@ -31,7 +31,7 @@
   description: "Automated Continuous Integration and Delivery of Research Applications"
   links:
     - name: CI platform
-      url: http://ci.sagrid.ac.za:8080
+      url: http://ci.sagrid.ac.za
       icon: cog
       protected: true
     - name: Project Honours proposal

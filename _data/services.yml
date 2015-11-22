@@ -7,7 +7,7 @@
 
 - name: Infrastructure
   title: ROC Interoperability services
-  url: core
+  url: coreservices
   icon: sitemap
   external: false
   service_list:

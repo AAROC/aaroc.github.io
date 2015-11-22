@@ -25,7 +25,7 @@ This is what we've got in the pipeline
       {% endfor %}
       {% endif %}</td>
       {% if app.job != null %}
-      <td style="valign: center"><a href='http://ci.sagrid.ac.za:8080/view/All/job/{{ app.job }}/'><img src='http://ci.sagrid.ac.za:8080/view/All/job/{{ app.job }}/badge/icon'></a>
+      <td style="valign: center"><a href='http://ci.sagrid.ac.za/job/{{ app.job }}/'><img src='http://ci.sagrid.ac.za/job/{{ app.job }}/badge/icon'></a>
       </td>
       {% else %}
       <td style="valign: center"><span class="badge badge-info">Proposed</span></td>
