@@ -1,6 +1,12 @@
 # YAML metadata of the jobs in the jenkins build system.
 # this can be obtained via the REST interface as well.
 ---
+- name: zlib
+  description: Free Compression Library
+  job: zlib-deploy
+  versions: {1.2.8}
+  tags: {"libraries"}
+  repo: https://github.com/SouthAfricaDigitalScience/zlib-deploy
 # First, the compilers
 - name: GMP
   description: GNU Multiprecision library
@@ -33,7 +39,7 @@
 - name: CMake
   description: Cross-platform build tools
   job: cmake-deploy
-  versions: {3.1.0}
+  versions: {3.4.0}
   tags: {"compilers","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/cmake-deploy
 
@@ -85,7 +91,7 @@
 - name: GSL
   description: GNU Science Libraries
   job: gsl-deploy
-  versions: {1.16,1.15,1.14}
+  versions: {1.16,2.0,2.1}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/gsl-deploy
 
