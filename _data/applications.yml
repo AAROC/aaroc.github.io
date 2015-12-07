@@ -91,7 +91,7 @@
 - name: GSL
   description: GNU Science Libraries
   job: gsl-deploy
-  versions: {1.16,2.0,2.1}
+  versions: {1.16,2.0,2.1 }
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/gsl-deploy
 
