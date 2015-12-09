@@ -1,5 +1,5 @@
 - name: FastRepo
-  description: "Continuously delivered repository which is transacted upon every successful build. This contains the latest applications built by Jenkins. The software has been tested, but the modules may not have been. Use only for development and if you are  very brave :hurtrealbad:"
+  description: "Continuously delivered repository which is transacted upon every successful build. This contains the latest applications built by Jenkins. The software has been tested, but the modules may not have been. Use only for development and if you are  very brave"
   url: http://apprepo.sagrid.ac.za/cvmfs/fastrepo.sagrid.ac.za
 
 - name: DevRepo
