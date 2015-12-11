@@ -31,7 +31,7 @@ discourse: true
 We are pleased to announce the first **Foundation Release** of the CODE-RADE project :
 
 <center>
-<h2 class="post-title"><b>Co</b>ntinuous <b>De</b>livery of <b>R</b>esearch <b>A</b>pplciations in a <b>D</b>istrbuted <b>E</b>nvironment.</h2>
+<h2 class="post-title"><b>Co</b>ntinuous <b>De</b>livery of <b>R</b>esearch <b>A</b>pplciations in a <b>D</b>istributed <b>E</b>nvironment.</h2>
 <img src="{{ site_url }}/images/code-rade-logo.png">
 <h3><a class="fa fa-wrench"></a> Build <a class="fa fa-check-square-o"></a> Test <a class="fa fa-cog"></a> Execute <a class="fa fa-globe"></a> Everywhere</h3>
 </center>
