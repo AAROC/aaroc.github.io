@@ -43,12 +43,10 @@ Now, most of our jobs are [matrix jobs](https://wiki.jenkins-ci.org/display/JENK
 
 Then, we started getting these :
 
-
     SEVERE: Could not load actions from hudson.plugins.jswidgets.JsProjectActionFactory@6ca0e1b6 for hudson.matrix.MatrixProject@73ac157[hdf5-deploy]
 
 
 followed by
-
 
     Oct 23, 2015 2:41:58 PM jenkins.InitReactorRunner$1 onTaskFailed
     SEVERE: Failed Loading job hdf5-deploy
