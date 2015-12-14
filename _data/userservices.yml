@@ -1,0 +1,28 @@
+- name: VOMS
+  title: VO Membership Services
+  url: voms/
+  icon: users
+- name: UI
+  title: User Interfaces
+  icon: terminal
+  url:
+- name: Simple Jobs
+  title: Submitting simple jobs
+  icon: check-square-o
+  url:
+- name: Complex Jobs
+  title: Submitting complex jobs
+  icon: cube
+  url:
+- name: HPC
+  title: High-Performance Computing
+  icon: arrows-alt
+  url:
+- name: Data Storage
+  title: Data Storage
+  icon: database
+  url:
+- name: Data Movement
+  title: Data Movement
+  icon: ship
+  url:

@@ -2,62 +2,24 @@
 layout: page
 permalink: /user/
 title: User info
-tags: [blog]
+codrops: false
+gridlayout: true
 image:
   feature: Marvin-Gaye-Featured-Image.jpg
 ---
 
-<ul id="user" class="nav navbar-justified nav-pills"></ul>
+<h1 class="text-center">Users-facing services</h1>
 
-<script>
-var xhr = new XMLHttpRequest();
-xhr.open("GET, "http://api.github.com/v3/repos/AAROC/DevOps/contributors", false);
-xhr.send();
-console.log(xhr.status);
-</script>
+What will you do with the grid today ? 
 
-
-<ul id="user" class="nav navbar-justified nav-pills"></ul>
- <script>
- var AAROC = new Gh3.User("AAROC")
-, repoTitle = $("h1")
-, branchTitle = $("h2")
-, branchProperties = $("ul");
-//get some repositories of DevOps
-var AAROCRepositories = new Gh3.Repositories(AAROC);
-AAROCRepositories.fetch({page:5, per_page:5, direction : "desc"},"next", function (err, res) {
-if(err) {
-throw "outch ..."
-}
-console.log("Repositories", AAROCRepositories);
-});
-//get one repository
-var DevOps = new Gh3.Repository("DevOps", AAROC);
-DevOps.fetch(function (err, res) {
-if(err) {
-console.log("Error", err.message, res.status)
-throw err
-}
-console.log("Repository : ", DevOps);
-repoTitle.html(DevOps.full_name);
-DevOps.fetchBranches(function (err, res) {
-if(err) {
-console.log("Error", err.message, res.status)
-throw err
-}
-console.log("Array of branches : ", DevOps.getBranches());
-DevOps.eachBranch(function (branch) {
-console.log(branch.name);
-})
-//and :
-var master = DevOps.getBranchByName("master");
-branchTitle.html(master.name + " (" + master.sha + ") properties :");
-_.each(_.keys(master), function (prop) {
-branchProperties.append(
-$('<li>').append(prop+" : "+master[prop])
-);
-});
-})
-});
-
-</script>
+<ul class="cbp-ig-grid">
+{% for service in site.data.userservices %}
+  <li>
+    <a href="{{ site_url }}/{{ service.url }}">
+      <span class="fa-stacked"><i class="fa fa-{{ service.icon }} fa-4x"></i></span>
+      <h5 class="cbp-ig-title">{{ service.name }}</h5>
+      <span class="cbp-ig-category">{{ service.title }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>
