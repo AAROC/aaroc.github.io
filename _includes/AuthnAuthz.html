@@ -1,0 +1,38 @@
+<h1>Identity and Authentication</h1>
+The Africa-Arabia ROC operates a federation of resources across several institutes. Access to them requires a global identity. While you may have a single user a
+In order to execute applications and store data on the grid, you'll need a <em>context</em>. This is provided through an <em>identity</em> provider and an <em>authorisation</em> :
+<ul>
+  <li>Identity or <b>Authentication</b> is provided by a personal X.509 digital certificate issued to you by a recognosed <b>Certificate Authority</b>. Identities provided by <b>federated identity providers</b> are also accepted by certain services.</li>
+  <li>Permissions or <b>Authorisation</b> are generally provided by your role in a <a href="#vos">Virtual Organisation</a> but can also be determined on a service-by-service basis.</li>
+</ul>
+
+<h2>Getting Started</h2>
+
+In order to provide transparent access to these, we allow central registration via the <a href="http://perun.c4.csir.co.za">Perun</a> service. If you're a new user, and you'd like to start using the grid, sign up to the <a href="https://perun.c4.csir.co.za/non/registrar/?vo=sagrid.ac.za">Catch-All VO</a> for the region. This will give you access to the user interfaces, and identify you to various services.
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="{{ site_url }}/images/perun-logo-transparent.png" alt="Sign up using Perun">
+      <div class="caption text-center">
+        <h3>Register using Perun</h3>
+        <p><a href="https://voms.sagrid.ac.za:8443" class="btn btn-default" role="button">See all VOs</a> <a href="https://perun.c4.csir.co.za/non/registrar/?vo=sagrid.ac.za" class="btn btn-default" role="button">Join <code>sagrid.ac.za</code></a></p>
+      </div> <!-- caption -->
+    </div> <!-- thumbnail -->
+  </div> <!-- col -->
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="{{ site_url }}/images/operations-portal.png" alt="See all VOs in the Operations Portal" href="http://operations-portal.egi.eu/vo/search">
+      <div class="caption text-center">
+        <h3>See all VOs in the operations portal</h3>
+      </div> <!-- caption -->
+    </div> <!-- thumbnail -->
+  </div> <!-- col -->
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="{{ site_url }}/images/EGI_Logo_RGB.svg" alt="More on Authentication and Authorisation" href="https://documents.egi.eu/public/ShowDocument?docid=1178">
+      <div class="caption text-center">
+        <h3>More on Authentication and Authorisation</h3>
+      </div> <!-- caption -->
+    </div> <!-- thumbnail -->
+  </div> <!-- col -->
+</div> <!-- row -->
