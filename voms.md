@@ -6,7 +6,13 @@ image:
   feature: Marvin-Gaye-Featured-Image.jpg
 ---
 
+VOMS : Virtual Organisation Membership Service
+
 # TL;DR
+
+A VOMS adds <em>permissions</em> to your identity, allowing you to use services on the grid.
+
+Quickstart :
 
   - [x] Register in VO with your personal certificate
   - [x] Copy personal certificate to <code>$HOME/.globus/user[cert,key].pem</code>
@@ -41,8 +47,10 @@ uri       : voms.sagrid.ac.za:15001
 
 # Virtual Organisations
 
-In order to register to a Virtual Organisation, you need a personal certificate from a [trusted Certificate Authority]( {{ site_url }}/CertificateAuthorities )
+In order to register to a Virtual Organisation, you need a personal certificate from a [trusted Certificate Authority]( {{ site_url }}/CertificateAuthorities ). There are several VO's supported - see a full list at <a href="http://operations-portal.egi.eu/vo/search">the EGI Operations Portal</a>
 
 # Attributes
+
+Attributes
 
 # Proxies
