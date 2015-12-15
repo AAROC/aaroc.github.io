@@ -51,6 +51,6 @@ In order to register to a Virtual Organisation, you need a personal certificate 
 
 # Attributes
 
-Attributes
+Attributes define what permissions you have. These are added to a proxy of your personal certificate by the VOMS. 
 
 # Proxies
