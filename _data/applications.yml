@@ -71,7 +71,7 @@
   description: "Python is a programming language that lets you work quickly and integrate systems more effectively."
   job: python-deploy
   versions: {2.6.9,3.4.1}
-  tags: {"frameworks"}
+  tags: {"python"}
   repo: https://github.com/SouthAfricaDigitalScience/python-deploy
 
 - name: LAPACK
@@ -132,14 +132,14 @@ and machine-independent data formats that support the creation, access, and shar
   description: Scientific Python
   job: scipy-deploy
   versions: {0.5.1}
-  tags: {"frameworks","python"}
+  tags: {"python"}
   repo: https://github.com/SouthAfricaDigialScience/scipy-deploy
 
 - name: NumPy
   description: "Numerical Python"
   job: numpy-deploy
   versions: {1.9.1}
-  tags: {"frameworks","python","cvmfs","dev"}
+  tags: {python","cvmfs","dev"}
   repo: https://github.com/SouthAfricaDigialScience/numpy-deploy
 
 - name: MatPlotLib
@@ -163,12 +163,12 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"dev","python","frameworks"}
   repo: https://github.com/SouthAfricaDigitalScience/Sympy-deploy
 
-- name:
-  description:
-  job:
-  versions:
-  tags:
-  repo:
+- name: Repast HPC
+  description: "Parallel Agent-based modelling"
+  job: repast-hpc-deploy
+  versions: 2.1
+  tags: {"dev","frameworks"}
+  repo: https://github.com/SouthAfricaDigialScience/repast-hpc-deploy
 
 - name:
   description:
