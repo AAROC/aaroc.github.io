@@ -81,6 +81,13 @@
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/lapack-deploy
 
+- name: ScaLAPACK
+  description: Scalable, parallel Linear Algebra Libraries
+  job: scalapack-deploy
+  versions: {2.2.0}
+  tags: {"libraries","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/scalapack-deploy
+
 - name: ATLAS
   description: Automatically-Tuned Linear Algebra Software
   job: atlas-deploy
@@ -125,6 +132,14 @@ and machine-independent data formats that support the creation, access, and shar
   versions: {5.1.3}
   tags: {"chemistry","dev"}
   repo: quantum-espresso-deploy
+
+- name: Abinit
+  description: "ABINIT is a package whose main program allows one to find the total energy, charge density and electronic structure of systems made of electrons and nuclei (molecules and periodic solids) within Density Functional Theory (DFT), using pseudopotentials and a planewave or wavelet basis."
+  job: abinit-deploy
+  versions: 7.10.5
+  tags: {"chemistry","dev"}
+  repo: https://github.com/SouthAfricaDigialScience/abinit-deploy
+
 
 ### Python stuff ###
 
@@ -228,10 +243,10 @@ and machine-independent data formats that support the creation, access, and shar
 
 - name: GROMACS
   description:
-  job:
+  job: gaussian-deploy
   versions: {4.6.1}
   tags: {"requested"}
-  repo:
+  repo: https://github.com/SouthAfricaDigialScience/gromacs-deploy
 
 - name: Cosmo MC
   description:
