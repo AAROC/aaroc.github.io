@@ -202,6 +202,14 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"astronomy","frameworks"}
   repo: https://github.com/SouthAfricaDigialScience/heasoft-deploy
 
+- name: CFITSIO
+  description: "The C-implementation of the FITS I/O library"
+  job: fitsio-deploy
+  versions: 33.70
+  tags: {"astronomy","cvmfs"}
+  repo: https://github.com/SouthAfricaDigialScience/fitsio-deploy
+
+
 - name: GADGET
   description:
   job:
