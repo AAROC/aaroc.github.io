@@ -124,6 +124,13 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/fftw3-deploy
 
+- name: SparseHash
+  description: Google's SparseHash library
+  job: sparsehash-deploy
+  versions: 2.0.3
+  tags: {"libraries"}
+  repo: https://github.com/SouthAfricaDigialScience/sparsehash-deploy
+
 #### Chemistry
 
 - name: Quantum Espresso
