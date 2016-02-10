@@ -289,8 +289,8 @@ There are [several applications](http://www.africa-grid.org/blog/2016/01/02/CODE
   </tr>
   <tr>
     <td>MITML</td>
-    <td class="text-success">Low hanging fruit ? Need to add the scripts to the repo and create the Jenkins job.</td>
-    <td></td>
+    <td class="text-success">none</td>
+    <td>Low hanging fruit ? Need to add the scripts to the repo and create the Jenkins job.</td>
   </tr>
   <tr>
     <td>GAMA-Platform</td>
@@ -311,6 +311,18 @@ There are [several applications](http://www.africa-grid.org/blog/2016/01/02/CODE
 The applications which have been described as low-hanging fruit are going to be added over the next few days. Significant work needs to be done for a few of the other ones, and lower-lying dependencies need to be added and compiled for different targets. We look forward to having some contribution from those interested, and using some of these as example applications in the upcoming [Sci-GaIA winter school](http://www.sci-gaia.eu/winter-school).
 
 For now, let's keep <img src="{{ site_url }}/images/build-passing.svg">
+<div class="row">
+<div class="col-md-4">
+</div>
+<div classs="col-md=-4">
+<video id="gif-mp4" poster="https://media.giphy.com/media/9G52mAJTInGVy/200_s.gif" style="margin:0;padding:0" autoplay="" loop="" height="289" width="700">
+            <source src="https://media.giphy.com/media/9G52mAJTInGVy/giphy.mp4" type="video/mp4">
+            Your browser does not support the mp4 video codec.
+</video>
+</div>
+<div class="col-md-4">
+</div>
+</div>
 
 # Footnotes and References
 
