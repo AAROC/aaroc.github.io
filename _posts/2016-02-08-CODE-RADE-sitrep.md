@@ -119,7 +119,7 @@ Python is one of the generic frameworks which is difficult to treat like the oth
 The current overview of the status of python is :
 
 <figure>
-<img src="{{ site_url }}/images/python-build-26-snapshot.png" href="http://ci.sagrid.ac.za/job/python/26">
+<img src="{{ site_url }}/images/python-build-26-snapshot.png"  />
 <figcaption>Snapshot of the status of Python at build 26 - current at the time of writing</figcaption>
 </figure>
 
