@@ -32,7 +32,7 @@
 - name: GCC
   description: 'The GNU Compiler Collection'
   job: 'gcc-deploy'
-  versions: {"4.8.2", "4.8.4", "4.9.2"}
+  versions: {"4.9.2","5.1.0","5.2.0"}
   tags: {"compilers","cvmfs"}
   repo: 'https://github.com/SouthAfricaDigitalScience/gcc-deploy'
 
@@ -147,6 +147,52 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"chemistry","dev"}
   repo: https://github.com/SouthAfricaDigialScience/abinit-deploy
 
+### bioinformatics ###
+
+- name: Velvet
+  description: Sequence assembler for very short reads
+  job: velvet-deploy
+  versions: {1.2.10}
+  tags: {"bioinformatics","cvmfs"}
+  repo: https://github.com/SouthAfricaDigialScience/velvet-deploy
+
+- name: OASES
+  description: De novo transcriptome assembler for very short reads
+  job: oases-deploy
+  versions: {0.2.08}
+  tags: {"bioinformatics","cvmfs"}
+  repo: https://github.com/SouthAfricaDigialScience/oases-deploy
+
+
+# H3A stuff
+- name: FastQC
+  description: A quality control application for high throughput sequence data
+  job:
+  versions: 0.11.4
+  tags: {"Requested","H3ABioNet"}
+  repo:
+
+- name: PRINSEQ
+  description: PReprocessing and INformation of SEQuence data
+  job:
+  versions: {0.20.4}
+  tags: {"Requested","H3ABioNet"}
+  repo:
+
+
+- name: SolexaQA
+  description: SolexaQA calculates sequence quality statistics and creates visual representations of data quality for second-generation sequencing data
+  job:
+  versions: {3.1.4}
+  tags: {"Requested","H3ABioNet"}
+  repo:
+
+- name: Trimmomatic
+  description: A flexible read trimming tool for Illumina NGS data
+  job:
+  versions: {0.35}
+  tags: {"Requested","H3ABioNet"}
+  repo:
 
 ### Python stuff ###
 
@@ -304,13 +350,6 @@ and machine-independent data formats that support the creation, access, and shar
   description:
   job:
   versions: {5.2}
-  tags: {"requested"}
-  repo:
-
-- name: Velvet
-  description:
-  job:
-  versions: {1.0.19}
   tags: {"requested"}
   repo:
 
