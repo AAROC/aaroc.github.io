@@ -1,0 +1,143 @@
+title:            Africa-Arabia Regional Operations Centre
+description:      Daily Chaos from Africa and Arabia | e-Infrastructure operations and coordination
+logo:             SANCG_logoTransparent-cropped.png
+disqus_shortname: aarocblog
+# Assign a default image for your site's header and footer
+default_bg:       default-bg.png
+#default_bg:       operations-portal.gif
+search:           false
+share:            true
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime:         true
+# Turn on or off the fin animations in the header and footer
+animated_fins:	  false
+# Specify the fin color in RGB value
+#fin_color:        "255,255,255"
+fin_color:        "139, 115, 74"
+# Change url to your domain. Leave localhost server or blank when working locally.
+#wurl:              http://www.africa-grid.org
+url: http://localhost:4000
+# Owner/author information
+owner:
+  name:           Africa-Arabia Regional Operations Centre.
+  avatar:         SANCG_logoTransparent-cropped.png
+  email:          thesagrid@gmail.com
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    "The Africa-Arabia Regional Operations Team"
+  # Social networking links used in footer. Update and remove as you like
+  social:
+    twitter:        thesagrid
+    facebook:       SAGrid
+    github:         AAROC
+    slack:          africa-arabia-roc
+    slideshare:     brucellino
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
+
+
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-51099001-2
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+using_wow: true
+# Links to include in footer navigation
+# For external links add external: true
+links:
+  - title: Home
+    displaytitle: false
+    url: /
+    sublniks: []
+    icon: home
+  - title: About
+    displaytitle: true
+    url: /AAROC/
+    sublinks: []
+    icon: info-circle
+  - title: Sites
+    displaytitle: true
+    url: /sites/
+    icon: globe
+    sublinks: []
+#- title: Status
+#    displaytitle: true
+#    url: /SitRep
+#    sublinks: []
+#    icon: dashboard
+  - title: Blog
+    displaytitle: true
+    url: /blog/
+    sublinks: []
+    icon: bullhorn
+  - title: Campaigns
+    displaytitle: true
+    url: /campaigns
+    sublinks: []
+    icon: fire
+  - title: Projects
+    displaytitle: true
+    url: /projects
+    sublinks: []
+    icon: flask
+  - title: Contact
+    displaytitle: false
+    url: /contact
+    icon: paper-plane-o
+  #
+  # - title: Tags
+  #   url: /tags
+  #   icon: tags
+  #- title: The Team
+  #  url: /team/
+  #  icon: group
+  #  external: false
+
+#  - title: Collaborate
+#    url: /How-to-contribute
+#    external: false
+#    icon: exchange
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Africa/Johannesburg
+future:      true
+highlighter: rouge
+markdown:  kramdown
+
+paginate:    4
+toc_levels: 1..6
+paginate_path: "page:num"
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+#permalink:   /:categories/:title/
+permalink: pretty
+excerpt_separator: --
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: true
+  input: GFM
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+gems:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+#  - pygments
+#  - dashing
