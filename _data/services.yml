@@ -130,7 +130,7 @@
 
 - name: Dev &amp; CI
   title: Continuous Development, Integration and Delivery
-  url: code-rade/
+  url: /CODE-RADE/
   external: false
   roc_service: true
   icon: wrench
