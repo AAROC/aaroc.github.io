@@ -46,8 +46,8 @@
 - name: LLVM
   description: "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
   job: llvm-deploy
-  versions: {3.6.2}
-  tags: {"compilers","dev"}
+  versions: {3.7.0}
+  tags: {"compilers","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/llvm-deploy
 
 
