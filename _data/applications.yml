@@ -131,6 +131,15 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"libraries"}
   repo: https://github.com/SouthAfricaDigialScience/sparsehash-deploy
 
+##### Language #####
+
+- name: HTK
+  description:  Hidden Markov Model Toolkit (HTK)
+  job: htk-deploy
+  versions: 3.5.beta-1
+  tags: {"language","cvmfs"}
+  repo: https://github.com/SouthAfricaDigialScience/htk-deploy
+
 #### Chemistry
 
 - name: Quantum Espresso

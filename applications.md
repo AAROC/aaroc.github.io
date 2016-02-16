@@ -24,8 +24,9 @@ Our build system performs continuous integration on applications which are suppo
     <li role="presentation"><a href="#compilers" aria-controls="compilers" role="tab" data-toggle="tab">Compilers</a></li>
     <li role="presentation"><a href="#libraries" aria-controls="libraries" role="tab" data-toggle="tab">Libraries</a></li>
     <li role="presentation"><a href="#frameworks" aria-controls="framweworks" role="tab" data-toggle="tab">Frameworks</a></li>
-    <li role="presentation"><a href="#python" aria-controls="pythonre " role="tab" data-toggle="tab">Python</a></li>
+    <li role="presentation"><a href="#python" aria-controls="python " role="tab" data-toggle="tab">Python</a></li>
     <li role="presentation"><a href="#chemistry" aria-controls="chemistry" role="tab" data-toggle="tab">Chemistry</a></li>
+    <li role="presentation"><a href="#language" aria-controls="language" role="tab" data-toggle="tab">Language</a></li>
     <li role="presentation"><a href="#requested" aria-controls="requested" role="tab" data-toggle="tab">Requested</a></li>
 
   </ul>
@@ -39,6 +40,7 @@ Our build system performs continuous integration on applications which are suppo
 {% include frameworks.html %}
 {% include python.html %}
 {% include chemistry.html %}
+{% include language.html %}
 {% include requested.html %}
 <br>
 <table class="table table-condensed">
