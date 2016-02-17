@@ -14,7 +14,7 @@ In order to execute applications, they need to be on the remote execution enviro
 
 ## Straight from our Jenkins to you
 
-Our build system performs continuous integration on applications which are supported by the infrastructure, as well as user-proposed applications. Below you can find the overview of the status of these. These are executable in local-only or under the [sagrid.ac.za](https://voms.sagrid.ac.za/voms/sagrid.ac.za).
+Our build system performs continuous integration on applications which are supported by the infrastructure, as well as user-proposed applications. Below you can find the overview of the status of these. These are executable in local-only or under the [sagrid.ac.za](https://voms.sagrid.ac.za/voms/sagrid.ac.za) VO.
 
 <h2 class="post-info"><i class="fa fa-chevron-circle-right"></i> You can access these applications directly from your laptop, or cluster <a href="{{ site_url }}/cvmfs"> Find out how <i class="fa fa-chevron-circle-left"></i></a> </h2>
 
