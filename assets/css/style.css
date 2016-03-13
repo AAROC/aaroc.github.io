@@ -31,7 +31,7 @@ h1 {
   font-size: 38px;
   line-height: 48px;
   margin-bottom: 24px;
-  font-family: Bendable BRK;
+  font-family: 'Lato Thin';
 }
 h1 small {
   font-size: 26px;
@@ -816,7 +816,7 @@ body input,
 body textarea,
 body .btn,
 body button {
-  font-family: 'Lato Thin';
+  font-family: 'Lato';
 }
 .lighter {
   font-weight: 200 !important;
@@ -827,7 +827,7 @@ body button {
 .lead {
   font-weight: 400;
   font-size:
-  font-family: "Lato Thin";
+  font-family: 'Lato';
 }
 h1,
 h2,
@@ -835,7 +835,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato Thin';
+  font-family: 'Lato';
 }
 h1.lighter,
 h2.lighter,
@@ -1222,7 +1222,7 @@ svg:not(:root) {
 figcaption {
     padding-top: 10px;
     text-align: center;
-    font-family: 'Lato Thin';
+    font-family: 'Lato';
 }
 #disqus_thread {
     margin-top: 2em;
