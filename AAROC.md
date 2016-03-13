@@ -6,8 +6,10 @@ tags: [AAROC, about]
 image:
   feature:
 ---
+<div class="text-center">
 
-# We are the Africa-Arabia Regional Operations Centre
+<h1> We are the Africa-Arabia Regional Operations Centre</h1>
+</div>
 
 The tales of Sinbad the sailor tell of a mythical bird, the Roc, encountered along his adventures on the seven seas. Swooping in to save sailors in distress all over the seas and mountains of Africa and Arabia, the Roc has come to the rescue of the intrepid in harsh and unexplored environments. As such, it has been chosen as our mascot. There are several Regional Operations Centres, but there's only one Africa-Arabia ROC.
 
