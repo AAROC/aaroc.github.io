@@ -5,8 +5,8 @@ description: 'That list of works is going to get long, and indeed not all resear
 category: blog
 tags: [blog, Sci-GaIA, e-Science, eko-Konnect]
 image:
-  feature:
-  attribution: ""
+  feature: filter.jpg
+  attribution: "Courtesy of SplitShire http://www.splitshire.com/wp-content/uploads/2015/01/SplitShire-6806-1800x1200.jpg"
 comments: false
 mathjax: false
 discourse: true
