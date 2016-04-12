@@ -3,7 +3,7 @@ layout: post
 title:  'ORCID - Y U NO sort by impact ? '
 description: 'That list of works is going to get long, and indeed not all research output is created equal'
 category: blog
-tags: [blog, Sci-GaIA, e-Science, eko-Konnect]
+tags: [blog, Sci-GaIA, e-Science, ORCID, DataCite, persistent]
 image:
   feature: filter.jpg
   attribution: "Courtesy of SplitShire http://www.splitshire.com/wp-content/uploads/2015/01/SplitShire-6806-1800x1200.jpg"
