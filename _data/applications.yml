@@ -131,6 +131,13 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"libraries"}
   repo: https://github.com/SouthAfricaDigialScience/sparsehash-deploy
 
+- name: gnuplot
+  description: GNU Plotting Library
+  job: gnuplot-deploy
+  versions: {4.6.7, 5.0.3}
+  tags: {"libraries"}
+  repo: https://github.com/SouthAfricaDigitalScience/gnuplot-deploy
+
 ##### Language #####
 
 - name: HTK
