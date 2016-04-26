@@ -135,7 +135,7 @@ and machine-independent data formats that support the creation, access, and shar
   description: GNU Plotting Library
   job: gnuplot-deploy
   versions: {4.6.7, 5.0.3}
-  tags: {"libraries"}
+  tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/gnuplot-deploy
 
 ##### Language #####
