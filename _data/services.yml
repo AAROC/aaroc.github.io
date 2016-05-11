@@ -1,18 +1,18 @@
 - name: For Users
   title: User-facing services
-  url: user
+  url: user/
   icon: user
   external: false
 - name: Applications
   title: Applications
-  url: applications
+  url: applications/
   icon: rocket
   external: false
   service_list: []
 
 - name: Infrastructure
   title: ROC Interoperability services
-  url: core
+  url: coreservices/
   icon: sitemap
   external: false
   service_list:

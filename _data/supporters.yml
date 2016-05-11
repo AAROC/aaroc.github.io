@@ -3,33 +3,47 @@
   logo: logo-chain-reds.png
   url: http://www.chain-project.eu
   type: project
+  funding: FP7
+
+- name: ei4Africa Project
+  title: ei4Africa project -  e-Infrastructure for Africa
+  logo: ei4africa.png
+  url: http://www.ei4africa.eu
+  type: project
+  funding: FP7
+
+- name: Sci-GaIA
+  title: Energising Scientific Endeavour through Science Gateways and e-Infrastructures in Africa
+  logo: Sci-GaIAlogo.png
+  url: http://www.sci-gaia.eu
+  type: project
+  funding: H2020
+
 
 - name: ASREN
   title: Arab States Research and Education Network
   logo: ASRENLogo.jpg
   url: http://asrenorg.net
   type: NREN
+  funding:
 
 - name: SANREN
   title: South African National Research Network
   logo: SANReN_tiny_0.png
   url: http://www.sanren.ac.za
   type: NREN
+  funding:
 
 - name: Ubuntunet
   title: UbuntuNet Alliance for Research and Education Networking
   logo: UbuntuNet_Alliance.png
   url: http://www.ubuntunet.net
   type: NREN
-
-- name: ei4Africa Project
-  title: ei4Africa project -  e-Infrastructure for Africa
-  logo: ei4africa.png
-  type: project
-  url: http://www.ei4africa.eu
+  funding:
 
 - name: WACREN
   title: West and Central African Research and Education Network
   logo: wacren_logo.png
   url: http://www.wacren.net
   type: NREN
+  funding:
