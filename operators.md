@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /operations/
+permalink: /operators/
 title: Operations is our Game
 headline: Interoperable infrastructures
 tags: [page, operator, operations]
@@ -15,6 +15,7 @@ image:
     <li role="presentation"><a href="#csirt" aria-controls="csirt" role="tab" data-toggle="tab">Operational Security</a></li>
     <li role="presentation"><a href="#site" aria-controls="site" role="tab" data-toggle="tab">Site Operations</a></li>
     <li role="presentation"><a href="#devops" aria-controls="devops" role="tab" data-toggle="tab">Automation</a></li>
+    <li role="presentation"><a href="#reference" aria-controls="reference" role="tab" data-toggle="tab">Reference</a></li>
   </ul>
 
   <!-- Tab panes -->
@@ -23,11 +24,12 @@ image:
       <div class="post-body border-top border-bottom">
 Most of our time goes into making sure that the sites which host the services that the users use are humming smoothly. The ROC directly operates certain core services which enable infrastructure interoperability between Africa, Europe and other regional infrastructures.  These include information, identity, workload and data management, monitoring, accounting, and more.
 
-The main role of the ROC is to ensure infrastructure interoperability
+The main role of the ROC is to ensure infrastructure interoperability and a stable platform for research.
       </div> <!-- post-body -->
     </div>
 {% include rod.html %}
 {% include csirt.html %}
 {% include siteops.html %}
 {% include devops.html %}
+{% include ops_reference.html %}
 </div>
