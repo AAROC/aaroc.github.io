@@ -1,12 +1,6 @@
 # YAML metadata of the jobs in the jenkins build system.
 # this can be obtained via the REST interface as well.
 ---
-- name: zlib
-  description: Free Compression Library
-  job: zlib-deploy
-  versions: {1.2.8}
-  tags: {"libraries"}
-  repo: https://github.com/SouthAfricaDigitalScience/zlib-deploy
 # First, the compilers
 - name: GMP
   description: GNU Multiprecision library
@@ -52,6 +46,33 @@
 
 
 # Then the libraries
+- name: zlib
+  description: Free Compression Library
+  job: zlib-deploy
+  versions: {1.2.8}
+  tags: {"libraries","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/zlib-deploy
+
+- name: libxml2
+  description: XML library
+  job: libxml2-deploy
+  versions: {12.9.3}
+  tags: {"libraries"}
+  repo: https://github.com/SouthAfricaDigitalScience/libxml2-deploy
+
+- name: openssl
+  description: Open SSL cryptographic libraries and tools
+  job: openssl-deploy
+  versions: {1.1.0-pre3, 1.0.2g}
+  tags: {"libraries"}
+  repo: https://github.com/SouthAfricaDigitalScience/openssl-deploy
+
+- name: LUA
+  description: A powerful, fast, lightweight, embeddable scripting language.
+  job: lua-deploy
+  versions: {5.3.2 }
+  tags: {"libraries","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/lua-deploy
 
 - name: ncurses
   description: The Ncurses library is a free software emulation of curses in System V Release 4.0, and more.
@@ -102,7 +123,6 @@
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/gsl-deploy
 
-
 - name: HDF5
   description: HDF5 is a data model, library, and file format for storing and managing data.
   job: hdf5-deploy
@@ -138,14 +158,30 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/gnuplot-deploy
 
+- name: proj
+  description: Cartographic Projections Library
+  job: proj-deploy
+  versions: {4.9.2}
+  tags: {"libraries","cvmfs"}
+  repo: https://github.com/SouthAfricaDigitalScience/proj-deploy
+
+
 ##### Language #####
 
 - name: HTK
   description:  Hidden Markov Model Toolkit (HTK)
   job: htk-deploy
-  versions: 3.5.beta-1
+  versions: {3.4.1, 3.5.beta-1}
   tags: {"language","cvmfs"}
   repo: https://github.com/SouthAfricaDigialScience/htk-deploy
+
+- name: LibSVM
+  description:  General purpose library for Support-Vector Machine learning.
+  job: svm-deploy
+  versions: {3.14,3.21}
+  tags: {"language","cvmfs"}
+  repo: https://github.com/SouthAfricaDigialScience/libsvm-deploy
+
 
 #### Chemistry
 
@@ -179,6 +215,13 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"bioinformatics","cvmfs"}
   repo: https://github.com/SouthAfricaDigialScience/oases-deploy
 
+
+- name: Motheur
+  description:
+  job:
+  versions: {6.2}
+  tags: {"requested"}
+  repo:
 
 # H3A stuff
 - name: FastQC
@@ -376,9 +419,9 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"requested"}
   repo:
 
-  - name: Plink
-    description: "PLINK is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner."
-    job: plink-deploy
-    versions: 1.9
-    tags: {"requested"}
-    repo:
+- name: Plink
+  description: "PLINK is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale nalyses in a computationally efficient manner."
+  job: plink-deploy
+  versions: 1.9
+  tags: {"requested"}
+  repo: https://github.com/SouthAfricaDigitalScience/plink-deploy
