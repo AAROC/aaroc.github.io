@@ -51,7 +51,7 @@ CODE-RADE fills a gap between the user or research software engineer who wants t
 
 <figure>
 <img src="{{ site_url }}/images/code-rade-jenkins-magic.png">
-<figcaption>CODE-RADE workflow and actors</figcaption>
+<figcaption>CODE-RADE workflow and actors. <a href="http://dx.doi.org/10.15169/sci-gaia:1463574603.05">doi: 10.15169/sci-gaia:1463574603.05</a></figcaption>
 </figure>
 
 ## CODE-RADE is Open Source
