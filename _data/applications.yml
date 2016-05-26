@@ -121,7 +121,7 @@
 - name: Python
   description: "Python is a programming language that lets you work quickly and integrate systems more effectively."
   job: python-deploy
-  versions: {2.6.9,3.4.1}
+  versions: {2.6.9,3.4.1,3.5.1}
   tags: {"python"}
   repo: https://github.com/SouthAfricaDigitalScience/python-deploy
 
@@ -353,14 +353,14 @@ and machine-independent data formats that support the creation, access, and shar
   description: "Numerical Python"
   job: numpy-deploy
   versions: {1.9.1}
-  tags: {python","cvmfs","dev"}
+  tags: {"python","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/numpy-deploy
 
 - name: MatPlotLib
   description: "Plotting functions for python"
   job: matplotlib-deploy
   versions: {4.8.4,4.9.2}
-  tags: {"libraries","python","dev"}
+  tags: {"libraries","python"}
   repo: https://github.com/SouthAfricaDigitalScience/matplotlib-deploy
 
 # - name: Pandas
@@ -374,7 +374,7 @@ and machine-independent data formats that support the creation, access, and shar
   description: "Symbolic Python"
   job: sympy-deploy
   versions: {0.7.6.1}
-  tags: {"dev","python","frameworks"}
+  tags: {"python","frameworks"}
   repo: https://github.com/SouthAfricaDigitalScience/Sympy-deploy
 
 - name:
@@ -383,6 +383,21 @@ and machine-independent data formats that support the creation, access, and shar
   versions:
   tags:
   repo:
+
+# HEP
+- name: CLHEP
+  description: Class Library for High-Energy Physics
+  job: clhep-deploy
+  versions: {2.3.1.1,2.3.2.2}
+  tags: {"hep","libraries"}
+  repo: https://github.com/SouthAfricaDigitalScience/clhep-deploy
+
+- name: ROOT
+  description: Object-Oriented Data Analysis Toolkit
+  job: root-deploy
+  versions: {v6.06.02}
+  tags: {"hep","frameworks"}
+  repo: https://github.com/SouthAfricaDigitalScience/root-deploy
 
 # Epidemiology
 
