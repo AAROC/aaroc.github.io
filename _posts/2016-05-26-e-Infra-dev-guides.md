@@ -13,6 +13,7 @@ discourse: true
 ---
 
 We had a discussion yesterday about Deliverable 1.1 - **"e-Infrastructure & Science Gateway Development Guide for NRENs and Communities of Practice"**. I would like to have some further discussion on the scope and content and explain what we've got so far in the ROC.
+
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Scope](#scope)
@@ -26,6 +27,7 @@ We had a discussion yesterday about Deliverable 1.1 - **"e-Infrastructure & Scie
 - [Summary](#summary)
 
 <!-- /TOC -->
+
 # Scope
 
 The deliverable talks about development guides but we are really referring to _deployment_ guides, except in very few cases. It doesn't make sense to talk about middleware development guides, since the the middleware development guides are scoped purely to the few projects which are actually developing the middleware. However, it _does_ make sense to talk about community portal and science gateway development guides, I think, since these are always somewhat different from each other.
@@ -126,4 +128,4 @@ Given the scope of the audience - NRENs, communities of practice, and e-Infrastr
 
 > [africa-grid.org/operators](http://www.africa-grid.org/operators)
 
-we can provide a fairly comprehensive anchor for operators of most e-Infrastructure services to refer themselves and their collaborators to. 
+we can provide a fairly comprehensive anchor for operators of most e-Infrastructure services to refer themselves and their collaborators to.
