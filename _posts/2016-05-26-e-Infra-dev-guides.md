@@ -13,7 +13,6 @@ discourse: true
 ---
 
 We had a discussion yesterday about Deliverable 1.1 - **"e-Infrastructure & Science Gateway Development Guide for NRENs and Communities of Practice"**. I would like to have some further discussion on the scope and content and explain what we've got so far in the ROC.
-
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Scope](#scope)
@@ -22,6 +21,9 @@ We had a discussion yesterday about Deliverable 1.1 - **"e-Infrastructure & Scie
 	- [Services covered](#services-covered)
 - [Operations Guides](#operations-guides)
 - [Where to find material](#where-to-find-material)
+	- [DevOps Documentation](#devops-documentation)
+	- [Services and components](#services-and-components)
+- [Summary](#summary)
 
 <!-- /TOC -->
 # Scope
@@ -102,4 +104,26 @@ It makes sense that the deployment and operations guides be easily findable from
   * Deployment guides
   * Reference
 
-Most of these sections still need to be fleshed out entirely. 
+Most of these sections still need to be fleshed out entirely.
+
+## DevOps Documentation
+
+We have tried to persuade site operators to commit any relevant _code_ which is used to configure their sites and services to the common [DevOps](https://github.com/AAROC/DevOps) repo - either as a submodule, by sending pull requests from their forks, or by commiting directly where possible. This has the advantage of having most of the functional expression of our services in one place, so that there can be some peer review and oversight. However, since tools such as Ansible and Puppet encourage proper software development principles, including inducing developers to document their code, **we can use this repo to generate a complete set of documentation** for our services.
+
+Using Github Pages, we can also ensure that the documentation is in an easy-to-find place :
+
+> [africa-grid.org/DevOps](https://www.africa-grid.org/DevOps)
+
+This documentation has just been started, and uses the READMEs of the various modules and roles to generate the documentation pages. We still need to write the specific guideson how to define sites, which variables are necessary for which services and so on, but the structure is now in place to commit decent documentation via the repo itself.
+
+## Services and components
+
+Components such as Ansible roles are easy to document since they are abstract and need only refer to internal aspects. However, combining  these components into properly-configured services at  a site, which in turn respect various OLA and standard operating procedures, is a nontrivial task, since it requires some institutional knowledge of the collaboration and the distributed computing platform. We _do_ need to provide human-readable guides at a very high level, as well as the machine-readable guides, in order for newcomers to get bootstrapped as well as work as autonomously as possible.
+
+# Summary
+
+Given the scope of the audience - NRENs, communities of practice, and e-Infrastructure operators - it is a huge ask to develop deployment guidelines for an exhaustive set of e-Infrastructure services. It is also not reasonable to expect that there is a single entry point for _all_ documentation. However, by defining the suite of services as we have done here, we come up with a more formulaic approach to providing documentation for how things are _done_ and what to do when things go wrong. By providing a single page :
+
+> [africa-grid.org/operators](http://www.africa-grid.org/operators)
+
+we can provide a fairly comprehensive anchor for operators of most e-Infrastructure services to refer themselves and their collaborators to. 
