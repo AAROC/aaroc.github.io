@@ -11,10 +11,10 @@ image:
   <!-- Nav tabs -->
   <ul class="nav nav-tabs bordered-top" role="tablist">
     <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a></li>
+    <li role="presentation"><a href="#deployment-guides" aria-controls="deployment-guides" role="tab" data-toggle="tab">Deployment guides</a></li>
+    <li role="presentation"><a href="#site" aria-controls="site" role="tab" data-toggle="tab">Site Operations</a></li>
     <li role="presentation"><a href="#rod" aria-controls="rod" role="tab" data-toggle="tab">Regional Operator on Duty</a></li>
     <li role="presentation"><a href="#csirt" aria-controls="csirt" role="tab" data-toggle="tab">Operational Security</a></li>
-    <li role="presentation"><a href="#site" aria-controls="site" role="tab" data-toggle="tab">Site Operations</a></li>
-    <li role="presentation"><a href="#devops" aria-controls="devops" role="tab" data-toggle="tab">Automation</a></li>
     <li role="presentation"><a href="#reference" aria-controls="reference" role="tab" data-toggle="tab">Reference</a></li>
   </ul>
 
@@ -27,9 +27,10 @@ Most of our time goes into making sure that the sites which host the services th
 The main role of the ROC is to ensure infrastructure interoperability and a stable platform for research.
       </div> <!-- post-body -->
     </div>
+{% include ops-deploy-guides.html %}
 {% include rod.html %}
-{% include csirt.html %}
 {% include siteops.html %}
-{% include devops.html %}
+{% include csirt.html %}
 {% include ops_reference.html %}
+</div>
 </div>
