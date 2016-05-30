@@ -54,38 +54,38 @@ Where we are consumers of middleware from upstream providers, such as in the cas
 
 This section describes what services need to be covered. We consider services which make sense to talk about in the context of the Regional Operations Centre, which goes beyond compute and data services, but stops short of NOC-level services. In terms of the Virtual Research Environment stack, with user-facing applications on the top and network infrastructure on the bottom, we should cover the services which are _not_ in the domain of either the user community themselves or the underlying site _resource_ owners. These are :
 
-  1. Catania Science Gateway Framework
-    2. web application container
-    3. tracking database
-  2. Federated Identity Services
-    3. Federated Identity providers
-    4. Local identity store
-    3. Federated Service providers
-  1. Open Access data repository
-  2. Identity Management service (ie Perun)
-  1. Grid Services
-    2. Site services (According to [EGI RC OLA](https://documents.egi.eu/document/31))
-      3. information provider capability
-      4. compute capability
-      5. storage capability (optional)
-      6. accounting capability
-      7. user interface (optional)
-  1. FedCloud services (According to [EGI FedCloud Manual](https://wiki.egi.eu/wiki/MAN10) )
-    2. Cloud management framework (OpenStack/Synnefo/OpenNebula)
-    2. Information provider capability
-    3. Accounting capability
-    4. VM replication capability
-    5. OCCI endpoint (optional)
-    6. Nova endpoint (optional, for Native OpenStack)
-  3. Core services
-    4. Top-level information provider capability
-    5. monitoring capability
-    6. workload management capability (optional)
-    7. metadata service (optional)
-    8. VOMS (optional)
-    9. Data movement service (optional)
+  * Catania Science Gateway Framework
+    * web application container
+    * tracking database
+  * Federated Identity Services
+    * Federated Identity providers
+    * Local identity store
+    * Federated Service providers
+  * Open Access data repository
+  * Identity Management service (ie Perun)
+  * Grid Services
+    * Site services (According to [EGI RC OLA](https://documents.egi.eu/document/31))
+      * information provider capability
+      * compute capability
+      * storage capability (optional)
+      * accounting capability
+      * user interface (optional)
+  * FedCloud services (According to [EGI FedCloud Manual](https://wiki.egi.eu/wiki/MAN10) )
+    * Cloud management framework (OpenStack/Synnefo/OpenNebula)
+    * Information provider capability
+    * Accounting capability
+    * VM replication capability
+    * OCCI endpoint (optional)
+    * Nova endpoint (optional, for Native OpenStack)
+  * Core services
+    * Top-level information provider capability
+    * monitoring capability
+    * workload management capability (optional)
+    * metadata service (optional)
+    * VOMS (optional)
+    * Data movement service (optional)
 
-This may be expanded upon later. In particular it would be nice to have at least a default implementation of HPC cluster deployment, which could be integrated into the ROC via OCCI.
+This may be expanded upon later. In particular it would be nice to have at least a default implementation of HPC cluster deployment, which could be integrated into the ROC via OCCI. 
 
 # Operations Guides
 
