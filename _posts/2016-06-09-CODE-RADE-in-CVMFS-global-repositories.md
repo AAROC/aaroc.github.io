@@ -3,7 +3,7 @@ layout: post
 title:  'CODE-RADE in CVMFS global repositories'
 description: 'How do we construct the namespace of our repos'
 category: blog
-tags: [blog, VO, gLite, grid]
+tags: [blog, CODE-RADE, CVMFS]
 image:
   feature:
   attribution: ""
@@ -14,7 +14,7 @@ discourse: true
 
 # TL;DR - We need to get our repo configuration for CODE-RADE into EGI
 
-# Deploying CODE-RADE is kinda manual :wrench: No Likey :frowning: 
+# Deploying CODE-RADE is kinda manual :wrench: No Likey :frowning:
 
 At  the moment, if you want to use CODE-RADE repositories at your site, you need to [follow some manual steps](http://www.africa-grid.org/CODE-RADE/site-admin-quickstart/) to get everything configured. This puts us at a bit of a disadvantage compared to the other organisations who are automatically configured when you install the CVMFS packages. This _can_ of course be addressed, simply by including our configuration into the way EGI distributes the repo information for various communities. We therefore have some choices to make, no matter how trivial they may seem.
 
