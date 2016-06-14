@@ -4,7 +4,8 @@ permalink: /applications/
 title: Supported Applications
 headline: What you can run on the grid
 tags: [glite, tutorial, basic, job submission, information system, authorisation, data management]
-
+image:
+  feature: "burn.jpg"
 ---
 
 # What can I run ?
@@ -41,6 +42,7 @@ Our build system performs continuous integration on applications which are suppo
 {% include chemistry.html %}
 {% include language.html %}
 {% include requested.html %}
+</div>
 <br>
 <table class="table table-condensed">
 <caption class="text-center">Legend</caption>
