@@ -258,7 +258,7 @@ and machine-independent data formats that support the creation, access, and shar
 
 - name: LibSVM
   description:  General purpose library for Support-Vector Machine learning.
-  job: svm-deploy
+  job: libsvm-deploy
   versions: {3.14,3.21}
   tags: {"language","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/libsvm-deploy
