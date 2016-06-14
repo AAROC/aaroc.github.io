@@ -35,6 +35,7 @@ At the moment, we have one, perhaps two Stratum-0's in South Africa. The CODE-RA
 
 It's conceivable that more Stratum-0's would come online from other providers in the region, which may fall into the ROC - the region is certainly large enough for there to be scope for this. So, perhaps using the AAROC namespace might be the way to go. It's not clear to me yet if there is any pro or con to either choice[^discuss], but it seems to me that **we should choose the "namespace" option**. The most important thing is to ensure that it's easy to add a new repo under the namespace with minimal manual reconfiguration on the part of the Stratum-1's and sites.
 
+----
 
 # Footnotes and references
 
