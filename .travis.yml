@@ -7,7 +7,7 @@ rvm:
 # - chmod +x ./script/cibuild # or do this locally and commit
 install:
   - gem install jekyll
-  - gem install html-proofer jemoji jekyll-sitemap jekyll-mentions jekyll-paginate
+  - gem install html-proofer jemoji jekyll-sitemap jekyll-mentions jekyll-paginate jekyll-redirect-from
   - gem install pygments.rb
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
