@@ -5,7 +5,7 @@ title: Supported Applications
 headline: What you can run on the grid
 tags: [glite, tutorial, basic, job submission, information system, authorisation, data management]
 image:
-  feature:
+  feature: ""
 ---
 
 # What can I run ?
