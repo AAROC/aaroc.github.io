@@ -7,7 +7,7 @@ tags: [blog, CODE-RADE, CVMFS]
 image:
   feature:
   attribution: ""
-comments: false
+comments: true
 mathjax: false
 discourse: true
 ---
