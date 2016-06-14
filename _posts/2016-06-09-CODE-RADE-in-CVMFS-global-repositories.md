@@ -4,10 +4,7 @@ title:  'CODE-RADE in CVMFS global repositories'
 description: 'How do we construct the namespace of our repos'
 category: blog
 tags: [blog, CODE-RADE, CVMFS]
-image:
-  feature:
-  attribution: ""
-comments: true
+comments: false
 mathjax: false
 discourse: true
 ---
