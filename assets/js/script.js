@@ -17,9 +17,7 @@
         // Init the posts
         postInit();
 
-        // Waypoints
-        waypointsInit();
-
+        
     });
 // Init bootstrap tooltip
 function tooltipInit() {
