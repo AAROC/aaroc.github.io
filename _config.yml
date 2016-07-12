@@ -53,7 +53,7 @@ links:
   - title: Home
     displaytitle: false
     url: /
-    sublniks: []
+    sublinks: []
     icon: home
   - title: About
     displaytitle: true
