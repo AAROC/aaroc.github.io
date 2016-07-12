@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="54cm" height="39cm" viewBox="30 -1 1062 775" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="216" y="138.15" width="132" height="103"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" x="216" y="138.15" width="132" height="103"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="282" y="184.456">
+      <tspan x="282" y="184.456">Public</tspan>
+      <tspan x="282" y="209.15">Website</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="282" y="189.65">
+    <tspan x="282" y="189.65"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="541.15" y="136.3" width="162.4" height="106.7"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" x="541.15" y="136.3" width="162.4" height="106.7"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="622.35" y="196.803">
+      <tspan x="622.35" y="196.803">rails application</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="533.075" y="302.306" width="168" height="71.3889"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" x="533.075" y="302.306" width="168" height="71.3889"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="617.075" y="332.806">
+      <tspan x="617.075" y="332.806">Future Gateway </tspan>
+      <tspan x="617.075" y="357.5">API Server</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="372.175" y="103.456" width="116.05" height="71.3889"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" x="372.175" y="103.456" width="116.05" height="71.3889"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="430.2" y="133.956">
+      <tspan x="430.2" y="133.956">shibboleth</tspan>
+      <tspan x="430.2" y="158.65">AuthN</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="591.692" y="506.007" width="132" height="103"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="591.692" y="506.007" width="132" height="103"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="657.692" y="552.313">
+      <tspan x="657.692" y="552.313">grid</tspan>
+      <tspan x="657.692" y="577.007">sites</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="402.992" y="506.007" width="132" height="103"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="402.992" y="506.007" width="132" height="103"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="468.992" y="564.66">
+      <tspan x="468.992" y="564.66">cloud sites</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="212.292" y="506.007" width="132" height="103"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="212.292" y="506.007" width="132" height="103"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="278.292" y="564.66">
+      <tspan x="278.292" y="564.66">HPC sites</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="31.825" y="534.16" width="137.85" height="46.6944"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="31.825" y="534.16" width="137.85" height="46.6944"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="100.75" y="564.66">
+      <tspan x="100.75" y="564.66">CODE-RADE</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="930.425" y="506.007" width="161.35" height="103"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="930.425" y="506.007" width="161.35" height="103"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="1011.1" y="552.313">
+      <tspan x="1011.1" y="552.313">Open Access</tspan>
+      <tspan x="1011.1" y="577.007">Data repository</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="376.025" y="389.253" width="122.05" height="46.6944"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="376.025" y="389.253" width="122.05" height="46.6944"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="437.05" y="419.753">
+      <tspan x="437.05" y="419.753">EGI AppDB</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="362.742" y="6.66776" width="127.2" height="71.3889"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="362.742" y="6.66776" width="127.2" height="71.3889"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="426.342" y="37.1678">
+      <tspan x="426.342" y="37.1678">Identity</tspan>
+      <tspan x="426.342" y="61.8622">Federations</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="382.692" y="291.968" width="98.7" height="71.3889"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="382.692" y="291.968" width="98.7" height="71.3889"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="432.042" y="322.468">
+      <tspan x="432.042" y="322.468">eToken</tspan>
+      <tspan x="432.042" y="347.162">Server</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="551.842" y="375.268" width="129.8" height="71.3889"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" x="551.842" y="375.268" width="129.8" height="71.3889"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="616.742" y="405.768">
+      <tspan x="616.742" y="405.768">GridEngine/</tspan>
+      <tspan x="616.742" y="430.462">jSAGA</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 227.292 657.162 C 227.292,646.762 329.292,646.762 329.292,657.162 L 329.292,740.362 C 329.292,750.762 227.292,750.762 227.292,740.362 L 227.292,657.162z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 227.292 657.162 C 227.292,646.762 329.292,646.762 329.292,657.162 L 329.292,740.362 C 329.292,750.762 227.292,750.762 227.292,740.362 L 227.292,657.162"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 227.292 657.162 C 227.292,667.562 329.292,667.562 329.292,657.162 L 329.292,740.362"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="237.292" y="689.462">
+      <tspan x="237.292" y="689.462"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 417.992 657.162 C 417.992,646.762 519.992,646.762 519.992,657.162 L 519.992,740.362 C 519.992,750.762 417.992,750.762 417.992,740.362 L 417.992,657.162z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 417.992 657.162 C 417.992,646.762 519.992,646.762 519.992,657.162 L 519.992,740.362 C 519.992,750.762 417.992,750.762 417.992,740.362 L 417.992,657.162"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 417.992 657.162 C 417.992,667.562 519.992,667.562 519.992,657.162 L 519.992,740.362"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="427.992" y="689.462">
+      <tspan x="427.992" y="689.462"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 606.692 657.162 C 606.692,646.762 708.692,646.762 708.692,657.162 L 708.692,740.362 C 708.692,750.762 606.692,750.762 606.692,740.362 L 606.692,657.162z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 606.692 657.162 C 606.692,646.762 708.692,646.762 708.692,657.162 L 708.692,740.362 C 708.692,750.762 606.692,750.762 606.692,740.362 L 606.692,657.162"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 606.692 657.162 C 606.692,667.562 708.692,667.562 708.692,657.162 L 708.692,740.362"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="616.692" y="689.462">
+      <tspan x="616.692" y="689.462"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 960.1 657.162 C 960.1,646.762 1062.1,646.762 1062.1,657.162 L 1062.1,740.362 C 1062.1,750.762 960.1,750.762 960.1,740.362 L 960.1,657.162z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 960.1 657.162 C 960.1,646.762 1062.1,646.762 1062.1,657.162 L 1062.1,740.362 C 1062.1,750.762 960.1,750.762 960.1,740.362 L 960.1,657.162"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 960.1 657.162 C 960.1,667.562 1062.1,667.562 1062.1,657.162 L 1062.1,740.362"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="970.1" y="689.462">
+      <tspan x="970.1" y="689.462"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="762.992" y="506.007" width="132" height="103"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="762.992" y="506.007" width="132" height="103"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="828.992" y="552.313">
+      <tspan x="828.992" y="552.313">metadata</tspan>
+      <tspan x="828.992" y="577.007">service</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="388.55" y="200.647" width="98.4" height="71.3889"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" x="388.55" y="200.647" width="98.4" height="71.3889"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="437.75" y="231.147">
+      <tspan x="437.75" y="231.147">Identity</tspan>
+      <tspan x="437.75" y="255.842">Provider</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="218.7" y="264.411" width="132" height="120.778"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="218.7" y="264.411" width="132" height="120.778"/>
+    <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:900" x="284.7" y="294.911">
+      <tspan x="284.7" y="294.911">Github</tspan>
+      <tspan x="284.7" y="319.606">ORCID</tspan>
+      <tspan x="284.7" y="344.3">Google</tspan>
+      <tspan x="284.7" y="368.994">etc</tspan>
+    </text>
+  </g>
+  <g>
+    <g>
+      <g>
+        <rect style="fill: #13643a" x="567.292" y="0.7138" width="27" height="26"/>
+        <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #13643a" x="567.292" y="0.7138" width="27" height="26"/>
+      </g>
+      <g>
+        <rect style="fill: #2a00ff" x="566.992" y="48.0138" width="27" height="26"/>
+        <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #2a00ff" x="566.992" y="48.0138" width="27" height="26"/>
+      </g>
+    </g>
+    <g>
+      <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:Lato;font-style:normal;font-weight:900" x="609.992" y="22.0138">
+        <tspan x="609.992" y="22.0138">External services</tspan>
+      </text>
+      <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:Lato;font-style:normal;font-weight:900" x="609.992" y="69.3138">
+        <tspan x="609.992" y="69.3138">Internal components</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
