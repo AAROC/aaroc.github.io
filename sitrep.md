@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /SitRep/
+permalink: /sitrep
 title: So, how are we doing today ?
 info: "Attention on deck"
 tags: [sitrep]
