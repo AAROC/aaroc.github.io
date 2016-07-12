@@ -5,7 +5,7 @@ title: Supported Applications
 headline: What you can run on the grid
 tags: [glite, tutorial, basic, job submission, information system, authorisation, data management]
 image:
-  feature: "burn.jpg"
+  feature: burn.jpg
 ---
 
 # What can I run ?
@@ -32,9 +32,6 @@ Our build system performs continuous integration on applications which are suppo
   </ul>
 
 <div class="tab-content">
-
-
-
 {% include compilers.html %}
 {% include libraries.html %}
 {% include frameworks.html %}
