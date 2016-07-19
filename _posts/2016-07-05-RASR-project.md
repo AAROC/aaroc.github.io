@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  'A plan for the Summer Hackfest'
-description: 'Some initial thoughts on a speech recognition science gateways'
+title: "A plan for the Summer Hackfest"
+description: "Some initial thoughts on a speech recognition science gateways"
+headline: "A quick sketch of an environment for reproducible ASR processing"
 category: blog
 tags: [blog, Sci-GaIA, hackfest, projects, rasr]
 comments: false
 mathjax: false
+image:
+  feature: Jr0F2ay.jpg
 discourse: true
 codrops: false
 ---
