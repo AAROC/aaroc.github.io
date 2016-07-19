@@ -33,47 +33,12 @@
 <link rel="canonical" href="{{ canonical }}">
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
-<!--
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
--->
+
 <!-- http://t.co/dKP3o1e -->
 <link href='https://fonts.googleapis.com/css?family=Lato:100,900,700,300,400' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<!-- <link rel="stylesheet" href="{{ site_url }}/assets/css/font-awesome.css">-->
-<!-- Latest compiled and minified CSS -->
-<!-- Latest compiled and minified JavaScript -->
-<script src="{{ site_url }}/assets/js/vendor/jquery-1.9.1.min.js"></script>
-<script src="{{ site_url }}/assets/js/bootstrap.js"></script>
-{% if page.mathjax %}
-<!--Load Mathjax-->
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        <script>
-        MathJax.Hub.Config({
-            config: ["MMLorHTML.js"],
-            extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
-            jax: ["input/TeX"],
-            tex2jax: {
-                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-                processEscapes: false
-            },
-            TeX: {
-                TagSide: "right",
-                TagIndent: ".8em",
-                MultLineWidth: "85%",
-                equationNumbers: {
-                   autoNumber: "AMS",
-                },
-                unicode: {
-                   fonts: "STIXGeneral,'Arial Unicode MS'"
-                }
-            },
-            showProcessingMessages: false
-        });
-    </script>{% endif %}
 
 <!-- codrops -->
 {% if page.codrops %}
