@@ -128,11 +128,7 @@ This work was supported by the [Sci-GaIA project](http://www.sci-gaia.eu) under 
 [^htk]: Young, Steve, et al. ***"The HTK book."*** **Cambridge university engineering department** 3 (2002): 175. Available online at [http://htk.eng.cam.ac.uk/docs/docs.shtml](http://htk.eng.cam.ac.uk/docs/docs.shtml)
 [^libsvm]: Chih-Chung Chang and Chih-Jen Lin, ***LIBSVM : a library for support vector machines***. **ACM Transactions on Intelligent Systems and Technology, 2:27:1--27:27, 2011**. Software available at [http://www.csie.ntu.edu.tw/~cjlin/libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm)
 [^OkMTV]: Ok, apparently [Django prefers to call it MTV](https://docs.djangoproject.com/en/1.9/faq/general/#django-appears-to-be-a-mvc-framework-but-you-call-the-controller-the-view-and-the-view-the-template-how-come-you-don-t-use-the-standard-names), but you get the drift.
-[^JavaScriptduJour]: Some JavaScript _du jour_ library such as EmberJS or AngularJS could have been used as well, but :
-
-  1. Ugh.
-  2. Bleah, can't read that stuff
-
+[^JavaScriptduJour]: Some JavaScript _du jour_ library such as EmberJS or AngularJS could have been used as well, but 1) Ugh. 2) Bleah, can't read that stuff
 [^MicroComparison]: See [this article](https://realpython.com/blog/python/python-ruby-and-golang-a-web-Service-application-comparison/) for a recent comparison of Ruby, Python and Go-based microframeworks.
 
 [^discuss]: Be sure to discuss this on the related topic in [the forum](http://discourse.sci-gaia.eu)
