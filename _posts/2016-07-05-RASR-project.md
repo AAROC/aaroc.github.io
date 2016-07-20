@@ -82,8 +82,8 @@ From discussion with [David](https://github.com/DavidR2016), typica workflows wo
   1. Researcher identifies themselves. We are inclined to enable [ORCID auth](https://orcid.org/blog/2014/04/29/beta-participants-wanted-public-authenticated-ids?lang=ru), which would uniquely identify the researcher, but other methods are possible
   2. Researcher selects a language that they would like to study. They select a **corpus**. Language corpora are previously-published on open-access repositories.
   2. Researcher can
-    3. browse previously-run experiments made on that copora, and re-run with a modified recipe **or**
-    4. configure a new experiment and provide a recipe
+      3. browse previously-run experiments made on that copora, and re-run with a modified recipe **or**
+      4. configure a new experiment and provide a recipe
   5. Each submission creates a new research object in a catalogue which consists of a combination of :
     * Corpus
     * Recipe
