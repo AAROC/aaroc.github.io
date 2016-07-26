@@ -26,7 +26,7 @@
 - name: GCC
   description: 'The GNU Compiler Collection'
   job: 'gcc-deploy'
-  versions: {"4.9.2","5.1.0","5.2.0"}
+  versions: {"4.9.2","5.1.0","5.2.0", "5.3.0", "5.4.0","6.1.0"}
   tags: {"compilers","cvmfs"}
   repo: 'https://github.com/SouthAfricaDigitalScience/gcc-deploy'
 
