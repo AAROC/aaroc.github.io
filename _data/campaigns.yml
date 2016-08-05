@@ -24,11 +24,11 @@
   wiki: CVMFS-Campaign-2014
   leader: Bruce Becker (CSIR)
   start: 01/08/2014
-  end: 28/02/2015
+  end: 28/02/2016
   state:
-    name: underway
-    label: warning
-  priority: 1
+    name: ended
+    label: success
+  priority: 0
 
 - name: Core Services Failover
   wiki: Core-Services-Failover-Campaign-2014
@@ -36,23 +36,16 @@
   start: 15/12/2014
   end: 23/12/2014
   state:
-    name: overdue
-    label: danger
-  priority: 2
+    name: ended
+    label: success
+  priority: 0
 
-- name: MPI Accounting
-  wiki: 
-  leader: TBC
-  start: 10/02/2015
-  end: 28/02/2015
-  state:
-    name: proposed
-    label: info
-  priority: 3
-
-- name:
+- name: BioMed VO support
   wiki:
-  leader:
-  start:
-  end:
+  leader: Sea Murray (CHPC)
+  start: 08/08/2016
+  end: 15/09/2016
   state:
+    name: in progress
+    label: success
+  priority: 3
