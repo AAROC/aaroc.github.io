@@ -42,7 +42,7 @@
 
 - name: BioMed VO support
   wiki:
-  leader: Sea Murray (CHPC)
+  leader: Sean Murray (CHPC)
   start: 08/08/2016
   end: 15/09/2016
   state:
