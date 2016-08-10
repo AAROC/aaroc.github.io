@@ -8,7 +8,7 @@ tags: [blog, sci-gaia, thor, datacite, data, citation]
 comments: false
 mathjax: false
 image:
-  feature:
+  feature: aup-post-header.jpg
 discourse: true
 codrops: false
 ---
