@@ -60,21 +60,6 @@
 </script>
 {% endif %}
 
-{% if page.discourse %} <!-- discourse -->
-
-<script type="text/javascript">
-  var discourseUrl = "http://discourse.sci-gaia.eu/",
-      discourseEmbedUrl = '{{ site.url}}/{{ page.url }}';
-
-  (function() {
-    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-      d.src = discourseUrl + 'javascripts/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsById('article')[0]).appendChild(d);
-  })();
-</script>
-<!--- discourse -->
-{% endif %}
-
 {% if page.codrops %}
 <script src="http://tympanus.net/Blueprints/SplitLayout/js/modernizr.custom.js"></script>
 <script src="http://tympanus.net/Blueprints/SplitLayout/js/classie.js"></script>
