@@ -69,7 +69,7 @@
   (function() {
     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
       d.src = discourseUrl + 'javascripts/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('article')[0]).appendChild(d);
+    (document.getElementsByTagName('head')[0] || document.getElementsById('article')[0]).appendChild(d);
   })();
 </script>
 <!--- discourse -->
