@@ -32,7 +32,9 @@ While this is just another way of doing what we've always been doing, it gives s
 {% for campaign in sortedcampaigns %}
   <tr>
 {% if campaign.wiki |= null %}
-    <td class="text-left"><a href="https://github.com/AAROC/wiki/{{ campaign.wiki }}"><span><i class="fa fa-github-square"></i></span></a> {{ campaign.name }}</td>
+    <td class="text-left"><a href="https://github.com/AAROC/wiki/{{ campaign.wiki }}"><span><i class="fa fa-github-square"></i></span> {{ campaign.name }}</a></td>
+{% else if campaign.page |= null %}
+    <td class="text-left"><a href="{{ campaign.page }}"><span><i class="fa fa-info"></i></span> {{ campaign.name }}</a></td>
 {% else %}
     <td class="text-left"><span><i class="fa fa-github-square"></i></span> {{ campaign.name }}</td>
 {% endif %}
