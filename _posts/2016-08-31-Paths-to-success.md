@@ -33,7 +33,7 @@ discourse: true
 
 # ICRI 2016
 
-The [3rd International Conference on Research Infrastructures (ICRI)](http://icri2016.co.za) will be held from **3 - 6 October 2016** in Cape Town, South Africa. We are proposing a "fringe event" to the conference, organised by the [Sci-GaIA](http://www.sci-gaia.eu) project and [UCT e-Research Centre](http://www.eresearch.uct.ac.za). Participation is entirely open, and will be discussed with the communities involved. See below for more information, and comment on the topic if you're interested.
+The [3rd International Conference on Research Infrastructures (ICRI)](http://icri2016.co.za) will be held from **3 - 6 October 2016** in Cape Town, South Africa. We are proposing a "fringe event" to the conference, organised by the [Sci-GaIA](http://www.sci-gaia.eu) project and [UCT e-Research Centre](http://www.eresearch.uct.ac.za). Participation is entirely open, and will be discussed with the communities involved. See below for more information, and **comment on the [topic](http://discourse.sci-gaia.eu/t/paths-to-success-for-open-science-in-africa-africa-arabia-regional-operations-centre/2303) if you're interested.**
 
 ## Context
 
@@ -89,3 +89,9 @@ The event will be open to researchers, content creators, educators, developers a
 There will be particular focus on infrastructure interoperability and reproducibility of research using collaborative platforms.
 
 There will be invited speakers from research communities across Africa, including but not restricted to, the communities of practice supported by the Sci-GaIA project.
+
+-----
+
+If you are at all interested in this event and would like to contribute or participate, please [let us  know](http://discourse.sci-gaia.eu/t/paths-to-success-for-open-science-in-africa-africa-arabia-regional-operations-centre/2303)
+
+----
