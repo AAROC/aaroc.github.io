@@ -5,10 +5,10 @@ title: Our Containers
 headline: Packaged just right
 tags: [middleware, containers, docker, DevOps]
 image:
-  feature: burn.jpg
+  feature: container.png
 ---
 
-<div class="col-md-8">
+<div class="col-md-4">
 
 <h1>Why we do containers </h1>
 
@@ -28,11 +28,11 @@ The docker repos are linked to Github repos.
 
 </div>
 
-<div class="col-md-4">
+<div class="col-md-8">
 
 <h2 class="post-header">Containers we maintain.</h2>
 
-<table class="table table-hover table-responsive">
+<table class="table table-responsive">
   <thead>
     <td>Name</td>
     <td>Docker Hub</td>

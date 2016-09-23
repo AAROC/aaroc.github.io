@@ -16,7 +16,7 @@
   registry:
     name: aaroc/umdi-ui
     url: https://hub.docker.com/r/aaroc/umd-ui/
-  repo: https://github.com/AAROC/umd-ui
+  repo: AAROC/umd-ui
   tags:
     - centos6
     - u1404
@@ -24,4 +24,4 @@
   badge: https://travis-ci.org/AAROC/umd-ui.svg?branch=master
   travis:
     job: 'https://travis-ci.org/AAROC/AnsibleContainer'
-    badge: 'https://travis-ci.org/AAROC/AnsibleContainer.svg?branch=master'
+    badge: 'https://travis-ci.org/AAROC/umd-ui.svg?branch=master'
