@@ -1,0 +1,27 @@
+---
+- name: Ansible Container
+  registry:
+    name: aaroc/ansiblecontainer
+    url: 'https://hub.docker.com/r/aaroc/ansiblecontainer/'
+  repo: AAROC/AnsibleContainer
+  tags:
+    - centos6
+    - u1404
+  description: "Provides a container that can execute Ansible"
+  travis:
+    job: 'https://travis-ci.org/AAROC/AnsibleContainer'
+    badge: 'https://travis-ci.org/AAROC/AnsibleContainer.svg?branch=master'
+
+- name: UMD-UI
+  registry:
+    name: aaroc/umdi-ui
+    url: https://hub.docker.com/r/aaroc/umd-ui/
+  repo: https://github.com/AAROC/umd-ui
+  tags:
+    - centos6
+    - u1404
+  description: "Grid user interface and CVMFS repositories"
+  badge: https://travis-ci.org/AAROC/umd-ui.svg?branch=master
+  travis:
+    job: 'https://travis-ci.org/AAROC/AnsibleContainer'
+    badge: 'https://travis-ci.org/AAROC/AnsibleContainer.svg?branch=master'
