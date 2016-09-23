@@ -13,7 +13,8 @@ install:
 # the `install` step will run `bundle install` by default.
 #script: ./script/cibuild
 script:
-  - jekyll build
+  - bundle exec jekyll build
+  - bundle exec htmlproofer ./_site
 #  - htmlproof ./_site
 notifications:
   slack:
