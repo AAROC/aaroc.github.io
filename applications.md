@@ -16,7 +16,12 @@ In order to execute applications, they need to be on the remote execution enviro
 
 Our build system performs continuous integration on applications which are supported by the infrastructure, as well as user-proposed applications. Below you can find the overview of the status of these. These are executable in local-only or under the [sagrid.ac.za](https://voms.sagrid.ac.za/voms/sagrid.ac.za) VO.
 
+
+----
+
 <h2 class="post-info"><i class="fa fa-chevron-circle-right"></i> You can access these applications directly from your laptop, or cluster <a href="{{ site_url }}/cvmfs"> Find out how <i class="fa fa-chevron-circle-left"></i></a> </h2>
+
+----
 
 <div role="tabpanel">
   <!-- Nav tabs -->
@@ -24,7 +29,7 @@ Our build system performs continuous integration on applications which are suppo
     <li role="presentation"><a href="#compilers" aria-controls="compilers" role="tab" data-toggle="tab">Compilers</a></li>
     <li role="presentation"><a href="#libraries" aria-controls="libraries" role="tab" data-toggle="tab">Libraries</a></li>
     <li role="presentation"><a href="#frameworks" aria-controls="framweworks" role="tab" data-toggle="tab">Frameworks</a></li>
-    <li role="presentation"><a href="#python" aria-controls="python " role="tab" data-toggle="tab">Python</a></li>
+    <li role="presentation"><a href="#python" aria-controls="python" role="tab" data-toggle="tab">Python</a></li>
     <li role="presentation"><a href="#chemistry" aria-controls="chemistry" role="tab" data-toggle="tab">Chemistry</a></li>
     <li role="presentation"><a href="#language" aria-controls="language" role="tab" data-toggle="tab">Language</a></li>
     <li role="presentation"><a href="#requested" aria-controls="requested" role="tab" data-toggle="tab">Requested</a></li>
@@ -32,6 +37,7 @@ Our build system performs continuous integration on applications which are suppo
   </ul>
 
 <div class="tab-content">
+
 {% include compilers.html %}
 {% include libraries.html %}
 {% include frameworks.html %}
@@ -40,7 +46,9 @@ Our build system performs continuous integration on applications which are suppo
 {% include language.html %}
 {% include requested.html %}
 </div>
-<br>
+
+</div>
+
 <table class="table table-condensed">
 <caption class="text-center">Legend</caption>
 <tr>
@@ -59,8 +67,6 @@ Our build system performs continuous integration on applications which are suppo
 
 <h2 class="post-title">Want to help or follow the development ? Check out our <a href="https://waffle.io/AAROC/CODE-RADE">waffle ironing board</a></h2>
 <h2 class="post-title">Don't see what you want ? - <a href="https://github.com/AAROC/CODE-RADE/issues/new?labels=proposed">Propose a new application</a></h2>
-</div>
-</div>
 
 ## How about something Continental ?
 
