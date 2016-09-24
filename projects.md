@@ -28,7 +28,7 @@ We are always on the look out for collaborators, so if one of these projects hit
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#current" aria-controls="current" role="tab" data-toggle="tab">Current</a></li>
     <li role="presentation"><a href="#proposed" aria-controls="proposed" role="tab" data-toggle="tab">Proposed</a></li>
-    <li role="presentation"><a href="#bluesky" aria-controls="bluesky" role="tab" data-toggle="tab">Blue-Sky</a><li>
+    <li role="presentation"><a href="#bluesky" aria-controls="bluesky" role="tab" data-toggle="tab">Blue-Sky</a></li>
   </ul>
 
   <!-- Tab panes -->
