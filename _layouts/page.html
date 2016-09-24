@@ -15,15 +15,12 @@
 {% endif %}
 <div id="main" class="content" role="main" itemprop="mainContentOfPage">
   <div class="container">
-    <div class="row">
       <div class="row">
         {% if page.image.attribution %}
         <div class="text-right col-md-10 col-md-offset-2 small lighter">Page cover : {{ page.image.attribution }}</div>
       </div>
       {% endif %}
       <article class="page"><!-- col-md-10 col-md-offset-2">-->
-        <div class="row"> <!-- put page nav here -->
-      </div>
         <div class="row">
           <div class="page-body" itemprop="description">
             {{ content }}
@@ -32,8 +29,7 @@
       </article>
       </div> <!-- row -->
     </div> <!-- container -->
-</div> <!-- content -->
-  {% include footer.html %}
+{% include footer.html %}
 
 {% include scripts.html %}
 </body>
