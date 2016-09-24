@@ -1,0 +1,18 @@
+<div role="tabpanel" class="tab-pane fade active" id="H2020">
+Logo here fool. Horizon 2020 projects
+
+      {% for project in site.data.supporters %}
+      {% if project.funding == "H2020" %}
+<!-- We have a row of logo/Acronym/descriptions -->
+        <div class="row center-block">
+          <div class="col-md-4 center-block">
+            <img src="{{ site_url }}/images/{{ project.logo }}" href="{{ project.url }}" style="height: 60px"><br>
+            <a href="{{ project.url }}">{{ project.name }}</a>
+          </div> <!-- col -->
+          <div class="col-md-8 center-block">
+            {{ project.title }}
+          </div> <!-- col 8 -->
+        </div> <!-- row -->
+      {% endif %}
+      {% endfor %}
+</div> <!-- h2020 -->

@@ -1,27 +1,20 @@
-<!--
-This is a generic template for new appplication categories
--->
-  <div role="tabpanel" class="tab-pane fade in" id="language">
-    <br><p class="post-info text-justify">
-Applications for the Human Language domain.
+<div role="tabpanel" class="tab-pane fade" id="language">
+    <br>
+    <p class="post-info text-justify">
+        Applications for the Human Language domain.
     </p>
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Versions</th>
-        <th>Repo</i></th>
-        <th style="text-align: left">Description</th>
-        <th>Published</th>
-      </tr>
-    </thead>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Versions</th>
+                <th>Repo</th>
+                <th style="text-align: left">Description</th>
+                <th>Published</th>
+            </tr>
+        </thead>
 
-  {% for app in site.data.applications %}
-  {% if app.tags contains "language" %}
-{%include apptable.html %}
-
-  {% endif %}
-  {% endfor %}
-  </table>
-  <br>
-  </div>
+        {% for app in site.data.applications %} {% if app.tags contains "language" %} {% include apptable.html %} {% endif %} {% endfor %}
+    </table>
+    <br>
+</div>

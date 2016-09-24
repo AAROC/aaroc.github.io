@@ -1,22 +1,49 @@
 <tr>
-  <td>{{ app.name }}</td>
-  <td> {%if app.versions %}{% for version in app.versions %}
+  {% if app.name != null %}
+  <td> {{ app.name }}</td>
+  {% else %}
+  <td>No name yet</td>
+  {% endif %}
+
+  {%if app.versions %}
+  <td>
+  {% for version in app.versions %}
   <span class="badge badge-info">{{ version }}</span>
   {% endfor %}
-  {% endif %}</td>
-  {% if app.job != null %}
-  <td style="valign: center"><a href='http://ci.sagrid.ac.za/job/{{ app.job }}/'><img src='http://ci.sagrid.ac.za/job/{{ app.job }}/badge/icon'></a>
   </td>
   {% else %}
-  <td style="valign: center"><span class="badge badge-info">Proposed</span></td>
+  <td><span class="badge badge-warning">No versions</td>
   {% endif %}
-  <td style="text-align: center"><a href="{{ app.repo}}"><i class="fa fa-github-square"></i></a></td>
-  <td style="text-align: left"><p style="word wrap word-wrap: break-word;">{{ app.description }}</p> </td>
-  {%if app.tags contains 'cvmfs' %}
-  <td><i class="social-icons fa fa-check-circle-o" style="color: green"></i></td>
-  {% else if app.tags contains 'dev' %}
-  <td><i class="social-icons fa fa-flask" style="color:orange"></i></td>
+
+  <td style="valign: center">
+  {% if app.job %}<a href='http://ci.sagrid.ac.za/job/{{ app.job }}/'><img src='http://ci.sagrid.ac.za/job/{{ app.job }}/badge/icon'></a>
   {% else %}
-  <td><i class="social-icons fa fa-times-circle-o" style="color:red"></i></td>
+  <span class="badge badge-info">Proposed</span>
   {% endif %}
+  </td>
+
+  <td style="text-align: center">
+  {% if app.repo != null %}<a href="{{ app.repo}}"><i class="fa fa-github-square"></i></a>
+  {% else %}
+  <span class="badge badge-info">Proposed</span>
+  {% endif %}
+  </td>
+
+  <td style="text-align: left">
+  {% if app.description != null %}
+  <p style="word wrap word-wrap: break-word;">{{ app.description }}</p>
+  {% else %}
+  <p style="word wrap word-wrap: break-word;">No description</p>
+  {% endif %}
+  </td>
+
+  <td style="text-align: center-block">
+  {%if app.tags contains 'cvmfs' %}
+  <i class="social-icons fa fa-check-circle-o" style="color: green"></i>
+  {% else if app.tags contains 'dev' %}
+  <i class="social-icons fa fa-flask" style="color:orange"></i>
+  {% else %}
+  <i class="social-icons fa fa-times-circle-o" style="color:red"></i>
+  {% endif %}
+  </td>
 </tr>
