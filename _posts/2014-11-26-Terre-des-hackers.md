@@ -61,9 +61,9 @@ These are his tools for *disaster recovery*, but but it is above all his ***aero
 
 > [...] la vie du pass&eacute; nous semble mieux r&eacute;pondre a notre nature, pour la seule raison qu'elle r&eacute;pond mieux a notre langage.
 
-We are presented with an instrument of discovery, but it seems from "the future". Its controls, it's internal functioning, are exposed and seem foreign to us and we often find ourselves unable to find the terms needed to express our need for or usage of it. Sometimes, this makes it hard to ask for newer, or better aeroplanes... after all, if it is only to deliver packages, why we can already do that with a boat or a train ? And these don't crash in the middle of the desert ! Yes, but aeroplanes go where boats or trains cannot, they see from a different angle, and from their altitude, the world takes on a vastly different aspect.
+We are presented with an instrument of discovery, but it seems from "the future". Its controls, it's internal functioning, are exposed and seem foreign to us and we often find ourselves unable to find the terms needed to express our need for or usage of it. Sometimes, this makes it hard to ask for   newer, or better aeroplanes... after all, if it is only to deliver packages, why we can already do that with a boat or a train ? And these don't crash in the middle of the desert ! Yes, but aeroplanes go where boats or trains cannot, they see from a different angle, and from their altitude, the world takes on a vastly different aspect.
 
-St. Exup&eacute;ry's point here is that we are beings bound by the language we speak, the terms we use - and often our reticence to adopt new ways is due to our sense of being at a lack of words. It is in our nature to explore, but in exploring, we need to remind ourselves that it end, not the means which drives us.
+St. Exup&eacute;ry's point here is that we are beings bound by the language we speak, the terms we use - and often our reticence to adopt new ways is due to our sense of being at a lack of words. It is in our nature to explore, but in exploring, we need to remind ourselves that it is the ends, not the means which drives us.
 
 > Nous sommes tous de jeunes barbares que nos jouets neufs &eacute;merveillent encore. […]
 
@@ -79,7 +79,7 @@ Yes, we, these explorers, do tend to get blinded by the shiny. We forget that *l
 
 We forget that the aeroplane was made for a *reason*, which was to arrive somewhere. The very first ones were built essentially for the pilot, whose driving passion is to discover the unknown through discovery. But later ones were built for *passengers*, whose goal is simply to *arrive*. Their passion is the relative, or the business, or the exotic fruit, at the end of the journey and for them the aeroplane, although perhaps intriguing, is not of primary importance.
 
-How was the aeroplane built ? The very first ones had all of the tubes, knobs, dials and guages in plain site (if one will forgive the homonymic pun), because the pilot needed to know every detail of the internal working of the aeroplane. However, later models hid these details both from pilots as well as of course from the passengers, since we came to learn the habits and workings of the machine. We made it less mysterious, and more functional, to respond better to our human, (or in this case, scientific), rather than technical needs.
+How was the aeroplane built ? The very first ones had all of the tubes, knobs, dials and guages in plain sight (if one will forgive the homonymic pun), because the pilot needed to know every detail of the internal working of the aeroplane. However, later models hid these details both from pilots as well as of course from the passengers, since we came to learn the habits and workings of the machine. We made it less mysterious, and more functional, to respond better to our human, (or in this case, scientific), rather than technical needs.
 
 ## What home awaits us ?
 
