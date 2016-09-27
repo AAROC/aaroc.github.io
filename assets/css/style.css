@@ -121,7 +121,7 @@ blockquote:before {
 }
 
 .cursive {
-  font-family: 'Abecedario', cursive;
+  font-family: 'Pacifico', cursive;
   color: #17e4d8;
   font-size: 34px;
   text-align: center;
@@ -545,7 +545,7 @@ html {
   margin-top: 1;
   margin-bottom: 5px;
   padding-bottom: 5px;
-  font-family: Abecedario;
+  font-family: Pacifico;
 }
 /* - Post info - */
 .post-info {
@@ -780,6 +780,7 @@ html {
   vertical-align: middle;
 }
 .social-mini {
+  color: #7DB900;
   margin: 0;
   padding: 0 0 24px;
   list-style-type: none;
@@ -788,6 +789,7 @@ html {
   display: inline-block;
   font-size: 16px;
   padding: 0 12px;
+  color: #7DB900;
 }
 /* - Responsive videos -*/
 .videoWrapper {
