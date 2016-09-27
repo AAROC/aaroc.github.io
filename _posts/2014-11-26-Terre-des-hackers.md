@@ -17,7 +17,7 @@ The panel consisted of Peter van Heusden (University of the Western Cape), Jonah
 Images are courtesy of [the Saint-Exup&eacute;ry Foundation](http://www.antoinedesaintexupery.com). The thoughts revolve around quotes which I've selected from the book "Terre des Hommes".
 
 <figure>
-  <a href="http://www.antoinedesaintexupery.com/terre-des-hommes-1939"><img src="{{ site_url }}/images/462_6.jpg" height="200px"></img></a>
+  <a href="http://www.antoinedesaintexupery.com/terre-des-hommes-1939"><img src="{{ site_url }}/images/462_6.jpg" height="200px"></a>
 </figure>
 
 ----------------------------
@@ -50,7 +50,7 @@ There is sometimes a tension then between *getting things done* and *getting thi
 
 We come then to a metaphor :
 <figure>
-  <img src="{{ site_url }}/images/34_4_0.jpg"></img>
+  <img src="{{ site_url }}/images/34_4_0.jpg">
   <figcaption> "L'homme se d&eacute;couvre quand il se mesure avec l'obstacle." <br> - A. de Saint-Exup&eacute;ry"</figcaption>
 </figure>
 A dejected pilot stands beside his crashed airplane. He, like us, is an explorer. He has chosen to fly to new lands, and has crashed in a desert - land unknown to human feet. He will eventually repair his airplane, or be rescued by his fellow explorers, but has only the tools at hand to survive in the meantime. Not knowing what awaits him, he has taken on that airplane what one might call a "general solution" - the basic tools which can be used in any situation, given enough ingenuity and patience. A hammer, a radio transmitter, a wrench, a compass, a blowtorch, a warm jacket, a rifle (let us not forget that he has crashed in a very hostile territory).
@@ -130,7 +130,7 @@ What kind of learning environment do we want for our future generations ? And wh
 > And all the boards did shrink; <br>
 > Data, data, every where, <br>
 > Nor any drop to drink <br></em></h1>
-> <h2 class="post-title">         Samuel Taylor Coleridge, <em><b>"The Rime of the Ancient Mariner"</b></em></h2>
+> <h2 class="post-title">         Not Samuel Taylor Coleridge, not <em><b>"The Rime of the Ancient Mariner"</b></em></h2>
 
 They have been told that such marvels exist, but how to use them, and what is actually offered is somewhat different. In order to build a "fertile delta", there needs to be better integration between training, research and innovation, especially mutually-reinforcing aspects.
 
