@@ -1,5 +1,12 @@
 # This is the data file for Operations Campaigns. The campaigns themselves are documented on the @AAROC/DevOps wiki
 # Just enough information here to fill out a table on {{site_url}}/campaigns
+# The state should be :
+# Finished/success : success
+# Finished/partial-success : muted
+# Finished/failure : danger
+# In progress/on time : info
+# In progress/overdue : warning
+# Proposed : primary
 ---
 - name: APEL Accounting
   wiki: AccountingCampaign-2014-08
@@ -41,11 +48,11 @@
   priority: 0
 
 - name: BioMed VO support
-  wiki:
+  page: biomed-enablement-campaign
   leader: Sean Murray (CHPC)
   start: 08/08/2016
   end: 15/09/2016
   state:
     name: in progress
-    label: success
+    label: info
   priority: 3
