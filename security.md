@@ -21,17 +21,17 @@ We work in a distributed environment that is highly interconnected and largely a
 Operational Security Services</h2>
 <p class="text-justify alert alert-warning">Some links may require a personal certificate in your browser and priveliged roles</p>
 <ul class="list-group">
-<li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:TDG-NEW">Security Disssmination and Training </a></li>
-<li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:SDG">Security Drills Group</a></li>
-<li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:SMG">Security Monitoring Group</a></li>
-<li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:IRTF">Incident Response Task Force</a></li>
+  <li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:TDG-NEW">Security Disssmination and Training </a></li>
+  <li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:SDG">Security Drills Group</a></li>
+  <li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:SMG">Security Monitoring Group</a></li>
+  <li class="list-group-item"><a href="https://wiki.egi.eu/wiki/EGI_CSIRT:IRTF">Incident Response Task Force</a></li>
 </ul>
 <p class="text-center text-danger">Suspect shenanigans ? Don't be hasty <a class="text-danger" href="https://wiki.egi.eu/wiki/EGI_CSIRT:Incident_reporting">Report an Incident</a> and follow procedure.
 </p>
 </div>
 <div class="col-md-6">
 <h2 class="post-info">Recent security-related announcements and posts</h2>
-{% for post in site.categories.security | limit: 3 %}
+{% for post in site.categories.security limit: 3 %}
 <h3 class="post-header"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 Written on {{ post.date | date_to_string }}, tagged with
 {% for tag in post.tags %}  <em>{{ tag }}</em>
