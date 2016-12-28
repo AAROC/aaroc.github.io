@@ -35,7 +35,7 @@ There are three main differences between virtual machines exposing entire operat
   1. **Persistence**: Containers should be ephemeral[^DockerEphemeral].
   1. **Data sharing**: Containers are encapsulated, but we need to re-use artefacts from lower in the dependency tree.
 
-Having speedy builds  means using as many CPU resources as possible, in order to complete the build tasks as fast as possible; typically this means using "make"-level parallelism[^Parmake], although several other means are available, for other build systems, such as Ninja[^ParNinja] and Apache Ant[^ParAnt]. Speeding up the build, almost by definition, means that there will be more than one process.
+Having speedy builds  means using as many CPU resources as possible, in order to complete the build tasks as fast as possible; typically this means using "make"-level parallelism[^ParMake], although several other means are available, for other build systems, such as Ninja[^ParNinja] and Apache Ant[^ParAnt]. Speeding up the build, almost by definition, means that there will be more than one process.
 
 ## Re-use of build artefacts
 
@@ -45,8 +45,9 @@ Apparently, ensuring data persistence is nontrivial in the docker world. The fir
 
 # Footnotes and References
 
-[^FoundationReleases]: We refer to foundation releases with the prefix "FR" and numerical tags (1, 2, 3, etc). Thus Foundation Release 1 is "FR1", Foundation Release 2 is "FR2", etc
-[^ParMake]: Several technologies are used to build applications, although the most common is <code>make</code>. Speeding up a build usig make is often possible, depending on the resources available, by passing the <code>-j <integer></code> flag where <code>integer</code> is specifies the level of parallelism requested. See  [GNU Make documentation on parallel builds ](https://www.gnu.org/software/make/manual/make.html#Parallel)
+[^FoundationReleases]: We refer to foundation releases with the prefix "FR" and numerical tags (1, 2, 3, etc). Thus Foundation Release 1 is "FR1", Foundation Release 2 is "FR2", _etc_
+[^ParMake]: Several technologies are used to build applications, although the most common is <code>make</code>. Speeding up a build usig make is often possible, depending on the resources available, by passing the <code>-j &lt;integer&gt; </code>flag where <code>integer</code>  specifies the level of parallelism requested. See  [GNU Make documentation on parallel builds ](https://www.gnu.org/software/make/manual/make.html#Parallel).
+
 [^ParAnt]: See [Ant documentation](http://ant.apache.org/manual/Tasks/parallel.html)
 [^ParNinja]: See [Ninja's comparison to make](https://ninja-build.org/manual.html#_comparison_to_make)
 [^DockerSingleProcess]: See [the Docker best-practices guide](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#/run-only-one-process-per-container)
