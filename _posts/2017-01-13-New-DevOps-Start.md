@@ -6,13 +6,12 @@ headline: "Detaching AAROC/DevOps from it's past"
 category: blog
 tags: [AAROC, code, DevOps, Github]
 image:
-  feature:
-  attribution: "Image courtesy New Old Stock"
+  feature: separate.jpg
+  attribution: "cc-by Mandy Goldberg on Flikr"
 comments: false
 mathjax: false
 discourse: true
 ---
-
 
 A few years back, we came to the conclusion that operating services manually was a pretty bad idea. The feeling that the proper configuration of grid middleware[^gLite32] was a dark art was pervasive - so many configuraiton files, so many separate services, so many configuraiton options ! Impossible to do _right_, impossible to _test_ and most of all, no way to keep knowledge about _what_ was supposed to be done, let alone _how_ it was supposed to be done. Deploying new sites or even individual services had to be done with the physical presence of an experienced operator, and rarely was there enough time to transfer whatever knowledge that person had to the staff at the new site.
 
