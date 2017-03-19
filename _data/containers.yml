@@ -1,0 +1,59 @@
+---
+- name: Ansible Container
+  registry:
+    name: ansiblecontainer
+    url: 'https://hub.docker.com/r/aaroc/ansiblecontainer/'
+  repo: AAROC/AnsibleContainer
+  tags:
+    - centos6
+    - u1404
+    - base
+  description: "Provides a container that can execute Ansible"
+  travis:
+    job: 'https://travis-ci.org/AAROC/AnsibleContainer'
+    badge: 'https://travis-ci.org/AAROC/AnsibleContainer.svg?branch=master'
+
+- name: UMD-UI
+  registry:
+    name: umd-ui
+    url: https://hub.docker.com/r/aaroc/umd-ui/
+  repo: AAROC/umd-ui
+  tags:
+    - centos6
+    - u1404
+    - grid
+  description: "Grid user interface and CVMFS repositories"
+  badge: https://travis-ci.org/AAROC/umd-ui.svg?branch=master
+  travis:
+    job: 'https://travis-ci.org/AAROC/AnsibleContainer'
+    badge: 'https://travis-ci.org/AAROC/umd-ui.svg?branch=master'
+
+- name: Future Gateway API
+  registry:
+    name: future-gateway-api-server
+    url: 'https://hub.docker.com/r/aaroc/future-gateway-api-server'
+  repo: AAROC/future-gateway-api-server
+  tags:
+    - centos6
+    - u1404
+    - science
+  description: "A FutureGateway API server instance"
+  travis:
+    job: 'https://travis-ci.org/AAROC/future-gateway-api-server'
+    badge: 'https://travis-ci.org/AAROC/future-gateway-api-server.svg?branch=master'
+
+
+
+- name: Future Gateway DB
+  registry:
+    name: future-gateway-db
+    url: 'https://hub.docker.com/r/aaroc/future-gateway-db'
+  repo: AAROC/future-gateway-api-server
+  tags:
+    - centos6
+    - u1404
+    - science
+  description: "A FutureGateway Database"
+  travis:
+    job: 'https://travis-ci.org/AAROC/future-gateway-db'
+    badge: 'https://travis-ci.org/AAROC/future-gateway-db.svg?branch=master'

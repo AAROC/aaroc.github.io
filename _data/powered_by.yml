@@ -1,5 +1,5 @@
 - title: Application Developers
-  url: http://ci.sagrid.ac.za:8080
+  url: http://ci.sagrid.ac.za
   icon: lock
   image: jenkinslogo.svg
   tooltip: Continuous Integration Platform

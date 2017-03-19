@@ -1,23 +1,23 @@
 - name: Researchers
   title: Services for Researchers
   image: labtocat.png
-  url: /science
+  url: /science/
   external: false
 
 - name: Developers
   title: Make the grid better with us
   image: baracktocat.jpg
-  url: /developers
+  url: /developers/
   external: false
 
 - name: Operators
   title: How we roll
   image: octotron.jpg
-  url: /operators
+  url: /operators/
   external: false
 
 - name: Automation
   title: Our friendly robots
   image: Robotocat.png
-  url: /automation
+  url: /automation/
   external: false

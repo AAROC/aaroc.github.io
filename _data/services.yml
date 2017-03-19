@@ -1,26 +1,58 @@
+- name: For Users
+  title: User-facing services
+  url: user/
+  icon: user
+  external: false
+- name: Applications
+  title: Applications
+  url: applications/
+  icon: rocket
+  external: false
+  service_list: []
+
 - name: Infrastructure
   title: ROC Interoperability services
-  url: core
+  url: coreservices/
   icon: sitemap
   external: false
   service_list:
     - name: SAM-NAGIOS
-      url: http://nagios.c4.csir.co.za
+      title: Service Availability Monitoring.
+      url: http://nagios.c4.csir.co.za/myegi
       roc_service: true
       middleware: UMD
       release_version: 2
-      gris_service: true
+      grid_service: true
+      hosted_by: aaroc
     - name: Top-BDII
       title: Top-level information index - tells you who's got what and how much.
       middleware: UMD
       release_version: 3
       grid_service: true
-      url: https://nagios.c4.csir.co.za/
+      hosted_by: aaroc
+      external: true
     - name: Accounting
       title: Central Accounting service
       url: http://accounting.egi.eu/
-      external: true
-      roc_service: true
+      hosted_by: EGI
+      grid_service: false
+      middleware: UMD
+      release_version: 3
+    - name: ARGO
+      title: Availability and Reliability Computation Engine
+      url: http://argo.egi.eu/
+      hosted_by: EGI
+      grid_service: false
+      middleware: UMD
+      release_version: 3
+    - name: Perun
+
+
+- name: Security
+  title: CSIRT and SecOps
+  url: security
+  icon: key
+  service_list: []
 
 - name: Compute &amp; Data
   title: HPC, Grid and Cloud services
@@ -64,19 +96,21 @@
   service_list:
 
 - name: Identity
-  title: Identity Management and Federation Services
+  title: Identity and Federation
   url: identity
   icon: certificate
   external: false
   service_list:
   - name: Identity Management
     title: Perun Identity Management Service
-    url: perun
+    url: https://perun.c4.csir.co.za
     external: false
+    hosted_by: aaroc
   - name: Identity Federation
     title: Federated Identity Services
-    url: idf
+    url: https://www.safire.ac.za
     external: false
+    hosted_by: sanren
 
 - name: Support
   title: Technical Support and Training
@@ -88,12 +122,15 @@
     title: GGUS
     url: https://ggus.eu
     external: true
+  - name: Training
+    title: Training
+    url: https://courses.sci-gaia.eu
+    external: true
 
 
 - name: Dev &amp; CI
   title: Continuous Development, Integration and Delivery
-  url: code-rade/
-  status: ok
+  url: /CODE-RADE/
   external: false
   roc_service: true
   icon: wrench

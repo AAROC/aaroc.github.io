@@ -7,6 +7,7 @@
  *
  * Designed and built with all the love in the world by @hmfaysal
  */
+ @import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
 /* ------------------------ */
 /* GENERAL TYPOGRAPHY RULES */
 /* ------------------------ */
@@ -531,7 +532,7 @@ html {
   padding-top: 12px;
   margin-top: 12px;
   font-size: 18px;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Inconsolata' sans-serif;
 }
 #main {
   position: relative;
@@ -548,7 +549,7 @@ html {
   .blog-description {
     display: none;
   }
-    .home-template .row {margin: 0 -5px; z-index: 1} /* fixes overflow on homepage on small screens (caused by stacked -15px from bootstrap) */
+    .home-template .row {margin: 0 -5px;} /* fixes overflow on homepage on small screens (caused by stacked -15px from bootstrap) */
 }
 /* ----------- */
 /* POST STYLES */
@@ -1844,7 +1845,7 @@ img.mfp-img {
 }
 
 tt,code,kbd,samp,pre {
-    font-family: 'source-code-pro',monospace;
+    font-family: 'Inconsolata',monospace;
 }
 
 p code,li code {

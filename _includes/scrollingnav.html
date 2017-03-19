@@ -1,0 +1,11 @@
+<div class="cbp-af-header">
+  <div class="cbp-af-inner">
+<ul class="navbar nav nav-justified panel panel-default ">
+{% for link in site.links %}
+  <li role="presentation">
+    <a href="{{ site.url }}{{ link.url }}" role="button" class="navbar">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i> {{ link.title }}{% else %}{{ link.title }}{% endif %}</a>
+  </li>
+{% endfor %}
+    </ul>
+</div> <!-- inner -->
+</div> <!-- header -->

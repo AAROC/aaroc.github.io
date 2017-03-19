@@ -18,8 +18,9 @@ image:
 While this is just another way of doing what we've always been doing, it gives some more visibility to important ROC-wide tasks and allows clearer delegation of tasks. Also, it will allow us to report better to supporting projects such as well as relying parties like EGI.eu. Campaigns are documented on the [Github wiki pages](https://github.com/AAROC/DevOps/wiki/Ops-Campaigns) of the [AAROC](https://www.github.com/AAROC) [DevOps repo](https://github.com/AAROC/DevOps).
 
 # Operations Campaigns
-<!-- We need to sort on the state to put the campaigns under way first -->
+
 {% assign sortedcampaigns = site.data.campaigns | sort:"priority" | reverse %}
+
 <table class="table table-hover table-condensed">
   <thead>
     <tr>
@@ -31,16 +32,17 @@ While this is just another way of doing what we've always been doing, it gives s
   </thead>
 {% for campaign in sortedcampaigns %}
   <tr>
+<!-- wiki link -->
 {% if campaign.wiki != null %}
     <td class="text-left"><a href="https://github.com/AAROC/wiki/{{ campaign.wiki }}"><span><i class="fa fa-github-square"></i></span> {{ campaign.name }}</a></td>
 {% else if campaign.page != null %}
     <td class="text-left"><a href="{{site.url }}/{{ campaign.page }}"><span><i class="fa fa-info"></i></span> {{ campaign.name }}</a></td>
 {% else %}
     <td class="text-left"><span><i class="fa fa-github-square"></i></span> {{ campaign.name }}</td>
-{% endif %}
+    {% endif %}
     <td>{{ campaign.leader }}</td>
     <td><span class="label label-{{ campaign.state.label }}">{{ campaign.state.name }}</span></td>
     <td>{{ campaign.start }} - {{ campaign.end }}</td>
-  </tr>
+</tr>
 {% endfor %}
 </table>

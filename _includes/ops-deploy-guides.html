@@ -1,0 +1,55 @@
+<!-- description of the Regional Operator on Duty -->
+  <div role="tabpanel" class="tab-pane fade out" id="deployment-guides">
+    <div class="post-body bordered-bottom bordered-top">
+      <div class="row">
+        <div class="col-xs-4 col-md-6">
+          <h2>AAROC is DevOps</h2>
+            <p>
+              The team of experts develops and tests the code necessary to configure services at sites. Site operators customise these recipes and execute the configuration and orchestration, based on the local resources. We provide deployment guides and software-defined infrastructure for e-Infrastructure services.
+            </p>
+            <p>
+              For most of the services, the ROC maintains <a href="http://www.ansible.com/">Ansible</a> roles which express the correct site-independent service configuration. Other services are provided as Puppet manifests, or other forms of configuration management.</p>
+      </div> <!-- col -->
+      <div class="col-xs-4 col-md-2">
+        <div class="thumbnail">
+          <a href="{{ site_url }}/DevOps"><img src="{{ site_url }}/images/Robotocat.png" class="img-responsive img-thumbnail img-rounded noborder" width="140"  />
+          <div class="caption">Take me to our robot overlords.</div>
+          </a>
+        </div> <!-- thumbnail -->
+      </div> <!-- col -->
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-md-3">
+          <h2>Grid Site</h2>
+          Guides and playbooks for deploying HTC and HPC services at Africa-Arabia ROC sites.
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="{{ site_url }}/DevOps" class="btn btn-primary" role="button">Information</a></li>
+            <li><a href="#" class="btn btn-primary" role="button">Compute</a></li>
+            <li><a href="#" class="btn btn-primary" role="button">Storage</a></li>
+            <li><a href="#" class="btn btn-primary" role="button">Accounting</a></li>
+            <li><a href="#" class="btn btn-primary" role="button">User Interface</a></li>
+          </ul>
+        </div> <!-- col -->
+        <div class="col-md-3">
+            <h2>Grid Core</h2>
+            Guides and playbooks for deploying core infrastructure services.
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="{{ site_url }}/DevOps" class="btn btn-primary" role="button">Information</a></li>
+              <li><a href="#" class="btn btn-primary" role="button">Monitoring</a></li>
+              <li><a href="#" class="btn btn-primary" role="button">Workload management</a></li>
+              <li><a href="#" class="btn btn-primary" role="button">Metadata</a></li>
+              <li><a href="#" class="btn btn-primary" role="button">VOMS</a></li>
+              <li><a href="#" class="btn btn-primary" role="button">File Transfer</a></li>
+            </ul>
+          </div> <!-- col -->
+        <div class="col-md-3">
+          <h2>Identity Services</h2>
+          Guides and playbooks for deploying federated identity providers
+          <ul class="nav nav-stacked">
+            <li><a href="#" class="btn btn-primary" role="button">Shibboleth IdP</a></li>
+            <li><a href="#" class="btn btn-primary" role="button">IdP Web frontend</a></li>
+          </ul>
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div>
+  </div> <!-- tab panel -->

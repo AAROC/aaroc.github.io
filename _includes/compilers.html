@@ -1,5 +1,5 @@
-<div role="tabpanel" class="tab-pane fade in" id="compilers">
-    <br><p class="post-info text-justify">
+<div role="tabpanel" class="tab-pane active" id="compilers">
+    <p class="post-info text-justify">
     Compilers are needed to turn your source code into executable files. We aim to provide as many compilers as possible for the supported platforms, in order to support as many user applications as possible. If want to compile your code from scratch, you can use one of these compilers and dependency libraries.</p>
   <table class="table table-hover">
     <thead>
@@ -7,36 +7,16 @@
         <th>Name</th>
         <th>Versions</th>
         <th>Status</th>
-        <th>Repo</i></th>
+        <th>Repo</th>
         <th style="text-align: left">Description</th>
         <th>Published</th>
       </tr>
     </thead>
   {% for app in site.data.applications %}
   {% if app.tags contains "compilers" %}
-    <tr>
-      <td>{{ app.name }}</td>
-      <td> {%if app.versions %}{% for version in app.versions %}
-      <span class="badge badge-info">{{ version }}</span>
-      {% endfor %}
-      {% endif %}</td>
-      {% if app.job != null %}
-      <td style="valign: center"><a href='http://ci.sagrid.ac.za:8080/view/All/job/{{ app.job }}/'><img src='http://ci.sagrid.ac.za:8080/view/All/job/{{ app.job }}/badge/icon'></a>
-      </td>
-      {% else %}
-      <td style="valign: center"><span class="badge badge-info">Proposed</span></td>
-      {% endif %}
-      <td><a href="{{ app.repo }}"><i class="fa fa-github"></i></a></td>
-      <td style="text-align: left"><p style="word wrap word-wrap: break-word;">{{ app.description }}</p> </td>
-      {%if app.tags contains "cvmfs"%}
-      <td><i class="social-icons fa fa-check-circle-o" style="color: green"></i></td>
-      {% else %}
-      <td><i class="social-icons fa fa-times-circle-o" style="color: red"></i></td>
-      {% endif %}
-    </tr>
+  {% include apptable.html %}
   {% endif %}
   {% endfor %}
   </table>
-  <br>
-  <h2 class="post-title">Don't see what you want ? - <a href="https://github.com/SAGridOps/SoftwareInstallation/issues/new?labels=proposed">Propose a new application</a></h2>
-  </div>
+
+</div>

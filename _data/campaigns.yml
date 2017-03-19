@@ -1,5 +1,12 @@
 # This is the data file for Operations Campaigns. The campaigns themselves are documented on the @AAROC/DevOps wiki
 # Just enough information here to fill out a table on {{site_url}}/campaigns
+# The state should be :
+# Finished/success : success
+# Finished/partial-success : muted
+# Finished/failure : danger
+# In progress/on time : info
+# In progress/overdue : warning
+# Proposed : primary
 ---
 - name: APEL Accounting
   wiki: AccountingCampaign-2014-08
@@ -24,11 +31,11 @@
   wiki: CVMFS-Campaign-2014
   leader: Bruce Becker (CSIR)
   start: 01/08/2014
-  end: 28/02/2015
+  end: 28/02/2016
   state:
-    name: underway
-    label: warning
-  priority: 1
+    name: ended
+    label: success
+  priority: 0
 
 - name: Core Services Failover
   wiki: Core-Services-Failover-Campaign-2014
@@ -36,23 +43,16 @@
   start: 15/12/2014
   end: 23/12/2014
   state:
-    name: overdue
-    label: danger
-  priority: 2
+    name: ended
+    label: success
+  priority: 0
 
-- name: MPI Accounting
-  wiki: 
-  leader: TBC
-  start: 10/02/2015
-  end: 28/02/2015
+- name: BioMed VO support
+  page: biomed-enablement-campaign
+  leader: Sean Murray (CHPC)
+  start: 08/08/2016
+  end: 15/09/2016
   state:
-    name: proposed
+    name: in progress
     label: info
   priority: 3
-
-- name:
-  wiki:
-  leader:
-  start:
-  end:
-  state:

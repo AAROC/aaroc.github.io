@@ -30,6 +30,7 @@ As infrastructure providers, we're here to make sure there's enough power to get
       {% include Middleware.html %}
     </div> <!-- tabpanel -->
 
+In order to execute applications and store data on the grid, you'll need a *context*. This is provided through an *identity* provider and an *authorisation*.
 
   <div role="tabpanel" class="tab-pane fade" id="compute">
     Coming soon.

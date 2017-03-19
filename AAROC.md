@@ -6,8 +6,10 @@ tags: [AAROC, about]
 image:
   feature:
 ---
+<div class="text-center">
 
-# We are the Africa-Arabia Regional Operations Centre
+<h1> We are the Africa-Arabia Regional Operations Centre</h1>
+</div>
 
 The tales of Sinbad the sailor tell of a mythical bird, the Roc, encountered along his adventures on the seven seas. Swooping in to save sailors in distress all over the seas and mountains of Africa and Arabia, the Roc has come to the rescue of the intrepid in harsh and unexplored environments. As such, it has been chosen as our mascot. There are several Regional Operations Centres, but there's only one Africa-Arabia ROC.
 
@@ -76,8 +78,8 @@ The Regional Operations Centre is coordinated  by the [CSIR Meraka Institute](ht
 The figure illustrates the framework of agreements which allow this interoperability:
 
   1. AAROC acts as a ***Resource Infrastructure Provider*** to EGI.eu, and signs an ***Operating Level Agreement (OLA)*** with EGI.eu.
-    1. This OLA states the *minimum levels* of operation of services, as well as *which* services which are needed to interoperate.
-    2. EGI.eu in turn signs a ***Service Level Agreement***, allowing the ROC to interoperate via central services.
+     1. This OLA states the *minimum levels* of operation of services, as well as *which* services which are needed to interoperate.
+     2. EGI.eu in turn signs a ***Service Level Agreement***, allowing the ROC to interoperate via central services.
   1. EGI specifies a common OLA which all production sites have to implement, in order to provide an infrastructure of uniform and acceptable quality. This includes aspects such as
     1. which ***services*** should be offered by sites
     2. which ***interfaces*** should be exposed

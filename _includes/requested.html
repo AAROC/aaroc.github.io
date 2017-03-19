@@ -1,0 +1,17 @@
+<div role="tabpanel" class="tab-pane fade" id="requested">
+  <p class="post-info text-justify">
+This is what we've got in the pipeline
+    </p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Versions</th>
+        <th>Repo</th>
+        <th style="text-align: left">Description</th>
+        <th>Published</th>
+      </tr>
+    </thead>
+{% for app in site.data.applications %} {% if app.tags contains "chemistry" %} {% include apptable.html %} {% endif %} {% endfor %}
+  </table>
+  </div>

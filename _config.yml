@@ -50,28 +50,45 @@ using_wow: true
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Overview
+  - title: Home
+    displaytitle: false
+    url: /
+    sublinks: []
+    icon: home
+  - title: About
+    displaytitle: true
     url: /AAROC/
-    external: false
+    sublinks: []
     icon: info-circle
-  - title: Status
-    url: /SitRep
-    icon: dashboard
+  - title: Sites
+    displaytitle: true
+    url: /sites/
+    icon: globe
+    sublinks: []
+#- title: Status
+#    displaytitle: true
+#    url: /SitRep
+#    sublinks: []
+#    icon: dashboard
   - title: Blog
+    displaytitle: true
     url: /blog/
-    external: false
+    sublinks: []
     icon: bullhorn
   - title: Campaigns
+    displaytitle: true
     url: /campaigns
-    external: false
+    sublinks: []
     icon: fire
   - title: Projects
+    displaytitle: true
     url: /projects
-    external: false
+    sublinks: []
     icon: flask
   - title: Contact
+    displaytitle: false
     url: /contact
-    external: false
+    icon: paper-plane-o
   #
   # - title: Tags
   #   url: /tags
@@ -89,9 +106,9 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Africa/Johannesburg
 future:      true
-highlighter: pygments
-#pygments:    true
-markdown:    kramdown
+highlighter: rouge
+markdown:  kramdown
+
 paginate:    4
 toc_levels: 1..6
 paginate_path: "page:num"
@@ -105,17 +122,23 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+#  enable_coderay: true
+  input: GFM
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  # coderay:
+  #   coderay_line_numbers:
+  #   coderay_line_numbers_start: 1
+  #   coderay_tab_width: 4
+  #   coderay_bold_every: 10
+  #   coderay_css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 gems:
   - jemoji
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+#  - pygments
 #  - dashing

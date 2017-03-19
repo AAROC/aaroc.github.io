@@ -17,7 +17,7 @@ The panel consisted of Peter van Heusden (University of the Western Cape), Jonah
 Images are courtesy of [the Saint-Exup&eacute;ry Foundation](http://www.antoinedesaintexupery.com). The thoughts revolve around quotes which I've selected from the book "Terre des Hommes".
 
 <figure>
-  <a href="http://www.antoinedesaintexupery.com/terre-des-hommes-1939"><img src="{{ site_url }}/images/462_6.jpg" height="200px"></img></a>
+  <a href="http://www.antoinedesaintexupery.com/terre-des-hommes-1939"><img src="{{ site_url }}/images/462_6.jpg" height="200px"></a>
 </figure>
 
 ----------------------------
@@ -50,7 +50,7 @@ There is sometimes a tension then between *getting things done* and *getting thi
 
 We come then to a metaphor :
 <figure>
-  <img src="{{ site_url }}/images/34_4_0.jpg"></img>
+  <img src="{{ site_url }}/images/34_4_0.jpg">
   <figcaption> "L'homme se d&eacute;couvre quand il se mesure avec l'obstacle." <br> - A. de Saint-Exup&eacute;ry"</figcaption>
 </figure>
 A dejected pilot stands beside his crashed airplane. He, like us, is an explorer. He has chosen to fly to new lands, and has crashed in a desert - land unknown to human feet. He will eventually repair his airplane, or be rescued by his fellow explorers, but has only the tools at hand to survive in the meantime. Not knowing what awaits him, he has taken on that airplane what one might call a "general solution" - the basic tools which can be used in any situation, given enough ingenuity and patience. A hammer, a radio transmitter, a wrench, a compass, a blowtorch, a warm jacket, a rifle (let us not forget that he has crashed in a very hostile territory).
@@ -61,9 +61,9 @@ These are his tools for *disaster recovery*, but but it is above all his ***aero
 
 > [...] la vie du pass&eacute; nous semble mieux r&eacute;pondre a notre nature, pour la seule raison qu'elle r&eacute;pond mieux a notre langage.
 
-We are presented with an instrument of discovery, but it seems from "the future". Its controls, it's internal functioning, are exposed and seem foreign to us and we often find ourselves unable to find the terms needed to express our need for or usage of it. Sometimes, this makes it hard to ask for ask for newer, or better aeroplanes... after all, if it is only to deliver packages, why we can already do that with a boat or a train ? And these don't crash in the middle of the desert ! Yes, but aeroplanes go where boats or trains cannot, they see from a different angle, and from their altitude, the world takes on a vastly different aspect.
+We are presented with an instrument of discovery, but it seems from "the future". Its controls, it's internal functioning, are exposed and seem foreign to us and we often find ourselves unable to find the terms needed to express our need for or usage of it. Sometimes, this makes it hard to ask for   newer, or better aeroplanes... after all, if it is only to deliver packages, why we can already do that with a boat or a train ? And these don't crash in the middle of the desert ! Yes, but aeroplanes go where boats or trains cannot, they see from a different angle, and from their altitude, the world takes on a vastly different aspect.
 
-St. Exup&eacute;ry's point here is that we are beings bound by the language we speak, the terms we use - and often our reticence to adopt new ways is due to our sense of being at a lack of words. It is in our nature to explore, but in exploring, we need to remind ourselves that it end, not the means which drives us.
+St. Exup&eacute;ry's point here is that we are beings bound by the language we speak, the terms we use - and often our reticence to adopt new ways is due to our sense of being at a lack of words. It is in our nature to explore, but in exploring, we need to remind ourselves that it is the ends, not the means which drives us.
 
 > Nous sommes tous de jeunes barbares que nos jouets neufs &eacute;merveillent encore. […]
 
@@ -79,7 +79,7 @@ Yes, we, these explorers, do tend to get blinded by the shiny. We forget that *l
 
 We forget that the aeroplane was made for a *reason*, which was to arrive somewhere. The very first ones were built essentially for the pilot, whose driving passion is to discover the unknown through discovery. But later ones were built for *passengers*, whose goal is simply to *arrive*. Their passion is the relative, or the business, or the exotic fruit, at the end of the journey and for them the aeroplane, although perhaps intriguing, is not of primary importance.
 
-How was the aeroplane built ? The very first ones had all of the tubes, knobs, dials and guages in plain site (if one will forgive the homonymic pun), because the pilot needed to know every detail of the internal working of the aeroplane. However, later models hid these details both from pilots as well as of course from the passengers, since we came to learn the habits and workings of the machine. We made it less mysterious, and more functional, to respond better to our human, (or in this case, scientific), rather than technical needs.
+How was the aeroplane built ? The very first ones had all of the tubes, knobs, dials and guages in plain sight (if one will forgive the homonymic pun), because the pilot needed to know every detail of the internal working of the aeroplane. However, later models hid these details both from pilots as well as of course from the passengers, since we came to learn the habits and workings of the machine. We made it less mysterious, and more functional, to respond better to our human, (or in this case, scientific), rather than technical needs.
 
 ## What home awaits us ?
 
@@ -130,7 +130,7 @@ What kind of learning environment do we want for our future generations ? And wh
 > And all the boards did shrink; <br>
 > Data, data, every where, <br>
 > Nor any drop to drink <br></em></h1>
-> <h2 class="post-title">         Samuel Taylor Coleridge, <em><b>"The Rime of the Ancient Mariner"</b></em></h2>
+> <h2 class="post-title">         Not Samuel Taylor Coleridge, not <em><b>"The Rime of the Ancient Mariner"</b></em></h2>
 
 They have been told that such marvels exist, but how to use them, and what is actually offered is somewhat different. In order to build a "fertile delta", there needs to be better integration between training, research and innovation, especially mutually-reinforcing aspects.
 
