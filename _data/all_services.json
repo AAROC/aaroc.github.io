@@ -922,6 +922,46 @@
 				}
 			},
 			{
+				"TYPE_ID": "424G0",
+				"PRIMARY_KEY": "424G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.mon"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO Monitoring Engine gathers monitoring metrics and publishes to messaging service."
+				}
+			},
+			{
+				"TYPE_ID": "425G0",
+				"PRIMARY_KEY": "425G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.consumer"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO Consumer collects monitoring metrics from monitoring engines."
+				}
+			},
+			{
+				"TYPE_ID": "428G0",
+				"PRIMARY_KEY": "428G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.webui"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO web user interface for metric A/R visualization and recalculation management."
+				}
+			},
+			{
+				"TYPE_ID": "463G0",
+				"PRIMARY_KEY": "463G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.onedata.onezone"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Onezone is a Onedata component responsible for connecting multiple storage providers with installed Oneprovider component into federations of storage providers."
+				}
+			},
+			{
 				"TYPE_ID": "101G0",
 				"PRIMARY_KEY": "101G0",
 				"SERVICE_TYPE_NAME": {
@@ -972,6 +1012,76 @@
 				}
 			},
 			{
+				"TYPE_ID": "403G0",
+				"PRIMARY_KEY": "403G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "com.ceph.object-storage"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Object Storage, see: http://ceph.com/ceph-storage/object-storage"
+				}
+			},
+			{
+				"TYPE_ID": "423G0",
+				"PRIMARY_KEY": "423G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.poem"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "POEM is system for managing profiles of probes and metrics in ARGO system."
+				}
+			},
+			{
+				"TYPE_ID": "426G0",
+				"PRIMARY_KEY": "426G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.computeengine"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO Compute Engine computes availability and reliability of services."
+				}
+			},
+			{
+				"TYPE_ID": "427G0",
+				"PRIMARY_KEY": "427G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.api"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO API service for retrieving status and A/R results."
+				}
+			},
+			{
+				"TYPE_ID": "483G0",
+				"PRIMARY_KEY": "483G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.onedata.oneprovider"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Oneprovider is a Onedata component which provides unified data access functionality for users to heterogeneous storage resources of federated storage providers."
+				}
+			},
+			{
+				"TYPE_ID": "503G0",
+				"PRIMARY_KEY": "503G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "es.upv.grycap.im"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "IM is a tool that eases the access and the usability of IaaS clouds by automating the VMI selection, deployment, configuration, software installation, monitoring and update of Virtual Appliances."
+				}
+			},
+			{
+				"TYPE_ID": "523G0",
+				"PRIMARY_KEY": "523G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "webdav"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Service with extensions to the HTTP protocol which allows users to collaboratively edit and manage files on remote web servers."
+				}
+			},
+			{
 				"TYPE_ID": "121G0",
 				"PRIMARY_KEY": "121G0",
 				"SERVICE_TYPE_NAME": {
@@ -999,6 +1109,16 @@
 				},
 				"SERVICE_TYPE_DESC": {
 					"$t": "The 3G Bridge (Generic Grid Grid Bridge) is designed to be used as a mediator between different types of Grid middleware."
+				}
+			},
+			{
+				"TYPE_ID": "443G0",
+				"PRIMARY_KEY": "443G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "com.aws.s3"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Storage providing S3 API"
 				}
 			},
 			{

@@ -17,7 +17,7 @@ The tales of Sinbad the sailor tell of a mythical bird, the Roc, encountered alo
 
 <ul class=" nav-justified panel panel-title nav-pills" title="how can we help you?">
   <div class="panel-title">How can we help you ?</div>
-  <li><a class="navbar" href="{{ site_url }}/research">For Research Communities</a></li>
+  <li><a class="navbar" href="{{ site_url }}/science">For Research Communities</a></li>
   <li><a class="navbar" href="{{ site_url }}/sites">For Resource Providers</a></li>
   <li><a class="navbar" href="{{ site_url }}/funders">For funding agencies</a></li>
   <li><a class="navbar" href="{{ site_url }}/developers">For developers</a></li>

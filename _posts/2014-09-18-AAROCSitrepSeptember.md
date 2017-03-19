@@ -1,13 +1,14 @@
 ---
 layout: post
-title: AAROC September 2014 Situation report 
+title: AAROC September 2014 Situation report
 description: AAROC September 2014 Situation Report
 headline: AAROC September 2014 #SitRep
+permalink: /devops/AAROCSitrepSeptember
 category: DevOps
 tags: [AAROC, Sitrep, operations, summer, sites, OMB, EGI]
-image: 
-  feature: 
-comments: true 
+image:
+  feature:
+comments: true
 ---
 
 # TL;DR
@@ -24,27 +25,27 @@ A few general comments were given by Malgorazata, summarised here. The ROC monit
 
 In other news, [GSTAT](http://gstat.egi.eu/) support is also back. After a period where the support unit disappeared and it looked like GSTAT was dead, it was reported that there is now medium support for GSTAT issues and the [support unit](https://wiki.egi.eu/wiki/GGUS:GStat_FAQ) is back. There is some wierdness - espcially about which regions sites belong to; Please check your sites for the `AfricaArabia` tag in `EGI_NGI` or `EGI_OTHER_GRID`. Feel free to open a ticket against gstat too.
 
-There was a reminder that the OPS VOMS moving; the deadline was 15/09/2014. I think all our sites have been configured. A [ticket](https://ggus.eu/?mode=ticket_info&ticket_id=108183) has been opened against the ROC, as well as against individual sites: 
+There was a reminder that the OPS VOMS moving; the deadline was 15/09/2014. I think all our sites have been configured. A [ticket](https://ggus.eu/?mode=ticket_info&ticket_id=108183) has been opened against the ROC, as well as against individual sites:
 
-The current situation in AAROC is : 
+The current situation in AAROC is :
 
 | Site name | Ticket | Status |
 |:--------------|:--------:|---------:|
-| DZ-01-ARN | [108192](https://ggus.eu/?mode=ticket_info&ticket_id=108192) | <font color='red'>still open</font> | 
+| DZ-01-ARN | [108192](https://ggus.eu/?mode=ticket_info&ticket_id=108192) | <font color='red'>still open</font> |
 | EG-ZC-T3 | [108787](https://ggus.eu/?mode=ticket_info&ticket_id=108787) | <font color='red'>still open</font> |
-| MA-01-CNRST | [108191](https://ggus.eu/?mode=ticket_info&ticket_id=108191) | <font color='green'>done</font> | 
-| ZA-CHPC | [108193](https://ggus.eu/?mode=ticket_info&ticket_id=108193) | <font color='red'>still open</font> | 
-| ZA-MERAKA | [108194](https://ggus.eu/?mode=ticket_info&ticket_id=108194) | <font color='green'>done</font> | 
-| ZA-UCT-ICTS | [108195](https://ggus.eu/?mode=ticket_info&ticket_id=108195) | <font color='red'>still open</font> | 
-| ZA-UFS | [108196](https://ggus.eu/?mode=ticket_info&ticket_id=108196) | <font color='red'>still open</font> | 
-| ZA-UJ | [108197](https://ggus.eu/?mode=ticket_info&ticket_id=108197) | <font color='green'>done</font> | 
+| MA-01-CNRST | [108191](https://ggus.eu/?mode=ticket_info&ticket_id=108191) | <font color='green'>done</font> |
+| ZA-CHPC | [108193](https://ggus.eu/?mode=ticket_info&ticket_id=108193) | <font color='red'>still open</font> |
+| ZA-MERAKA | [108194](https://ggus.eu/?mode=ticket_info&ticket_id=108194) | <font color='green'>done</font> |
+| ZA-UCT-ICTS | [108195](https://ggus.eu/?mode=ticket_info&ticket_id=108195) | <font color='red'>still open</font> |
+| ZA-UFS | [108196](https://ggus.eu/?mode=ticket_info&ticket_id=108196) | <font color='red'>still open</font> |
+| ZA-UJ | [108197](https://ggus.eu/?mode=ticket_info&ticket_id=108197) | <font color='green'>done</font> |
 | ZA-WITS-CORE | [108198](https://ggus.eu/?mode=ticket_info&ticket_id=108198) | <font color='green'>done</font> |
 
 # Operations portal updates
 
-EGI Operations Support team is preparing webinar "ROD Dashboard Training"[^dashboard_announcement] training. Details : 
-  
-  * **Date**: **03.10.2014** at **11:00 CEST** 
+EGI Operations Support team is preparing webinar "ROD Dashboard Training"[^dashboard_announcement] training. Details :
+
+  * **Date**: **03.10.2014** at **11:00 CEST**
   * **Participation over Adobe Connect**: [https://meet.plgrid.pl/rodtutorial/](https://meet.plgrid.pl/rodtutorial/)
 
 Note : ***Participation is mandatory for all operators***
@@ -58,7 +59,7 @@ SAM refactoring is under way since a while now - issues are tracked at [https://
 
 remove org.gstat.sanity check and include glue-2 sanity check
 
-# UMD updates 
+# UMD updates
 Cristina Aiftimiei reported on middleware developments. UMD2 was decommissioned in ***April 2014***. All site should be on at least UMD-3[^were-good].
 
 ## GFAL-util deprecation
@@ -68,7 +69,7 @@ There is a major issue facing the data management aspects of the grid middleware
 > "Gfal and lcg-util are in end-of-life mode, which means no new features, nor new bug fixes will be done, excepting very critical ones if needed. <br>
 > Support for both will defintitely end the 1st of November 2014 , so we recommend to all our users to switch to the newer gfal2 and gfal2-utils.”
 
-There are a few issues : 
+There are a few issues :
 
   1. No replacement for: `lcg-aa`, `lcg-la`, `lcg-ra`, `lcg-uf`
      1. Solution for `lcg-uf` - new `gfal-legacy-replicas`, `gfal-legacy-register` and `gfal-legacy-unregister`
@@ -81,21 +82,21 @@ The CVMFS client, FTS3 and frontier squid are now in the UMD repos.
 
 ## Coming up
 
-The following issues were reported in the software provisioning queue : 
+The following issues were reported in the software provisioning queue :
 
   1. **New CREAM flavours**: (update of the info-dynamic-scheduler improving the Glue2 support and provides some bug fixes.)
      1. LFS v. 2.0.4
      1. SLURM v. 1.0.2
-     1. Torque v.  2.1.4 
-     1. GE v. 2.3.0 
+     1. Torque v.  2.1.4
+     1. GE v. 2.3.0
   1. **APEL** v. 1.2.2: Fix for being unable to parse uncompressed accounting introduced in 1.2.1 – version not released in UMD
-  1. **BDII-core** v. 1.6.0: Minor release containing a set of new features and minor fixes to the following packages: 
+  1. **BDII-core** v. 1.6.0: Minor release containing a set of new features and minor fixes to the following packages:
      1. bdii
      1. glue-validator
      1. glue-schema
      1. glite-info-provider-service.
   1. **WMS** v. 3.6.6: Bug fix when setting umask 0077 breaks `glite-wms-job-submit` and `WMProxy` deletes a user delegated proxy on list-match operation. It also solves the issue when a given CE with problems causes a WMS to become very slow dealing with all other jobs.
-  1. **UI/WN** v. 3.1.0 :  new dependencies on gfal2-util & ginfo 
+  1. **UI/WN** v. 3.1.0 :  new dependencies on gfal2-util & ginfo
   1. **CANL** v. 2.2.4: bug fix in the caNl-java package in order to solve some OCSP handling
   1. CERN Data Management Clients:
      1. **gfal2** v. 2.6.8: Important release with many bug fix, improvements and new functionalities like enabling tests for `xrootd`, `http` and `dCache`.
@@ -114,13 +115,13 @@ If you want to take a look at the dashboard and see issues at your sites you nee
 <img src="{{ site_url }}/images/operations-portal.gif"></img>
 </figure>
 
-| Site  | Workload | Compute  | Data  | Accounting | Infosys | A/R | 
+| Site  | Workload | Compute  | Data  | Accounting | Infosys | A/R |
 |:------|:------------|:-------------|:------|:---------------|:----------|:----|
-| [DZ-01-ARN]( https://goc.egi.eu/portal/index.php?Page_Type=Site&id=964) |  <font color='green'>ok</font> | <font color='red'>not ok</font> ([108789]( https://operations-portal.egi.eu/rodDashboard/ticket/108789/site/DZ-01-ARN/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details),  [107876](https://operations-portal.egi.eu/rodDashboard/ticket/107876/site/DZ-01-ARN/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details)) | <font color='red'>not ok</font> ([108789](https://operations-portal.egi.eu/rodDashboard/ticket/108789/site/DZ-01-ARN/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details))  | <font color='red'>not ok</font> ([108791](https://ggus.eu/index.php?mode=ticket_info&ticket_id=108791)) | <font color='green'>ok</font> | <font color='red'>0.0</font> | 
-| [EG-ZC-T3](https://goc.egi.eu/portal/index.php?Page_Type=Site&id=981) | none | <font color='red'>not ok</font> ([107874](https://operations-portal.egi.eu/rodDashboard/ticket/107874/site/EG-ZC-T3/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details), [108792](https://operations-portal.egi.eu/rodDashboard/ticket/108792/site/EG-ZC-T3/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details) ) | none | <font color='red'>not ok</font> ([108793](https://ggus.eu/?mode=ticket_info&ticket_id=108793))| <font color='red'>not ok</font> ([107874](https://operations-portal.egi.eu/rodDashboard/ticket/107874/site/EG-ZC-T3/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details))| <font color='red'>0.0</font> | 
+| [DZ-01-ARN]( https://goc.egi.eu/portal/index.php?Page_Type=Site&id=964) |  <font color='green'>ok</font> | <font color='red'>not ok</font> ([108789]( https://operations-portal.egi.eu/rodDashboard/ticket/108789/site/DZ-01-ARN/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details),  [107876](https://operations-portal.egi.eu/rodDashboard/ticket/107876/site/DZ-01-ARN/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details)) | <font color='red'>not ok</font> ([108789](https://operations-portal.egi.eu/rodDashboard/ticket/108789/site/DZ-01-ARN/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details))  | <font color='red'>not ok</font> ([108791](https://ggus.eu/index.php?mode=ticket_info&ticket_id=108791)) | <font color='green'>ok</font> | <font color='red'>0.0</font> |
+| [EG-ZC-T3](https://goc.egi.eu/portal/index.php?Page_Type=Site&id=981) | none | <font color='red'>not ok</font> ([107874](https://operations-portal.egi.eu/rodDashboard/ticket/107874/site/EG-ZC-T3/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details), [108792](https://operations-portal.egi.eu/rodDashboard/ticket/108792/site/EG-ZC-T3/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details) ) | none | <font color='red'>not ok</font> ([108793](https://ggus.eu/?mode=ticket_info&ticket_id=108793))| <font color='red'>not ok</font> ([107874](https://operations-portal.egi.eu/rodDashboard/ticket/107874/site/EG-ZC-T3/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details))| <font color='red'>0.0</font> |
 | [MA-01-CNRST](https://goc.egi.eu/portal/index.php?Page_Type=Site&id=922) | <font color='green'>ok</font> | <font color='red'>not ok</font> ([108796](https://operations-portal.egi.eu/rodDashboard/ticket/108796/site/MA-01-CNRST/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details)) |  <font color='green'>ok</font> |  <font color='green'>ok</font> |  <font color='green'>ok</font> | <font color='red'>0.0</font> |
 | [ZA-CHPC](https://goc.egi.eu/portal/index.php?Page_Type=Site&id=286) | none | <font color='red'>not ok</font> ([108800](https://operations-portal.egi.eu/rodDashboard/ticket/108800/site/ZA-CHPC/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?site=ZA-CHPC&page=details)) | <font color='red'>not ok</font> ([108802](https://operations-portal.egi.eu/rodDashboard/ticket/108802/site/ZA-CHPC/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?site=ZA-CHPC&page=details)) | <font color='red'>not ok</font> ([108803](https://ggus.eu/index.php?mode=ticket_info&ticket_id=108803)) | <font color='red'>not ok</font> ([108797](https://operations-portal.egi.eu/rodDashboard/ticket/108797/site/ZA-CHPC/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details)) | <font color='red'>0.0</font> |
-| [ZA-MERAKA](https://goc.egi.eu/portal/index.php?Page_Type=Site&id=175) | <font color='green'>ok</font> | none | none | <font color='green'>ok</font> | <font color='green'>ok</font> |  <font color='green'>96.2</font> | 
+| [ZA-MERAKA](https://goc.egi.eu/portal/index.php?Page_Type=Site&id=175) | <font color='green'>ok</font> | none | none | <font color='green'>ok</font> | <font color='green'>ok</font> |  <font color='green'>96.2</font> |
 | [ZA-UCT-ICTS](https://goc.egi.eu/portal/index.php?Page_Type=Site&id=374) | none | <font color='green'>ok</font> | none | <font color='green'>ok</font> | <font color='green'>ok</font> | <font color='red'>0.0</font> |
 | [ZA-UJ](https://goc.egi.eu/portal/index.php?Page_Type=Site&id=285) | none | <font color='green'>ok</font> | <font color='green'>ok</font> | <font color='red'>not ok</font> ([108807](https://operations-portal.egi.eu/rodDashboard/ticket/108807/site/ZA-UJ/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details)) | <font color='green'>ok</font>  | <font color='red'>67.35</font> |
 | [ZA-WITS-CORE](https://goc.egi.eu/portal/index.php?Page_Type=Site&id=689) | none | <font color='red'>not ok</font> ([108808](https://operations-portal.egi.eu/rodDashboard/ticket/108808/site/ZA-WITS-CORE/tab/details/tsid/ggus_helpdesk_ops-workflow_rod?page=details) ) | <font color='green'>ok</font> | <font color='green'>ok</font> | <font color='green'>ok</font> | <font color='red'>0.0</font>  |
@@ -134,7 +135,7 @@ Generally looking good, but some problems with variables. There is one [ticket](
 The WMS is functiong *ok*, but some job states fall into `critical` due to them failing on sites.
 
 ### Compute
-  
+
   * CREAM-CE: All fine, apart from timeouts when connecting to the CREAM CE to interrogate job statuses. See https://nagios.c4.csir.co.za/nagios/cgi-bin/extinfo.cgi?type=2&host=ce04.grid.arn.dz&service=emi.cream.CREAMCE-DirectJobState-ops
   * WN: Default SE not configured (seems to be set in `site-info.def` or `glite-creamce` configuration file as `DPM_HOST` - maybe missing `$` ?)
     ````
@@ -145,7 +146,7 @@ The WMS is functiong *ok*, but some job states fall into `critical` due to them 
 
 ### Data
 
-  * Can't seem to find replicas of the file using LFC - probably because the DZGrid Top-bdii is being used for registration and the Meraka top-bdii is being used for replica search. 
+  * Can't seem to find replicas of the file using LFC - probably because the DZGrid Top-bdii is being used for registration and the Meraka top-bdii is being used for replica search.
   * LFC is fine :relaxed:
 
 
@@ -160,7 +161,7 @@ Several warnings  and info caught by midmon : https://midmon.egi.eu/nagios/cgi-b
 
   1. Add `top-bdii.c4.csir.co.za` to the list of top-bdiis at the site (in `site-info.def`)
   1. Set the default SE in the `site-info.def` and re-yaim
-  1. Add the glite-APEL and APEL endpoints in GOCDB and 
+  1. Add the glite-APEL and APEL endpoints in GOCDB and
      * ensure that apel-publishers and apel-parser are installed on the CE and properly configured
   1. Check the configuration of the site-bdii
 
@@ -236,7 +237,7 @@ No WMS is registered at the site.
 
 ### Compute
 
-All probes are failing. 
+All probes are failing.
 
 ### Data
 
@@ -278,7 +279,7 @@ FTS  needs to be reconfigured. Service has been taken out of production. LFC nee
 
 Regional Instance was restarted, now publishing messages from sites on the ZA-MERAKA queue.
 
-### Infosys 
+### Infosys
 
 Top-bdii and site-bdii passing all tests.
 
@@ -286,7 +287,7 @@ Top-bdii and site-bdii passing all tests.
 
   1. Fix FTS
   1. Install and configure LFC.
-  
+
 ## ZA-UCT-ICTS
 
 The site seems to be working fine, except minor issues with the default SE (set to CHPC, which is not working).
@@ -314,9 +315,9 @@ All ok :relaxed:
 
 ### ***TODO List***
 
-  1. Configure MPI flavours 
+  1. Configure MPI flavours
   1. Set default SE to ZA-UJ or ZA-WITS-CORE until CHPC SE can be properly configured.
-  
+
 ## ZA-UJ
 
 Site is, as usual, working fine except for accounting errors.
@@ -349,10 +350,10 @@ Site hasn't published records in over a month. Parser and publisher should be ma
 
   * Re-run parser and publisher
   * check CE GRIS or maui config for the incorrect CE policy
-  
+
 ## ZA-WITS-CORE
 
-Site is working fine, except for MPI misconfiguration and incorrect default SE. `LCG_GFAL_INFOSYS` is also incorrectly set. 
+Site is working fine, except for MPI misconfiguration and incorrect default SE. `LCG_GFAL_INFOSYS` is also incorrectly set.
 
 ### Workload
 
@@ -361,7 +362,7 @@ No WMS is registered at the site
 ### Compute
 
   * CE does not publiush MPI flavours
-  * WN (and perhaps CE) have top-bdii (`LCG_GFAL_INFOSYS`) set to `srvslngrd001.uct.ac.za` which has been decomissioned a long time ago. 
+  * WN (and perhaps CE) have top-bdii (`LCG_GFAL_INFOSYS`) set to `srvslngrd001.uct.ac.za` which has been decomissioned a long time ago.
 
 ### Data
 

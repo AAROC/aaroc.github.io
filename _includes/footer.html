@@ -3,10 +3,9 @@
 {% else %}
 <footer id="footer"  class="blog-background overlay text-center align-middle animated from-top" style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" >
 {% endif %}
-    <div class="inner">
-        <div class="container">
-
-            <ul class="social-icons">
+<div class="inner">
+       <div class="container">
+            <!-- <ul class="social-icons">
             {% if site.owner.social.twitter %}<li>
                 <a href="http://twitter.com/{{ site.owner.social.twitter }}" data-toggle="tooltip" title="{{ site.owner.name}} on Twitter" target="_blank">
                     <i class="fa fa-twitter-square"></i>
@@ -42,7 +41,7 @@
                     <i class="fa fa-github-square"></i>
                 </a>
             </li>{% endif %}
-        </ul>
+        </ul> -->
             <p class="copy-text">
                 <a href="{{ site.url }}/AAROC/">{{ site.owner.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.
             </p>
@@ -59,6 +58,6 @@
             <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
             {% if site.search %}&nbsp;&bull;<li class="dosearch"><i class="fa fa-search"></i> Search</li>{% endif %}
         </ul>
-        </div>
+       </div>
     </div>
 </footer>

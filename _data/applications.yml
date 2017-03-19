@@ -270,7 +270,7 @@ and machine-independent data formats that support the creation, access, and shar
   job: quantum-espresso-noparallel-deploy
   versions: {5.1.3}
   tags: {"chemistry","cvmfs"}
-  repo: quantum-espresso-deploy
+  repo: https://github.com/SouthAfricaDigitalScience/quantum-espresso-deploy
 
 - name: Abinit
   description: "ABINIT is a package whose main program allows one to find the total energy, charge density and electronic structure of systems made of electrons and nuclei (molecules and periodic solids) within Density Functional Theory (DFT), using pseudopotentials and a planewave or wavelet basis."

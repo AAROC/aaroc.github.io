@@ -1,11 +1,11 @@
 ---
 layout: page
 permalink: /operators/
-title: Operations is our Game
-headline: Interoperable infrastructures
+title: Operations is our Name
+headline: Interoperable infrastructures is our game
 tags: [page, operator, operations]
 image:
-  feature: grid-overview.jpg
+  feature: Model_Driven_Interoperability_Levels.png
 ---
 <div class="bordered-bottom">
   <!-- Nav tabs -->
@@ -32,5 +32,5 @@ The main role of the ROC is to ensure infrastructure interoperability and a stab
 {% include siteops.html %}
 {% include csirt.html %}
 {% include ops_reference.html %}
-</div>
+</div> <!-- post-body -->
 </div>

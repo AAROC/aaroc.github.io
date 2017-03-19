@@ -58,8 +58,8 @@ This is a data-intensive use case, and there are indeed several different _kinds
 ## Architecture Diagram
 
 <figure>
-<img src="{{ site_url }}/images/RASR Architecture  Components.svg">
-<
+<img src="{{ site_url }}/images/RASR%20Architecture%20Components.svg">
+</figure>
 
 ## Integration
 
@@ -67,14 +67,6 @@ The basic architecture of the service
 
 
 # Goal Posts
-
-Here is a first stab at what we aim to achieve in the hackfest... call these our movable goalposts ! It's not clear how much we'll be able to get done in 2 weeks, but it's important to have a realistic roadmap that maps to functionality that is actually desirable by the end-user community.
-
-## ASR Template integration
-
-The first thing we need to do is ensure that the ASR
-
-## Guided Workflows
 
 ## Web interface
 

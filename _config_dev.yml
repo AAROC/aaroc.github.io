@@ -55,11 +55,17 @@ links:
     url: /
     sublniks: []
     icon: home
-  - title: About
+  # - title: About
+  #   displaytitle: true
+  #   url: /AAROC/
+  #   sublinks: []
+  #   icon: info-circle
+  - title: Services
     displaytitle: true
-    url: /AAROC/
+    url: /services/
     sublinks: []
-    icon: info-circle
+    icon: flask
+
   - title: Sites
     displaytitle: true
     url: /sites/

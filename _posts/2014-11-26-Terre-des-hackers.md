@@ -30,7 +30,7 @@ Images are courtesy of [the Saint-Exup&eacute;ry Foundation](http://www.antoined
 	- [What home awaits us ?](#what-home-awaits-us-)
 - [It's time to get real](#its-time-to-get-real)
 	- [Between the dirt and the stars.](#between-the-dirt-and-the-stars)
-	- [Carpenters : build us a home !](#carpenters-build-us-a-home-)
+	- [Carpenters : build us a home !](#carpenters-build-us-a-home)
 - [The Fertile Delta](#the-fertile-delta)
 	- [The mirage of plenty](#the-mirage-of-plenty)
 	- [A carpenter in the steel palace](#a-carpenter-in-the-steel-palace)
@@ -107,7 +107,7 @@ Efficiency and scale are important, but their extremes respond only to the needs
 We can neither remain mired in the "dirt" of our earthly existence - the tools and methods that we are taught in high-school or our undergraduate courses. Or rather, we cannot remain satisfied with this barrenness. The seeds planted in the classroom should be adapted to the terrain in which they will grow. The methods we teach should be consummate to the environment in which they will be put into action, and vice versa. We need those schools, markets, exchanges, town-halls, ports, police stations, civil protection, banks to turn our discovered land into an inhabitable place.
 
 
-## Carpenters : build us a home !
+## [Carpenters : build us a home !](#carpenters-build-us-a-home)
 
 Another feature of the [e-Research 2014 conference](http://www.eresearch.ac.za) at which this panel discussion was held, as the presence and message of the [Software Carpentry](http://www.software-carpentry.org) movement. We would run a very successful and well-attended [Software Carpentry Bootcamp](http://www.jduck.net/2014-11-27-uct/) at the University of Cape Town just after the conference, supported by two representatives of the movement - James Hetherington and Jonah Duckles - who came down for the event. They provided their view on how and why training the next generation of researchers should be more "human". New colonists to this land of discovery should have those first tools to help them grow and plant their own seeds, build their own houses, and then help those who come after them. The role of "software carpenter" comes close to this. They are not engineers, they are not architects, but they can build and use the common tools to get things done.
 
