@@ -8,7 +8,8 @@ category: blog
 tags: [AAROC, operations, setup, documentation, middleware, tgif, EGI, EMI, Globus, middleware]
 image:
   feature: Matterhorn.jpg
-comments: true
+comments: false
+discourse: true
 ---
 # TGIF !
 

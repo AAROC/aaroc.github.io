@@ -16,7 +16,7 @@ install:
 script:
   - bundle exec jekyll build
 # might want to run some bootlint here.
-  - travis_wait bundle exec htmlproofer --disable-external --alt-ignore '/.*/' ./_site
+  - travis_wait  bundle exec htmlproofer --disable-external --alt-ignore '/.*/' ./_site --url-ignore /DevOps,/CODE-RADE
 notifications:
   slack:
     rooms:

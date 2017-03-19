@@ -16,14 +16,14 @@
   icon: sitemap
   external: false
   service_list:
-    - name: SAM-NAGIOS
+    - name: ARGO
       title: Service Availability Monitoring.
-      url: http://nagios.c4.csir.co.za/myegi
+      url: http://argo.egi.eu
       roc_service: true
       middleware: UMD
       release_version: 2
       grid_service: true
-      hosted_by: aaroc
+      hosted_by: egi
     - name: Top-BDII
       title: Top-level information index - tells you who's got what and how much.
       middleware: UMD
@@ -73,7 +73,7 @@
       middleware: UMD
       release_version: 3
       grid_service: true
-      
+
     - name: LFC
       title: Logical File Catalogue - find and manage your data
       middleware: UMD
