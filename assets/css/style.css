@@ -638,11 +638,11 @@ html {
 /* FOOTER */
 /* ------ */
 #footer {
-  margin-top: 72px;
-  padding: 124px 0 72px;
+  margin-top: 24px;
+  padding: 24px 24px;
   position: relative;
   width: 100%;
-  height: 60%;
+  height: 15%;
   display: table;
   z-index: 1;
 }
