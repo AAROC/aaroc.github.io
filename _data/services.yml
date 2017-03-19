@@ -73,24 +73,24 @@
       middleware: UMD
       release_version: 3
       grid_service: true
-      url: https://nagios.c4.csir.co.za/
+      
     - name: LFC
       title: Logical File Catalogue - find and manage your data
       middleware: UMD
       release_version: 3
       grid_service: true
-      url: https://nagios.c4.csir.co.za/
+
     - name: Workload Management Server
       title: Workload Management Service - metascheduler for the grid
       middleware: UMD3
       release_version: 3
       grid_service: true
-      url: https://nagios.c4.csir.co.za/
+
 
 - name: Science
-  title: Science Gateways and Services for Open Science
+  title: Science Gateways and Open Science
   url: science
-  external: true
+  external: false
   roc_service: true
   icon: flask
   service_list:
