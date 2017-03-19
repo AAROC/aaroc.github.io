@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ansible Bootcamp : CSIR '
+title: 'DevOps Bootcamp : CSIR '
 description: ' '
 headline: ' '
 category: blog
