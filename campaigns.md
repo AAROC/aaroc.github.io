@@ -31,10 +31,10 @@ While this is just another way of doing what we've always been doing, it gives s
   </thead>
 {% for campaign in sortedcampaigns %}
   <tr>
-{% if campaign.wiki |= null %}
+{% if campaign.wiki != null %}
     <td class="text-left"><a href="https://github.com/AAROC/wiki/{{ campaign.wiki }}"><span><i class="fa fa-github-square"></i></span> {{ campaign.name }}</a></td>
-{% else if campaign.page |= null %}
-    <td class="text-left"><a href="{{ campaign.page }}"><span><i class="fa fa-info"></i></span> {{ campaign.name }}</a></td>
+{% else if campaign.page != null %}
+    <td class="text-left"><a href="{{site.url }}/{{ campaign.page }}"><span><i class="fa fa-info"></i></span> {{ campaign.name }}</a></td>
 {% else %}
     <td class="text-left"><span><i class="fa fa-github-square"></i></span> {{ campaign.name }}</td>
 {% endif %}
@@ -42,5 +42,6 @@ While this is just another way of doing what we've always been doing, it gives s
     <td><span class="label label-{{ campaign.state.label }}">{{ campaign.state.name }}</span></td>
     <td>{{ campaign.start }} - {{ campaign.end }}</td>
   </tr>
+{% endif %}
 {% endfor %}
 </table>

@@ -21,7 +21,7 @@ image:
   </ul>
 <div class="tab-content">
 
-<div role="tabpanel" class="tab-pane fade in active" id="prospective">
+<div role="tabpanel" class="tab-pane fade active" id="prospective">
 <br><p class="post-info text-justify">
 If you're thinking about using the platform you've come to the right place. Here are some of the benefits of joining the Africa-Arabia e-Science communities.</p>
 <h2> Transparent access to computing resources </h2>
@@ -29,15 +29,15 @@ Most modern research relies on computing.
 <h2> Secure collaboration </h2>
 </div>
 
-<div role="tabpanel" class="tab-pane fade in active" id="new">
+<div role="tabpanel" class="tab-pane fade active" id="new">
 Info for new users
 </div>
 
-<div role="tabpanel" class="tab-pane fade in active" id="howto">
+<div role="tabpanel" class="tab-pane fade active" id="howto">
 how to do stuff
 </div>
 
-<div role="tabpanel" class="tab-pane fade in active" id="services">
+<div role="tabpanel" class="tab-pane fade active" id="services">
 <h1 class="text-center">Users-facing services</h1>
 
 <ul class="cbp-ig-grid">

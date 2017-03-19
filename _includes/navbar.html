@@ -1,4 +1,5 @@
-<div class="affix navbar navbar-static-top nav-justified affix-top fixed sticky" role="navigation affix-top fixed sticky"> <!-- ROC links -->
+ <!-- ROC links -->
+<div class="affix hidden-xs hidden-sm navbar navbar-static-top nav-justified affix-top fixed sticky" role="navigation affix-top fixed sticky">
 <ul class="navbar nav nav-justified panel panel-default">
 {% for link in site.links %}
   <li role="presentation">
@@ -11,5 +12,36 @@
     </a>
   </li>
 {% endfor %}
+<!-- old Services
+  <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" href="{{ site_url }}/services"><i class="fa fa-flag"></i> Services <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+{% for service in site.data.services %}
+{% if service.external %}
+      <li><a href="{{ service.url }}" class="navbar" data-toggle="tooltip" title="{{ service.title }}">{{ service.name }}</a></li>
+{% else %}
+      <li><a href="{{ site.url }}/{{ service.url }}" class="navbar" data-toggle="tooltip" title="{{ service.title }}">{{ service.name }}</a></li>
+{% endif %}
+{% endfor %}
+    </ul></li>
+  -->
+  <!-- services -->
+  <li role="presentation">
+    <a href="{{ site_url }}/sites" role="button" class="navbar"><i class="fa fa-globe"></i>Sites</a>
+  </li>
+<!-- Sites -->
+<!-- old sites
+  <li role="presentation" class="dropdown"><a class="dropdown-toggle navbar" data-toggle="dropdown" role="button" href="{{ site_url }}/sites"><i class="fa fa-globe"></i> Sites <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+{% for link in site.data.sites %}
+      <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+{% endfor %}
+    </ul></li>
+  -->
+    <li role="presentation" class="dropdown"><a class="dropdown navbar" data-toggle="dropdown" role="button" href="{{site_url}}/supporters"><i class="fa fa-star"></i> Supported By <span class="caret"></span></a>
+    <ul class="pull-right dropdown-menu">
+{% for project in site.data.supporters %}
+      <li><a href="{{ project.url }}" class="navbar" data-toggle="tooltip" title="{{ project.name }}" target="_blank">{{ project.name }}</a></li>
+{% endfor %}
+    </ul></li>
 </ul>
 </div>

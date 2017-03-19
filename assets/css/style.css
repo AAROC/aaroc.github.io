@@ -1,8 +1,5 @@
 /*!
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,100,700);
-@import url(http://fonts.googleapis.com/css?family=Sacramento);
+
  * HMFAYSAL OMEGA v1.0.0
  * Responsive Jekyll Theme
  *
@@ -10,14 +7,15 @@
  *
  * Designed and built with all the love in the world by @hmfaysal
  */
+ @import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
 /* ------------------------ */
 /* GENERAL TYPOGRAPHY RULES */
 /* ------------------------ */
 /* - Body typography - */
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: Lato;
-  font-size: 100;
+  font-family: Raleway;
+  /*font-size: 100;*/
 }
 /* - Headers - */
 h1,
@@ -31,7 +29,7 @@ h1 {
   font-size: 38px;
   line-height: 48px;
   margin-bottom: 24px;
-  font-family: 'Lato Thin';
+  font-family: 'BioRhyme', serif;
 }
 h1 small {
   font-size: 26px;
@@ -89,7 +87,7 @@ a:hover {
 }
 .more-link {
   line-height: 18px;
-  font-family: "Lato", Semibold;
+  font-family: "BioRhyme", serif;
   font-style: italic;
 
   font-size: 18px;
@@ -98,30 +96,46 @@ a:hover {
 /* - Lead text - */.lead {
   font-size: 21px;
   line-height: 1.4em;
-  font-family: "Lato";
+  font-family: "Raleway", sans-serif;
 }
 /* - Blockquote - */
 blockquote {
-  padding-left: 0;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  /*padding-left: 0;
   border: 0;
-  position: relative;
-  font-family: "Lato", Semibold;
-  font-style: italic;
-  font-size: 24px;
-  /*text-shadow: 1px 1px 0px rgb(139, 115, 74);*/
-  color: rgb(139, 115, 74);
+  position: relative;*/
+  font-family: "Raleway", sans-serif;
+  quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  content: "";
-  position: absolute;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+
+  /*position: absolute;
   top: 12px;
   bottom: 12px;
   left: -24px;
-  width: 4px;
+  width: 4px;*/
+}
+
+blockquote p {
+  display: inline;
+}
+blockquote:after {
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
 .cursive {
-  font-family: 'Pacifico', cursive;
+  font-family: 'BioRhyme', sans-serif;
   color: #17e4d8;
   font-size: 34px;
   text-align: center;
@@ -401,9 +415,9 @@ a {
 a:hover {
   color: #7DB900;
 }
-blockquote:before {
+/*blockquote:before {
   background: #807f83;
-}
+}*/
 .post-title {
   /*color: #807f83;*/
   color: #8B734A;
@@ -508,7 +522,7 @@ html {
   line-height: 36px;
   text-transform: uppercase;
   margin-bottom: 1px;
-  font-family: 'Lato';
+  font-family: 'BioRhyme', serif;
 }
 .blog-title span {
   display: block;
@@ -518,7 +532,7 @@ html {
   padding-top: 12px;
   margin-top: 12px;
   font-size: 18px;
-  font-family: 'Lato';
+  font-family: 'Roboto' sans-serif;
 }
 #main {
   position: relative;
@@ -545,7 +559,7 @@ html {
   margin-top: 1;
   margin-bottom: 5px;
   padding-bottom: 5px;
-  font-family: Pacifico;
+  font-family: "BioRhyme", serif;
 }
 /* - Post info - */
 .post-info {
@@ -554,7 +568,7 @@ html {
 /* -- Post Tags -- */
 /* -  Post Body - */
 .post-body {
-  font-family: Lato;
+  font-family: Raleway;
   font-size: 1.0 em;
   padding-bottom: 72px;
   margin-bottom: 72px;
@@ -564,7 +578,7 @@ html {
   padding-bottom: 36px;
   padding-top: 36px;
   margin-bottom: 24px;
-  margin-top: 24px;
+  margin-top: 40px;
 }
 .post-body img {
   max-width: 100%;
@@ -811,14 +825,14 @@ html {
 /* THEME FONTS */
 /* ----------- */
 body {
-  font-family: 'Lato';
+  font-family: 'Raleway';
   font-size: 20px;
 }
 body input,
 body textarea,
 body .btn,
 body button {
-  font-family: 'Lato';
+  font-family: 'BioRhyme', serif;
 }
 .lighter {
   font-weight: 200 !important;
@@ -829,7 +843,7 @@ body button {
 .lead {
   font-weight: 400;
   font-size:
-  font-family: 'Lato';
+  font-family: 'Raleway' sans-serif;
 }
 h1,
 h2,
@@ -837,7 +851,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato';
+  font-family: 'BioRhyme', serif;
 }
 h1.lighter,
 h2.lighter,
@@ -1224,7 +1238,7 @@ svg:not(:root) {
 figcaption {
     padding-top: 10px;
     text-align: center;
-    font-family: 'Lato';
+    font-family: 'BioRhyme', serif;
 }
 #disqus_thread {
     margin-top: 2em;

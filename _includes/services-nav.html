@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h2 class="page-header text-center">Services</h2>
 <ul class="nav nav-pills nav-stacked" >
 {% for service in site.data.services %}
@@ -5,3 +6,17 @@
     <a href="{{ service.url }}" role="presentation">{{ service.name }}</a></li>
 {% endfor %}
 </ul>
+=======
+<div class="col-md-2">
+  <ul id="sidenav" class="nav nav-pills nav-stacked hidden-xs hidden-sm  scrollspy text-center" data-spy="affix" >
+    <li>
+      <h2 class="page-header text-center">Services</h2>
+    </li>
+  {% for service in site.data.services %}
+    <li role="presentation">
+      <a href="{{ service.url }}" role="presentation">{{ service.name }}</a></li>
+  {% endfor %}
+  </ul>
+
+</div>
+>>>>>>> new-services

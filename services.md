@@ -3,7 +3,7 @@ url: /services/
 layout: pageminimal
 codrops: false
 gridlayout: true
-title: "services"
+title: "Services"
 image:
   feature: services.jpg
 ---
