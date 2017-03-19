@@ -3,6 +3,7 @@ layout: post
 title: Site configuration
 description: Site Configuration
 headline: What to do when your site wants to join the grid
+permalink: /blog/Friday-sites
 category: blog
 tags: [AAROC, operations, setup, documentation, middleware, tgif, EGI, EMI, Globus, middleware]
 image:
