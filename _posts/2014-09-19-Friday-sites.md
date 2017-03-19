@@ -17,7 +17,7 @@ Before we get our Friday on though, let me tell you a story about a fairly commo
 
 > Scientist meets science, science requires computing, computing requires configuration and sharing....
 <figure>
-  <img src="{{ site_url }}/images/no.gif"></img>
+  <img src="{{ site_url }}/images/no.gif">
 </figure>
 > ...  scientist cries, suffers, ditches everything and contemplates the futility of it all on a  beach somewhere.
 
