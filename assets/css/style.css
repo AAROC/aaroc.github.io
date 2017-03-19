@@ -1,8 +1,5 @@
 /*!
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,100,700);
-@import url(http://fonts.googleapis.com/css?family=Sacramento);
+
  * HMFAYSAL OMEGA v1.0.0
  * Responsive Jekyll Theme
  *
@@ -10,15 +7,14 @@
  *
  * Designed and built with all the love in the world by @hmfaysal
  */
- @import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
 /* ------------------------ */
 /* GENERAL TYPOGRAPHY RULES */
 /* ------------------------ */
 /* - Body typography - */
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: Lato;
-  font-size: 100;
+  font-family: Raleway;
+  /*font-size: 100;*/
 }
 /* - Headers - */
 h1,
@@ -32,7 +28,7 @@ h1 {
   font-size: 38px;
   line-height: 48px;
   margin-bottom: 24px;
-  font-family: Bendable BRK;
+  font-family: 'BioRhyme', serif;
 }
 h1 small {
   font-size: 26px;
@@ -90,7 +86,7 @@ a:hover {
 }
 .more-link {
   line-height: 18px;
-  font-family: "Lato", Semibold;
+  font-family: "BioRhyme", serif;
   font-style: italic;
 
   font-size: 18px;
@@ -99,30 +95,46 @@ a:hover {
 /* - Lead text - */.lead {
   font-size: 21px;
   line-height: 1.4em;
-  font-family: "Lato";
+  font-family: "Raleway", sans-serif;
 }
 /* - Blockquote - */
 blockquote {
-  padding-left: 0;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  /*padding-left: 0;
   border: 0;
-  position: relative;
-  font-family: "Lato", Semibold;
-  font-style: italic;
-  font-size: 24px;
-  /*text-shadow: 1px 1px 0px rgb(139, 115, 74);*/
-  color: rgb(139, 115, 74);
+  position: relative;*/
+  font-family: "Raleway", sans-serif;
+  quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  content: "";
-  position: absolute;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+
+  /*position: absolute;
   top: 12px;
   bottom: 12px;
   left: -24px;
-  width: 4px;
+  width: 4px;*/
+}
+
+blockquote p {
+  display: inline;
+}
+blockquote:after {
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
 .cursive {
-  font-family: 'Abecedario', cursive;
+  font-family: 'BioRhyme', sans-serif;
   color: #17e4d8;
   font-size: 34px;
   text-align: center;
@@ -402,9 +414,9 @@ a {
 a:hover {
   color: #7DB900;
 }
-blockquote:before {
+/*blockquote:before {
   background: #807f83;
-}
+}*/
 .post-title {
   /*color: #807f83;*/
   color: #8B734A;
@@ -439,7 +451,7 @@ color: #8B734A;
 }
 #footer,
 #masthead {
-  color: transparent;
+  color: #1e1e1f;
 }
 #footer h1,
 #masthead h1,
@@ -509,7 +521,7 @@ html {
   line-height: 36px;
   text-transform: uppercase;
   margin-bottom: 1px;
-  font-family: "Lato" Heavy Italic;
+  font-family: 'BioRhyme', serif;
 }
 .blog-title span {
   display: block;
@@ -519,7 +531,7 @@ html {
   padding-top: 12px;
   margin-top: 12px;
   font-size: 18px;
-  font-family: 'Lato Light';
+  font-family: 'Roboto' sans-serif;
 }
 #main {
   position: relative;
@@ -536,7 +548,7 @@ html {
   .blog-description {
     display: none;
   }
-    .home-template .row {margin: 0 -5px;} /* fixes overflow on homepage on small screens (caused by stacked -15px from bootstrap) */
+    .home-template .row {margin: 0 -5px; z-index: 1} /* fixes overflow on homepage on small screens (caused by stacked -15px from bootstrap) */
 }
 /* ----------- */
 /* POST STYLES */
@@ -546,7 +558,7 @@ html {
   margin-top: 1;
   margin-bottom: 5px;
   padding-bottom: 5px;
-  font-family: Abecedario;
+  font-family: "BioRhyme", serif;
 }
 /* - Post info - */
 .post-info {
@@ -555,7 +567,7 @@ html {
 /* -- Post Tags -- */
 /* -  Post Body - */
 .post-body {
-  font-family: Lato;
+  font-family: Raleway;
   font-size: 1.0 em;
   padding-bottom: 72px;
   margin-bottom: 72px;
@@ -565,7 +577,7 @@ html {
   padding-bottom: 36px;
   padding-top: 36px;
   margin-bottom: 24px;
-  margin-top: 24px;
+  margin-top: 40px;
 }
 .post-body img {
   max-width: 100%;
@@ -781,6 +793,7 @@ html {
   vertical-align: middle;
 }
 .social-mini {
+  color: #7DB900;
   margin: 0;
   padding: 0 0 24px;
   list-style-type: none;
@@ -789,6 +802,7 @@ html {
   display: inline-block;
   font-size: 16px;
   padding: 0 12px;
+  color: #7DB900;
 }
 /* - Responsive videos -*/
 .videoWrapper {
@@ -810,14 +824,14 @@ html {
 /* THEME FONTS */
 /* ----------- */
 body {
-  font-family: 'Lato';
+  font-family: 'Raleway';
   font-size: 20px;
 }
 body input,
 body textarea,
 body .btn,
 body button {
-  font-family: 'Lato Thin';
+  font-family: 'BioRhyme', serif;
 }
 .lighter {
   font-weight: 200 !important;
@@ -828,7 +842,7 @@ body button {
 .lead {
   font-weight: 400;
   font-size:
-  font-family: "Lato Thin";
+  font-family: 'Raleway' sans-serif;
 }
 h1,
 h2,
@@ -836,7 +850,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato Thin';
+  font-family: 'BioRhyme', serif;
 }
 h1.lighter,
 h2.lighter,
@@ -1223,7 +1237,7 @@ svg:not(:root) {
 figcaption {
     padding-top: 10px;
     text-align: center;
-    font-family: 'Lato Thin';
+    font-family: 'BioRhyme', serif;
 }
 #disqus_thread {
     margin-top: 2em;
@@ -2350,4 +2364,186 @@ ol.CodeRay li {
 
 .CodeRay .head .head {
     color: #f4f;
+}
+
+.cbp_tmtimeline {
+	margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #afdcf8;
+	left: 20%;
+	margin-left: -10px;
+}
+
+.cbp_tmtimeline > li {
+	position: relative;
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	width: 25%;
+	padding-right: 100px;
+	position: absolute;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	display: block;
+	text-align: right;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {
+	font-size: 0.9em;
+	color: #bdd0db;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+	font-size: 2.9em;
+	color: #3594cb;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+	color: #6cbfee;
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin: 0 0 15px 25%;
+	background: #3594cb;
+	color: #fff;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	background: #6cbfee;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel h2 {
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #3594cb;
+	border-width: 10px;
+	top: 10px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+	border-right-color: #6cbfee;
+}
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+	width: 40px;
+	height: 40px;
+	font-family: 'ecoico';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 1.4em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: #46a4da;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px #afdcf8;
+	text-align: center;
+	left: 20%;
+	top: 0;
+	margin: 0 0 0 -25px;
+}
+
+.cbp_tmicon-phone:before {
+	content: "\e000";
+}
+
+.cbp_tmicon-screen:before {
+	content: "\e001";
+}
+
+.cbp_tmicon-mail:before {
+	content: "\e002";
+}
+
+.cbp_tmicon-earth:before {
+	content: "\e003";
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 65.375em) {
+
+	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 47.2em) {
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color: #3594cb;
+		top: -20px;
+	}
+
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+		border-right-color: transparent;
+		border-bottom-color: #6cbfee;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}
 }

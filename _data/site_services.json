@@ -1,0 +1,121 @@
+{
+	"results": {
+		"SITE": [
+			{
+				"ID": "175",
+				"PRIMARY_KEY": "81467G0",
+				"NAME": "ZA-MERAKA",
+				"COUNTRY": "South Africa",
+				"COUNTRY_CODE": "ZA",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://site-bdii.c4.csir.co.za:2170/mds-vo-name=ZA-MERAKA,o=grid"
+			},
+			{
+				"ID": "285",
+				"PRIMARY_KEY": "81622G0",
+				"NAME": "ZA-UJ",
+				"COUNTRY": "South Africa",
+				"COUNTRY_CODE": "ZA",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://glite-bdii.grid.uj.ac.za:2170/mds-vo-name=ZA-UJ,o=grid"
+			},
+			{
+				"ID": "286",
+				"PRIMARY_KEY": "81445G0",
+				"NAME": "ZA-CHPC",
+				"COUNTRY": "South Africa",
+				"COUNTRY_CODE": "ZA",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://grid-bdii.chpc.ac.za:2170/mds-vo-name=ZA-CHPC,o=grid"
+			},
+			{
+				"ID": "287",
+				"PRIMARY_KEY": "81465G0",
+				"NAME": "ZA-UFS",
+				"COUNTRY": "South Africa",
+				"COUNTRY_CODE": "ZA",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://grid-bdii.ufs.ac.za:2170/mds-vo-name=ZA-UFS,o=grid"
+			},
+			{
+				"ID": "374",
+				"PRIMARY_KEY": "81240G0",
+				"NAME": "ZA-UCT-ICTS",
+				"COUNTRY": "South Africa",
+				"COUNTRY_CODE": "ZA",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://srvslngrd006.uct.ac.za:2170/mds-vo-name=ZA-UCT-ICTS,o=grid"
+			},
+			{
+				"ID": "689",
+				"PRIMARY_KEY": "81872G0",
+				"NAME": "ZA-WITS-CORE",
+				"COUNTRY": "South Africa",
+				"COUNTRY_CODE": "ZA",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://bdii.core.wits.ac.za:2170/mds-vo-name=ZA-WITS-CORE,o=grid"
+			},
+			{
+				"ID": "922",
+				"PRIMARY_KEY": "91895G08",
+				"NAME": "MA-01-CNRST",
+				"COUNTRY": "Morocco",
+				"COUNTRY_CODE": "MA",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://bdii1.cnrst.magrid.ma:2170/mds-vo-name=MA-01-CNRST,o=grid"
+			},
+			{
+				"ID": "961",
+				"PRIMARY_KEY": "92106G08",
+				"NAME": "ASRT",
+				"COUNTRY": "Egypt",
+				"COUNTRY_CODE": "EG",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://bdii.enhep.eg.net:2170/mds-vo-name=ASRT,o=grid"
+			},
+			{
+				"ID": "964",
+				"PRIMARY_KEY": "92308G08",
+				"NAME": "DZ-01-ARN",
+				"COUNTRY": "Algeria",
+				"COUNTRY_CODE": "DZ",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://bdii01.grid.arn.dz:2170/mds-vo-name=DZ-01-ARN,o=grid"
+			},
+			{
+				"ID": "981",
+				"PRIMARY_KEY": "92554G08",
+				"NAME": "EG-ZC-T3",
+				"COUNTRY": "Egypt",
+				"COUNTRY_CODE": "EG",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://sbd-cfp.zewailcity.edu.eg:2170/mds-vo-name=EG-ZC-T3,o=grid"
+			},
+			{
+				"ID": "1285",
+				"PRIMARY_KEY": "95213G0",
+				"NAME": "MA-04-CNRST-ATLAS",
+				"COUNTRY": "Morocco",
+				"COUNTRY_CODE": "MA",
+				"ROC": "AfricaArabia",
+				"GIIS_URL": "ldap://atlas-bdii1.cnrst.magrid.ma:2170/mds-vo-name=MA-04-CNRST-ATLAS,o=grid"
+			},
+			{
+				"ID": "1866",
+				"PRIMARY_KEY": "100729G0",
+				"NAME": "EG-BUE-CTP",
+				"COUNTRY": "Egypt",
+				"COUNTRY_CODE": "EG",
+				"ROC": "AfricaArabia"
+			},
+			{
+				"ID": "1886",
+				"PRIMARY_KEY": "100837G0",
+				"NAME": "EG-PHY-ASU-T3",
+				"COUNTRY": "Egypt",
+				"COUNTRY_CODE": "EG",
+				"ROC": "AfricaArabia"
+			}
+		]
+	}
+}

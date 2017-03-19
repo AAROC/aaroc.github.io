@@ -1512,7 +1512,7 @@ if (typeof jQuery === 'undefined') {
     var title = this.getTitle()
 
     $tip.find('.tooltip-inner')[this.options.html ? 'html' : 'text'](title)
-    $tip.removeClass('fade in top bottom left right')
+    $tip.removeClass('fade top bottom left right')
   }
 
   Tooltip.prototype.hide = function (callback) {

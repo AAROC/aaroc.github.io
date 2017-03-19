@@ -1,0 +1,1216 @@
+{
+	"results": {
+		"SERVICE_TYPE": [
+			{
+				"TYPE_ID": "63G0",
+				"PRIMARY_KEY": "63G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CUSTOM.ch.cern.frontier.FroNTier"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "FroNTier N-Tier data distribution system. http://frontier.cern.ch/"
+				}
+			},
+			{
+				"TYPE_ID": "64G0",
+				"PRIMARY_KEY": "64G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.irods.irods3"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "iRODS is a distributed file storage system"
+				}
+			},
+			{
+				"TYPE_ID": "65G0",
+				"PRIMARY_KEY": "65G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.squid-cache.Squid"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Squid proxy server / web cache. www.squid-cache.org"
+				}
+			},
+			{
+				"TYPE_ID": "66G0",
+				"PRIMARY_KEY": "66G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.AppDB"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "EGI Applications Database"
+				}
+			},
+			{
+				"TYPE_ID": "67G0",
+				"PRIMARY_KEY": "67G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.TMP"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "EGI Training Marketplace"
+				}
+			},
+			{
+				"TYPE_ID": "70G0",
+				"PRIMARY_KEY": "70G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.ogf.bes.BESFactory"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[site] BES job submission entry point."
+				}
+			},
+			{
+				"TYPE_ID": "71G0",
+				"PRIMARY_KEY": "71G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "net.perfSONAR.Bandwidth"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "perfSONAR (Bandwidth Test)"
+				}
+			},
+			{
+				"TYPE_ID": "72G0",
+				"PRIMARY_KEY": "72G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "net.perfSONAR.Latency"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "perfSONAR (Latency Test)"
+				}
+			},
+			{
+				"TYPE_ID": "73G0",
+				"PRIMARY_KEY": "73G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CUSTOM.UserPortal"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Generic user portal"
+				}
+			},
+			{
+				"TYPE_ID": "74G0",
+				"PRIMARY_KEY": "74G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CUSTOM.RequestTracker"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Generic request tracker"
+				}
+			},
+			{
+				"TYPE_ID": "76G0",
+				"PRIMARY_KEY": "76G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CUSTOM.pl.plgrid.BazaarSAT"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Bazaar Site Admin Toolkit from NGI_PL grid"
+				}
+			},
+			{
+				"TYPE_ID": "77G0",
+				"PRIMARY_KEY": "77G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CUSTOM.pl.plgrid.BAT.agent"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Service for collecting accounting data from NGI_PL grid"
+				}
+			},
+			{
+				"TYPE_ID": "78G0",
+				"PRIMARY_KEY": "78G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CUSTOM.pl.plgrid.QStorMan.UserInterface"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A service to provide a user of the grid system with a certain level of quality from NGI_PL grid"
+				}
+			},
+			{
+				"TYPE_ID": "79G0",
+				"PRIMARY_KEY": "79G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CUSTOM.pl.plgrid.KeyFS"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Key File System (KeyFS) service, installed on UI (User Interface) machines can provide a user with the grid credentials, from NGI_PL grid"
+				}
+			},
+			{
+				"TYPE_ID": "80G0",
+				"PRIMARY_KEY": "80G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "pl.cyfronet.gridspace2"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Virtual laboratory framework enabling researchers to conduct virtual experiments on Grid-based resources."
+				}
+			},
+			{
+				"TYPE_ID": "81G0",
+				"PRIMARY_KEY": "81G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "pl.psnc.MigratingDesktop"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Client framework for accessing the Grid resources"
+				}
+			},
+			{
+				"TYPE_ID": "82G0",
+				"PRIMARY_KEY": "82G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "pl.cyfronet.InSilicoLab"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "InSilicoLab portal instance"
+				}
+			},
+			{
+				"TYPE_ID": "83G0",
+				"PRIMARY_KEY": "83G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "com.adaptivecomputing.TorqueClient"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "TORQUE (Tera-scale Open-source Resource and QUEue manager) is a resource manager providing control over batch jobs and distributed compute nodes. Torque is based on OpenPBS."
+				}
+			},
+			{
+				"TYPE_ID": "84G0",
+				"PRIMARY_KEY": "84G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.vinetoolkit.VinePortal"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Vine toolkit portal instance"
+				}
+			},
+			{
+				"TYPE_ID": "85G0",
+				"PRIMARY_KEY": "85G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.vm-management.occi"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "EGI cloud service type"
+				}
+			},
+			{
+				"TYPE_ID": "86G0",
+				"PRIMARY_KEY": "86G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.storage-management.cdmi"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "EGI cloud service type"
+				}
+			},
+			{
+				"TYPE_ID": "87G0",
+				"PRIMARY_KEY": "87G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.vm-metadata.marketplace"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "EGI cloud service type"
+				}
+			},
+			{
+				"TYPE_ID": "88G0",
+				"PRIMARY_KEY": "88G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "XRootD"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "XRootD storage implementation which supports xroot protocol"
+				}
+			},
+			{
+				"TYPE_ID": "89G0",
+				"PRIMARY_KEY": "89G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "XRootD.Redirector"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Data access redirection service using XRoot protocol"
+				}
+			},
+			{
+				"TYPE_ID": "90G0",
+				"PRIMARY_KEY": "90G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "ch.cern.cvmfs.stratum.0"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Service component (stratum.0) of CernVM file system"
+				}
+			},
+			{
+				"TYPE_ID": "92G0",
+				"PRIMARY_KEY": "92G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.accounting"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Service has required cloud accounting services"
+				}
+			},
+			{
+				"TYPE_ID": "93G0",
+				"PRIMARY_KEY": "93G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.MPI"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Defines an MPI test probe independent of a grid information system. This service will allow testing of sites which are offering MPI functionality but are not broadcasting it, or sites which are broadcasting the MPI/Parallel support in an incorrect way"
+				}
+			},
+			{
+				"TYPE_ID": "94G0",
+				"PRIMARY_KEY": "94G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.information.bdii"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "FedCloud specific LDAP server which speaks GLUE2"
+				}
+			},
+			{
+				"TYPE_ID": "95G0",
+				"PRIMARY_KEY": "95G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "uk.ac.gridpp.vac"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A virtual machine factory system for operating clusters at grid sites"
+				}
+			},
+			{
+				"TYPE_ID": "96G0",
+				"PRIMARY_KEY": "96G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.nordugrid.arex"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARC version 3"
+				}
+			},
+			{
+				"TYPE_ID": "1G0",
+				"PRIMARY_KEY": "1G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CE"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] The LCG Compute Element. Currently the standard CE within the gLite middleware stack. Soon to be replaced by the CREAM CE."
+				}
+			},
+			{
+				"TYPE_ID": "2G0",
+				"PRIMARY_KEY": "2G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "UI"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[User service] The User Interface. Can be installed by users but more commonly installed by a site."
+				}
+			},
+			{
+				"TYPE_ID": "3G0",
+				"PRIMARY_KEY": "3G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "APEL"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] This is a \"dummy\" Service Type to enable the monitoring tests for APEL accounting. All EGEE sites must have one instance of this Service Type, associated with a CE."
+				}
+			},
+			{
+				"TYPE_ID": "4G0",
+				"PRIMARY_KEY": "4G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "RB"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[OBSOLETE Central service] The LCG Resource Broker is now obsolete and is not supported. Please avoid using this middleware service."
+				}
+			},
+			{
+				"TYPE_ID": "5G0",
+				"PRIMARY_KEY": "5G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "WMS"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central service] gLite Workload Management Service. Acts as the broker for matching user jobs to available computing resources."
+				}
+			},
+			{
+				"TYPE_ID": "6G0",
+				"PRIMARY_KEY": "6G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "gLite-CE"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[OBSOLETE Site service] The gLite Compute Element is now obsolete and is not supported. Please avoid using this middleware service."
+				}
+			},
+			{
+				"TYPE_ID": "7G0",
+				"PRIMARY_KEY": "7G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "Local-LFC"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] An instance of the gLite file catalogue which holds entries for files owned by a particular VO, at your site. NOTE: An LFC can be both Central and Local."
+				}
+			},
+			{
+				"TYPE_ID": "8G0",
+				"PRIMARY_KEY": "8G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "Top-BDII"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central service] This is the \"top-level BDII\". These collect data from site-BDIIs and publish the data. Only a few instances per region are required."
+				}
+			},
+			{
+				"TYPE_ID": "9G0",
+				"PRIMARY_KEY": "9G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "VOMS"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central service]  VO Management System. Part of the authentication and authorization system. This service only needs to be installed on the request of a VO."
+				}
+			},
+			{
+				"TYPE_ID": "10G0",
+				"PRIMARY_KEY": "10G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "VO-box"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] The gLite VO box allows a VO to run their own services at a site. This service only needs to be installed on the request of a VO."
+				}
+			},
+			{
+				"TYPE_ID": "11G0",
+				"PRIMARY_KEY": "11G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "Central-LFC"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central service] An instance of the gLite file catalogue which holds entries for all files owned by a particular VO. NOTE: An LFC can be both Central and Local."
+				}
+			},
+			{
+				"TYPE_ID": "12G0",
+				"PRIMARY_KEY": "12G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "Classic-SE"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[OBSOLETE Site service] The Classic Storage Element is now obsolete and is not supported. Please avoid using this middleware service."
+				}
+			},
+			{
+				"TYPE_ID": "13G0",
+				"PRIMARY_KEY": "13G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "MON"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] The gLite MonBox hosts the site R-GMA services."
+				}
+			},
+			{
+				"TYPE_ID": "14G0",
+				"PRIMARY_KEY": "14G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "Site-BDII"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] This service collects and publishes site's data for the Information System. All sites MUST install one Site-BDII."
+				}
+			},
+			{
+				"TYPE_ID": "15G0",
+				"PRIMARY_KEY": "15G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "MyProxy"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central service] The My Proxy service is part of the authentication and authorization system. Often installed by sites installing the WMS service."
+				}
+			},
+			{
+				"TYPE_ID": "16G0",
+				"PRIMARY_KEY": "16G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "FTS"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central service] The gLite File Transfer Service manages the transfer of files between sites. This service only needs to be installed on the request of a VO."
+				}
+			},
+			{
+				"TYPE_ID": "18G0",
+				"PRIMARY_KEY": "18G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CREAM-CE"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] The CREAM Compute Element is the new CE within the gLite middleware stack."
+				}
+			},
+			{
+				"TYPE_ID": "19G0",
+				"PRIMARY_KEY": "19G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "ARC-CE"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] The Compute Element within the ARC middleware stack."
+				}
+			},
+			{
+				"TYPE_ID": "20G0",
+				"PRIMARY_KEY": "20G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "FTM"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] gLite File Transfer Monitor. Monitors the FTS service at a site."
+				}
+			},
+			{
+				"TYPE_ID": "21G0",
+				"PRIMARY_KEY": "21G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "AMGA"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central service] gLite metadata catalogue. This service only needs to be installed on the request of a VO."
+				}
+			},
+			{
+				"TYPE_ID": "22G0",
+				"PRIMARY_KEY": "22G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "LB"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central service]  gLite Logging and Bookkeeping. Usually installed by sites running a WMS. One LB service can support several WMS instances."
+				}
+			},
+			{
+				"TYPE_ID": "23G0",
+				"PRIMARY_KEY": "23G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "SRM"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] Storage Resource Manager. Mandatory for all sites running an SRM enabled storage element."
+				}
+			},
+			{
+				"TYPE_ID": "24G0",
+				"PRIMARY_KEY": "24G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "ngi.SAM"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Regional Service] NGI-level SAM monitoring box"
+				}
+			},
+			{
+				"TYPE_ID": "26G0",
+				"PRIMARY_KEY": "26G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "gLite-APEL"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] The gLite-APEL hosts the site Accounting client (3.2 replacement of the MonBox)"
+				}
+			},
+			{
+				"TYPE_ID": "27G0",
+				"PRIMARY_KEY": "27G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "globus-GRIDFTP"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] storage endpoint and data transfer service for the Globus middleware stack"
+				}
+			},
+			{
+				"TYPE_ID": "28G0",
+				"PRIMARY_KEY": "28G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "GRAM5"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] job submission service for Globus version 5.x (GRAM5)"
+				}
+			},
+			{
+				"TYPE_ID": "29G0",
+				"PRIMARY_KEY": "29G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "globus-GSISSHD"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] certificate based interactive login service for the Globus middleware stack"
+				}
+			},
+			{
+				"TYPE_ID": "30G0",
+				"PRIMARY_KEY": "30G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "unicore6.Registry"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central service] All UNICORE services register here; clients ask the registry for available services in the Grid. Normally one Registry per Grid infrastructure which collects URLs of services."
+				}
+			},
+			{
+				"TYPE_ID": "31G0",
+				"PRIMARY_KEY": "31G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "unicore6.Gateway"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site service] Sits in front of one or more UNICORE services as a gateway to the internet. Normally one Gateway per site."
+				}
+			},
+			{
+				"TYPE_ID": "32G0",
+				"PRIMARY_KEY": "32G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "gLExec"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "gLExec is a lightweight gatekeeper that takes local policy into account for authentication and authorization."
+				}
+			},
+			{
+				"TYPE_ID": "33G0",
+				"PRIMARY_KEY": "33G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.APELRepository"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central APEL Repository"
+				}
+			},
+			{
+				"TYPE_ID": "34G0",
+				"PRIMARY_KEY": "34G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.MetricsPortal"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central metrics portal"
+				}
+			},
+			{
+				"TYPE_ID": "35G0",
+				"PRIMARY_KEY": "35G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.OpsPortal"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central operations portal"
+				}
+			},
+			{
+				"TYPE_ID": "36G0",
+				"PRIMARY_KEY": "36G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.SAM"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central SAM monitoring"
+				}
+			},
+			{
+				"TYPE_ID": "37G0",
+				"PRIMARY_KEY": "37G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "emi.ARGUS"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Site Service] The Argus Authorization Service renders XACML authorization decisions for distributed services, based on policies"
+				}
+			},
+			{
+				"TYPE_ID": "38G0",
+				"PRIMARY_KEY": "38G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "SGAS"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "SGAS accounting service"
+				}
+			},
+			{
+				"TYPE_ID": "40G0",
+				"PRIMARY_KEY": "40G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "unicore6.StorageManagement"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Provides an abstract filesystem-like view on a storage resource. A Storage Management Service (SMS) can be created by a Storage Factory or can be configured statically way by a config file."
+				}
+			},
+			{
+				"TYPE_ID": "41G0",
+				"PRIMARY_KEY": "41G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "unicore6.ServiceOrchestrator"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Handles dispatching of a workflow's atomic jobs, and brokering. Normally there is one per grid infrastructure."
+				}
+			},
+			{
+				"TYPE_ID": "42G0",
+				"PRIMARY_KEY": "42G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.AccountingPortal"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central Accounting Portal"
+				}
+			},
+			{
+				"TYPE_ID": "43G0",
+				"PRIMARY_KEY": "43G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.GGUS"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central GGUS"
+				}
+			},
+			{
+				"TYPE_ID": "44G0",
+				"PRIMARY_KEY": "44G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.GOCDB"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central GOCDB"
+				}
+			},
+			{
+				"TYPE_ID": "45G0",
+				"PRIMARY_KEY": "45G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.MSGBroker"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central message broker"
+				}
+			},
+			{
+				"TYPE_ID": "46G0",
+				"PRIMARY_KEY": "46G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.GRIDVIEW"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central Gridview"
+				}
+			},
+			{
+				"TYPE_ID": "47G0",
+				"PRIMARY_KEY": "47G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.GSTAT"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[Central Service] The central GStat"
+				}
+			},
+			{
+				"TYPE_ID": "48G0",
+				"PRIMARY_KEY": "48G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "ngi.OpsPortal"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "[NGI Service] A regional operations portal"
+				}
+			},
+			{
+				"TYPE_ID": "49G0",
+				"PRIMARY_KEY": "49G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "unicore6.TargetSystemFactory"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Used as an entry-point for submitting single jobs. It can create Target System Services (TSSs) and submit jobs to those TSSs"
+				}
+			},
+			{
+				"TYPE_ID": "50G0",
+				"PRIMARY_KEY": "50G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "unicore6.StorageFactory"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Creates StorageManagement instances. A user can create dynamic storage management services for own purposes with it. Often used to provide filespace during workflow execution."
+				}
+			},
+			{
+				"TYPE_ID": "51G0",
+				"PRIMARY_KEY": "51G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "unicore6.WorkflowFactory"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Used as an entrypoint for submitting workflow jobs. The Workflow factory is creating workflow instances and can submit workflows to them. It is the workflow submission equivalent to the Target System Factory used for single job submission."
+				}
+			},
+			{
+				"TYPE_ID": "52G0",
+				"PRIMARY_KEY": "52G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "unicore6.UVOSAssertionQueryService"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Provides data and user information via the SAML standard as needed for authorization and environment customization."
+				}
+			},
+			{
+				"TYPE_ID": "54G0",
+				"PRIMARY_KEY": "54G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "site.SAM"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A SAM instance for a site"
+				}
+			},
+			{
+				"TYPE_ID": "55G0",
+				"PRIMARY_KEY": "55G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "QCG.Computing"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "QosCosGrid (QCG) Basic Execution Service (BES) with advanced reservation support"
+				}
+			},
+			{
+				"TYPE_ID": "56G0",
+				"PRIMARY_KEY": "56G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "QCG.Notification"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "QosCosGrid (QCG) notification middleware component using a brokered version of the OASIS WS-Notification standard"
+				}
+			},
+			{
+				"TYPE_ID": "57G0",
+				"PRIMARY_KEY": "57G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "QCG.Broker"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "QosCosGrid (QCG) resource management and brokering service"
+				}
+			},
+			{
+				"TYPE_ID": "58G0",
+				"PRIMARY_KEY": "58G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "CUSTOM_SERVICE"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A proprietary service type"
+				}
+			},
+			{
+				"TYPE_ID": "59G0",
+				"PRIMARY_KEY": "59G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "dg.CREAM-CE"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "CREAM gateway to Desktop Grid"
+				}
+			},
+			{
+				"TYPE_ID": "62G0",
+				"PRIMARY_KEY": "62G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "vo.SAM"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A SAM instance for a Virtual Organization"
+				}
+			},
+			{
+				"TYPE_ID": "122G0",
+				"PRIMARY_KEY": "122G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.broker.vmdirac"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A IaaS cloud broker extending Dirac to automated VM based application deployment"
+				}
+			},
+			{
+				"TYPE_ID": "123G0",
+				"PRIMARY_KEY": "123G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.broker.proprietary.slipstream"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A broker supporting autoscaling and elasticity of virtualised applications in federated Clouds"
+				}
+			},
+			{
+				"TYPE_ID": "201G0",
+				"PRIMARY_KEY": "201G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.Perun"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Perun is an IdM system which covers management of the whole ecosystem around the users' identities, groups, resources and services. Perun is well suited for managing users within organizations and projects, managing access rights to the services."
+				}
+			},
+			{
+				"TYPE_ID": "241G0",
+				"PRIMARY_KEY": "241G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "egi.Portal"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Portal to monitor web-based components of EGI core services ONLY"
+				}
+			},
+			{
+				"TYPE_ID": "305G0",
+				"PRIMARY_KEY": "305G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.irods.irods4.resource"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "irods resource package"
+				}
+			},
+			{
+				"TYPE_ID": "343G0",
+				"PRIMARY_KEY": "343G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.openstack.nova"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "OpenStack Nova provides VM management services"
+				}
+			},
+			{
+				"TYPE_ID": "424G0",
+				"PRIMARY_KEY": "424G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.mon"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO Monitoring Engine gathers monitoring metrics and publishes to messaging service."
+				}
+			},
+			{
+				"TYPE_ID": "425G0",
+				"PRIMARY_KEY": "425G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.consumer"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO Consumer collects monitoring metrics from monitoring engines."
+				}
+			},
+			{
+				"TYPE_ID": "428G0",
+				"PRIMARY_KEY": "428G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.webui"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO web user interface for metric A/R visualization and recalculation management."
+				}
+			},
+			{
+				"TYPE_ID": "463G0",
+				"PRIMARY_KEY": "463G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.onedata.onezone"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Onezone is a Onedata component responsible for connecting multiple storage providers with installed Oneprovider component into federations of storage providers."
+				}
+			},
+			{
+				"TYPE_ID": "101G0",
+				"PRIMARY_KEY": "101G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "SRM.nearline"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Used for SRM services with a nearline endpoint"
+				}
+			},
+			{
+				"TYPE_ID": "383G0",
+				"PRIMARY_KEY": "383G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.openstack.swift"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "OpenStack Swift is a multi-tenant object storage system that manages unstructured data through a RESTful HTTP API."
+				}
+			},
+			{
+				"TYPE_ID": "223G0",
+				"PRIMARY_KEY": "223G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.unicore.UnicorePortal"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Provides access a UNICORE Grid via web browser. Used instead of standalone clients like UCC and URC. Portal server dowload: UNICORE site: http://unicore.eu/download/unicore6"
+				}
+			},
+			{
+				"TYPE_ID": "261G0",
+				"PRIMARY_KEY": "261G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.vm-metadata.vmcatcher"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "VMCatcher deployment on fedcloud sites"
+				}
+			},
+			{
+				"TYPE_ID": "262G0",
+				"PRIMARY_KEY": "262G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.vm-metadata.appdb-vmcaster"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A service responsible for managing and publishing registered images to the EGI AppDB Cloud marketplace, following the HEPiX image list format"
+				}
+			},
+			{
+				"TYPE_ID": "403G0",
+				"PRIMARY_KEY": "403G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "com.ceph.object-storage"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Object Storage, see: http://ceph.com/ceph-storage/object-storage"
+				}
+			},
+			{
+				"TYPE_ID": "423G0",
+				"PRIMARY_KEY": "423G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.poem"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "POEM is system for managing profiles of probes and metrics in ARGO system."
+				}
+			},
+			{
+				"TYPE_ID": "426G0",
+				"PRIMARY_KEY": "426G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.computeengine"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO Compute Engine computes availability and reliability of services."
+				}
+			},
+			{
+				"TYPE_ID": "427G0",
+				"PRIMARY_KEY": "427G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "argo.api"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "ARGO API service for retrieving status and A/R results."
+				}
+			},
+			{
+				"TYPE_ID": "483G0",
+				"PRIMARY_KEY": "483G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.onedata.oneprovider"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Oneprovider is a Onedata component which provides unified data access functionality for users to heterogeneous storage resources of federated storage providers."
+				}
+			},
+			{
+				"TYPE_ID": "503G0",
+				"PRIMARY_KEY": "503G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "es.upv.grycap.im"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "IM is a tool that eases the access and the usability of IaaS clouds by automating the VMI selection, deployment, configuration, software installation, monitoring and update of Virtual Appliances."
+				}
+			},
+			{
+				"TYPE_ID": "523G0",
+				"PRIMARY_KEY": "523G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "webdav"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Service with extensions to the HTTP protocol which allows users to collaboratively edit and manage files on remote web servers."
+				}
+			},
+			{
+				"TYPE_ID": "121G0",
+				"PRIMARY_KEY": "121G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.egi.cloud.broker.compss"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A super-scalar broker service and programming model for Grids and Clouds"
+				}
+			},
+			{
+				"TYPE_ID": "141G0",
+				"PRIMARY_KEY": "141G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "hu.guse.ws-pgrade"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "WS-PGRADE/gUSE-based science gateway deployment"
+				}
+			},
+			{
+				"TYPE_ID": "161G0",
+				"PRIMARY_KEY": "161G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "dg.3GBridge"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "The 3G Bridge (Generic Grid Grid Bridge) is designed to be used as a mediator between different types of Grid middleware."
+				}
+			},
+			{
+				"TYPE_ID": "443G0",
+				"PRIMARY_KEY": "443G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "com.aws.s3"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Storage providing S3 API"
+				}
+			},
+			{
+				"TYPE_ID": "221G0",
+				"PRIMARY_KEY": "221G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "com.schedmd.SlurmClient"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "SLURM (Simple Linux Utility for Resource Management) is an open-source resource manager designed for Linux clusters of all sizes. Machine flagged this type is hosting software to submit jobs to SLURM. http://slurm.schedmd.com/"
+				}
+			},
+			{
+				"TYPE_ID": "222G0",
+				"PRIMARY_KEY": "222G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "eu.unity-idm.Unity"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Unity is a complete solution for identity, federation and inter-federation management. Or, looking from a different perspective, it is an extremely flexible authentication service. (http://www.unity-idm.eu). It replaces UVOS service for UNICORE."
+				}
+			},
+			{
+				"TYPE_ID": "306G0",
+				"PRIMARY_KEY": "306G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.irods.irods3.resource"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "irods resource package version3"
+				}
+			},
+			{
+				"TYPE_ID": "263G0",
+				"PRIMARY_KEY": "263G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "ngi.ARGUS"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Distinguishes site Argus instances (emi.Argus) from NGI ones (ngi.Argus). While servicegroups can be used for this in gocdb, this is needed for backward-compatibility with the monitoring."
+				}
+			},
+			{
+				"TYPE_ID": "283G0",
+				"PRIMARY_KEY": "283G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.irods.irods4"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "iRODS is a distributed file storage system"
+				}
+			},
+			{
+				"TYPE_ID": "303G0",
+				"PRIMARY_KEY": "303G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.irods.irods4.icat"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "iRODS zone resource server"
+				}
+			},
+			{
+				"TYPE_ID": "304G0",
+				"PRIMARY_KEY": "304G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.irods.irods3.icat"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "iRODS zone resource server version3"
+				}
+			},
+			{
+				"TYPE_ID": "323G0",
+				"PRIMARY_KEY": "323G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "org.opensciencegrid.htcondorce"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "A special configuration of the HTCondor software designed to be a job gateway solution for the OSG"
+				}
+			},
+			{
+				"TYPE_ID": "363G0",
+				"PRIMARY_KEY": "363G0",
+				"SERVICE_TYPE_NAME": {
+					"$t": "uk.ac.gridpp.vcycle"
+				},
+				"SERVICE_TYPE_DESC": {
+					"$t": "Vcycle manages the lifecycle of VMs running jobs on cloud resources. LHCb, ATLAS, CMS, and GridPP DIRAC VMs"
+				}
+			}
+		]
+	}
+}

@@ -6,6 +6,7 @@
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
 {% include navbar.html %}
 {% include pageheader.html %}
+<!-- {% include  services-nav.html %} -->
 {% assign ert = page.content | strip_html | number_of_words | divided_by:180 %}
 {% assign ertremainder = page.content | strip_html | number_of_words | modulo:180 %}
 {% if ertremainder >= 90 %}
@@ -13,22 +14,30 @@
 {% else %}
   {% assign readtime = ert %}
 {% endif %}
+
+
 <div id="main" class="content" role="main" itemprop="mainContentOfPage">
   <div class="container">
-    <div class="row">
+
+    <!--
+    {% if page.image.attribution %}
+      <div class="row">
+        <div class="text-right col-md-10 col-md-offset-2 small lighter">Page cover : {{ page.image.attribution }}</div>
+    </div>
+    {% endif %}
+  -->
       <article class="page"><!-- col-md-10 col-md-offset-2">-->
-        <div class="row"> <!-- put page nav here -->
-      </div>
         <div class="row">
           <div class="page-body" itemprop="description">
+
             {{ content }}
+
           </div> <!-- page body -->
         </div> <!-- row -->
       </article>
       </div> <!-- row -->
     </div> <!-- container -->
-</div> <!-- content -->
-  {% include footer.html %}
+{% include footer.html %}
 
 {% include scripts.html %}
 </body>

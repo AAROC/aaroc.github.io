@@ -2,62 +2,53 @@
 layout: page
 permalink: /user/
 title: User info
-tags: [blog]
+codrops: false
+gridlayout: true
 image:
   feature: Marvin-Gaye-Featured-Image.jpg
 ---
 
-<ul id="user" class="nav navbar-justified nav-pills"></ul>
+----
 
-<script>
-var xhr = new XMLHttpRequest();
-xhr.open("GET, "http://api.github.com/v3/repos/AAROC/DevOps/contributors", false);
-xhr.send();
-console.log(xhr.status);
-</script>
+<!-- introduction row -->
+<div role="tabpanel">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs nav-justified" role="tablist">
+    <li role="presentation"><a href="#prospective" aria-controls="prospective" role="tab" data-toggle="tab"><i class="fa fa-question"></i> Prospective Users</a></li>
+    <li role="presentation"><a href="#new" aria-controls="new" role="tab" data-toggle="tab"><i class="fa fa-user-plus"></i> New Users</a></li>
+    <li role="presentation"><a href="#howto" aria-controls="howto" role="tab" data-toggle="tab"><i class="fa fa-info"></i> How To ... </a></li>
+    <li role="presentation"><a href="#services" aria-controls="services" role="tab" data-toggle="tab"><i class="fa fa-user fa-spin"></i> Services</a></li>
+  </ul>
+<div class="tab-content">
 
+<div role="tabpanel" class="tab-pane fade active" id="prospective">
+<br><p class="post-info text-justify">
+If you're thinking about using the platform you've come to the right place. Here are some of the benefits of joining the Africa-Arabia e-Science communities.</p>
+<h2> Transparent access to computing resources </h2>
+Most modern research relies on computing.
+<h2> Secure collaboration </h2>
+</div>
 
-<ul id="user" class="nav navbar-justified nav-pills"></ul>
- <script>
- var AAROC = new Gh3.User("AAROC")
-, repoTitle = $("h1")
-, branchTitle = $("h2")
-, branchProperties = $("ul");
-//get some repositories of DevOps
-var AAROCRepositories = new Gh3.Repositories(AAROC);
-AAROCRepositories.fetch({page:5, per_page:5, direction : "desc"},"next", function (err, res) {
-if(err) {
-throw "outch ..."
-}
-console.log("Repositories", AAROCRepositories);
-});
-//get one repository
-var DevOps = new Gh3.Repository("DevOps", AAROC);
-DevOps.fetch(function (err, res) {
-if(err) {
-console.log("Error", err.message, res.status)
-throw err
-}
-console.log("Repository : ", DevOps);
-repoTitle.html(DevOps.full_name);
-DevOps.fetchBranches(function (err, res) {
-if(err) {
-console.log("Error", err.message, res.status)
-throw err
-}
-console.log("Array of branches : ", DevOps.getBranches());
-DevOps.eachBranch(function (branch) {
-console.log(branch.name);
-})
-//and :
-var master = DevOps.getBranchByName("master");
-branchTitle.html(master.name + " (" + master.sha + ") properties :");
-_.each(_.keys(master), function (prop) {
-branchProperties.append(
-$('<li>').append(prop+" : "+master[prop])
-);
-});
-})
-});
+<div role="tabpanel" class="tab-pane fade active" id="new">
+Info for new users
+</div>
 
-</script>
+<div role="tabpanel" class="tab-pane fade active" id="howto">
+how to do stuff
+</div>
+
+<div role="tabpanel" class="tab-pane fade active" id="services">
+<h1 class="text-center">Users-facing services</h1>
+
+<ul class="cbp-ig-grid">
+{% for service in site.data.userservices %}
+  <li>
+    <a href="{{ site_url }}/{{ service.url }}">
+      <span class="fa-stacked"><i class="fa fa-{{ service.icon }} fa-4x"></i></span>
+      <h5 class="cbp-ig-title">{{ service.name }}</h5>
+      <span class="cbp-ig-category">{{ service.title }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>
+</div>

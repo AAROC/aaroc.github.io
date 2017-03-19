@@ -11,38 +11,62 @@ image:
 codrops: false
 ---
 
-As infrastructure providers, we're here to make sure there's enough power t get what you want to do done. There are many ways to interact with the infrastructure, such as command-line interfaces, REST API's and web-based services. There is no catch-all "correct" way, and you may need to experiment a bit to find the best method for your project(s).
+<h1>Using the platform</h1>
 
-Here are a few pointers to get you started.
+As infrastructure providers, we're here to make sure there's enough power to get what you want to do done. There are many ways to interact with the infrastructure, such as command-line interfaces, REST API's and web-based services. There is no catch-all "correct" way, and you may need to experiment a bit to find the best method for your project(s).
+<div id="content">
+    <ul id="tabs" class="nav nav-tabs" role="tablist">
+      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" class="active">First time users</a></li>
+      <li role="presentation"><a href="#compute" aria-controls="compute" role="tab" data-toggle="tab">Computing</a></li>
+      <li role="presentation"><a href="#data" aria-controls="data" role="tab" data-toggle="tab">Data management</a></li>
+      <li role="presentation"><a href="#sgw" aria-controls="sgw" role="tab" data-toggle="tab">Science Gateways</a></li>
+      <li role="presentation"><a href="#vos" aria-controls="vos" role="tab" data-toggle="tab">Virtual Organisations</a></li>
+      <li role="presentation"><a href="#openscience" aria-controls="openscience" role="tab" data-toggle="tab">Open Science</a></li>
+    </ul>
 
-# Getting started
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade active" id="profile">
+      {% include AuthnAuthz.html %}
+      {% include Middleware.html %}
+    </div> <!-- tabpanel -->
 
-In order to execute applications and store data on the grid, you'll need a *context*. This is provided through an *identity* provider and an *authorisation*.
 
-## Signing up.
+  <div role="tabpanel" class="tab-pane fade" id="compute">
+    Coming soon.
+  </div>
 
-The resources provided by the ROC are owned and operated by several different institutions, in a federation. In order to provide transparent access to these, we allow central registration via the [Perun](http://perun.c4.csir.co.za) service. If you're a new user, and you'd like to start using the grid, sign up to the [Catch-All VO](https://perun.c4.csir.co.za/non/registrar/?vo=sagrid.ac.za) for the region.
+  <div role="tabpanel" class="tab-pane fade" id="data">
+    Coming soon.
+  </div>
 
-This will give you access to the user interfaces, and identify you to various services.
-## Choose a VO
+  <div role="tabpanel" class="tab-pane fade" id="sgw">
 
-There's a catch-all one.
+    <h1>Science Gateways</h1>
 
-But you can select lots of different ones
+    We offer access to several Science Gateways. These are easy-to-use web interfaces to predefined applications. Most of them are based on the <a href="http://www.catania-science-gateways.it">Catania Science Gateway Framework</a>, and rely on standards-based technologies :
+    <ul>
+      <li><a href="https://redmine.ogf.org/projects/saga-wg">Simple API to Grid Applications</a>, in particular, the <a href="https://forge.in2p3.fr/projects/jsaga">jSAGA implementation</a></li>
+      <li><a href="http://en.wikipedia.org/wiki/Java_Portlet_Specification">JSR 268/286 Portlet Standard</a></li>
+      <li><a href="http://en.wikipedia.org/wiki/SAML_2.0">SAML-2.0</a> and <a href="https://shibboleth.net/">Shibboleth</a>-based identity federation.</li>
+    </ul>
 
-## Everywhere you go, you always take your ID with you
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="vos">
+    Coming soon.
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="cli">
 
-By default, identification is done with perosonal x.509 certificates [get yours](httpsL//security.sanren.ac.za./CA).
-Federated identity helps you to get on the grid.
+  <h1>Wanna drive stick ?</h1>
 
-# Science Gateways
+  Most of our sites provide <a href="http://eu-emi.eu">EMI</a> middleware interfaces, particularly gLite. If you would like to use the command-line interfaces to these, take a look at <a href="{{ site_url}}/grid-tutorial">the tutorial</a>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="openscience">
+  coming soon
+  <!-- Open data
+  persistent identifiers
 
-We offer access to several Science Gateways. These are easy-to-use web interfaces to predefined applications. Most of them are based on the [Catania Science Gateway Framework](http://www.catania-science-gateways.it), and rely on standards-based technologies :
+  -->
+  </div>
 
-  * [Simple API to Grid Applicaitons](https://redmine.ogf.org/projects/saga-wg), in particular, the [jSAGA](https://forge.in2p3.fr/projects/jsaga) implementation
-  * [JSR 268/286 Portlet Standard](http://en.wikipedia.org/wiki/Java_Portlet_Specification) and the [Liferay](http://www.liferay.com) portal
-  * [SAML-2.0](http://en.wikipedia.org/wiki/SAML_2.0) and [Shibboleth](https://shibboleth.net/)-based identity federation.
-
-# Wanna drive stick ?
-
-Most of our sites provide [EMI](http://eu-emi.eu) middleware interfaces, particularly gLite. If you would like to use the command-line interfaces to these, take a look at [the CLI user guide]({{ site_url}}/grid-tutorial)
+  </div> <!-- tab content -->
+</div>

@@ -6,13 +6,6 @@
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
 {% include navbar.html %}
 {% include pageheader.html %}
-{% assign ert = page.content | strip_html | number_of_words | divided_by:180 %}
-{% assign ertremainder = page.content | strip_html | number_of_words | modulo:180 %}
-{% if ertremainder >= 90 %}
-  {% assign readtime = ert | plus:1 %}
-{% else %}
-  {% assign readtime = ert %}
-{% endif %}
 
 {{ content }}
 
