@@ -532,7 +532,7 @@ html {
   padding-top: 12px;
   margin-top: 12px;
   font-size: 18px;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Inconsolata' sans-serif;
 }
 #main {
   position: relative;
@@ -1845,7 +1845,7 @@ img.mfp-img {
 }
 
 tt,code,kbd,samp,pre {
-    font-family: 'source-code-pro',monospace;
+    font-family: 'Inconsolata',monospace;
 }
 
 p code,li code {
