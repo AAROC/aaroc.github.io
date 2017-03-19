@@ -15,8 +15,8 @@ install:
 #script: ./script/cibuild
 script:
   - bundle exec jekyll build
-  - travis_wait bundle exec htmlproofer --disable-external --empty-alt-ignore ./_site
-#  - htmlproof ./_site
+# might want to run some bootlint here.
+  - travis_wait bundle exec htmlproofer --disable-external --alt-ignore '/.*/' ./_site
 notifications:
   slack:
     rooms:
