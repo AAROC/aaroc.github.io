@@ -84,6 +84,9 @@ Familiarity with certain basic tools and skills will certainly be a bonus. The b
 <h2>See you all at the bootcamp !</h2>
 </div>
 <p> </p>
+
+----
+
 # References and Footnotes
 
 [^FinalConf]: The Sci-GaIA User Forum and Final Conference - 23 and 24 March 2016. See [www.sci-gaia.eu/final-event](http://www.sci-gaia.eu/final-event). All welcome !
