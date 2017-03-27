@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 'DevOps Bootcamp : CSIR '
-description: ' '
-headline: ' '
+updated: 2017-03-27 10:12:19 +0200
+description: ''
+headline: 'Time to build some more awesome'
 category: blog
 tags: [DevOps, Ansible, Automation, CI, CD]
 image:
@@ -12,6 +13,14 @@ comments: false
 mathjax: false
 discourse: true
 ---
+
+## TL;DR
+
+We're going to throw you in the DevOps deep end.
+
+  * DevOps Bootcamp at the CSIR Meraka Institute, Pretoria - [Agenda and details](https://agenda.ct.infn.it/event/1271/)
+  * Just click on "Apply to Participate"
+  * Complete the [questionnaire](https://docs.google.com/forms/d/1BkMVXJkHji-fhu2UFJHtK0qbJfrW21Ctn4nf_eJS9tI/edit) before coming.
 
 # Time to build some more awesome
 
@@ -59,7 +68,13 @@ We will also be relying on [Linux Containers](https://en.wikipedia.org/wiki/LXC)
 
 # Interested in attending ?
 
-If all this sounds like fun, then come to the DevOps Bootcamp at the CSIR Meraka Institute **30 - 31 March 2017**. The sessions are open to all, space-permitting. Further details (venue, registration, etc) will be posted soon. In the meantime, why not take a quick look at what you can do to get yourself ready.
+If all this sounds like fun, then come to the DevOps Bootcamp at the CSIR Meraka Institute **30 - 31 March 2017**. The sessions are open to all, space-permitting. ~~Further details (venue, registration, etc) will be posted soon. In the meantime, why not take a quick look at what you can do to get yourself ready.~~
+
+**Update** :
+
+  * Registration and agenda  : https://agenda.ct.infn.it/event/1271/
+  * Apply to participate : Click on the "Apply to participate" link under **registration** on the agenda.
+  * Preparation questionnaire : [Go to the questionnaire](https://docs.google.com/forms/d/1BkMVXJkHji-fhu2UFJHtK0qbJfrW21Ctn4nf_eJS9tI/edit)
 
 ## Preparation
 
