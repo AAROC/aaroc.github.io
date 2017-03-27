@@ -18,9 +18,9 @@ discourse: true
 
 We're going to throw you in the DevOps deep end.
 
-  * DevOps Bootcamp at the CSIR Meraka Institute, Pretoria - [Agenda and details](https://agenda.ct.infn.it/event/1271/)
+  * DevOps Bootcamp at the CSIR Meraka Institute, Pretoria - [Venue, Agenda and other details](https://agenda.ct.infn.it/event/1271/)
   * Just click on "Apply to Participate"
-  * Complete the [questionnaire](https://docs.google.com/forms/d/1BkMVXJkHji-fhu2UFJHtK0qbJfrW21Ctn4nf_eJS9tI/edit) before coming.
+  * Complete the [questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSdcac5Q2Xgc6WZPxSYM-bwGKieQrI6Knr73tTCIFI7rN5p-gQ/viewform) before coming.
 
 # Time to build some more awesome
 
