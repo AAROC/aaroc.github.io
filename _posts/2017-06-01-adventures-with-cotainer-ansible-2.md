@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Somtimes to do things right, you have to do them wrong'
+title: 'Sometimes to do things right, you have to do them wrong'
 description: 'Ugly code that works  is worth an infinity '
 headline: 'Incredible how much time is wasted trying to save time (part 3)'
 category: blog
@@ -13,7 +13,7 @@ mathjax: false
 discourse: true
 ---
 
-After months of understanding in principle, but not being able to follow through in practice, we may be getting to a point where deploying a dev environment for [FutureGateway](https://github.com/FutureGateway) is possible.
+After months of understanding in principle[^ContainedGateway], but not being able to follow through in practice, we may be getting to a point where deploying a dev environment for [FutureGateway](https://github.com/FutureGateway) is possible.
 
 "Wait, what ? Wasn't there always [a set of scripts](https://github.com/indigo-dc/fgSetup) for installing the FutureGateway components ?", I hear you counter. To that _I_ counter with a roll of the eyes and a sigh.
 
@@ -66,3 +66,4 @@ What this does now though is provide a far better understanding of how to compos
 [^DockerImages]: We've pushed the [aaroc/fg_api](https://quay.io/repository/aaroc/fg_api), [aaroc/fg_db](https://quay.io/repository/aaroc/fg_db) and [aaroc/fg_ge](https://quay.io/repository/aaroc/fg_ge) repositories for the API, user tracking and events database and grid engine with SAGA and OCCI plugins respectively.
 [^porting]: A ~600 line all-in-one playbook consisting of  `shell:`s and `command:`s is a pretty good example of "you're doing it wrong."
 [^DBconfigs]: We still need to properly configure the data volumes which will contain these databases, so that we can make them portable with Ansible Container later.
+[^ContainedGateway]: I was so naive  I even wrote [this hilariously triumphant blog post](https://brucellino.github.io/blog/blog/2016/09/18/Contained-Gateway/) back in September last year.
