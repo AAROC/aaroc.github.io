@@ -144,7 +144,7 @@ The following folks and articles have informed much of what I've written here :
 
 [^notExhaustive]: This is not an exhaustive, nor authoritarian list. In some cases, I took the most-used license, when there were several
 [^FertileDelta]: All this started a few years ago. [This blog post](http://www.africa-grid.org/blog/2014/11/26/Terre-des-hackers/) laid out a vision of what kind of environment would represent fertile land to _inhabit_ as researchers.
-[^fommilPres]: "Free, Libre and Open Source"](http://fommil.com/scalasphere16/), by Sam Halliday, Scala Sphere 2016
+[^fommilPres]: ["Free, Libre and Open Source"](http://fommil.com/scalasphere16/), by Sam Halliday, Scala Sphere 2016
 [^HowLic1]: Morin A, Urban J, Sliz P (2012) "A Quick Guide to Software Licensing for the Scientist-Programmer". PLOS Computational Biology 8(7): e1002598. https://doi.org/10.1371/journal.pcbi.1002598
 [^HowLic2]: Sufi, S. (2015, September). "How to choose a license for your software. Zenodo."
 [^ExecutableInfra]: See the recent talk on ["Executable Infrastructure"](https://www.digitalinfrastructures.eu/content/executable-infrastructure-africa-and-arabia) at DI4R Krakow for an expansion of this idea.
