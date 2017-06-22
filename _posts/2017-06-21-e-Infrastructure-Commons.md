@@ -136,7 +136,7 @@ Acknowledgement for discussion of ideas and background go to
 
 The following folks and articles have informed much of what I've written here :
 
-* [Sam Halliday's](https://github.com/fommil) presentation at scalasphere^[fommilPres]
+* [Sam Halliday's](https://github.com/fommil) presentation at scalasphere[^fommilPres]
 * ["A Quick Guide to Software Licensing for the Scientist-Programme"](https://doi.org/10.1371/journal.pcbi.1002598)[^HowLic1]
 * ["How to choose a license for your software"](http://doi.org/10.5281/zenodo.30997)[^HowLic2]
 
