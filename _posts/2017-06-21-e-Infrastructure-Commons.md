@@ -13,6 +13,9 @@ mathjax: false
 discourse: true
 ---
 
+_update : Added a few comments on making the commons tangible_
+
+
 In this post, we bring together two ideas which have helped to inform how we build the Africa-Arabia Regional Operations Centre - "executable infrastructure" and the "e-infrastructure commons".
 
 <div class="center">
@@ -72,7 +75,19 @@ It would also make it much easier to extend infrastructure, wherever resources c
 
 ## Resilience to change
 
-Finally, adopting this paradigm of _infrastructure as code_, and providing a framework in which it is feasible and attractive to _share_ that code makes it run. Our platforms and middleware stacks are changing rapidly. The concept of infrastructure is also changing, the expectations of research communities are changing, the
+Finally, adopting this paradigm of _infrastructure as code_, and providing a framework in which it is feasible and attractive to _share_ that code makes it run. Our platforms and middleware stacks are changing rapidly. The concept of infrastructure is also changing, the expectations of research communities are changing. In a way, this is a **good** thing - many more opportunities are open to many more people now - but with these changes sometimes comes an erosion the desire to collaborate and contribute to a common effort.
+
+Instead of one middleware stack to integrate fairly similar resources, we now have choices to make all the way from the OS and kernel to the authentication mechanism. It can be overwhelming, especially in the absence of strong leadership and community.
+
+## E Pluribus Unum ?
+
+Having a **single** entity in Africa which owns, operates and arbitrates e-Infrastructure is neither feasible nor desirable. On the other hand, making 'every provider a king" ends in chaos. There is clearly a tradeoff to be reached. **Some** complexity is required in in order to offer relevant services and allow for some creativity. **Some** diversity in compute frameworks and platforms is desirable in order to satisfy various workflow demands, but **too much** makes it confusing to the user and creates too much overhead for the operator.
+
+Neither, in my opinion, can the right balance be determined _a-priori_.
+
+# Touching the commons
+
+Experience is probably the best guide when determining what to support and integrate and what to consider "outside" the commons. However, it should be agreed that there there **is** a commons, and it should be tangible.
 
 The big idea is to have a library of infrastructure as code, which :
 
@@ -81,6 +96,8 @@ The big idea is to have a library of infrastructure as code, which :
   3. is attributed to the correct people
   4. can be easily shared.
   5. is attractive to contributors
+
+This could provide the basis for all kinds of other scholarly and technical output. It would be a tangible representation of things that are so often hidden in data centres, trenches or the deep blue sea.
 
 # Legal, License, and Community Conduct Issues
 
