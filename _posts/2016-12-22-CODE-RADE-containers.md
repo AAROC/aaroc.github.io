@@ -46,7 +46,7 @@ Apparently, ensuring data persistence is nontrivial in the docker world. The fir
 # Footnotes and References
 
 [^FoundationReleases]: We refer to foundation releases with the prefix "FR" and numerical tags (1, 2, 3, etc). Thus Foundation Release 1 is "FR1", Foundation Release 2 is "FR2", _etc_
-[^ParMake]: Several technologies are used to build applications, although the most common is <code>make</code>. Speeding up a build usig make is often possible, depending on the resources available, by passing the <code>-j &lt;integer&gt; </code>flag where <code>integer</code>  specifies the level of parallelism requested. See  [GNU Make documentation on parallel builds ](https://www.gnu.org/software/make/manual/make.html#Parallel).
+[^ParMake]: Several technologies are used to build applications, although the most common is <code>make</code>. Speeding up a build using make is often possible, depending on the resources available, by passing the <code>-j &lt;integer&gt; </code>flag where <code>integer</code>  specifies the level of parallelism requested. See  [GNU Make documentation on parallel builds ](https://www.gnu.org/software/make/manual/make.html#Parallel).
 
 [^ParAnt]: See [Ant documentation](http://ant.apache.org/manual/Tasks/parallel.html)
 [^ParNinja]: See [Ninja's comparison to make](https://ninja-build.org/manual.html#_comparison_to_make)
