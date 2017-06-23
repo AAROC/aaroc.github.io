@@ -104,7 +104,7 @@ Rock on, beautiful scientists...
 
 # Footnotes and References
 
-[^feedback]: We use the analogy of the gridcloud as a [complex system](https://en.wikipedia.org/wiki/System_dynamics) often. The first known reference and exploration of this idea was a [talk](discoverability-of-african-scholarship/) given to a workshop in Nairobi on the discoverability of African Scholarship.
+[^feedback]: We use the analogy of the gridcloud as a [complex system](https://en.wikipedia.org/wiki/System_dynamics) often. The first known reference and exploration of this idea was a [talk](https://prezi.com/89bkbbre5vk1/out-of-turbulence-discoverability-of-african-scholarship/) given to a workshop in Nairobi on the discoverability of African Scholarship.
 [^feature]: Call it a _feature_, an _intervention_, whatever - it's something that externally drives the system past equilibrium. In this case, equilibrium is a chaotic mess. Thermodynamic equilibrium is a terrible way to get work done.
 [^AAROCCite]: We will have a similar page on the ROC's website to explain how to cite or acknowledge support of the ROC as a whole when dealing with infrastructure developments, which are not specific to individual communities.
 [^DataCiteSchema4]: Here, we are referring to version 4 of the [**"DataCite Metadata Schema for the Publication and Citation of Research Data. Version 4.0. DataCite e.V."**](https://schema.labs.datacite.org/meta/kernel-4.0/metadata.xsd)

@@ -18,7 +18,7 @@ This morning, before getting ready for the day, I took a few moments as usual to
 Somewhat miffeed, I went to take a look at the nagios probes running on the [AAROC nagios instance](https://nagios.c4.csir.co.za), mutting unspeakable epitaphs under my breath. Lo, I was greeted with
 
 <figure>
-<img src="nagiosdead-april.png"></img>
+<img src="{{ site_url}}/images/nagiosdead-april.png"></img>
 <figcation>Damn right I believe this to be in error !</figcaption>
 </figure>
 

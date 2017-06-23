@@ -14,7 +14,7 @@ discourse: true
 
 # It's DevOps time again !
 
-We're very proud to announce that we are teaming up with [Eko-Konnect](http://www.eko-konnect.org.ng/) and [WACREN](http://wacren.net/) to bring the [DevOps for Federation](http://www.eko-konnect.org.ng/content/devops-federated-services-8-10-march-2016) workshop to Lagos, from 8-10 March 2016. This will be an iteration on the first course run in collaboration with [GARR](www.garr.it) last year and will consist of three days of training in DevOps tools and culture, and their application to the deployment of federated identity and service providers.
+We're very proud to announce that we are teaming up with [Eko-Konnect](http://www.eko-konnect.org.ng/) and [WACREN](http://wacren.net/) to bring the [DevOps for Federation](http://www.eko-konnect.org.ng/content/devops-federated-services-8-10-march-2016) workshop to Lagos, from 8-10 March 2016. This will be an iteration on the first course run in collaboration with [GARR](http://www.garr.it) last year and will consist of three days of training in DevOps tools and culture, and their application to the deployment of federated identity and service providers.
 
 # Preparation
 

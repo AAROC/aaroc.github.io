@@ -4,6 +4,7 @@ title: Continuous Delivery
 description: Distributed development, Centralised Delivery
 headline:  Enabling continuous deployment of research applications
 category: articles
+permalink: /articles/ContinuousDelivery/
 tags: [AAROC, continuous integration, collaboration, article, developers]
 image:
   feature:
