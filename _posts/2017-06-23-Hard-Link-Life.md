@@ -51,3 +51,17 @@ Turns out this was due to a previous hack which we had to include in the [reposi
 Guess what : the GCC binaries are hardlinked into `$GCC_DIR/bin` from various places - so these were getting removed in the course of the repository transaction !
 
 This has now been fixed :
+
+{%  highlight bash %}
+
+module list
+Currently Loaded Modulefiles:
+  1) ncurses/6.0                       3) mpfr/3.1.5                        5) gcc/6.3.0                         7) openmpi/1.8.8-gcc-6.3.0
+  2) gmp/6.1.0                         4) mpc/1.0.3                         6) torque/2.5.13-gcc-6.3.0           8) hdf5/1.8.16-gcc-6.3.0-mpi-1.8.8
+becker@serbaggio:~/SAGrid-2.0/hdf5-deploy/netcdf-4.3.2/build$ which gcc
+/cvmfs/code-rade.africa-grid.org//generic/u1610/x86_64/gcc/6.3.0/bin/gcc
+
+{% endhighlight %}
+
+
+Time to build us some netcdf !
