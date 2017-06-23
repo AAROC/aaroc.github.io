@@ -12,7 +12,12 @@ comments: true
 ---
 # TL;DR
 
-There are a lot of benefits from the development of an Open Commons for science, but what are these exactly, in the case of e-Infrastructure and e-Science ? What are these Commmons in South African e-Infrastructure ? Should there be one, what would the implications for researchers, educators, operators and developers in the region be ? This is the long writeup of a [talk](http://www.slideshare.net/brucellino/nicis-stepping-stones-to-a-cyberinfrastructure-commons) I gave on behalf of NICIS at the [CHAIN-REDS](http://www.chain-project.eu) [final project](http://www.chain-project.eu/final-conference). The end of the CHAIN-REDS conference is an opportune occasion to reflect on our path as NICIS starts, [EGI.eu](http://www.egi.eu) launches the [Open Science Commons](https://opensciencecommons.org) against the backdrop of the ever-growing [Open Access movement](en.wikipedia.org/wiki/Open_access). We explore how concepts such as the Commons, complex dynamic systems and market economics, applied to an e-Infrastructure, can be beneficial to those building, using and managing it.
+There are a lot of benefits from the development of an Open Commons for science, but what are these exactly, in the case of e-Infrastructure and e-Science ?
+What are these Commons in South African e-Infrastructure ?
+Should there be one, what would the implications for researchers, educators, operators and developers in the region be ?
+This is the long writeup of a [talk](http://www.slideshare.net/brucellino/nicis-stepping-stones-to-a-cyberinfrastructure-commons) I gave on behalf of NICIS at the [CHAIN-REDS](http://www.chain-project.eu) [final project](http://www.chain-project.eu/final-conference). 
+The end of the CHAIN-REDS conference is an opportune occasion to reflect on our path as NICIS starts, [EGI.eu](http://www.egi.eu) launches the [Open Science Commons](https://opensciencecommons.org) against the backdrop of the ever-growing [Open Access movement](https://en.wikipedia.org/wiki/Open_access).
+We explore how concepts such as the Commons, complex dynamic systems and market economics, applied to an e-Infrastructure, can be beneficial to those building, using and managing it.
 
 # What does it mean to be a Commons ?
 
