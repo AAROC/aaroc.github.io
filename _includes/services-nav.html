@@ -1,22 +1,6 @@
-<<<<<<< HEAD
-<h2 class="page-header text-center">Services</h2>
-<ul class="nav nav-pills nav-stacked" >
+<ul id="sidenav" class="nav nav-pills nav-stacked  text-left" style="z-index: 100000">
 {% for service in site.data.services %}
   <li role="presentation">
-    <a href="{{ service.url }}" role="presentation">{{ service.name }}</a></li>
+    <a href="{{site.url }}/{{ service.url }}" role="presentation">{{ service.name }}</a></li>
 {% endfor %}
 </ul>
-=======
-<div class="col-md-2">
-  <ul id="sidenav" class="nav nav-pills nav-stacked hidden-xs hidden-sm  scrollspy text-center" data-spy="affix" >
-    <li>
-      <h2 class="page-header text-center">Services</h2>
-    </li>
-  {% for service in site.data.services %}
-    <li role="presentation">
-      <a href="{{ service.url }}" role="presentation">{{ service.name }}</a></li>
-  {% endfor %}
-  </ul>
-
-</div>
->>>>>>> new-services
