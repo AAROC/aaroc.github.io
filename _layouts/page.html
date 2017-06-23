@@ -16,8 +16,11 @@
 {% endif %}
 
 
+
+<!-- {% include  services-nav.html %} -->
 <div id="main" class="content" role="main" itemprop="mainContentOfPage">
   <div class="container">
+<!-- put the sidebar here !? -->
 
     <!--
     {% if page.image.attribution %}
@@ -33,12 +36,12 @@
           <div class="page-body" itemprop="description">
 
             {{ content }}
-            <div id='discourse-comments'></div>
 
           </div> <!-- page body -->
         </div> <!-- row -->
       </article>
       </div> <!-- row -->
+      <div id='discourse-comments'></div>
     </div> <!-- container -->
 </div> <!-- content -->
   {% include footer.html %}
