@@ -4,7 +4,7 @@ title: "It's a hard-link life"
 description: 'Investigating some wierdness in the CI/CD pipeline'
 headline: "If builds are passing, where's my gcc at ? "
 category: blog
-tags: [licenses, infrastructure, commons]
+tags: [CODE-RADE, compilers, Foundation Release 3]
 image:
   feature: alex-hockett-41555.png
   attribution:
