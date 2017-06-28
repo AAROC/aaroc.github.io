@@ -69,4 +69,4 @@ Our build system performs continuous integration on applications which are suppo
 
 <h2>How about something Continental ?</h2>
 
-Want something from another VO ? Our sites support several [EGI](https://wiki.egi.eu/wiki/CVMFS_Task_Force#Configurations) and [WLCG](https://wiki.egi.eu/wiki/CVMFS_Task_Force#Configurations) VOs (ATLAS and ALICE primarily.)
+Want something from another VO ? Our sites support several <a href="(https://wiki.egi.eu/wiki/CVMFS_Task_Force#Configurations)">EGI</a> and <a href="https://wiki.egi.eu/wiki/CVMFS_Task_Force#Configurations">WLCG VOs</a> (ATLAS and ALICE primarily.)
