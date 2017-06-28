@@ -28,7 +28,7 @@ Our build system performs continuous integration on applications which are suppo
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation"><a href="#compilers" aria-controls="compilers" role="tab" data-toggle="tab">Compilers</a></li>
     <li role="presentation"><a href="#libraries" aria-controls="libraries" role="tab" data-toggle="tab">Libraries</a></li>
-    <li role="presentation"><a href="#frameworks" aria-controls="framweworks" role="tab" data-toggle="tab">Frameworks</a></li>
+    <li role="presentation"><a href="#frameworks" aria-controls="frameworks" role="tab" data-toggle="tab">Frameworks</a></li>
     <li role="presentation"><a href="#python" aria-controls="python" role="tab" data-toggle="tab">Python</a></li>
     <li role="presentation"><a href="#chemistry" aria-controls="chemistry" role="tab" data-toggle="tab">Chemistry</a></li>
     <li role="presentation"><a href="#language" aria-controls="language" role="tab" data-toggle="tab">Language</a></li>
