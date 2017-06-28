@@ -5,28 +5,28 @@
 - name: GMP
   description: GNU Multiprecision library
   job: gmp-deploy
-  versions: {5.1.3}
+  versions: {6.1.0}
   tags: {"compilers", "cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/gmp-deploy
 
 - name: MPFR
   description: GNU MPFR is a C library for multiple-precision floating-point computations with correct rounding.
   job: mpfr-deploy
-  versions: {3.1.2}
+  versions: {3.1.2 , 3.1.5}
   tags: {"compilers","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/mpfr-deploy
 
 - name: MPC
   description: Gnu MPC is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result
   job: mpc-deploy
-  versions: {1.0.1}
+  versions: {1.0.1 , 1.0.3}
   tags: {"compilers","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/mpc-deploy
 
 - name: GCC
   description: 'The GNU Compiler Collection'
   job: 'gcc-deploy'
-  versions: {"4.9.2","5.1.0","5.2.0", "5.3.0", "5.4.0","6.1.0"}
+  versions: {"4.9.4","5.4.0","6.3.0"}
   tags: {"compilers","cvmfs"}
   repo: 'https://github.com/SouthAfricaDigitalScience/gcc-deploy'
 
@@ -41,7 +41,7 @@
   description: "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
   job: llvm-deploy
   versions: {3.7.0}
-  tags: {"compilers","cvmfs"}
+  tags: {"compilers","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/llvm-deploy
 
 
@@ -49,7 +49,7 @@
 - name: OpenMPI
   description: Message Passing Interface
   job: OpenMPI
-  versions: {1.8.8, 1.8.1}
+  versions: {1.10.2, 1.8.8, 1.8.1}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/OpenMPI-deploy
 
@@ -64,7 +64,7 @@
   description: Free Compression Library
   job: zlib-deploy
   tags: {"libraries","cvmfs"}
-  versions: {1.2.8}
+  versions: {1.2.11}
   repo: https://github.com/SouthAfricaDigitalScience/zlib-deploy
 
 - name: bzip2
@@ -78,15 +78,15 @@
 - name: libxml2
   description: XML library
   job: libxml2-deploy
-  versions: {12.9.3}
-  tags: {"libraries"}
+  versions: {2.9.3}
+  tags: {"libraries","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/libxml2-deploy
 
 - name: openssl
   description: Open SSL cryptographic libraries and tools
   job: openssl-deploy
-  versions: {1.1.0-pre3, 1.0.2g}
-  tags: {"libraries"}
+  versions: {1.1.0c, 1.0.2j}
+  tags: {"libraries", "cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/openssl-deploy
 
 - name: LUA
@@ -99,43 +99,42 @@
 - name: ncurses
   description: The Ncurses library is a free software emulation of curses in System V Release 4.0, and more.
   job: ncurses-deploy
-  versions: {5.9}
+  versions: {6.0}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/ncurses-deploy
 
 - name: readline
   description: A utility which aids in the consistency of user interface across discrete programs
   job: readline-deploy
-  versions: {6.3}
+  versions: {6.3, 7.0}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/readline-deploy
-
 
 - name: BOOST C++
   description: Boost provides free peer-reviewed portable C++ source libraries.
   job: boost-deploy
-  versions: {1.57.0, 1.56.0, 1.55.0}
+  versions: {1.62}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/boost-deploy
 
 - name: Python
   description: "Python is a programming language that lets you work quickly and integrate systems more effectively."
   job: python-deploy
-  versions: {2.6.9,3.4.1,3.5.1}
-  tags: {"python"}
+  versions: {2.7.13,3.6.0}
+  tags: {"python","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/python-deploy
 
 - name: LAPACK
   description: Linear Algorithm packages for HPC
   job: lapack-deploy
-  versions: {3.5.0}
+  versions: {3.6.0, 3.7.0}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/lapack-deploy
 
 - name: ScaLAPACK
   description: Scalable, parallel Linear Algebra Libraries
   job: scalapack-deploy
-  versions: {2.2.0}
+  versions: {2.0.2}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/scalapack-deploy
 
@@ -143,20 +142,20 @@
   description: Automatically-Tuned Linear Algebra Software
   job: atlas-deploy
   versions: {3.10.2}
-  tags: {"libraries","cvmfs"}
+  tags: {"libraries","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/atlas-deploy
 
 - name: GSL
   description: GNU Science Libraries
   job: gsl-deploy
-  versions: {1.16,2.0,2.1 }
+  versions: {1.16, 2.1 , 2.3 }
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/gsl-deploy
 
 - name: HDF5 (with OpenMPI)
   description: HDF5 is a data model, library, and file format for storing and managing data.
   job: hdf5-openmpi-deploy
-  versions: {1.8.14,1.8.15}
+  versions: {1.8.15, 1.8.16}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/hdf5-deploy
 
@@ -172,8 +171,8 @@
   description: "NetCDF (network Common Data Form) is a set of software libraries
 and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data."
   job: netcdf-deploy
-  tags: {"libraries","cvmfs"}
-  versions: {4.9.2, 5.1.0}
+  tags: {"libraries","dev"}
+  versions: {4.3.3, 4.4.1}
   repo: http://github.com/SouthAfricaDigitalScience/netcdf-deploy
 
 - name: FFTW3
@@ -193,7 +192,7 @@ and machine-independent data formats that support the creation, access, and shar
 - name: gnuplot
   description: GNU Plotting Library
   job: gnuplot-deploy
-  versions: {4.6.7, 5.0.3}
+  versions: {4.6.7, 5.0.3, 5.0.5, 5.0.6}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/gnuplot-deploy
 
@@ -215,13 +214,13 @@ and machine-independent data formats that support the creation, access, and shar
   description: open-source initiative to provide a free software-based reference implementation of the codec specified in the JPEG-2000 Part-1 standard (i.e., ISO/IEC 15444-1).
   job: jasper-deploy
   versions: 1.900.1
-  tags: {"libraries","cvmfs"}
+  tags: {"libraries","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/jasper-deploy/
 
 - name: FreeType
   description: a free, high-quality and portable Font engine.
   job: freetype-deploy
-  versions: 2.6.1
+  versions: {2.6.1,2.7.1}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/freetype-deploy
 
@@ -229,20 +228,20 @@ and machine-independent data formats that support the creation, access, and shar
   description: Cross-platform C library that implements a self-contained, embeddable, zero-configuration SQL database engine.
   job: sqlite-deploy
   versions: 3090200
-  tags: {"libraries","cmfs"}
+  tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/sqlite-deploy
 
 - name: SuiteSparse
   description: A suite of sparse matrix algorithms.
   job: suitesparse-deploy
   versions: 4.4.6
-  tags: {"libraries","cvmfs"}
+  tags: {"libraries","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/suitesparse-deploy
 
 - name: "Tcl/Tk"
   description: scripting language
   job: tcltk-deploy
-  versions: 8.6.4
+  versions: {8.6.6}
   tags: {"libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/tcltk-deploy
 
@@ -267,9 +266,9 @@ and machine-independent data formats that support the creation, access, and shar
 
 - name: Quantum Espresso
   description: "Quantum ESPRESSO is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density-functional theory, plane waves, and pseudopotentials."
-  job: quantum-espresso-noparallel-deploy
+  job: quantum-espresso
   versions: {5.1.3}
-  tags: {"chemistry","cvmfs"}
+  tags: {"chemistry","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/quantum-espresso-deploy
 
 - name: Abinit
@@ -283,7 +282,7 @@ and machine-independent data formats that support the creation, access, and shar
   description: A molecular dynamics package primarily designed for biomolecular systems such as proteins and lipids
   job: gromacs-deploy
   versions: {5.1.1}
-  tags: {"chemistry","cvmfs"}
+  tags: {"chemistry","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/gromacs-deploy
 
 
@@ -305,24 +304,24 @@ and machine-independent data formats that support the creation, access, and shar
 
 - name: Motheur
   description:
-  job:
+  job: mothur-deploy/
   versions: {6.2}
-  tags: {"requested"}
-  repo:
+  tags: {"chemistry","dev"}
+  repo: https://github.com/rahimbouchra/mothur-deploy/
 
 # H3A stuff
 - name: FastQC
   description: A quality control application for high throughput sequence data
-  job:
+  job: fastqc-deploy
   versions: 0.11.4
-  tags: {"Requested","H3ABioNet"}
-  repo:
+  tags: {"requested","H3ABioNet","dev"}
+  repo: https://github.com/SouthAfricaDigitalScience/fastqc-deploy
 
 - name: PRINSEQ
   description: PReprocessing and INformation of SEQuence data
   job:
   versions: {0.20.4}
-  tags: {"Requested","H3ABioNet"}
+  tags: {"requested","H3ABioNet"}
   repo:
 
 
@@ -330,14 +329,14 @@ and machine-independent data formats that support the creation, access, and shar
   description: SolexaQA calculates sequence quality statistics and creates visual representations of data quality for second-generation sequencing data
   job:
   versions: {3.1.4}
-  tags: {"Requested","H3ABioNet"}
-  repo:
+  tags: {"requested","H3ABioNet"}
+  repo: https://github.com/SouthAfricaDigitalScience/SolexaQA-deploy
 
 - name: Trimmomatic
   description: A flexible read trimming tool for Illumina NGS data
   job:
-  versions: {0.35}
-  tags: {"Requested","H3ABioNet"}
+  versions: {0.35, 0.36}
+  tags: {"requested","H3ABioNet"}
   repo:
 
 ### Python stuff ###
@@ -363,12 +362,12 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"libraries","python"}
   repo: https://github.com/SouthAfricaDigitalScience/matplotlib-deploy
 
-# - name: Pandas
-#   description: "pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming"
-#   job: pandas-deploy
-#   versions: {0.17.0}
-#   tags: {"python","dev"}
-#   repo: https://github.com/SouthAfricaDigitalScience/pandas-deploy
+- name: Pandas
+  description: "pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming"
+  job: pandas-deploy
+  versions: {0.20.2}
+  tags: {"python","dev"}
+  repo: https://github.com/SouthAfricaDigitalScience/pandas-deploy
 
 - name: SymPy
   description: "Symbolic Python"
@@ -389,14 +388,14 @@ and machine-independent data formats that support the creation, access, and shar
   description: Class Library for High-Energy Physics
   job: clhep-deploy
   versions: {2.3.1.1,2.3.2.2}
-  tags: {"hep","libraries"}
+  tags: {"hep","libraries","cvmfs"}
   repo: https://github.com/SouthAfricaDigitalScience/clhep-deploy
 
 - name: ROOT
   description: Object-Oriented Data Analysis Toolkit
   job: root-deploy
   versions: {v6.06.02}
-  tags: {"hep","frameworks"}
+  tags: {"hep","frameworks","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/root-deploy
 
 # Epidemiology
@@ -422,8 +421,8 @@ and machine-independent data formats that support the creation, access, and shar
 - name: HEAsoft
   description: "A Unified Release of the FTOOLS and XANADU Software Packages"
   job: heasoft-deploy
-  versions: {6.17}
-  tags: {"astronomy","frameworks"}
+  versions: {6.21}
+  tags: {"astronomy","frameworks","dev"}
   repo: https://github.com/SouthAfricaDigitalScience/heasoft-deploy
 
 - name: CFITSIO
@@ -460,11 +459,11 @@ and machine-independent data formats that support the creation, access, and shar
   repo:
 
 - name: OpenFoam
-  description:
-  job:
-  versions: {2.1.1}
+  description: Computational Fluid Dynamics
+  job: OpenFOAM-deploy
+  versions: {3.0.1}
   tags: {"requested"}
-  repo:
+  repo: https://github.com/SouthAfricaDigitalScience/OpenFOAM-deploy
 
 - name: Dlpoly
   description:
@@ -473,12 +472,12 @@ and machine-independent data formats that support the creation, access, and shar
   tags: {"requested"}
   repo:
 
-- name: Cosmo MC
-  description:
+- name: Cosmo MC / CAMB
+  description: MCMC parameter sampling for cosmology
   job:
   versions:
   tags: {"requested"}
-  repo:
+  repo: https://github.com/SouthAfricaDigitalScience/CosmoMC-deploy
 
 - name: Gaussian
   description:
@@ -499,7 +498,7 @@ and machine-independent data formats that support the creation, access, and shar
 - name: Ferret
   description:
   job:
-  versions:
+  versions: {7.1.0}
   tags: {"requested"}
   repo:
 
@@ -520,9 +519,17 @@ and machine-independent data formats that support the creation, access, and shar
 - name: Emboss
   description:
   job:
-  versions: {6.2}
+  versions: {6.5.7}
   tags: {"requested"}
   repo:
+
+- name: Clustal Omega
+  description:
+  job:
+  versions: {1.2.4}
+  tags: {"requested"}
+  repo:
+
 
 - name: Plink
   description: "PLINK is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale nalyses in a computationally efficient manner."
