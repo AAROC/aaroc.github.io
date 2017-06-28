@@ -47,7 +47,6 @@ Our build system performs continuous integration on applications which are suppo
 {% include requested.html %}
 </div>
 
-</div>
 
 <table class="table table-condensed">
 <caption class="text-center">Legend</caption>
@@ -68,6 +67,6 @@ Our build system performs continuous integration on applications which are suppo
 <h2 class="post-title">Want to help or follow the development ? Check out our <a href="https://waffle.io/AAROC/CODE-RADE">waffle ironing board</a></h2>
 <h2 class="post-title">Don't see what you want ? - <a href="https://github.com/AAROC/CODE-RADE/issues/new?labels=proposed">Propose a new application</a></h2>
 
-## How about something Continental ?
+<h2>How about something Continental ?</h2>
 
 Want something from another VO ? Our sites support several [EGI](https://wiki.egi.eu/wiki/CVMFS_Task_Force#Configurations) and [WLCG](https://wiki.egi.eu/wiki/CVMFS_Task_Force#Configurations) VOs (ATLAS and ALICE primarily.)
