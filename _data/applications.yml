@@ -46,6 +46,14 @@
 
 
 # Then the libraries
+- name: argtable
+  description:
+  job: argtable-deploy
+  versions: {2.13}
+  tags: {"libraries","dev"}
+  repo: https://github.com/SouthAfricaDigitalScience/argtable-deploy
+  
+
 - name: OpenMPI
   description: Message Passing Interface
   job: OpenMPI
