@@ -2,5 +2,5 @@
 layout: redirect
 sitemap: false
 permalink: /code-rade/
-redirect_to: /CODE-RADE/
+redirect_to: https://github.com/AAROC/CODE-RADE-project
 ---
