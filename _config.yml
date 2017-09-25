@@ -28,6 +28,8 @@ owner:
     github:         AAROC
     slack:          africa-arabia-roc
     slideshare:     brucellino
+    docker:         aaroc
+    quay:           aaroc
   stackexchange:
   linkedin:
   instagram:
