@@ -25,10 +25,10 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-github-metadata"
+#    gem "github-linguist"
    gem "jemoji"
    gem "jekyll-sitemap"
    gem "jekyll-mentions"
    gem "jekyll-paginate"
    gem "jekyll-redirect-from"
-
 end
