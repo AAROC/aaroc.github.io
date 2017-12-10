@@ -126,7 +126,7 @@ This work should significantly reduce any barriers to using the CODE-RADE platfo
 # References
 
 [^CODE_RADE_Hypothesis_3]: See CODE-RADE Hypothesis 3. 
-[^OneCodeBase]: See 12factor.net , [factor 1](https://www.12factor.net/codebase). <blockquote>One codebase tracked in revision control, many deploys</blockquote>
+[^OneCodeBase]: See 12factor.net , [factor 1](https://www.12factor.net/codebase). "One codebase tracked in revision control, many deploys"
 [^Quay]: We use [Quay](https://quay.io/organization/aaroc) for our images. It's just better, you know...
 [^PackerEndpoints]: Packer has a [large variety](https://www.packer.io/docs/builders/index.html) of options for builders.
 [^cvmfs_client]: Bruce Becker, & Sean. (2017, August 4). AAROC/cvmfs-client-2.2: CODE-RADE cvmfs client role v1.1.2 (Version v1.1.2). Zenodo. http://doi.org/10.5281/zenodo.839002 [![DOI](https://zenodo.org/badge/63867294.svg)](https://zenodo.org/badge/latestdoi/63867294)
