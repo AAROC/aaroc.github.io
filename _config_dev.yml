@@ -9,14 +9,9 @@ search:           false
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
-# Turn on or off the fin animations in the header and footer
-animated_fins:	  false
-# Specify the fin color in RGB value
-#fin_color:        "255,255,255"
-fin_color:        "139, 115, 74"
 # Change url to your domain. Leave localhost server or blank when working locally.
-#wurl:              http://www.africa-grid.org
-url: http://localhost:4000
+#url:              http://www.africa-grid.org
+url: http://localhost:4000/
 # Owner/author information
 owner:
   name:           Africa-Arabia Regional Operations Centre.
@@ -55,7 +50,7 @@ links:
   - title: Home
     displaytitle: false
     url: /
-    sublniks: []
+    sublinks: []
     icon: home
   # - title: About
   #   displaytitle: true
@@ -115,7 +110,7 @@ links:
 timezone:    Africa/Johannesburg
 future:      true
 highlighter: rouge
-#markdown:  kramdown
+markdown:  kramdown
 
 paginate:    4
 toc_levels: 1..6
@@ -132,7 +127,6 @@ kramdown:
   toc_levels: 1..6
 #  syntax_highlighter_opts: coderay
   input: GFM
-
   # coderay:
   #   coderay_line_numbers:
   #   coderay_line_numbers_start: 1
@@ -142,11 +136,14 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-gems:
+plugins:
+  - jemoji
   - github-pages
+  - github-linguist
   - jekyll-sitemap
   - jekyll-mentions
   - jekyll-paginate
   - jekyll-redirect-from
+
 #  - pygments
 #  - dashing

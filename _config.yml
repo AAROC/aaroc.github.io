@@ -9,9 +9,6 @@ search:           false
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
-# Turn on or off the fin animations in the header and footer
-animated_fins:	  false
-# Specify the fin color in RGB value
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://www.africa-grid.org
 # Owner/author information
@@ -133,7 +130,7 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-gems:
+plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-mentions
