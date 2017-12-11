@@ -26,17 +26,26 @@ The removal of this restriction on where the applications will actually run may 
   - IaaS clouds 
   - Container platforms
 
-As a platform, we need to provide reliable means to provision CODE-RADE client environments on _at least_ these and the only way we'll know that they are reliable is to actually test it in them.
+As a platform, we need to provide reliable means to provision CODE-RADE client environments on _at least_ these. 
+The only way we can know that they are reliable is to actually test it in them.
 
 # Testing
 
 
-Testing in this case starts with the code which expreses the environment, which is implemented in an Ansible role[^ContinuousDeliveryPost].
+Testing in this case starts with the code which expresses the environment, which is implemented in an Ansible role[^ContinuousDeliveryPost].
 This was done for two reasons:
 
   1. Make the configuration **declarative**
   1. Make the provisioning **portable** and **repeatable**
 
+These come directly from [12 Factor methodology](https://12factor.net)
+
+> The twelve-factor app is a methodology for building software-as-a-service apps that:
+>   - Use declarative formats for setup automation, to minimize time and cost for new developers joining the project;
+>   - Have a clean contract with the underlying operating system, offering maximum portability between execution environments;
+>   - Are suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration;
+>   - Minimize divergence between development and production, enabling continuous deployment for maximum agility;
+>   - And can scale up without significant changes to tooling, architecture, or development practices.
 
 By expressing the configuration in this way, it's easier to see where errors arise, to track down bugs across deploys and maintain the code in the long run.
 What is  more, it gives some freedom of choice in the provisioning the execution environment by infrastructure providers.
