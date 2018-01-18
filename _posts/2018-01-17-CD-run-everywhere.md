@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Delivering CODE-RADE environemnts'
+title: 'Delivering CODE-RADE environments'
 description: 'Perfectly-crafted environments'
 headline: 'AAROC  <i class="fa fa-heart"></i> automated delivery'
 modified:
