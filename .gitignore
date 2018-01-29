@@ -1,3 +1,6 @@
 _site
 Gemfile.lock
 node_modules
+.gitattributes
+01-user.html
+01-user.md
