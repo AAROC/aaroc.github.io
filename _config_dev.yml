@@ -92,19 +92,6 @@ links:
     displaytitle: false
     url: /contact
     icon: paper-plane-o
-  #
-  # - title: Tags
-  #   url: /tags
-  #   icon: tags
-  #- title: The Team
-  #  url: /team/
-  #  icon: group
-  #  external: false
-
-#  - title: Collaborate
-#    url: /How-to-contribute
-#    external: false
-#    icon: exchange
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Africa/Johannesburg
