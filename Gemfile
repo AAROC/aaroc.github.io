@@ -14,7 +14,7 @@ gem "jekyll"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
 gem "html-proofer"
-gem "ruby_dep", "~>1.3.1"
+gem "ruby_dep", "~>1.5.0"
 # gem github-pages
 #- jekyll-sitemap
 #- jekyll-mentions
